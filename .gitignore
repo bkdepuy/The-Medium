@@ -1,0 +1,23 @@
+.# Working directories — reference and development materials
+Documents/
+latexWork/
+reference/
+prior/
+
+# Draft and working files
+medium_theory.org
+medium_theory.tex
+medium_theory.pdf
+
+# Backup files
+*.bkup
+*.bak
+*~
+
+# OS and editor artifacts
+.DS_Store
+.#*
+\#*\#
+*.swppdf
+.tex
+.auctex-auto/
