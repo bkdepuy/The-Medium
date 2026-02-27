@@ -1,14 +1,12 @@
-##+TITLE: The Medium — A Foundational Theory of Reality
+#+TITLE: The Medium — A Foundational Theory of Reality
 #+AUTHOR: Bradley K. DePuy, Independent Researcher
 #+DATE: 2026
-#+VERSION: 0.1
-#+DOI: to be inserted upon Zenodo deposit
-#+LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0)
 #+OPTIONS: toc:nil num:nil
 #+LATEX_HEADER: \usepackage{amsmath, amssymb, amsthm}
 #+LATEX_HEADER: \usepackage[margin=1.25in]{geometry}
 #+LATEX_HEADER: \usepackage{setspace}
 
+Version 0.1 | Zenodo: to be assigned | DOI: to be inserted upon deposit | CC BY 4.0
 -----
 
 #+BEGIN_QUOTE
