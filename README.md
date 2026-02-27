@@ -37,7 +37,7 @@ The framework's foundational claims:
 
 ## Zenodo Record
 
-DOI: to be inserted upon Zenodo deposit
+DOI: 10.5281/zenodo.18804587
 
 ## License
 

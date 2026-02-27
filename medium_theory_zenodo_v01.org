@@ -6,7 +6,7 @@
 #+LATEX_HEADER: \usepackage[margin=1.25in]{geometry}
 #+LATEX_HEADER: \usepackage{setspace}
 
-Version 0.1 | Zenodo: to be assigned | DOI: to be inserted upon deposit | CC BY 4.0
+Version 0.1 | DOI: 10.5281/zenodo.18804587 | CC BY 4.0
 -----
 
 #+BEGIN_QUOTE
@@ -522,4 +522,4 @@ https://creativecommons.org/licenses/by/4.0/
 All versions of this document are archived on Zenodo and remain linked
 to the authorship record of Bradley K. DePuy, independent researcher.
 
-DOI: to be inserted upon Zenodo deposit
+DOI: 10.5281/zenodo.18804587
