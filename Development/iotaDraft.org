@@ -1,0 +1,56 @@
+#+TITLE: SFP Technical Foundation: Phase I - Primitives & Emergence
+#+AUTHOR: Project Lead & Gemini
+#+PROPERTY: header-args :latex :results drawer
+#+OPTIONS: toc:2
+
+* I. Ontological Primitives
+These symbols represent the irreducible "DNA" of the SFP. They move the framework beyond materialist "LEGO" blocks into a pure state-based logic.
+
+1. **Intrinsic Distinction ($\iota$):** The eternal, irreducible "spark" or difference that precedes all structure[cite: 5, 24]. Status: Axiomatic.
+2. **Activation ($V$):** The activation of $\iota$. This is not a set of values, but the "On" state of the potentiality. (Consequence of Axiom II).
+3. **Eternal Medium ($\mathcal{M}$):** The foundational field with no beginning, end, or cause[cite: 7, 25]. Status: Axiomatic.
+
+* II. The Mechanics of Locality
+In SFP, "Space" is not a pre-existing container but a produced effect of the Medium's refresh rate[cite: 6, 10].
+
+** 1. Locality Emergence (Axiom III)
+Location is not fundamental; it is produced at the propagation limit $c$[cite: 12, 34].
+- **Post-Locality Approximation ($M$):** The "Medium" as we perceive it after locality has been established[cite: 30].
+- **Location ($x \in M$):** A specific coordinate produced only upon structure formation[cite: 33].
+
+** 2. Population and Manifestation
+The "Full Void" is populated by functions that determine what becomes "real" or "solid"[cite: 41, 64].
+- **Population Function ($\phi : M \to V$):** A partial function mapping the Medium to its Activation state.
+- **Manifestation Probability ($p(x)$):** The likelihood of a "Knot" or structure appearing at coordinate $x$[cite: 40].
+
+* III. Dynamics and Constraints
+Existence is a sequence of state transitions governed by the system's inherent latency[cite: 12, 55].
+
+** 1. The Transition Index ($t$)
+Time is redefined as a **Transition Index**—a counter for state changes rather than a flowing dimension[cite: 10].
+- **State Transition:** $M_t \to M_{t+1}$
+
+** 2. The Propagation Constraint
+The Medium governs the rate at which "Potential" can shift between coordinates[cite: 36].
+- **Standard Propagation:** #+BEGIN_SRC latex
+  $$|\phi_{t+1}(x) - \phi_t(x)| \leq c$$
+  #+END_SRC
+  (The change in state cannot exceed the refresh rate $c$[cite: 34].)
+
+- **Structure Formation (The Knot):**
+  #+BEGIN_SRC latex
+  $$|\phi_{t+1}(x) - \phi_t(x)| = c$$
+  #+END_SRC
+  When the state change hits the maximum limit ($c$), a **Tension Gradient** or "Locality" is formed[cite: 45, 50].
+
+* IV. Summary of Status
+| Symbol | Definition | Status |
+| :--- | :--- | :--- |
+| $\iota$ | Intrinsic Distinction | Axiomatic |
+| $\mathcal{M}$ | Eternal Medium | Axiomatic |
+| $c$ | Propagation Limit / Refresh Rate | Provisional |
+| $t$ | Transition Index (Not Time) | Current |
+| $\phi(x)$ | State Population | Current |
+
+*** Falsification Anchor
+If state changes are observed to exceed $c$ without the formation of a localized structure (Knot), the propagation constraint is invalidated[cite: 60].
