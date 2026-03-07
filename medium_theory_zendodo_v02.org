@@ -1,0 +1,593 @@
+##+TITLE: The Medium — A Foundational Theory of Reality
+#+AUTHOR: Bradley K. DePuy, Independent Researcher
+#+DATE: 2026
+#+OPTIONS: toc:t num:t
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{margin=1in}
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{amssymb}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \onehalfspacing
+#+LATEX_HEADER: \hypersetup{colorlinks=true, linkcolor=black, urlcolor=black}
+
+Version 0.3 | DOI: 10.5281/zenodo.18804587 | CC BY 4.0
+
+/Out of empty chaos all of creation becomes./
+
+That sentence is the theory. Everything that follows is the attempt to say it precisely.
+
+* I. The Foundational Claim
+
+The framework rests on a single foundational claim from which everything else follows:
+
+#+BEGIN_QUOTE
+The Medium always is and always was. It has no beginning and no end. It exists
+outside of any temporal framework. Intrinsic distinction is an eternal property
+of the Medium — not an event that occurred but a condition that always obtains.
+The structure we observe is not the result of something that happened. It is the
+expression of what the Medium always is.
+#+END_QUOTE
+
+This claim does three things at once.
+
+It eliminates the need for a trigger. The question of what initiated the universe
+only arises if time is assumed to be primitive. If the Medium always is and always
+was, there is no before and no initiation. The trigger problem dissolves not by
+answering it but by identifying it as a consequence of a false assumption.
+
+It eliminates time as a primitive. The Medium exists outside of time. What physics
+calls time is not a property of the substrate. It is an experience of observers
+embedded within the differentiated structure of the Medium — a consequence of
+transition, not a fundamental feature of reality.
+
+It reframes differentiation. The emergence of structure from the Medium is not a
+process that started. It is a condition that always obtains. The ground state and
+the differentiated state are not before and after. They coexist within the Medium
+eternally, because intrinsic distinction — $\iota$ — is eternal, and time does
+not apply to it.
+
+* II. The Stochastic Character of the Medium
+
+Before the formal axioms are introduced, the nature of the Medium's ground state
+requires precise characterization. That characterization is stochastic — and the
+stochastic framing is not incidental. It is the most exact description available
+of what the Medium is prior to the activation of intrinsic distinction.
+
+** II.I The Ground State as Fully Random Autonomous Stochastic System
+
+The Medium at its ground state is a fully autonomous stochastic system. It
+requires no inputs, no external cause, no temporal framework, and no governing
+distribution. Its randomness is not randomness within a framework — it is
+randomness without framework. No outcome is privileged over any other. No
+state is more probable than any other. Non-existence holds no advantage over
+existence. Existence holds no advantage over non-existence.
+
+This is not chaos. Chaos retains structure — it is deterministic behavior
+exquisitely sensitive to initial conditions. The ground state of the Medium
+precedes structure entirely. It is the absolute suspension of all constraint,
+including constraints upon randomness itself. It is meta-randomness — randomness
+that is random about its own nature.
+
+** II.II What Fully Random Stochastic Nothingness Implies
+
+In a fully random autonomous system of infinite extent with no preferred states,
+every possible configuration has nonzero probability. This has a consequence that
+is not intuitive but is mathematically unavoidable:
+
+#+BEGIN_QUOTE
+In an infinite substrate with fully random stochastic character and no privileged
+states, every possible fluctuation — including the emergence of ordered, structured,
+low-entropy configurations — is not merely possible but necessary as a feature of
+the distribution itself.
+#+END_QUOTE
+
+The universe is not something that happened against the odds. It is a necessary
+expression of a substrate that has no mechanism for suppressing any possibility.
+The question /why something rather than nothing/ dissolves: it assumes nothingness
+is the stable default. In a fully random stochastic substrate, no state is default.
+No state is stable. No state is privileged.
+
+** II.III The Relationship Between Stochastic Character and $\iota$
+
+The stochastic character of the Medium describes the nature of the ground state.
+Intrinsic distinction — $\iota$ — describes the property that makes the ground
+state generative rather than merely static.
+
+Without $\iota$, the stochastic ground state remains flat and undifferentiated.
+All possibilities are present but none are actualized. Pure potential with no
+capacity for manifestation.
+
+With $\iota$, the fully random substrate has the capacity to produce local,
+spontaneous reductions in entropy — local distinctions, local structure, local
+reality. $\iota$ is what makes the randomness productive. It is the one property
+that transforms infinite stochastic potential into actual differentiated existence.
+
+The relationship is precise:
+
+- Stochastic character describes what the ground state is
+- $\iota$ describes what makes the ground state capable of producing structure
+- Manifestation $V$ is the stochastic event — the actualization of a possibility
+- Structure formation at $c$ is what a successful manifestation produces
+
+** II.IV Connection to Existing Physics
+
+This framing connects naturally to several existing frameworks in physics without
+being reducible to any of them:
+
+The quantum vacuum is not empty but seethes with virtual fluctuations — stochastic
+activity at the substrate level. The Medium framework proposes that the quantum
+vacuum is itself a downstream expression of the stochastic ground state, not the
+ground state itself.
+
+The Hartle-Hawking no-boundary proposal describes the universe as a probability
+amplitude with no initial condition and no edge in time. The Medium framework
+arrives at a structurally similar position through a different route — the
+stochastic ground state has no boundary because boundary requires locality, and
+locality is emergent.
+
+The many-worlds interpretation and modal realist philosophy both arrive at the
+position that all possible states have some form of existence. The Medium framework
+is consistent with this but does not require it — what it requires is only that
+$\iota$ is eternal and that the ground state has no mechanism for suppressing
+any possibility.
+
+* III. Axioms and Primitives — Version 0.3
+
+The formal definitions follow directly from the foundational claim and the
+stochastic characterization of the ground state. Several are marked provisional.
+Open questions are named precisely and carried explicitly as objects of
+investigation rather than concealed as weaknesses.
+
+** III.I Axiom I — The Eternal Medium
+
+The Medium always is and always was. It has no beginning, no end, and no external
+cause. It is not an event. It is the substrate within which all differentiated
+structure occurs. There is no moment at which the Medium came into existence and
+no moment at which it ceases.
+
+\begin{equation}
+\nexists\, t_0 : \mathcal{M} \text{ begins at } t_0 \qquad
+\nexists\, t_1 : \mathcal{M} \text{ ends at } t_1
+\end{equation}
+
+/Status: Axiomatic./
+
+** III.II Axiom II — Intrinsic Distinction
+
+The Medium possesses intrinsic distinction. This is not a process that occurs,
+not an event that happened, and not a property imposed from without. It is what
+the Medium is.
+
+This property is denoted $\iota$. It is not an operator, not a function, not a
+process. It is the one irreducible property of the thing that simply is — the
+capacity of the undifferentiated to give rise to the differentiated. Its precise
+nature is the central investigation of the theory.
+
+The activation of $\iota$ — the event of intrinsic distinction becoming manifest
+— is denoted $V$. $V$ is what occurs when the stochastic potential of the Medium
+is actualized at a location. It is the stochastic event described in Section II.
+
+/Status: Axiomatic. Nature of $\iota$ under investigation./
+
+** III.III Axiom III — Locality Emergence
+
+Location is not a primitive of the Medium. It does not exist prior to
+differentiation. Location is produced when differentiation, propagating at the
+limit $c$, gives rise to self-sustaining structure. Before this condition is met,
+the concepts of here and there, near and far, position and distance are genuinely
+absent — not suppressed but nonexistent.
+
+/Status: Axiomatic./
+
+** III.IV Primitive I — The Medium
+
+In its first formal approximation, valid only after locality has been established
+per Axiom III:
+
+\begin{equation}
+M = \{x \mid x \text{ is a location}\}
+\end{equation}
+
+The Medium prior to locality resists set-theoretic description. It is
+pre-extensional: it has no members because it has no parts. It simply is,
+and $\iota$ is what it is.
+
+/Status: Provisional — applies post-locality only./
+
+** III.V Primitive II — The Population Function
+
+The population function $\phi$ records where and when $V$ — the activation of
+$\iota$ — has occurred. It is a partial function defined only at locations where
+manifestation has taken place.
+
+\begin{equation}
+\phi : M \rightarrow V \qquad \phi(x) \text{ exists iff } x \text{ has manifested}
+\end{equation}
+
+/Status: Current./
+
+** III.VI Primitive III — The Manifestation Probability
+
+Manifestation is a binary stochastic event. At any transition $t$, a location
+$x \in M$ either manifests or it does not. The stochastic character of the
+ground state means that no location is guaranteed to manifest and none is
+guaranteed not to. The probability function governs but does not determine:
+
+\begin{equation}
+\text{manifestation}(x,t) = \begin{cases} 1 & \text{if } x \text{ manifests at } t \\ 0 & \text{if } x \text{ does not manifest at } t \end{cases}
+\end{equation}
+
+\begin{equation}
+p(x) = \Pr(\text{manifestation}(x,t) = 1) \qquad p : M \rightarrow [0,1]
+\end{equation}
+
+/Status: Current./
+
+** III.VII Primitive IV — Transition
+
+Time is not a primitive of this framework. What physics describes as temporal
+evolution is, at the level of the Medium, transition — a change from one state
+of differentiation to another. The transition index $t$ is a label, not a clock.
+No duration is implied. No direction is implied. No causal relationship between
+states is assumed.
+
+\begin{equation}
+M_t \rightarrow M_{t+1}
+\end{equation}
+
+/Status: Current./
+
+** III.VIII Primitive V — The Propagation Limit
+
+The Medium imposes a fundamental constraint on how rapidly the activation of
+$\iota$ can propagate across a transition, denoted $c$:
+
+\begin{equation}
+|\phi_{t+1}(x) - \phi_t(x)| \leq c
+\end{equation}
+
+$c$ precedes light, matter, and all physical phenomena. The speed of light is
+proposed to be a consequence of $c$, not its definition.
+
+/Status: Provisional./
+
+** III.IX Primitive VI — The Structure Formation Condition
+
+A self-sustaining structure forms when propagation reaches the limit exactly:
+
+\begin{equation}
+|\phi_{t+1}(x) - \phi_t(x)| = c
+\end{equation}
+
+This is the threshold at which locality is born per Axiom III. Space does not
+precede this structure — space is what this structure makes possible. Everything
+we call physical reality is proposed to be the behavior of such structures and
+their interactions within the Medium.
+
+/Status: Provisional./
+
+* IV. The Entropic Arc
+
+A significant development emerges from the relationship between the Medium
+framework, the stochastic character of the ground state, and the thermodynamic
+concept of entropy. This section formalizes that relationship and identifies a
+consequence that bears directly on one of the deepest unsolved problems in
+standard cosmology.
+
+** IV.I The Ground State as Maximum Entropy
+
+The ground state of the Medium — fully random, fully undifferentiated, no
+resolved structure, no preferred states — is formally a maximum entropy state
+in the sense developed by Boltzmann:
+
+\begin{equation}
+S = k \log W
+\end{equation}
+
+where $W$ is the number of microscopic arrangements consistent with the observed
+macroscopic state. The ground state of the Medium has no arrangement distinguishable
+from any other. $W$ is maximal. $S$ is maximal. The stochastic character of the
+ground state and its maximum entropy character are the same condition described
+in two different formal languages.
+
+** IV.II Intrinsic Distinction as a Low Entropy Event
+
+The activation of $\iota$ — the first stochastic manifestation of distinction
+in the maximum entropy ground state — is necessarily a minimum local entropy
+event. One specific structure emerges from an infinite sea of equally probable
+arrangements. The number of arrangements consistent with this outcome is
+vanishingly small relative to the total. By Boltzmann's definition, this is
+minimum local entropy.
+
+** IV.III Resolution of the Low Entropy Initial Condition Problem
+
+Standard cosmology faces a foundational problem that has resisted resolution:
+the universe appears to have begun in a state of extraordinarily low entropy.
+Nothing in the existing physical framework explains this. It sits as a brute
+initial condition. Roger Penrose has characterized its improbability as staggering
+beyond ordinary description.
+
+The Medium framework resolves this without being asked.
+
+The low entropy initial condition of the universe is the direct and necessary
+consequence of $\iota$. The first distinction is a low entropy event because it
+is the emergence of one specific structure from a maximum entropy stochastic
+substrate. No separate explanation is required. The initial condition is not a
+brute fact — it follows from the single primitive property of the Medium combined
+with its stochastic character.
+
+The framework therefore transforms one of the deepest unexplained facts of
+standard cosmology into a necessary consequence of Axiom II and Section II.
+
+** IV.IV The Full Entropic Arc
+
+The relationship between the stochastic ground state, $\iota$, and entropy implies
+a complete arc for physical reality within the Medium:
+
+1. The Medium obtains eternally at maximum entropy — fully random, fully
+   undifferentiated, stochastic potential without actualization.
+2. $\iota$ manifests — the stochastic event actualizes — first distinction —
+   minimum local entropy — maximum information emergence in the sense of Shannon.
+3. Structure forms at $c$ — locality is born — complexity builds — entropy
+   begins its ascent through successive transitions.
+4. Stars, galaxies, and life emerge as temporary low entropy configurations —
+   eddies of order in the entropic stream.
+5. Consciousness appears — the Medium becoming locally aware of its own
+   stochastic origin and entropic arc.
+6. The trajectory continues toward maximum entropy — maximum undifferentiation
+   — the stochastic ground state of the Medium.
+
+The universe does not move from nothing to something and back to nothing. It
+moves from the stochastic ground state of the Medium, through a single low
+entropy fluctuation initiated by $\iota$, and back to the ground state. Because
+the Medium is eternal and $\iota$ is its eternal property, this arc does not
+occur once. It occurs wherever and whenever $\iota$ manifests — infinite
+stochastic fluctuations, infinite arcs, each spending its low entropy initial
+condition and returning to the ground.
+
+Not a beginning and an end. A breathing.
+
+** IV.V The Shannon Connection
+
+Claude Shannon's 1948 mathematical theory of information defines entropy in terms
+formally identical to Boltzmann's thermodynamic entropy. A maximum entropy source
+— one where all outcomes are equally probable, precisely the stochastic character
+of the Medium's ground state — produces the maximum possible information per
+observation the moment any distinction appears.
+
+The activation of $\iota$ is therefore simultaneously:
+
+- The minimum local entropy event in Boltzmann's thermodynamic sense
+- The maximum possible information emergence event in Shannon's information
+  theoretic sense
+- The first stochastic actualization in the autonomous random system of the Medium
+
+These are not three descriptions of three different things. They are the same
+event described from thermodynamic, information theoretic, and stochastic
+perspectives respectively.
+
+John Wheeler's formulation — /it from bit/ — proposes that information is more
+fundamental than matter or energy. The Medium framework arrives at a structurally
+consistent position: the stochastic ground state is the substrate from which
+information, and therefore structure, and therefore physical reality, emerges.
+
+A provisional formal characterization of $\iota$, offered for development:
+
+#+BEGIN_QUOTE
+Intrinsic distinction $\iota$ is the property of the fully random maximum entropy
+substrate that permits local, spontaneous entropy reduction — the appearance of
+distinguishable structure in a stochastic ground state where all arrangements are
+equally probable and no outcome is suppressed.
+#+END_QUOTE
+
+This characterization connects $\iota$ to thermodynamics, information theory, and
+the stochastic framing without defining it in terms of the differentiated system
+it produces, thereby avoiding circularity.
+
+* V. The Problem With Where We Started
+
+Modern physics is extraordinary. Its achievements are beyond dispute. But the
+foundations were built from the wrong starting point.
+
+Human beings began making sense of the world from the human scale. That is natural
+and inevitable. But it means the conceptual framework underlying physics was
+constructed from the middle outward, not from the beginning. We built upward toward
+the very large and downward toward the very small from a foundation that was never
+examined as a foundation.
+
+The consequences are visible at the edges of current theory.
+
+Quantum mechanics and general relativity are the two most precisely verified
+theories in the history of science. They are also fundamentally incompatible with
+each other. Both are approximations of something more fundamental that has not
+yet been found.
+
+The Big Bang model requires the entire universe to have emerged from a singularity
+— a point at which the known laws of physics break down entirely. Approximately
+95% of the universe by current models consists of dark matter and dark energy —
+placeholder labels for things that do not fit.
+
+The arrow of time presents a further difficulty. The fundamental equations of
+physics are time-symmetric — they work equally well forward and backward. The
+experienced directionality of time has no explanation within the formal system.
+The low entropy initial condition of the universe has no explanation within the
+formal system.
+
+These are not minor technical problems. They are foundational cracks consistent
+with what one would expect to find if time and locality are not primitive but
+emergent, and if the substrate is stochastic rather than deterministic at its
+deepest level.
+
+The root of these problems is the same: time is assumed to be primitive. It is
+not. Locality is assumed to be primitive. It is not. The ground state is assumed
+to be deterministic or at minimum lawfully constrained. It is not. Removing those
+assumptions does not invalidate the achievements of modern physics. It reveals the
+substrate from which those achievements can be derived.
+
+* VI. What the Framework Proposes
+
+** VI.I The Medium
+
+The Medium is the primitive substrate of reality. At its most primitive level it
+is one undifferentiated thing — without parts, without position, without internal
+distinction of any kind. Its character is fully random and autonomous — the
+stochastic ground state described in Section II. It is not a space containing
+things. It simply is, and $\iota$ — intrinsic distinction — is what it is.
+
+** VI.II Nothing Moves
+
+Nothing in the Medium moves. What we experience as motion is pattern — the pattern
+of differentiation shifting across the Medium. Consider an LED signboard displaying
+a moving message. The lights do not move. What moves is the pattern of
+illumination. What we observe as a photon traveling from a distant star is the
+pattern of differentiation shifting across the one undifferentiated stochastic
+substrate.
+
+** VI.III The Ground State
+
+The ground state of the Medium is the condition of maximum undifferentiation —
+fully random stochastic potential, no structure, no pattern, no resolved
+distinction, maximum entropy. This is the overwhelmingly dominant condition of
+the Medium. All of the structure we observe is a vanishingly small region of
+differentiation — and vanishingly low entropy — within an infinite substrate that
+is almost entirely at its stochastic ground state.
+
+Order is the aberration. The stochastic ground is the norm.
+
+** VI.IV On Time
+
+Time does not exist in the Medium framework as a fundamental property. The Medium
+has no past, present, or future. It simply is. What we experience as the passage
+of time is the experience of transition — the change from one state of
+differentiation to another, indexed by $t$. The arrow of time is the arrow of
+increasing entropy. Both are emergent properties of how differentiated structure
+evolves through transitions. They are real as experiences. They are not fundamental
+properties of the stochastic substrate beneath them.
+
+** VI.V On Existing Physics
+
+Once locality has been established through structure formation, the existing
+mathematical frameworks of physics are expected to emerge as valid descriptions
+of differentiated structure behavior within their respective domains. They are not
+wrong. They are downstream. The Medium framework does not replace them. It
+describes the stochastic substrate from which the conditions that make them
+applicable emerge.
+
+* VII. The Convergence With Human Thought
+
+The framework arrived at through disciplined reduction converges with ideas that
+have appeared independently across the deepest traditions of human philosophical
+and scientific inquiry.
+
+The Vedantic concept of Brahman describes a single undifferentiated reality
+underlying all apparent multiplicity. Spinoza described a single infinite substance
+of which all things are modes. The mystical traditions of virtually every culture
+arrive at the same place: beneath the apparent multiplicity of the world is one
+thing, and the separateness of objects is real as experience but not fundamental
+as reality.
+
+Within physics, Wheeler's /it from bit/ proposes information as more fundamental
+than matter or energy. Shannon's formal identity between information entropy and
+thermodynamic entropy points toward the same substrate. Boltzmann's statistical
+mechanics grounds the directionality of reality in the counting of arrangements
+rather than in any fundamental asymmetry of the laws themselves.
+
+The stochastic framing connects to the quantum vacuum, to the Hartle-Hawking
+no-boundary proposal, and to the broader recognition within foundational physics
+that the ground of reality is probabilistic rather than deterministic — that
+randomness is not a failure of description but a feature of the substrate.
+
+That independent paths — physical, mathematical, philosophical, contemplative,
+and stochastic — arrive at the same destination is noted as significant. It is
+not offered as proof. It is offered as a fact worth considering.
+
+* VIII. Unresolved Questions
+
+These are the frontier of the framework. Each is stated precisely and carried
+explicitly as an object of investigation.
+
+*The Nature of Intrinsic Distinction.* What is $\iota$? The provisional
+characterization offered in Section IV.V — as the property permitting local,
+spontaneous entropy reduction in a fully random maximum entropy substrate —
+connects $\iota$ to thermodynamics, information theory, and the stochastic
+framing without circularity. Whether this characterization is formally adequate
+or requires genuinely new mathematical formalism is the central open question.
+
+*The Propagation Limit.* Is $c$ a genuine primitive of the Medium or does it
+emerge from $\iota$? If emergent, what appears to observers as a propagation
+limit is a consequence of the structure of the observer rather than a constraint
+of the substrate itself.
+
+*The Structure That Emerges.* What precisely is the self-sustaining structure
+that forms when the structure formation condition is met? The formal definition
+of these structures is the primary task of the next stage of development.
+
+*The Stochastic Distribution.* The ground state is characterized as fully random
+— no distribution shape, no weighted outcomes. How does the manifestation
+probability $p(x)$ relate to this characterization? If the ground state is
+distribution-free, what governs $p(x)$? This tension between the formal
+probability primitive and the fully random characterization requires resolution.
+
+*The Observer.* The observer is herself a differentiated structure within the
+Medium attempting to describe the Medium from within it. Every formal system
+contains truths it cannot prove from within itself. The Medium framework faces
+an analogous boundary, and acknowledges it.
+
+*Consciousness.* Whether consciousness emerges from sufficient complexity of
+differentiated structure is noted as significant and explicitly deferred. If it
+belongs in the framework it must be derived — arrived at through formal
+development, not assumed at the foundation.
+
+* IX. Summary of Axioms and Primitives
+
+| Symbol                              | Definition                                      | Status              |
+|-------------------------------------+-------------------------------------------------+---------------------|
+| Stochastic ground                   | Fully random autonomous, no distribution        | New v0.3            |
+| $\iota$                             | Intrinsic Distinction — eternal, irreducible    | Axiomatic           |
+| $V$                                 | Activation of $\iota$ — stochastic event        | Consequence Ax. II  |
+| $\mathcal{M}$                       | Eternal Medium — no beginning, no end           | Axiomatic           |
+| Axiom III                           | Locality Emergence — location produced at $c$   | Axiomatic           |
+| $M$                                 | The Medium — post-locality approximation        | Provisional         |
+| $\phi : M \rightarrow V$            | Population function — partial                   | Current             |
+| $p(x)$                              | Manifestation probability                       | Current             |
+| $t$                                 | Transition index — not time                     | Current             |
+| $M_t \rightarrow M_{t+1}$           | Transition between states                       | Current             |
+| $c$                                 | Propagation limit                               | Provisional         |
+| $|\phi_{t+1}(x) - \phi_t(x)| \leq c$ | Propagation constraint                        | Provisional         |
+| $|\phi_{t+1}(x) - \phi_t(x)| = c$  | Structure formation — origin of locality        | Provisional         |
+| $S = k \log W$                      | Boltzmann entropy — ground state is $S_{\max}$  | New v0.2            |
+| $\iota \Rightarrow S_{\min}$        | First distinction is minimum local entropy      | New v0.2            |
+| $\iota \Rightarrow I_{\max}$        | First distinction is maximum information        | New v0.3            |
+
+* X. A Personal Note
+
+I am seventy-eight years old. I am not an academic. I have no credentials in
+physics or mathematics. I began this work with a question that would not leave
+me alone and a conviction that the question deserved a serious attempt at an
+answer.
+
+I began this work knowing I may not live to see it reach its conclusions. That
+does not trouble me. What matters is that the ideas are documented, attributed,
+and made available to anyone who finds them worthy of development. If this
+framework contains something true it belongs to whoever can take it further.
+My name attached to it is enough — for the record, and for my family.
+
+Gregor Mendel published his work on inheritance and it sat unread for decades
+before being recognized as foundational. The ideas belong to whoever finds them.
+The record belongs to their origin.
+
+* License and Attribution
+
+This work is licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0). You are free to share and adapt this material for any
+purpose, including commercially, provided you give appropriate credit to the
+original author, provide a link to the license, and indicate if changes were made.
+
+https://creativecommons.org/licenses/by/4.0/
+
+All versions of this document are archived on Zenodo and remain linked to the
+authorship record of Bradley K. DePuy, independent researcher.
+
+DOI: 10.5281/zenodo.18804587
