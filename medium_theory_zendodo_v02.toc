@@ -1,0 +1,33 @@
+\contentsline {section}{\numberline {1}The Foundational Claim}{1}{section.1}%
+\contentsline {section}{\numberline {2}The Stochastic Character of the Medium}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Ground State as Fully Random Autonomous Stochastic System}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}What Fully Random Stochastic Nothingness Implies}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}The Relationship Between Stochastic Character and \(\iota \)}{2}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Axioms and Primitives}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Axiom I — The Eternal Medium}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Axiom II — Intrinsic Distinction}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Axiom III — Locality Emergence}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Primitive I — The Medium}{4}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Primitive II — The Population Function}{4}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Primitive III — The Manifestation Probability}{4}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Primitive IV — Transition}{4}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Primitive V — The Propagation Limit}{5}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Primitive VI — The Structure Formation Condition}{5}{subsection.3.9}%
+\contentsline {section}{\numberline {4}The Entropic Arc}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}The Ground State as Maximum Entropy}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Intrinsic Distinction as a Low Entropy Event}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Resolution of the Low Entropy Initial Condition Problem}{6}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}The Full Entropic Arc}{6}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}A Provisional Characterization of \(\iota \)}{7}{subsection.4.5}%
+\contentsline {section}{\numberline {5}The Problem With Where We Started}{7}{section.5}%
+\contentsline {section}{\numberline {6}What the Framework Proposes}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}The Medium}{8}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Nothing Moves}{8}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}The Ground State}{9}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}On Time}{9}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}On Existing Physics}{9}{subsection.6.5}%
+\contentsline {section}{\numberline {7}The Convergence With Human Thought}{9}{section.7}%
+\contentsline {section}{\numberline {8}Unresolved Questions}{10}{section.8}%
+\contentsline {section}{\numberline {9}Summary of Axioms and Primitives}{11}{section.9}%
+\contentsline {section}{\numberline {10}A Personal Note}{11}{section.10}%
+\contentsline {section}{\numberline {11}License and Attribution}{12}{section.11}%

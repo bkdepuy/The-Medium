@@ -21,3 +21,7 @@ medium_theory.pdf
 *.swppdf
 .tex
 .auctex-auto/
+.aux
+.log
+.out
+.toc
