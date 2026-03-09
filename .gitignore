@@ -3,12 +3,10 @@ Documents/
 latexWork/
 reference/
 prior/
-
-# Draft and working files
-medium_theory.org
-medium_theory.tex
-medium_theory.pdf
-
+Development/
+Distribute/
+reference/
+.auctex-auto/
 # Backup files
 *.bkup
 *.bak
@@ -20,7 +18,6 @@ medium_theory.pdf
 \#*\#
 *.swppdf
 .tex
-.auctex-auto/
 .aux
 .log
 .out

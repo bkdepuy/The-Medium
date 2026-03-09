@@ -1,0 +1,720 @@
+#+TITLE: The Medium — A New Foundational Theory of Reality
+#+AUTHOR: Bradley K. DePuy
+#+DATE: 2026-02-25
+#+DESCRIPTION: Abstract, action plan, and learning agenda for developing a mathematical framework for the Medium theory
+#+STARTUP: overview
+#+OPTIONS: toc:3 num:t
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{amssymb}
+#+LATEX_HEADER: \usepackage{amsthm}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{margin=1.2in}
+#+LATEX_HEADER: \newtheorem{definition}{Definition}
+#+LATEX_HEADER: \newtheorem{proposition}{Proposition}
+
+* Abstract
+
+The Medium theory proposes a foundational model of reality that precedes and subsumes
+current physical theory.  It begins not with matter, energy, space, or time, but with
+a more primitive construct: an infinite, stationary substrate — the Medium — whose
+locations may be probabilistically populated with values.  Nothing in the Medium moves.
+What we perceive as motion, light, force, and physical law are patterns propagating
+through the Medium, analogous to a message moving across an LED signboard where the
+lights themselves remain fixed.
+
+The Medium has a propagation limit — a fundamental constraint on the rate at which
+pattern can shift through it.  When propagation approaches this limit it cannot continue
+in its current form.  The pattern folds back on itself, producing a self-reinforcing
+structure termed a /knot/.  A knot is the Medium interacting with itself.  Physical
+reality — matter, energy, and all forces — emerges as properties of knot behavior
+within the Medium.  The laws of physics as currently understood are not fundamental
+truths but descriptions of how knots behave and interact.
+
+The ground state of the Medium is pure randomness: no structure, no pattern, no
+directional bias.  Order is the aberration.  Given the infinite extent of the Medium,
+the formation of the first knot requires no external cause — in true infinite
+randomness all possibilities must eventually occur.  The universe as we know it is a
+region of knot activity within a vastly larger field of unstructured chaos.
+
+This framework resolves several foundational tensions in current science: the
+incompatibility of quantum mechanics and general relativity, the need for dark energy
+to explain accelerating expansion, and the singularity problem inherent in Big Bang
+cosmology.  It replaces the Big Bang with a steady-state Medium in which observable
+cosmological phenomena — including red shift — are reinterpreted as pattern
+propagation effects rather than physical recession of matter.
+
+The immediate objective is to develop a rigorous mathematical language for the Medium
+theory beginning with set theory as the foundational notation system, progressing
+through probability theory and topology toward a formal model capable of expressing
+the core constructs: location, probabilistic population, propagation, limit, and knot.
+
+* Project Goals
+
+** Primary Goal
+Develop a mathematically rigorous foundational framework for the Medium theory that
+is self-consistent, expressible in formal notation, and capable of generating testable
+or at minimum logically falsifiable propositions.
+
+** Secondary Goals
+- Establish a precise vocabulary for Medium theory concepts independent of existing
+  physics terminology where existing terms carry limiting assumptions
+- Identify points of contact between the Medium framework and existing mathematics
+  without being constrained by existing physical interpretation
+- Document the theoretical development in a form suitable for review and extension
+
+* Action Plan
+
+** Phase 1 — Language Acquisition
+/Objective:/ Build working fluency in set theory notation and core concepts.
+/Outcome:/ Ability to express Medium theory primitives (location, population, value)
+in formal set theoretic terms.
+
+*** TODO Learn core set theory symbols and their meaning
+*** TODO Understand membership, subset, equality relationships
+*** TODO Work through union, intersection, difference, complement operations
+*** TODO Understand the empty set and its significance as a model for the unpopulated Medium
+*** TODO Learn Cartesian products and their extension to n-dimensional spaces
+*** TODO Understand the power set as a model for the space of all possible population states
+
+** Phase 2 — Handling Infinity
+/Objective:/ Understand how mathematics formally handles infinite sets, which is
+essential since the Medium is infinite in all directions.
+/Outcome:/ Ability to distinguish and work with different orders of infinity relevant
+to the Medium model.
+
+*** TODO Understand countable vs uncountable infinity (Cantor)
+*** TODO Learn the concept of cardinality as a measure of set size
+*** TODO Understand the continuum — the set of all real numbers as a model for infinite locations
+*** TODO Explore whether the Medium's infinity is countable, uncountable, or requires new treatment
+
+** Phase 3 — Probability on Sets
+/Objective:/ Learn how probability theory is built on set theoretic foundations,
+enabling formal description of probabilistic population of the Medium.
+/Outcome:/ Ability to assign probability measures to locations and values in the Medium.
+
+*** TODO Understand sample spaces and events as sets
+*** TODO Learn probability measures and the axioms of probability (Kolmogorov)
+*** TODO Understand probability distributions over infinite spaces
+*** TODO Explore stochastic processes as models for evolving probabilistic population
+*** TODO Begin formal definition: a location in the Medium as an element with an associated probability measure
+
+** Phase 4 — Space Without Coordinates
+/Objective:/ Learn topology — the mathematics of space that does not depend on
+measurement or coordinate systems — appropriate for a Medium with no preferred origin
+or direction.
+/Outcome:/ Ability to describe the Medium's structure without imposing a coordinate frame.
+
+*** TODO Understand topological spaces — sets with a notion of nearness without measurement
+*** TODO Learn open and closed sets, continuity, and connectedness
+*** TODO Explore metric spaces and whether the Medium requires or rejects a metric
+*** TODO Investigate whether propagation and the propagation limit can be expressed topologically
+
+** Phase 5 — Formal Model Construction
+/Objective:/ Synthesize the above into a working formal model of the Medium.
+/Outcome:/ A draft mathematical framework expressing the core primitives and
+mechanisms of Medium theory in rigorous notation.
+
+*** TODO Define the Medium as a formal mathematical object
+*** TODO Define a location formally
+*** TODO Define probabilistic population as a function over locations
+*** TODO Define the propagation limit formally
+*** TODO Define a knot as an emergent structure at the propagation limit
+*** TODO Examine whether existing mathematical structures (manifolds, fields, fiber bundles) map to any Medium constructs without importing their physical interpretations
+
+* Learning Agenda
+
+** Module 1 — Set Theory Foundations
+/Estimated engagement:/ Ongoing, self-paced
+/Approach:/ Concept-first with examples drawn from Medium theory primitives
+
+| Topic                        | Medium Theory Connection                        |
+|------------------------------+-------------------------------------------------|
+| Sets and membership          | The Medium as a set of locations                |
+| The empty set                | The unpopulated Medium — pure chaos             |
+| Subsets                      | Regions of the Medium                           |
+| Union and intersection       | Overlapping regions, shared properties          |
+| Power set                    | All possible population states of a region      |
+| Cartesian product            | Multi-valued locations; dimension emergence     |
+| Infinite sets                | The infinite extent of the Medium               |
+
+** Module 2 — Foundations of Probability
+/Prerequisite:/ Module 1
+/Approach:/ Build from set theoretic base toward stochastic description of the Medium
+
+| Topic                        | Medium Theory Connection                        |
+|------------------------------+-------------------------------------------------|
+| Sample space as a set        | The Medium as the universal sample space        |
+| Events as subsets            | Populated regions as events                     |
+| Probability measure          | The probabilistic character of population       |
+| Conditional probability      | How existing knots influence nearby population  |
+| Random variables             | Values at locations as random variables         |
+| Stochastic processes         | Propagation through the Medium over time        |
+
+** Module 3 — Topology and Structure Without Coordinates
+/Prerequisite:/ Modules 1 and 2
+/Approach:/ Emphasize concepts that apply to a coordinate-free infinite space
+
+| Topic                        | Medium Theory Connection                        |
+|------------------------------+-------------------------------------------------|
+| Topological spaces           | The Medium as a topological space               |
+| Neighborhoods                | Local regions around a location                 |
+| Continuity                   | Smooth propagation through the Medium           |
+| Compactness                  | Bounded behavior — relevant to knot formation   |
+| Connectedness                | Whether the Medium is a single connected whole  |
+
+** Module 4 — Selected Advanced Topics
+/Prerequisite:/ Modules 1–3
+/To be scoped based on where the formal model requires them/
+
+- Measure theory — rigorous foundation for probability on infinite spaces
+- Category theory — relationships and transformations rather than objects; may offer
+  a better foundation for expressing Medium interactions than set theory alone
+- Dynamical systems — behavior of systems evolving over time; relevant to knot stability
+- Field theory (mathematical) — assignment of values to points in a space; close
+  structural parallel to probabilistic population of the Medium
+
+* Key Concepts Requiring New Terminology
+
+The following Medium theory concepts currently lack precise mathematical definition
+and will require formal development as the project progresses.
+
+| Concept              | Current Description                                      | Formal Definition Status |
+|----------------------+----------------------------------------------------------+--------------------------|
+| The Medium           | Infinite stationary substrate                            | To be defined            |
+| Location             | A point of potential population within the Medium        | To be defined            |
+| Population           | Assignment of a value to a location probabilistically    | To be defined            |
+| Propagation          | Pattern shift through the Medium                         | To be defined            |
+| Propagation limit    | Fundamental constraint on propagation rate               | To be defined            |
+| Knot                 | Self-reinforcing structure at the propagation limit      | To be defined            |
+| Ground state         | The Medium in pure random unpopulated condition          | To be defined            |
+
+* Notes and Open Questions
+
+** On the propagation limit
+The propagation limit plays the role that the speed of light plays in current physics
+but is more primitive — it is a property of the Medium itself, not of any object
+moving through it.  Formally defining this limit without importing the baggage of
+relativistic physics is a critical early challenge.
+
+** On time
+Time does not exist in the Medium framework.  The Medium has no past, present, or
+future — it simply is.  What current science calls time is not a dimension or a
+property of the Medium itself but a description of something more primitive:
+/transition/.
+
+The variable $t$ is used not to represent time but to index transitions — discrete
+moments of change in the population state of the Medium.  $t$ says nothing about
+duration, direction, or flow.  It is purely a marker that distinguishes one population
+state from another.  State at $t$ followed by state at $t+1$ means only that a
+transition occurred, not that any measurable interval elapsed.
+
+This has significant consequences.  What physics describes as the arrow of time,
+causality, and temporal sequence are all emergent descriptions of transition patterns
+within the Medium — properties of how knots evolve through successive states — not
+fundamental properties of the substrate.
+
+Formally, $t$ will be treated as an index on a sequence of population states:
+
+$$M_t \to M_{t+1}$$
+
+meaning the Medium transitioned from one population configuration to another.  The
+set of all transitions is the history of the Medium, but that history has no
+privileged direction and no intrinsic duration.
+
+** On the observer
+All current physics is built on observations made from within the system being
+described.  The Medium framework needs to address whether and how an observer — itself
+a collection of knots — can make meaningful statements about the Medium as a whole.
+
+** On the relationship to existing physics
+The goal is not to disprove existing physics but to find the more primitive layer from
+which it emerges as a special case.  Quantum mechanics and general relativity should
+both fall out as descriptions of knot behavior under specific conditions.
+
+* Set Theory Knowledge Base
+:PROPERTIES:
+:DESCRIPTION: Working reference and study notes. Expand each section as understanding develops.
+:END:
+
+This section is the living knowledge base.  Each concept is presented with its formal
+notation, plain language meaning, a concrete everyday example, and where relevant a
+connection to Medium theory.  LaTeX syntax is shown explicitly so it can be used when
+writing equations.
+
+** 1. What Is a Set
+
+A set is a collection of distinct objects.  The objects inside a set are called its
+/elements/ or /members/.  A set has no order and no duplicates — it simply is a
+collection.
+
+A set is written with curly braces.  The set containing 1, 2, and 3 is written:
+
+#+BEGIN_EXAMPLE
+{ 1, 2, 3 }
+#+END_EXAMPLE
+
+In LaTeX: ~$\{1, 2, 3\}$~
+
+Sets are usually named with capital letters: $A$, $B$, $M$.  Elements are usually
+named with lowercase letters: $x$, $y$, $a$.
+
+*Medium connection:* The Medium can be thought of as a set $M$ whose elements are
+locations.  A location is a member of $M$.
+
+*** Notation reference
+| What you want to say        | LaTeX syntax            | Renders as        |
+|-----------------------------+-------------------------+-------------------|
+| Set A contains 1, 2, 3      | ~$A = \{1, 2, 3\}$~     | $A = \{1, 2, 3\}$ |
+| Set defined by a property   | ~$\{x \mid P(x)\}$~     | $\{x \mid P(x)\}$ |
+
+** 2. Membership  $\in$  and  $\notin$
+
+The symbol $\in$ means /is a member of/ or /belongs to/.
+The symbol $\notin$ means /is not a member of/.
+
+If $A = \{1, 2, 3\}$ then:
+
+$$1 \in A \qquad \text{(1 is in A — true)}$$
+$$5 \notin A \qquad \text{(5 is not in A — true)}$$
+
+In LaTeX: ~$1 \in A$~ and ~$5 \notin A$~
+
+*Plain language:* Membership is the most primitive relationship in set theory.
+Before you can say anything else about a set you must be able to say what is and
+is not in it.
+
+*Medium connection:* A location $l$ either is or is not a member of the Medium $M$.
+Written: $l \in M$.  The question of what qualifies as a location — what the
+membership criterion is — is one of the first formal questions the theory must answer.
+
+*** Study note
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
+A set is entirely defined by its members.  Two sets are equal if and only if they
+have exactly the same members.  This is the /axiom of extensionality/ — one of the
+foundational axioms of ZFC set theory.
+
+** 3. The Empty Set  $\emptyset$
+
+The empty set is the set with no members at all.  It is written $\emptyset$ or
+sometimes $\{\}$.
+
+$$\emptyset = \{\}$$
+
+In LaTeX: ~$\emptyset$~
+
+The empty set is unique — there is only one empty set.  It is a subset of every set
+(see Section 5).
+
+*Plain language:* Think of it as an empty container.  The container exists.  Nothing
+is in it.
+
+*Medium connection:* The unpopulated Medium — the ground state of pure chaos before
+any values have been assigned to any location — is analogous to the empty set.  No
+element has been populated; the set of populated locations is $\emptyset$.  This is
+the natural starting point for the theory.
+
+*** Key fact
+$$\emptyset \neq \{\emptyset\}$$
+The left side is the empty set — nothing inside.  The right side is a set containing
+one element, which happens to be the empty set.  This distinction matters when
+building structure from nothing, as von Neumann did when constructing the natural
+numbers from the empty set alone.
+
+** 4. Set Builder Notation
+
+Instead of listing elements, a set can be defined by a rule or property.  This is
+called set builder notation.
+
+$$A = \{x \mid P(x)\}$$
+
+Read as: /A is the set of all x such that P(x) is true./
+
+The vertical bar $\mid$ means /such that/.  Sometimes a colon is used instead: $\{x : P(x)\}$.
+
+In LaTeX: ~$\{x \mid P(x)\}$~
+
+*Example:* The set of all even numbers:
+$$E = \{x \mid x \text{ is divisible by } 2\}$$
+
+*Medium connection:* This notation will be essential for defining regions of the
+Medium by their properties rather than by listing individual locations.  For instance,
+the set of all populated locations could be written:
+
+$$P = \{l \mid l \in M \text{ and } l \text{ has been assigned a value}\}$$
+
+** 5. Subsets  $\subseteq$  and  $\subset$
+
+$A \subseteq B$ means /A is a subset of B/ — every element of $A$ is also in $B$.
+
+$A \subset B$ means /A is a proper subset of B/ — every element of $A$ is in $B$,
+and $B$ has at least one element not in $A$.
+
+$$A \subseteq B \iff \forall x,\ x \in A \Rightarrow x \in B$$
+
+In LaTeX: ~$A \subseteq B$~ and ~$A \subset B$~
+
+*Example:* If $A = \{1, 2\}$ and $B = \{1, 2, 3\}$ then $A \subset B$.
+
+*Key facts:*
+- Every set is a subset of itself: $A \subseteq A$
+- The empty set is a subset of every set: $\emptyset \subseteq A$
+- $A = B$ if and only if $A \subseteq B$ and $B \subseteq A$
+
+*Medium connection:* Any region of the Medium is a subset of $M$.  The set of all
+knot-containing locations is a subset of all populated locations, which is a subset
+of $M$.  The subset relationship captures the hierarchical structure of the theory.
+
+*** Notation reference
+| What you want to say         | LaTeX syntax             |
+|------------------------------+--------------------------|
+| A is a subset of B           | ~$A \subseteq B$~        |
+| A is a proper subset of B    | ~$A \subset B$~          |
+| A is not a subset of B       | ~$A \not\subseteq B$~    |
+| For all x                    | ~$\forall x$~            |
+| If...then (implies)          | ~$\Rightarrow$~          |
+| If and only if               | ~$\iff$~                 |
+
+** 6. Union  $\cup$
+
+The union of two sets $A$ and $B$ is the set of everything that is in $A$, in $B$,
+or in both.
+
+$$A \cup B = \{x \mid x \in A \lor x \in B\}$$
+
+In LaTeX: ~$A \cup B$~  The symbol $\lor$ means /or/.
+
+*Example:* If $A = \{1, 2, 3\}$ and $B = \{3, 4, 5\}$ then:
+$$A \cup B = \{1, 2, 3, 4, 5\}$$
+
+Note that 3 appears in both sets but only once in the union — sets have no duplicates.
+
+*Medium connection:* The union of two regions of the Medium is the region covered by
+either.  The union of all populated locations across all time gives the full history
+of population in the Medium.
+
+** 7. Intersection  $\cap$
+
+The intersection of $A$ and $B$ is the set of everything that is in /both/ $A$ and $B$.
+
+$$A \cap B = \{x \mid x \in A \land x \in B\}$$
+
+In LaTeX: ~$A \cap B$~  The symbol $\land$ means /and/.
+
+*Example:* If $A = \{1, 2, 3\}$ and $B = \{3, 4, 5\}$ then:
+$$A \cap B = \{3\}$$
+
+If two sets share no elements their intersection is the empty set: $A \cap B = \emptyset$.
+Such sets are called /disjoint/.
+
+*Medium connection:* The intersection of two regions is the overlap between them.
+Two disjoint regions of the Medium share no locations.  Whether knots can be disjoint
+from one another or always share some influence on the Medium is an open question.
+
+** 8. Difference  $\setminus$
+
+The difference $A \setminus B$ (also written $A - B$) is the set of everything in
+$A$ that is /not/ in $B$.
+
+$$A \setminus B = \{x \mid x \in A \land x \notin B\}$$
+
+In LaTeX: ~$A \setminus B$~
+
+*Example:* If $A = \{1, 2, 3\}$ and $B = \{3, 4, 5\}$ then:
+$$A \setminus B = \{1, 2\}$$
+
+Note the direction matters: $A \setminus B \neq B \setminus A$ in general.
+
+*Medium connection:* The set of unpopulated locations in a region $R$ is $R \setminus P$
+where $P$ is the set of populated locations.
+
+** 9. Complement  $A^c$  or  $\overline{A}$
+
+The complement of $A$ is everything /not/ in $A$, relative to some understood
+universal set $U$.
+
+$$A^c = U \setminus A = \{x \mid x \in U \land x \notin A\}$$
+
+In LaTeX: ~$A^c$~ or ~$\overline{A}$~ or ~$U \setminus A$~
+
+*Medium connection:* In Medium theory the universal set is $M$ itself — the entire
+Medium.  The complement of the set of populated locations is the set of all
+unpopulated locations.  The complement of all knot-containing regions is all
+non-knotted regions.  Since the Medium is infinite and knots are rare, the complement
+of the knotted region is the overwhelmingly larger set.
+
+** 10. Power Set  $\mathcal{P}$
+
+The power set of $A$, written $\mathcal{P}(A)$, is the set of /all possible subsets/
+of $A$, including $\emptyset$ and $A$ itself.
+
+In LaTeX: ~$\mathcal{P}(A)$~
+
+*Example:* If $A = \{1, 2\}$ then:
+$$\mathcal{P}(A) = \{\emptyset,\ \{1\},\ \{2\},\ \{1,2\}\}$$
+
+A set with $n$ elements has a power set with $2^n$ elements.  For infinite sets the
+power set is a larger infinity than the set itself — this is Cantor's theorem.
+
+*Medium connection:* The power set of $M$ is the set of all possible regions of the
+Medium — every conceivable subset of locations.  The set of all possible population
+states of the Medium is a subset of $\mathcal{P}(M)$.  The power set is the space
+within which the probabilistic story of the Medium must be told.
+
+** 11. Cartesian Product  $\times$
+
+The Cartesian product $A \times B$ is the set of all ordered pairs $(a, b)$ where
+$a \in A$ and $b \in B$.
+
+$$A \times B = \{(a, b) \mid a \in A \land b \in B\}$$
+
+In LaTeX: ~$A \times B$~
+
+*Example:* If $A = \{1, 2\}$ and $B = \{x, y\}$ then:
+$$A \times B = \{(1,x),\ (1,y),\ (2,x),\ (2,y)\}$$
+
+Extended to three sets: $A \times B \times C$ gives ordered triples $(a, b, c)$.
+This generalizes to $n$ dimensions giving $n$-tuples.
+
+*Medium connection:* If a location in the Medium can carry multiple independent
+values simultaneously, those values form a tuple — an element of a Cartesian product
+of value sets.  However the Cartesian product imposes an ordering on dimensions,
+which may be an assumption the Medium framework needs to question or justify.
+The emergence of dimensionality from the Medium rather than its imposition may require
+going beyond the standard Cartesian product.
+
+** 12. Relations and Functions
+
+A /relation/ from $A$ to $B$ is any subset of $A \times B$ — a set of pairs
+$(a, b)$ expressing some relationship between elements.
+
+A /function/ $f: A \to B$ is a special relation where every element of $A$ is paired
+with exactly one element of $B$.
+
+$$f: A \to B \quad \text{means for every } a \in A,\ \exists! \, b \in B \text{ such that } f(a) = b$$
+
+In LaTeX: ~$f: A \to B$~  The symbol $\exists!$ means /there exists exactly one/.
+
+*Medium connection:* Probabilistic population can be expressed as a function.  A
+population function $p: M \to [0,1]$ assigns to each location in the Medium a
+probability value between 0 and 1.  A location with $p(l) = 0$ is never populated;
+$p(l) = 1$ is always populated; values between are probabilistically populated.
+This is one of the first formal definitions the theory will build toward.
+
+*** Notation reference
+| What you want to say           | LaTeX syntax                     |
+|--------------------------------+----------------------------------|
+| Function from A to B           | ~$f: A \to B$~                   |
+| f maps a to b                  | ~$f(a) = b$~                     |
+| There exists                   | ~$\exists x$~                    |
+| There exists exactly one       | ~$\exists! \, x$~                |
+| Real numbers between 0 and 1   | ~$[0, 1]$~                       |
+
+** 13. Quick Reference — All Core Symbols
+
+| Symbol              | LaTeX              | Meaning                          |
+|---------------------+--------------------+----------------------------------|
+| $\in$               | ~$\in$~            | is a member of                   |
+| $\notin$            | ~$\notin$~         | is not a member of               |
+| $\emptyset$         | ~$\emptyset$~      | empty set                        |
+| $\subseteq$         | ~$\subseteq$~      | subset (or equal)                |
+| $\subset$           | ~$\subset$~        | proper subset                    |
+| $\cup$              | ~$\cup$~           | union                            |
+| $\cap$              | ~$\cap$~           | intersection                     |
+| $\setminus$         | ~$\setminus$~      | set difference                   |
+| $A^c$               | ~$A^c$~            | complement of A                  |
+| $\mathcal{P}(A)$    | ~$\mathcal{P}(A)$~ | power set of A                   |
+| $\times$            | ~$\times$~         | Cartesian product                |
+| $\forall$           | ~$\forall$~        | for all                          |
+| $\exists$           | ~$\exists$~        | there exists                     |
+| $\exists!$          | ~$\exists!$~       | there exists exactly one         |
+| $\mid$              | ~$\mid$~           | such that (in set builder)       |
+| $\Rightarrow$       | ~$\Rightarrow$~    | implies                          |
+| $\iff$              | ~$\iff$~           | if and only if                   |
+| $\land$             | ~$\land$~          | and (logical)                    |
+| $\lor$              | ~$\lor$~           | or (logical)                     |
+| $\neg$              | ~$\neg$~           | not (logical)                    |
+
+* Magit Workflow — Version Control from Inside Emacs
+:PROPERTIES:
+:DESCRIPTION: Reference guide for committing and pushing the Medium theory document to GitHub using Magit
+:END:
+
+Magit is the Emacs interface to Git.  It allows the entire version control workflow
+to happen without leaving Emacs.  This section documents the core operations needed
+to maintain the Medium theory repository and push updates to GitHub, which in turn
+triggers Zenodo archiving when a release is made.
+
+** Concepts First
+
+*** The three states of a file
+Before learning the keystrokes it helps to understand what Git is tracking.
+
+| State      | Meaning                                                        |
+|------------+----------------------------------------------------------------|
+| Untracked  | Git does not know about this file yet                          |
+| Modified   | Git knows the file but it has changed since the last commit    |
+| Staged     | The change has been marked as ready to include in next commit  |
+| Committed  | The change is recorded permanently in the local repository     |
+| Pushed     | The committed change has been sent to GitHub                   |
+
+The workflow is always: modify → stage → commit → push.
+
+*** What a commit is
+A commit is a permanent snapshot of the document at a point in time.  It has a
+message you write describing what changed, a timestamp, and your name attached.
+This is the record that proves the development history of the theory.
+
+Good commit messages for this project are descriptive:
+- "Add formal definition of the Medium as a set"
+- "Complete set theory module 1 knowledge base"
+- "Revise propagation limit open question"
+
+Not useful:
+- "update"
+- "changes"
+- "fix"
+
+** Installing Magit
+
+If Magit is not yet installed, from inside Emacs:
+
+#+BEGIN_EXAMPLE
+M-x package-install RET magit RET
+#+END_EXAMPLE
+
+~M-x~ means hold Alt and press x.  ~RET~ means press Enter.
+
+Verify it is working:
+#+BEGIN_EXAMPLE
+M-x magit-status RET
+#+END_EXAMPLE
+
+This opens the Magit status buffer — the central dashboard for all operations.
+
+** Core Workflow — Step by Step
+
+*** Step 1 — Open Magit status
+From anywhere in Emacs:
+#+BEGIN_EXAMPLE
+C-x g
+#+END_EXAMPLE
+Or: ~M-x magit-status RET~
+
+This opens the Magit status buffer showing the current state of your repository —
+untracked files, modified files, staged changes, and recent commits.
+
+*** Step 2 — Stage your changes
+In the Magit status buffer, move the cursor to the file you want to stage and press:
+#+BEGIN_EXAMPLE
+s
+#+END_EXAMPLE
+To stage all changed files at once:
+#+BEGIN_EXAMPLE
+S
+#+END_EXAMPLE
+The file moves from the /Unstaged/ section to the /Staged/ section in the buffer.
+
+To unstage if you change your mind:
+#+BEGIN_EXAMPLE
+u
+#+END_EXAMPLE
+
+*** Step 3 — Commit
+With changes staged, press:
+#+BEGIN_EXAMPLE
+c c
+#+END_EXAMPLE
+That is: press ~c~ twice.
+
+A new buffer opens for you to type your commit message.  Write a clear description
+of what changed in this version of the theory.  Then to complete the commit:
+#+BEGIN_EXAMPLE
+C-c C-c
+#+END_EXAMPLE
+Hold Ctrl, press c, release, hold Ctrl, press c again.
+
+The commit is now recorded permanently in your local repository with your name
+and a timestamp.
+
+*** Step 4 — Push to GitHub
+To send your committed changes to GitHub:
+#+BEGIN_EXAMPLE
+P p
+#+END_EXAMPLE
+That is: press ~P~ (capital) then ~p~.
+
+Magit will push to the remote GitHub repository.  The changes are now on GitHub,
+permanently dated and publicly attributed to you.
+
+*** Step 5 — Verify on GitHub
+Open your repository page on GitHub in a browser and confirm the commit appears
+with the correct message and timestamp.  This is your confirmation that the record
+exists independently of your local machine.
+
+** Creating a Release for Zenodo Archiving
+
+A release is a named snapshot — Version 1.0, Version 1.1, and so on.  Creating a
+release on GitHub triggers Zenodo to automatically archive that snapshot and issue
+a DOI.  Do this at meaningful milestones, not every commit.
+
+Suggested release milestones for this project:
+- v0.1 — Initial framework, abstract, and action plan
+- v0.2 — Set theory knowledge base complete
+- v0.3 — First formal definitions of Medium primitives
+- v0.4 — Probability module complete
+- v1.0 — Complete first draft of formal framework
+
+To create a release, go to your GitHub repository in a browser, click /Releases/
+on the right side, then /Create a new release/.  Choose a tag (v0.1 etc), write a
+short description, and publish.  Zenodo will capture it automatically within minutes.
+
+** Quick Reference — Magit Keystrokes
+
+| Action                    | Keystrokes  | Notes                              |
+|---------------------------+-------------+------------------------------------|
+| Open Magit status         | ~C-x g~     | Central dashboard                  |
+| Stage a file              | ~s~         | Cursor on file in status buffer    |
+| Stage all files           | ~S~         | Stages everything modified         |
+| Unstage a file            | ~u~         | Cursor on staged file              |
+| Commit                    | ~c c~       | Opens commit message buffer        |
+| Finish commit message     | ~C-c C-c~   | Completes the commit               |
+| Abort commit              | ~C-c C-k~   | Cancels without committing         |
+| Push to GitHub            | ~P p~       | Sends commits to remote            |
+| Pull from GitHub          | ~F p~       | Fetches and merges remote changes  |
+| View commit log           | ~l l~       | Shows history of all commits       |
+| Quit Magit buffer         | ~q~         | Returns to previous buffer         |
+
+** Recommended Workflow Rhythm
+
+Each working session on the Medium theory document:
+
+1. Open the org file in Emacs and work normally
+2. At the end of the session open Magit with ~C-x g~
+3. Stage all changes with ~S~
+4. Commit with ~c c~, write a meaningful message, ~C-c C-c~
+5. Push with ~P p~
+6. At significant milestones create a GitHub release to trigger Zenodo archiving
+
+This rhythm ensures the development history is continuously preserved, dated, and
+attributed regardless of what happens to your local machine.
+
+* References and Resources
+
+** Set Theory
+- Halmos, /Naive Set Theory/ — accessible introduction, minimal prerequisites
+- Enderton, /Elements of Set Theory/ — more rigorous, good second step
+
+** Probability on Sets
+- Tijms, /Understanding Probability/ — conceptual approach, low barrier to entry
+- Kolmogorov, /Foundations of the Theory of Probability/ — the axiomatic foundation
+
+** Topology
+- Munkres, /Topology/ — standard introductory text
+- Flegg, /From Geometry to Topology/ — conceptual bridge, low prerequisites
+
+** Broader Foundational Mathematics
+- Lawvere and Schanuel, /Conceptual Mathematics/ — introduction to category theory
+  for non-specialists; relevant if category theory proves a better foundation than
+  set theory for the Medium model
