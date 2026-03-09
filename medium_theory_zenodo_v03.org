@@ -21,7 +21,7 @@
 #+LATEX_HEADER: \fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
 #+LATEX_HEADER: \fancypagestyle{body}{%
 #+LATEX_HEADER:   \fancyhf{}%
-#+LATEX_HEADER:   \fancyhead[C]{\small Version 0.3 $\cdot$ DOI: 10.5281/zenodo.18927155 $\cdot$ CC BY 4.0}%
+#+LATEX_HEADER:   \fancyhead[C]{\small Version 0.3 $\cdot$ DOI: 10.5281/zenodo.18927154 $\cdot$ CC BY 4.0}%
 #+LATEX_HEADER:   \fancyfoot[C]{\thepage}%
 #+LATEX_HEADER:   \renewcommand{\headrulewidth}{0.4pt}}
 
@@ -377,4 +377,4 @@ https://creativecommons.org/licenses/by/4.0/
 
 All versions of this document are archived on Zenodo and remain linked to the authorship record of Bradley K. DePuy, independent researcher.
 
-DOI: 10.5281/zenodo.18927155
+DOI: 10.5281/zenodo.18927154
