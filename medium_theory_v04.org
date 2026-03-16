@@ -1,0 +1,383 @@
+#+TITLE: The Medium: A Foundational Theory of Reality
+#+AUTHOR: Bradley K. DePuy, Independent Researcher
+#+DATE: 2026
+#+OPTIONS: toc:nil num:t H:4 ^:nil title:nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [11pt,letterpaper]
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{amssymb}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.2in, right=1.2in, top=1.0in, bottom=1.0in}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \usepackage{microtype}
+#+LATEX_HEADER: \usepackage[hidelinks]{hyperref}
+#+LATEX_HEADER: \setlength{\parindent}{0pt}
+#+LATEX_HEADER: \setlength{\parskip}{6pt}
+#+LATEX_HEADER: % --- Page style: no header on title/TOC, header from page 3 onward ---
+#+LATEX_HEADER: \fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+#+LATEX_HEADER: \fancypagestyle{body}{%
+#+LATEX_HEADER:   \fancyhf{}%
+#+LATEX_HEADER:   \fancyhead[C]{\small Version 0.4 $\cdot$ DOI: 10.5281/zenodo.18927154 $\cdot$ CC BY 4.0}%
+#+LATEX_HEADER:   \fancyfoot[C]{\thepage}%
+#+LATEX_HEADER:   \renewcommand{\headrulewidth}{0.4pt}}
+
+#+BEGIN_EXPORT latex
+%% ---- TITLE PAGE (page 1, no header) ----
+\pagestyle{plain}
+\begin{titlepage}
+\vspace*{4cm}
+\begin{center}
+  {\LARGE\bfseries The Medium}\\[0.6em]
+  {\large A Foundational Theory of Reality}\\[2.5em]
+  {\normalsize Bradley K. DePuy, Independent Researcher}\\[0.5em]
+  {\normalsize 2026}
+\end{center}
+\end{titlepage}
+
+%% ---- TABLE OF CONTENTS (page 2, no header) ----
+\pagestyle{plain}
+\tableofcontents
+\clearpage
+
+%% ---- Body begins (page 3+, header active) ----
+\pagestyle{body}
+#+END_EXPORT
+
+* A Recognition and a Challenge
+
+Modern science is one of the great achievements of the human mind. Quantum mechanics predicts the behavior of matter at the smallest accessible scales with a precision unmatched in the history of empirical inquiry. General relativity describes the geometry of spacetime and the behavior of gravity across cosmological distances with equal exactness. The Standard Model catalogs the fundamental particles and their interactions with extraordinary completeness. These are not approximations or guesses. They are hard-won structures --- the accumulated result of centuries of observation, mathematical invention, and ruthless experimental test.
+
+This document does not dispute any of it.
+
+What it asks instead is a prior question: /from where does all of this project?/ The equations of physics are precise maps. The challenge issued here is to identify the territory they map --- not the territory of observable phenomena, which physics has surveyed magnificently, but the substrate that gives rise to a universe in which observation is possible at all.
+
+There is a structural limitation that physics has not yet confronted fully. Every observer who has ever done physics is an earth-bound, or at least matter-bound, human being. That observer arrived late --- billions of years after the universe began --- embedded in a tiny corner of differentiated structure, equipped with sensory apparatus tuned to a narrow band of the available spectrum, using a dimensional coordinate system (meters, seconds, joules) that was built to make the middle scales tractable. The language of physics was constructed from inside the structure it attempts to describe. Its constants, dimensions, and equations carry the fingerprints of that position.
+
+This is not a criticism. It is a geometric fact. A fish is not wrong about water. But a fish cannot give you a substrate-level account of what water is.
+
+The framework presented here is a challenge to go deeper. It does not ask physicists to abandon what they have built. It asks them to recognize that the edifice rests on a substrate not yet formally described --- and to consider whether such a description is possible, and what would follow if it were.
+
+The challenge is open. The framework is offered under CC BY 4.0. Anyone who can take it further should.
+
+#+BEGIN_QUOTE
+/Out of empty chaos all of creation becomes./
+
+That sentence is the theory. Everything that follows is the attempt to say it precisely.
+#+END_QUOTE
+
+The central clarification of v0.4: The substrate and the observer's framework are two distinct layers. This document is divided accordingly. Part I describes the substrate --- purely, completely, with nothing added. Part II describes how physics emerges as a projection of that substrate into the observer's dimensional framework. Nothing from Part II belongs in Part I. Nothing from Part I requires Part II to be true.
+
+* PART I: THE SUBSTRATE
+
+The substrate description is complete in itself. It contains no dimensions, no observers, no physics. It is what it is.
+
+** The Foundational Claim
+
+The framework rests on a single foundational claim:
+
+#+BEGIN_QUOTE
+The Medium always is and always was. It has no beginning and no end. It exists outside of any temporal framework. Intrinsic distinction is an eternal property of the Medium --- not an event that occurred but a condition that always obtains. The structure we observe is not the result of something that happened. It is the expression of what the Medium always is.
+#+END_QUOTE
+
+This claim does three things at once.
+
+*It eliminates the need for a trigger.* The question of what initiated the universe only arises if time is assumed to be primitive. If the Medium always is and always was, there is no before and no initiation. The trigger problem dissolves not by answering it but by identifying it as a consequence of a false assumption.
+
+*It eliminates time as a primitive.* The Medium exists outside of time. What we call time is not a property of the substrate. It is downstream --- a consequence of transition, not a fundamental feature of reality.
+
+*It reframes differentiation.* The emergence of structure is not a process that started. It is a condition that always obtains. The ground state and the differentiated state coexist within the Medium eternally, because intrinsic distinction --- \iota --- is eternal.
+
+** The Ground State
+
+The Medium at its ground state is a fully autonomous stochastic system. It requires no inputs, no external cause, no temporal framework, and no governing distribution. Its randomness is not randomness within a framework --- it is randomness without framework. No outcome is privileged. No state is preferred.
+
+This is not chaos. Chaos retains structure. The ground state of the Medium precedes structure entirely. It is meta-randomness --- randomness that is random about its own nature.
+
+In a substrate of infinite extent with no preferred states, every possible configuration has nonzero probability. This is not intuitive but is mathematically unavoidable:
+
+#+BEGIN_QUOTE
+Every possible fluctuation --- including the emergence of ordered, structured, low-entropy configurations --- is not merely possible but necessary as a feature of the distribution itself.
+#+END_QUOTE
+
+The universe is not something that happened against the odds. It is a necessary expression of a substrate that has no mechanism for suppressing any possibility.
+
+** Axioms
+
+*** Axiom I --- The Eternal Medium
+
+The Medium always is and always was. It has no beginning, no end, and no external cause.
+
+\begin{equation}
+\nexists\, t_0 : M \text{ begins at } t_0 \qquad \nexists\, t_1 : M \text{ ends at } t_1
+\end{equation}
+
+/Status: Axiomatic./
+
+*** Axiom II --- Intrinsic Distinction
+
+The Medium possesses one property: intrinsic distinction, denoted \iota. It is not an operator, not a function, not a process. It is what the Medium is --- the capacity of the undifferentiated to give rise to the differentiated.
+
+/Status: Axiomatic. Nature of \iota under investigation./
+
+*** Axiom III --- Locality Emergence
+
+Location does not exist prior to differentiation. It is produced when differentiation, propagating at the limit $c$, gives rise to self-sustaining structure. Before this condition is met, position and distance are genuinely absent --- not suppressed but nonexistent.
+
+/Status: Axiomatic./
+
+** Primitives
+
+*** Primitive I --- The Binary Field
+
+The state of the Medium is completely described by a binary field $\phi$: at every location, manifestation either has occurred or it has not.
+
+\begin{equation}
+\phi : M \to \{0, 1\}
+\end{equation}
+
+\begin{equation}
+\phi(x) = 1 \text{ if manifestation has occurred at } x,\ 0 \text{ otherwise}
+\end{equation}
+
+#+BEGIN_CENTER
+The complete formal description of the Medium's state.
+#+END_CENTER
+
+/Status: Current./
+
+*** Primitive II --- Manifestation Occurrence
+
+Manifestation at any location is a stochastic event. At any transition, a location either manifests or it does not. The substrate imposes no preference. No location is guaranteed to manifest. No location is guaranteed not to.
+
+\begin{equation}
+\phi(x) \in \{0, 1\} \text{ at each transition (no preference, no guarantee)}
+\end{equation}
+
+/Status: Current./
+
+*** Primitive III --- Transition
+
+The state of the binary field changes from one configuration to another. The transition index $t$ is a dimensionless label --- not a clock, not a duration, not a direction. It marks that a change has occurred.
+
+\begin{equation}
+M_t \to M_{t+1}
+\end{equation}
+
+/Status: Current./
+
+*** Primitive IV --- The Propagation Limit
+
+The substrate imposes a constraint on how rapidly manifestation can propagate across a transition. This limit is denoted $c$. It is a pure bound on the rate of change of the binary field --- not a velocity, not a duration.
+
+\begin{equation}
+|\phi_{t+1}(x) - \phi_t(x)| \leq c \quad \text{(dimensionless bound)}
+\end{equation}
+
+/Status: Provisional./
+
+*** Primitive V --- Structure Formation
+
+A self-sustaining structure forms when propagation reaches the limit exactly. This is the threshold at which locality is born.
+
+\begin{equation}
+|\phi_{t+1}(x) - \phi_t(x)| = c
+\end{equation}
+
+/Status: Provisional./
+
+*** Primitive VI --- Co-Manifestation
+
+Two locations that both carry $\phi = 1$ share a state. That is the only substrate relationship between them. The binary field imposes no distance, no ordering, no spatial relationship of any kind between locations that carry the same value. Two locations may both carry $\phi = 1$ with no chain of $\phi = 1$ values connecting them across the field. The field topology is not spatial. There is no /between/ at the substrate level.
+
+\begin{equation}
+x \sim y \iff \phi(x) = \phi(y) = 1
+\end{equation}
+
+#+BEGIN_CENTER
+Shared state. No distance. No space. No ordering.
+#+END_CENTER
+
+This is prior to locality. Any spatial relationship between $x$ and $y$ is constructed downstream, after structure formation establishes the conditions in which distance becomes meaningful.
+
+/Status: Current./
+
+** The Entropic Arc
+
+The stochastic ground state and the binary field together imply a complete arc for physical reality within the Medium.
+
+The ground state --- $\phi = 0$ almost everywhere, fully random, no structure --- is maximum undifferentiation. Every configuration of the binary field is equally possible. No arrangement is preferred over any other.
+
+The first manifestation event --- $\phi$ flipping from 0 to 1 at a single location --- is the emergence of one specific configuration from a state where all configurations are equally possible. This is minimum local distinction from maximum undifferentiation. It resolves, without being asked, the deepest unexplained initial condition in current physics: the universe began in a state of extraordinarily low entropy. Within the Medium framework this is not a brute fact. It is a necessary consequence of Axiom II.
+
+The arc:
+
+1. The Medium at maximum undifferentiation --- $\phi = 0$ almost everywhere.
+2. \iota manifests --- $\phi$ flips from 0 to 1 --- minimum local distinction.
+3. Structure forms at $c$ --- locality is born --- patterns propagate and stabilize.
+4. Complexity builds --- sustained low-distinction configurations persist across transitions.
+5. The trajectory continues toward maximum undifferentiation --- $\phi$ returns toward 0.
+
+#+BEGIN_QUOTE
+Not a beginning and an end. A breathing.
+#+END_QUOTE
+
+Because \iota is an eternal property of the Medium, this arc does not occur once. It occurs wherever and whenever \iota manifests. The binary field blinks into structure and blinks out again, across an infinite substrate that does not notice.
+
+** The Substrate --- Complete
+
+The substrate description is now complete. It contains:
+
+- One substrate: the Medium
+- One property: \iota
+- One field: $\phi \in \{0, 1\}$
+- One constraint: propagation bounded by $c$
+- One relationship: co-manifestation $x \sim y$
+- One arc: maximum undifferentiation \to structure \to maximum undifferentiation
+
+#+BEGIN_QUOTE
+Nothing else belongs here. Everything else is downstream.
+#+END_QUOTE
+
+* PART II: THE PROJECTION LAYER
+
+Everything in Part II is downstream of the substrate. Dimensions, constants, observers, and all of physics live here --- valid, precise, and complete as descriptions of projected structure. Not descriptions of the substrate itself.
+
+** The Observer's Position
+
+Before describing the projections, it is necessary to name what the observer is and what it is not.
+
+An observer is a self-sustaining structure in the binary field --- a stable pattern that persists across transitions, embedded in the differentiated region it constitutes. Every observer who has ever done physics is such a structure. Every human observer is an earth-bound variant: carbon-based, temperature-sensitive, confined to a narrow spatial and temporal window, equipped with sensory apparatus tuned to a small fraction of the available signal, and dependent on cognitive architecture shaped by survival pressures that predate science by orders of magnitude.
+
+These are not complaints. They are structural facts that bear on what physics can and cannot see from its current position.
+
+The observer arrives late. The substrate has been operating --- in whatever sense ``operating'' applies to an eternal, timeless ground --- without observers for the overwhelming majority of the arc. The observer arrives embedded in a mature, highly differentiated region of the binary field. It has no access to the substrate prior to structure formation. It has no access to regions beyond the propagation horizon of its own local structure. Its coordinate system --- meters, seconds, joules, kelvins --- was built to make /its own scale/ tractable. That coordinate system is extraordinarily powerful within its domain. It is not a description of the substrate. It is a description of the projection.
+
+The constants of physics --- $h$, $c$, $G$, $k$ --- are the seams where the observer's dimensional framework meets the substrate's dimensionless operations. They are not brute inputs. They are artifacts of the position from which the measurement is taken.
+
+A different observer, embedded in a different region of the binary field at a different stage of the arc, with a different sensory range and a different coordinate system, would derive different constants and call them fundamental. They would be equally right and equally downstream.
+
+** Physics as Projection
+
+The Medium is pre-dimensional. The binary field $\phi$ carries no units. The propagation limit $c$ is a dimensionless transition bound. The transition index $t$ is a dimensionless label.
+
+#+BEGIN_QUOTE
+Dimensions do not exist in the substrate. They are constructed by observers.
+#+END_QUOTE
+
+To describe the relationships between structures like itself, the observer constructs a coordinate system --- a framework of units and dimensions that makes the relationships tractable. That coordinate system is not a discovery about the substrate. It is a construction of the observer.
+
+#+BEGIN_QUOTE
+Every dimensional quantity in physics --- every constant, every observable, every equation --- is a projection of a substrate relationship onto the observer's dimensional coordinate system. Physics is the complete and consistent description of those projections. It is a perfect map of the shadow. It is not a description of the substrate that casts it.
+#+END_QUOTE
+
+** The Projection Boundary
+
+The boundary between the substrate and the observer's framework is the boundary between the substrate's natural quantities and the dimensional. Everything on the substrate side is a binary value, a dimensionless bound, or a dimensionless label. Everything on the observer side carries units. The boundary is a structural feature of the framework.
+
+#+CAPTION: Substrate quantities and their observer projections. Each row is a derivation target.
+#+ATTR_LATEX: :environment tabular :align lp{6cm} :booktabs t
+| *Substrate*                     | *Observer projection (dimensional)*              |
+|---------------------------------+--------------------------------------------------|
+| $c$ (transition bound)          | $c$ [length/time] --- speed of light             |
+| $\phi(x) \in \{0, 1\}$          | quantum amplitude, probability                   |
+| $t$ (transition index)          | time [seconds]                                   |
+| structure formation condition   | spacetime geometry                               |
+| undifferentiation measure       | thermodynamic entropy [J/K]                      |
+| propagation pattern density     | energy, mass [J, kg]                             |
+| co-manifestation $x \sim y$     | quantum entanglement                             |
+| \iota (intrinsic distinction)   | [to be derived]                                  |
+
+Table 1 is not a set of results. It is a research program. Each row identifies a correspondence that must be formally derived. Version 0.4 establishes the framework and the boundary. The derivations are the work of future versions.
+
+** Planck's Constant
+
+Planck's constant $h$ is the observer's measurement of one irreducible unit of substrate process --- one activation of \iota --- expressed in the observer's dimensional coordinate system, which assigns units of action (energy multiplied by time) to what the substrate presents as one indivisible occurrence of the only thing it does.
+
+The constancy of $h$ follows directly. Every manifestation is identical --- the same occurrence of the same property of the same substrate, without variation. The observer always measures the same thing and always gets the same number. The constancy of $h$ is not a fact about physics. It is a consequence of the irreducible uniformity of \iota.
+
+An open question is carried explicitly: why does the projection carry units of action specifically --- energy multiplied by time --- and not some other dimensional combination? The answer requires a derivation of the observer's dimensional categories from the structure of sustained binary field configurations. That derivation is a primary target for future development.
+
+** Co-Manifestation and Entanglement
+
+At the substrate level, two locations carrying $\phi = 1$ share a state with no spatial relationship between them. There is no distance at the substrate level. There is no /between/.
+
+When an observer embedded in differentiated structure encounters two events that are correlated regardless of their spatial separation, it calls this entanglement. Entanglement is the observer's projection of co-manifestation $x \sim y$ into a framework that expects spatial locality to govern correlation. The apparent mystery of entanglement --- correlation without causal connection across space --- dissolves at the substrate level, where space does not yet exist and co-manifestation requires no connection at all.
+
+** The Stochastic Character --- Observer's Description
+
+At the substrate level, manifestation at any location either occurs or it does not, with no preference and no guarantee. An observer describing this stochastic character mathematically recognizes it as a Bernoulli process --- a binary outcome with an associated probability $p(x)$ at each location. This is the observer's mathematical framework imposed on the substrate's stochastic character. The substrate does not know about Bernoulli. It simply manifests or does not.
+
+The full statistical mechanics of the ground state --- entropy, temperature, distributions --- emerges on the observer side as the projection of the substrate's undifferentiated stochastic character into the observer's thermodynamic framework.
+
+** The General Principle
+
+The presence of dimensional constants in the equations of physics --- $h$, $c$, $G$, $k$ --- is the signature of projection. Each constant marks a place where the observer's dimensional framework has been imposed on a substrate relationship that has none. In the substrate's own terms, those constants do not appear.
+
+The program implied by Table 1: for each row, derive the dimensional form of the observer quantity from the substrate quantity and a formal account of the projection boundary. If that program succeeds, every fundamental constant of physics will have been given a substrate derivation --- and the mystery of their values resolved, not by finding deeper constants, but by understanding that they were never fundamental to begin with.
+
+** The Problem With Where We Started
+
+Modern physics is extraordinary. Its achievements are beyond dispute. But the foundations were built from the wrong starting point --- from the human scale outward, not from the substrate up.
+
+The consequences are visible at the edges. The two most precisely verified theories in the history of science are fundamentally incompatible. Approximately 95% of the universe by current models consists of placeholder labels for things that do not fit. The practitioners of the field know this and say so.
+
+The presence of dimensional constants as brute unexplained inputs is itself a symptom. A theory built from the substrate would not require them. They appear because physics was built from the observer's position, and the observer's dimensional coordinate system was baked into the language from the start. The constants are the seams where the observer's framework was stitched together without understanding what it was stitching.
+
+** On Existing Physics
+
+The existing mathematical frameworks of physics are valid descriptions of differentiated structure behavior within their respective domains. They are not wrong. They are downstream. They are precise and consistent descriptions of the observer's projection of the substrate.
+
+The Medium framework does not replace them. It identifies the substrate from which they project --- and defines the program by which their dimensional constants can, in principle, be derived rather than assumed.
+
+* Unresolved Questions
+
+These are the frontier of the framework, stated precisely and carried explicitly.
+
+*The Nature of \iota.* What is intrinsic distinction? The provisional characterization --- the property permitting local, spontaneous reduction from maximum undifferentiation in a fully random substrate --- is the central open question of the theory.
+
+*The Formal Account of the Projection Boundary.* How does an observer embedded in the binary field construct a dimensional coordinate system? What determines which dimensional categories emerge? This is the primary task for the next stage of formal development.
+
+*Why Does One Manifestation Project to Action?* The observer's measurement of one irreducible substrate occurrence produces a quantity with units of action --- energy multiplied by time. Why this dimensional combination? Until that derivation exists, the correspondence between one unit of substrate process and $h$ [action] is a named target, not a result.
+
+*The Derivation of Each Row of Table 1.* $c$ [m/s] from the dimensionless transition bound. $G$ from structure formation geometry. Thermodynamic entropy from the substrate's undifferentiation measure. Each is an open derivation, explicitly deferred.
+
+*The Structure That Emerges.* What precisely is the self-sustaining binary pattern that forms when the structure formation condition is met? The formal definition of these patterns is the primary task of the next stage of development.
+
+*The Observer Boundary.* The observer is a sustained binary configuration within $\phi$, attempting to describe the substrate that produced her from within it. Every formal system contains truths it cannot prove from within itself. The Medium framework faces an analogous boundary, and acknowledges it.
+
+* Summary
+
+#+CAPTION: Complete symbol table for version 0.4
+#+ATTR_LATEX: :environment tabular :align llp{3cm} :booktabs t
+| *Symbol*                      | *Definition*                                                        | *Status*          |
+|-------------------------------+---------------------------------------------------------------------+-------------------|
+| \iota                         | Intrinsic Distinction --- one property of the Medium                | Axiomatic         |
+| $\phi : M \to \{0,1\}$        | Binary field --- complete substrate description                     | Current           |
+| $x \sim y$                    | Co-manifestation --- shared state, no distance                      | Current           |
+| $t$                           | Transition index --- dimensionless label                            | Current           |
+| $c$                           | Propagation limit --- dimensionless bound                           | Provisional       |
+| Projection boundary           | Substrate has no dimensions; dimensions are observer constructs     | Current           |
+| $h = \mathrm{proj}(\iota)$    | Planck's constant --- dimensional projection of one \iota event     | Provisional       |
+| $x \sim y \to$ entanglement   | Co-manifestation projects to quantum entanglement                   | Provisional       |
+
+* A Personal Note
+
+I am seventy-nine years old. I am not an academic. I have no credentials in physics or mathematics. I began this work with a question that would not leave me alone and a conviction that the question deserved a serious attempt at an answer.
+
+I began this work knowing I may not live to see it reach its conclusions. That does not trouble me. What matters is that the ideas are documented, attributed, and made available to anyone who finds them worthy of development. If this framework contains something true it belongs to whoever can take it further. My name attached to it is enough --- for the record, and for my family.
+
+Gregor Mendel published his work on inheritance and it sat unread for decades before being recognized as foundational. The ideas belong to whoever finds them. The record belongs to their origin.
+
+* License and Attribution
+
+This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to share and adapt this material for any purpose, including commercially, provided you give appropriate credit to the original author, provide a link to the license, and indicate if changes were made.
+
+https://creativecommons.org/licenses/by/4.0/
+
+All versions of this document are archived on Zenodo and remain linked to the authorship record of Bradley K. DePuy, independent researcher.
+
+DOI: 10.5281/zenodo.18927154
