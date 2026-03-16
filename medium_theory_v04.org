@@ -87,7 +87,7 @@ This claim does three things at once.
 
 *It eliminates the need for a trigger.* The question of what initiated the universe only arises if time is assumed to be primitive. If the Medium always is and always was, there is no before and no initiation. The trigger problem dissolves not by answering it but by identifying it as a consequence of a false assumption.
 
-*It eliminates time as a primitive.* The Medium exists outside of time. What we call time is not a property of the substrate. It is downstream --- a consequence of transition, not a fundamental feature of reality.
+*It eliminates time as a primitive.* The Medium exists outside of time. What we call time is not a property of the substrate. It is downstream --- a consequence of repeated manifestation, not a fundamental feature of reality.
 
 *It reframes differentiation.* The emergence of structure is not a process that started. It is a condition that always obtains. The ground state and the differentiated state coexist within the Medium eternally, because intrinsic distinction --- \iota --- is eternal.
 
@@ -151,45 +151,35 @@ The complete formal description of the Medium's state.
 
 *** Primitive II --- Manifestation Occurrence
 
-Manifestation at any location is a stochastic event. At any transition, a location either manifests or it does not. The substrate imposes no preference. No location is guaranteed to manifest. No location is guaranteed not to.
+Manifestation at any location is a stochastic event. A location either manifests or it does not. The substrate imposes no preference. No location is guaranteed to manifest. No location is guaranteed not to.
 
 \begin{equation}
-\phi(x) \in \{0, 1\} \text{ at each transition (no preference, no guarantee)}
+\phi(x) \in \{0, 1\} \text{ (no preference, no guarantee)}
 \end{equation}
 
 /Status: Current./
 
-*** Primitive III --- Transition
+*** Primitive III --- The Propagation Limit
 
-The state of the binary field changes from one configuration to another. The transition index $t$ is a dimensionless label --- not a clock, not a duration, not a direction. It marks that a change has occurred.
-
-\begin{equation}
-M_t \to M_{t+1}
-\end{equation}
-
-/Status: Current./
-
-*** Primitive IV --- The Propagation Limit
-
-The substrate imposes a constraint on how rapidly manifestation can propagate across a transition. This limit is denoted $c$. It is a pure bound on the rate of change of the binary field --- not a velocity, not a duration.
+The substrate imposes a constraint on how rapidly manifestation can propagate. This limit is denoted $c$. It is a pure bound on the rate of change of the binary field --- not a velocity, not a duration.
 
 \begin{equation}
-|\phi_{t+1}(x) - \phi_t(x)| \leq c \quad \text{(dimensionless bound)}
+|\Delta\phi(x)| \leq c \quad \text{(dimensionless bound)}
 \end{equation}
 
 /Status: Provisional./
 
-*** Primitive V --- Structure Formation
+*** Primitive IV --- Structure Formation
 
 A self-sustaining structure forms when propagation reaches the limit exactly. This is the threshold at which locality is born.
 
 \begin{equation}
-|\phi_{t+1}(x) - \phi_t(x)| = c
+|\Delta\phi(x)| = c
 \end{equation}
 
 /Status: Provisional./
 
-*** Primitive VI --- Co-Manifestation
+*** Primitive V --- Co-Manifestation
 
 Two locations that both carry $\phi = 1$ share a state. That is the only substrate relationship between them. The binary field imposes no distance, no ordering, no spatial relationship of any kind between locations that carry the same value. Two locations may both carry $\phi = 1$ with no chain of $\phi = 1$ values connecting them across the field. The field topology is not spatial. There is no /between/ at the substrate level.
 
@@ -213,13 +203,14 @@ The ground state --- $\phi = 0$ almost everywhere, fully random, no structure --
 
 The first manifestation event --- $\phi$ flipping from 0 to 1 at a single location --- is the emergence of one specific configuration from a state where all configurations are equally possible. This is minimum local distinction from maximum undifferentiation. It resolves, without being asked, the deepest unexplained initial condition in current physics: the universe began in a state of extraordinarily low entropy. Within the Medium framework this is not a brute fact. It is a necessary consequence of Axiom II.
 
-The arc:
+The arc is not a sequence of events. It is a condition that obtains wherever and whenever \iota manifests --- the necessary shape of any region of the binary field that has differentiated from the ground state and will return to it. The observer, embedded within it, narrates it as a progression. At the substrate level it simply is.
 
-1. The Medium at maximum undifferentiation --- $\phi = 0$ almost everywhere.
-2. \iota manifests --- $\phi$ flips from 0 to 1 --- minimum local distinction.
-3. Structure forms at $c$ --- locality is born --- patterns propagate and stabilize.
-4. Complexity builds --- sustained low-distinction configurations persist across transitions.
-5. The trajectory continues toward maximum undifferentiation --- $\phi$ returns toward 0.
+The condition has four aspects:
+
+- Maximum undifferentiation: $\phi = 0$ almost everywhere --- the ground state
+- Minimum local distinction: \iota manifests, $\phi$ flips from 0 to 1 at a location
+- Structure: propagation reaches $c$, locality emerges, patterns stabilize
+- Return: the trajectory toward maximum undifferentiation, $\phi$ returning toward 0
 
 #+BEGIN_QUOTE
 Not a beginning and an end. A breathing.
@@ -358,7 +349,6 @@ These are the frontier of the framework, stated precisely and carried explicitly
 | \iota                         | Intrinsic Distinction --- one property of the Medium                | Axiomatic         |
 | $\phi : M \to \{0,1\}$        | Binary field --- complete substrate description                     | Current           |
 | $x \sim y$                    | Co-manifestation --- shared state, no distance                      | Current           |
-| $t$                           | Transition index --- dimensionless label                            | Current           |
 | $c$                           | Propagation limit --- dimensionless bound                           | Provisional       |
 | Projection boundary           | Substrate has no dimensions; dimensions are observer constructs     | Current           |
 | $h = \mathrm{proj}(\iota)$    | Planck's constant --- dimensional projection of one \iota event     | Provisional       |
