@@ -371,3 +371,4 @@ https://creativecommons.org/licenses/by/4.0/
 All versions of this document are archived on Zenodo and remain linked to the authorship record of Bradley K. DePuy, independent researcher.
 
 DOI: 10.5281/zenodo.18927154
+https://orcid.org/0009-0001-0328-2299
