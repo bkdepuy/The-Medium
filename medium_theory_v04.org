@@ -49,27 +49,20 @@
 
 * A Recognition and a Challenge
 
-Modern science is one of the great achievements of the human mind. Quantum mechanics predicts the behavior of matter at the smallest accessible scales with a precision unmatched in the history of empirical inquiry. General relativity describes the geometry of spacetime and the behavior of gravity across cosmological distances with equal exactness. The Standard Model catalogs the fundamental particles and their interactions with extraordinary completeness. These are not approximations or guesses. They are hard-won structures --- the accumulated result of centuries of observation, mathematical invention, and ruthless experimental test.
+Modern science is one of the great achievements of the human mind. Quantum mechanics predicts the behavior of matter at the smallest accessible scales with a precision unmatched in the history of empirical inquiry. General relativity describes the geometry of spacetime and the behavior of gravity across cosmological distances with equal exactness. The Standard Model catalogs the fundamental particles and their interactions with extraordinary completeness. These are not approximations or guesses. They are hard-won structures --- the accumulated result of centuries of observation, mathematical invention, and experimental testing.
 
 This document does not dispute any of it.
 
-What it asks instead is a prior question: /from where does all of this project?/ The equations of physics are precise maps. The challenge issued here is to identify the territory they map --- not the territory of observable phenomena, which physics has surveyed magnificently, but the substrate that gives rise to a universe in which observation is possible at all.
+What it asks instead is the question: /from where does all of this begin?/ The equations of physics are precise maps. The challenge is to identify the territory they map --- not the territory of observable phenomena, which physics has surveyed magnificently, but the foundation that gives rise to a universe in which observation is possible at all.
 
-There is a structural limitation that physics has not yet confronted fully. Every observer who has ever done physics is an earth-bound, or at least matter-bound, human being. That observer arrived late --- billions of years after the universe began --- embedded in a tiny corner of differentiated structure, equipped with sensory apparatus tuned to a narrow band of the available spectrum, using a dimensional coordinate system (meters, seconds, joules) that was built to make the middle scales tractable. The language of physics was constructed from inside the structure it attempts to describe. Its constants, dimensions, and equations carry the fingerprints of that position.
+There is a limitation that physics has not confronted fully. Anyone who has ever done physics is an earth-bound observer. That observer arrived late --- billions of years after the universe began --- in the midst of an apparent infinite universe. That observer equipped with the sensory tools required for it's survival began to ask the questions. Using a dimensional coordinate system (meters, seconds, joules) physics constructed systems defined to understand what is seen from that observation point. Constants, dimensions, and equations carry the fingerprints of that position.
 
-This is not a criticism. It is a geometric fact. A fish is not wrong about water. But a fish cannot give you a substrate-level account of what water is.
-
-The framework presented here is a challenge to go deeper. It does not ask physicists to abandon what they have built. It asks them to recognize that the edifice rests on a substrate not yet formally described --- and to consider whether such a description is possible, and what would follow if it were.
-
-The challenge is open. The framework is offered under CC BY 4.0. Anyone who can take it further should.
 
 #+BEGIN_QUOTE
 /Out of empty chaos all of creation becomes./
 
 That sentence is the theory. Everything that follows is the attempt to say it precisely.
 #+END_QUOTE
-
-The central clarification of v0.4: The substrate and the observer's framework are two distinct layers. This document is divided accordingly. Part I describes the substrate --- purely, completely, with nothing added. Part II describes how physics emerges as a projection of that substrate into the observer's dimensional framework. Nothing from Part II belongs in Part I. Nothing from Part I requires Part II to be true.
 
 * PART I: THE SUBSTRATE
 
@@ -133,7 +126,7 @@ Location does not exist prior to differentiation. It is produced when differenti
 
 *** Primitive I --- The Binary Field
 
-The state of the Medium is completely described by a binary field $\phi$: at every location, manifestation either has occurred or it has not.
+The state of the Medium is described by a binary field $\phi$: at every location, manifestation either has occurred or it has not.
 
 \begin{equation}
 \phi : M \to \{0, 1\}
