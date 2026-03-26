@@ -53,18 +53,17 @@ Modern science is one of the great achievements of the human mind. Quantum mecha
 
 This document does not dispute any of it.
 
-What it asks instead is the question: /from where does all of this begin?/ The equations of physics are precise maps. The challenge is to identify the territory they map --- not the territory of observable phenomena, which physics has surveyed magnificently, but the foundation that gives rise to a universe in which observation is possible at all.
+What it asks instead is the question: /from where did it begin?/ The equations of physics are precise maps. The challenge is to identify the territory they map --- not the territory of observable phenomena, which physics has surveyed magnificently, but the foundation that gives rise to a universe in which observation is possible at all.
 
-There is a limitation that physics has not confronted fully. Anyone who has ever done physics is an earth-bound observer. That observer arrived late --- billions of years after the universe began --- in the midst of an apparent infinite universe. That observer equipped with the sensory tools required for it's survival began to ask the questions. Using a dimensional coordinate system (meters, seconds, joules) physics constructed systems defined to understand what is seen from that observation point. Constants, dimensions, and equations carry the fingerprints of that position.
-
+There is a limitation that physics has not confronted fully. Anyone who has ever done physics is an earth-bound observer even with the advent of space born sensors. That observer arrived late --- billions of years after the universe began --- in the midst of an apparent infinite universe. That observer equipped with the sensory tools required for it's survival began to ask the questions. Using a dimensional coordinate system (meters, seconds, joules) physics constructed systems defined to understand what is seen from that observation point. Constants, dimensions, and equations carry the fingerprints of that position.
 
 #+BEGIN_QUOTE
-/Out of empty chaos all of creation becomes./
+/*Out of infinite nothing all of creation becomes.*/
 
 That sentence is the theory. Everything that follows is the attempt to say it precisely.
 #+END_QUOTE
 
-* PART I: THE SUBSTRATE
+* THE SUBSTRATE
 
 The substrate description is complete in itself. It contains no dimensions, no observers, no physics. It is what it is.
 
@@ -73,30 +72,30 @@ The substrate description is complete in itself. It contains no dimensions, no o
 The framework rests on a single foundational claim:
 
 #+BEGIN_QUOTE
-The Medium always is and always was. It has no beginning and no end. It exists outside of any temporal framework. Intrinsic distinction is an eternal property of the Medium --- not an event that occurred but a condition that always obtains. The structure we observe is not the result of something that happened. It is the expression of what the Medium always is.
+The Medium always is and always was. It has no beginning and no end. Intrinsic distinction is an eternal property of the Medium --- not an event that occurred but a fundamental condition. The structure we observe is not the result of something that happened. It is the expression of what the Medium always is.
 #+END_QUOTE
 
 This claim does three things at once.
 
-*It eliminates the need for a trigger.* The question of what initiated the universe only arises if time is assumed to be primitive. If the Medium always is and always was, there is no before and no initiation. The trigger problem dissolves not by answering it but by identifying it as a consequence of a false assumption.
+*It eliminates the need for an initial starting point (Big Bang).* The question of what initiated the universe only arises with assumption of time. If the Medium always is and always was, there is no before and no starting point. The trigger needed for a beginning dissolves by identifying it as a consequence of a false assumption.
 
-*It eliminates time as a primitive.* The Medium exists outside of time. What we call time is not a property of the substrate. It is downstream --- a consequence of repeated manifestation, not a fundamental feature of reality.
+*It eliminates time as a primitive.* The Medium exists outside of time. What we call time is not a property of the medium. It is downstream --- a consequence of repeated manifestation, not a fundamental feature of reality.
 
-*It reframes differentiation.* The emergence of structure is not a process that started. It is a condition that always obtains. The ground state and the differentiated state coexist within the Medium eternally, because intrinsic distinction --- \iota --- is eternal.
+*It re-frames differentiation.* The emergence of structure is not a process that started. It is a condition that always is. The ground state and the differentiated state coexist within the Medium eternally, because intrinsic distinction --- \iota --- is eternal.
 
 ** The Ground State
 
-The Medium at its ground state is a fully autonomous stochastic system. It requires no inputs, no external cause, no temporal framework, and no governing distribution. Its randomness is not randomness within a framework --- it is randomness without framework. No outcome is privileged. No state is preferred.
+The Medium at its ground state is a fully autonomous stochastic system. It requires no inputs, no external cause, no temporal framework, and no governing distribution. Its randomness is not randomness within a framework --- it is randomness without framework. No privileged outcome. No preferred state.
 
 This is not chaos. Chaos retains structure. The ground state of the Medium precedes structure entirely. It is meta-randomness --- randomness that is random about its own nature.
 
-In a substrate of infinite extent with no preferred states, every possible configuration has nonzero probability. This is not intuitive but is mathematically unavoidable:
+In a medium of infinite extent with no preferred states, every possible configuration has nonzero probability. This is not intuitive but is mathematically unavoidable:
 
 #+BEGIN_QUOTE
 Every possible fluctuation --- including the emergence of ordered, structured, low-entropy configurations --- is not merely possible but necessary as a feature of the distribution itself.
 #+END_QUOTE
 
-The universe is not something that happened against the odds. It is a necessary expression of a substrate that has no mechanism for suppressing any possibility.
+The universe is not something that happened against the odds. It is a necessary expression of a medium that has no mechanism for suppressing any possibility.
 
 ** Axioms
 
@@ -128,6 +127,11 @@ Location does not exist prior to differentiation. It is produced when differenti
 
 The state of the Medium is described by a binary field $\phi$: at every location, manifestation either has occurred or it has not.
 
+An iota event is a pure binary occurrence. It is either is or is-not. It has no spatial extent, no duration, no location, no mass, no charge, no spin. It carries no properties in isolation. It is dimensionless.
+Iota transitions are stochastic. There is no mechanism driving them. No prior state determines the next. They simply occur.
+The iota event is not a particle. It is not a wave. It is not a string. It is prior to all of those. It is what those things are made of — but not as a smaller version of the same kind of thing. It is categorically prior.
+
+
 \begin{equation}
 \phi : M \to \{0, 1\}
 \end{equation}
@@ -151,6 +155,11 @@ Manifestation at any location is a stochastic event. A location either manifests
 \end{equation}
 
 /Status: Current./
+
+Iota events are not all identical in their relational character. Each carries a disposition — a tendency toward coupling with other events that is either attractive or repulsive.
+This disposition is not a property the event holds in isolation. It only manifests in relation to other events. But it is real and primitive: without it, accumulation of iota events produces only undifferentiated noise. No structure, no stability, no distinction, no material.
+
+Differential coupling disposition is the logical necessity for material existence. If it did not exist, nothing would exist.
 
 *** Primitive III --- The Propagation Limit
 
