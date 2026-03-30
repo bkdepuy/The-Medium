@@ -63,6 +63,28 @@ There is a limitation that physics has not confronted fully. Anyone who has ever
 That sentence is the theory. Everything that follows is the attempt to say it precisely.
 #+END_QUOTE
 
+* Abstract
+
+The Medium is a foundational framework outside the limits of human observation. It cannot be tested or demonstrated directly. It is offered as a starting point upon which others may build.
+
+The sole primitive is \iota: a unit occurrence carrying sign disposition +1 or −1. The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota — they emerge from \iota-relations. The Planck quantum of action marks the projection boundary between the substrate and observable physics, where \iota corresponds to \hbar.
+
+
+From this primitive a three-level hierarchy derived by successive combination. At the first level, \kappa = \sum \iota is the coupling character of a local collection. At the second level, \Kappa = \sum \kappa is the total configuration energy. At the third level, \Kappa projects into spacetime as $\hat{H}$ , the Hamiltonian of standard physics — not assumed but derived.
+
+Valid combinations governed by a logical constraint: two ι-events of identical sign disposition produce no new relational information and therefore cannot occupy adjacent positions in a combination. This is not a physical rule imposed on ι but a consequence of sign being ι's only property. The combinatorial space of valid configurations is sharply restricted by this constraint. A minimum threshold of combinatorial complexity must be reached before any stable configuration can form — below this threshold, combinations approach but do not achieve coherence, naturally populating the quantum vacuum as substrate fluctuations.
+
+Stable configurations emerge where Κ reaches a local extrem-um. These are the substrate analogs of bound states. Mass, charge, and spin are not independent intrinsic properties — they are three projection signatures of a single underlying combinatorial structure. Mass corresponds to N, the count of ι events. Charge corresponds to the sign of Κ. Spin corresponds to the ordered structure of κ-combinations within a configuration. The minimum threshold is anchored by the lightest observed particles, with the full spectrum determined by the combinatorial grammar and the extrem-um condition above that floor.
+
+The Medium distinguishes three categories of emergent property. Properties emergent from the substrate arise directly from ι-combinations: mass, charge, spin, the quantum vacuum, the Hamiltonian, spacetime, and dimensionality. Properties emergent at the projection layer arise from interactions between stable configurations in spacetime: the fundamental forces, fields, and the full complexity of observable reality. This is the domain of existing physics — The Medium makes no claims there. A third category remains unassigned: color charge, gravity, neutrino oscillation, and the phenomena attributed to dark matter and dark energy have not yet been placed in either layer. Gravity is the most consequential of these — if spacetime is itself a projection from ι-relations, gravity may bridge both layers in a way the other forces do not. The current limit of assignment reflects the limit of present understanding, not the limit of The Medium.
+
+Since ι-arrangements are below the current observational floor, direct testing is not possible with existing instruments. The framework predicts that particle properties treated as intrinsic by standard physics are relational outcomes of substrate combinatorics. New experimental approaches designed to probe transition signatures rather than particle states directly are identified as the path toward indirect verification.
+
+The central open problems — deriving the specific configurations corresponding to observed particles, establishing which ordered combinations produce which spin values under projection, determining the minimum threshold from first principles, resolving whether color charge and gravity are substrate or projection phenomena, and characterizing the dark matter and dark energy candidates — are offered as challenges to the theoretical physics community.
+
+Changes from previous version: added emergent properties section distinguishing substrate, projection layer, and unassigned categories; expanded open problems to include color charge, gravity, dark matter, and dark energy.
+
+
 * THE SUBSTRATE
 
 The substrate description is complete in itself. It contains no dimensions, no observers, no physics. It is what it is.
