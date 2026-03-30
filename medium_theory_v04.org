@@ -53,12 +53,12 @@ Modern science is one of the great achievements of the human mind. Quantum mecha
 
 This document does not dispute any of it.
 
-What it asks instead is the question: /from where did it begin?/ The equations of physics are precise maps. The challenge is to identify the territory they map --- not the territory of observable phenomena, which physics has surveyed magnificently, but the foundation that gives rise to a universe in which observation is possible at all.
+What it asks instead is the question: /What alternative foundation explains the findings of modern science?/ The equations of physics are precise maps. The challenge is to identify the territory they map --- not the territory of observable phenomena, which physics has surveyed magnificently, but the foundation that gives rise to a universe in which observation is possible at all.
 
-There is a limitation that physics has not confronted fully. Anyone who has ever done physics is an earth-bound observer even with the advent of space born sensors. That observer arrived late --- billions of years after the universe began --- in the midst of an apparent infinite universe. That observer equipped with the sensory tools required for it's survival began to ask the questions. Using a dimensional coordinate system (meters, seconds, joules) physics constructed systems defined to understand what is seen from that observation point. Constants, dimensions, and equations carry the fingerprints of that position.
+There is a limitation that physics has not confronted fully. Anyone who has ever done physics is an earth-bound observer even with the advent of space born sensors. That observer arrived late --- billions of years after the assumed beginning of the universe --- in the midst of an apparent infinite universe. That observer equipped with the sensory tools required for it's survival began to ask the questions. Using a dimensional coordinate system (meters, seconds, joules) physics constructed systems defined to understand what is seen from that observation point. Constants, dimensions, and equations carry the fingerprints of that position.
 
 #+BEGIN_QUOTE
-/*Out of infinite nothing all of creation becomes.*/
+/*Out of an infinite nothing all of creation becomes.*/
 
 That sentence is the theory. Everything that follows is the attempt to say it precisely.
 #+END_QUOTE
