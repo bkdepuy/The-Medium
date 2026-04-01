@@ -48,7 +48,6 @@
 #+END_EXPORT
 
 * Introduction
-
 ** A Recognition and a Challenge
 
 Modern science is one of the great achievements of the human mind. Quantum mechanics predicts the behavior of matter at the smallest accessible scales with a precision unmatched in the history of empirical inquiry. General relativity describes the geometry of spacetime and the behavior of gravity across cosmological distances with equal exactness. The Standard Model catalogs the fundamental particles and their interactions with extraordinary completeness. These are not approximations or guesses. They are hard-won structures --- the accumulated result of centuries of observation, mathematical invention, and experimental testing.
@@ -69,15 +68,16 @@ That sentence is the theory. Everything that follows is the attempt to say it pr
 
 The Medium is a foundational framework outside the limits of human observation. It cannot be tested or demonstrated directly. It is offered as a starting point upon which others may build.
 
-The sole primitive is \iota: a unit occurrence carrying sign disposition +1 or −1 when it manifests. Otherwise, it is a null.  The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota — they emerge from \iota-relations. The Planck quantum of action marks the projection boundary between the substrate and observable physics, where \iota corresponds to \hbar.
+The sole primitive is \iota: a unit occurrence carrying sign disposition +1 or −1. The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota — they emerge from \iota-relations. The Planck quantum of action marks the projection boundary between the substrate and observable physics, where \iota corresponds to \hbar.
 
-From this primitive a three-level hierarchy derives by successive combination. At the first level, \kappa = \sum \iota is the coupling character of a local collection. At the second level, \Kappa = \sum \kappa is the total configuration energy. At the third level, \Kappa projects into spacetime as $\hat{H}$ , the Hamiltonian of standard physics — not assumed but derived.
+
+From this primitive a three-level hierarchy derived by successive combination. At the first level, \kappa = \sum \iota is the coupling character of a local collection. At the second level, \Kappa = \sum \kappa is the total configuration energy. At the third level, \Kappa projects into spacetime as $\hat{H}$ , the Hamiltonian of standard physics — not assumed but derived.
 
 Valid combinations governed by a logical constraint: two \iota-events of identical sign disposition produce no new relational information and therefore cannot occupy adjacent positions in a combination. This is not a physical rule imposed on \iota but a consequence of sign being \iota's only property. The combinatorial space of valid configurations is sharply restricted by this constraint. A minimum threshold of combinatorial complexity must be reached before any stable configuration can form — below this threshold, combinations approach but do not achieve coherence, naturally populating the quantum vacuum as substrate fluctuations.
 
-Stable configurations emerge where \Kappa reaches a local extrem-um. These are the substrate analogs of bound states. Mass, charge, and spin are not independent intrinsic properties — they are three projection signatures of a single underlying combinatorial structure. Mass corresponds to N, the count of \iota events. Charge corresponds to the sign of \Kappa. Spin corresponds to the ordered structure of \kappa-combinations within a configuration. The minimum threshold is anchored by the lightest observed particles, with the full spectrum determined by the combinatorial grammar and the extrem-um condition above that floor.
+Stable configurations emerge where \Kappa reaches a local extremum. These are the substrate analogs of bound states. Mass, charge, and spin are not independent intrinsic properties — they are three projection signatures of a single underlying combinatorial structure. Mass corresponds to N, the count of \iota events. Charge corresponds to the sign of \Kappa.  The minimum threshold is anchored by the lightest observed particles, with the full spectrum determined by the combinatorial grammar and the extremum condition above that floor.
 
-The Medium distinguishes three categories of emergent property. Properties emergent from the substrate arise directly from \iota-combinations: mass, charge, spin, the quantum vacuum, the Hamiltonian, spacetime, and dimensionality. Properties emergent at the projection layer arise from interactions between stable configurations in spacetime: the fundamental forces, fields, and the full complexity of observable reality. This is the domain of existing physics — The Medium makes no claims there. A third category remains unassigned: color charge, gravity, neutrino oscillation, and the phenomena attributed to dark matter and dark energy have not yet been placed in either layer. Gravity is the most consequential of these — if spacetime is itself a projection from \iota-relations, gravity may bridge both layers in a way the other forces do not. The current limit of assignment reflects the limit of present understanding, not the limit of The Medium.
+The Medium distinguishes three categories of emergent property. Properties emergent from the substrate arise directly from \iota-combinations: mass, charge, spin, the quantum vacuum, the Hamiltonian, spacetime, and dimensionality. Properties emergent at the projection layer arise from interactions between stable configurations in spacetime: the fundamental forces, fields, and the full complexity of observable reality. This is the domain of existing physics — The Medium makes no claims there. A third category remains unassigned: spin, color charge, gravity, neutrino oscillation, and the phenomena attributed to dark matter and dark energy have not yet been placed in either layer. Gravity is the most consequential of these — if spacetime is itself a projection from \iota-relations, gravity may bridge both layers in a way the other forces do not. The current limit of assignment reflects the limit of present understanding, not the limit of The Medium.
 
 Since \iota-arrangements are below the current observational floor, direct testing is not possible with existing instruments. The framework predicts that particle properties treated as intrinsic by standard physics are relational outcomes of substrate combinatorics. New experimental approaches designed to probe transition signatures rather than particle states directly identified as the path toward indirect verification.
 
@@ -95,7 +95,7 @@ The substrate description is complete in itself. It contains no dimensions, no o
 The framework rests on a single foundational claim:
 
 #+BEGIN_QUOTE
-The Medium always is and always was. It has no beginning and no end. Intrinsic distinction is an eternal property of the Medium --- not an event that occurred but a fundamental condition. The structure we observe is not the result of something that happened. It is the expression of what the Medium always is.
+The Medium always is and always was and always will be. It has no beginning and no end. Intrinsic distinction is an eternal property of the Medium --- not an event that occurred but a fundamental condition. The structure we observe is not the result of something that happened. It is the expression of the Medium always happening.
 #+END_QUOTE
 
 This claim does three things at once.
@@ -113,10 +113,6 @@ The Medium at its ground state is a fully autonomous stochastic system. It requi
 This is not chaos. Chaos retains structure. The ground state of the Medium precedes structure entirely. It is meta-randomness --- randomness that is random about its own nature.
 
 In a medium of infinite extent with no preferred states, every possible configuration has nonzero probability. This is not intuitive but is mathematically unavoidable:
-
-#+BEGIN_QUOTE
-Every possible fluctuation --- including the emergence of ordered, structured, low-entropy configurations --- is not merely possible but necessary as a feature of the distribution itself.
-#+END_QUOTE
 
 The universe is not something that happened against the odds. It is a necessary expression of a medium that has no mechanism for suppressing any possibility.
 
@@ -140,12 +136,14 @@ The Medium possesses one property: intrinsic distinction, denoted \iota. It is n
 
 ** Primitives
 
-*** Primitive I --- The Field
+*** Primitive I — The Field
 
-The state of the Medium is described by an energy field $\phi$: at every location, manifestation either has occurred or it has not.
+The state of the Medium is described by a substrate field φ: at every location, manifestation either has occurred or it has not.
+An iota is a unit occurrence with sign disposition +1 or −1. It has no spatial extent, no duration, no location, no mass, no charge, no spin. It carries no properties in isolation. It is dimensionless.
 
-An iota event is either positive or negative energy. It has no spatial extent, no duration, no location, no mass, no charge, no spin. It carries no properties in isolation. It is dimensionless.
-Iota transitions are stochastic. There is no mechanism driving them. No prior state determines the next. They simply occur.
+At the projection layer, an iota occurrence corresponds to a single Planck-scale event — the threshold at which quantum and gravitational effects are simultaneously relevant.
+
+ Iota occurrences are stochastic. There is no mechanism driving them. No prior state determines the next. They simply occur.
 
 \begin{equation}
 \phi : M \to \{+1, -1\}
