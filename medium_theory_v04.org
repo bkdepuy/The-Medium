@@ -39,15 +39,17 @@
 \end{titlepage}
 
 %% ---- TABLE OF CONTENTS (page 2, no header) ----
-\pagestyle{plain}
-\tableofcontents
+%%\pagestyle{plain}
+%%\tableofcontents
 \clearpage
 
 %% ---- Body begins (page 3+, header active) ----
 \pagestyle{body}
 #+END_EXPORT
 
-* A Recognition and a Challenge
+* Introduction
+
+** A Recognition and a Challenge
 
 Modern science is one of the great achievements of the human mind. Quantum mechanics predicts the behavior of matter at the smallest accessible scales with a precision unmatched in the history of empirical inquiry. General relativity describes the geometry of spacetime and the behavior of gravity across cosmological distances with equal exactness. The Standard Model catalogs the fundamental particles and their interactions with extraordinary completeness. These are not approximations or guesses. They are hard-won structures --- the accumulated result of centuries of observation, mathematical invention, and experimental testing.
 
@@ -67,10 +69,9 @@ That sentence is the theory. Everything that follows is the attempt to say it pr
 
 The Medium is a foundational framework outside the limits of human observation. It cannot be tested or demonstrated directly. It is offered as a starting point upon which others may build.
 
-The sole primitive is \iota: a unit occurrence carrying sign disposition +1 or −1. The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota — they emerge from \iota-relations. The Planck quantum of action marks the projection boundary between the substrate and observable physics, where \iota corresponds to \hbar.
+The sole primitive is \iota: a unit occurrence carrying sign disposition +1 or −1 when it manifests. Otherwise, it is a null.  The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota — they emerge from \iota-relations. The Planck quantum of action marks the projection boundary between the substrate and observable physics, where \iota corresponds to \hbar.
 
-
-From this primitive a three-level hierarchy derived by successive combination. At the first level, \kappa = \sum \iota is the coupling character of a local collection. At the second level, \Kappa = \sum \kappa is the total configuration energy. At the third level, \Kappa projects into spacetime as $\hat{H}$ , the Hamiltonian of standard physics — not assumed but derived.
+From this primitive a three-level hierarchy derives by successive combination. At the first level, \kappa = \sum \iota is the coupling character of a local collection. At the second level, \Kappa = \sum \kappa is the total configuration energy. At the third level, \Kappa projects into spacetime as $\hat{H}$ , the Hamiltonian of standard physics — not assumed but derived.
 
 Valid combinations governed by a logical constraint: two \iota-events of identical sign disposition produce no new relational information and therefore cannot occupy adjacent positions in a combination. This is not a physical rule imposed on \iota but a consequence of sign being \iota's only property. The combinatorial space of valid configurations is sharply restricted by this constraint. A minimum threshold of combinatorial complexity must be reached before any stable configuration can form — below this threshold, combinations approach but do not achieve coherence, naturally populating the quantum vacuum as substrate fluctuations.
 
