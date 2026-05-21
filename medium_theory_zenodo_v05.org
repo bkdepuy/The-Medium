@@ -87,13 +87,19 @@ That sentence is the theory. Everything that follows is the attempt to say it pr
 
 The Medium is a foundational framework prior to the limits of human observation. It cannot be tested or demonstrated directly. It is offered as a starting point upon which others may build.
 
-The sole primitive is \iota: a unit occurrence carrying sign disposition +1 or \(-1\). The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint exists at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota --- they emerge from \iota-relations. The Planck quantum of action marks the projection boundary between the substrate and observable physics, where one \iota event corresponds to \(\hbar\).
+;; DRAFT — language needs refinement
 
-From this primitive, a three-level algebraic hierarchy is derived by successive combination. At the first level, \(\kappa = \sum \iota\) is the coupling character of a local collection --- the net sign disposition of a group of \iota events. At the second level, \(\Kappa = \sum \kappa\) is the total configuration energy of a candidate stable structure. At the third level, \(\Kappa\) projects into spacetime as \(\hat{H}\), the Hamiltonian of standard physics --- not assumed but derived from substrate structure.
+The sole primitive is \iota: a unit occurrence. \iota carries no attribute in isolation. No sign, no disposition, no property. The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint exists at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota --- they emerge from \iota-encounter relations. The Planck quantum of action marks the projection boundary between the substrate and observable physics, where one \iota event corresponds to \(\hbar\).
 
-Valid combinations are governed by a logical adjacency constraint: two \iota events of identical sign disposition produce no new relational information and therefore cannot occupy adjacent positions in a combination. This is not a physical rule imposed on \iota but a consequence of sign being \iota's only property. The combinatorial space of valid configurations is sharply restricted by this constraint. A minimum threshold of combinatorial complexity must be reached before any stable configuration can form --- below this threshold, combinations approach but do not achieve coherence, naturally populating the quantum vacuum as substrate fluctuations.
+The central organizing claim of v0.5: the universe is not a sequence of events. It is a web of processes in continuous, simultaneous, mutual interaction. Sequence is what that web looks like from inside an embedded process. Attribute is what encounter produces. \iota in isolation has neither.
 
-Stable configurations emerge where \(\Kappa\) reaches a local extremum. These are the substrate analogs of bound states. Mass, charge, and spin are not independent intrinsic properties --- they are three projection signatures of a single underlying combinatorial structure. Mass corresponds to \(N\), the count of \iota events. Charge corresponds to the net sign of \(\Kappa\). Spin arises from structural symmetry of the configuration under projection.
+When two occurrences meet, a relational character is established between them. That character is not in either occurrence --- it is between them. It is the first distinguishable fact. The substrate field \(\phi\) records encounter characters. It is not a description of \iota in isolation.
+
+From encounter characters, a three-level algebraic hierarchy is derived by successive combination. At the first level, \(\kappa = \sum \iota\) is the coupling character of a local collection --- the net encounter character of a group of \iota events. At the second level, \(\Kappa = \sum \kappa\) is the total configuration energy of a candidate stable structure. At the third level, \(\Kappa\) projects into spacetime as \(\hat{H}\), the Hamiltonian of standard physics --- not assumed but derived from substrate structure.
+
+Valid combinations are governed by a logical adjacency constraint: two encounters of identical character produce no new relational information and therefore cannot occupy adjacent positions in a combination. This is not a physical rule imposed on \iota but a logical necessity --- identical adjacent encounter characters produce no distinction. The combinatorial space of valid configurations is sharply restricted by this constraint. A minimum threshold of combinatorial complexity must be reached before any stable configuration can form --- below this threshold, combinations approach but do not achieve coherence, naturally populating the quantum vacuum as substrate fluctuations.
+
+Stable configurations emerge where \(\Kappa\) reaches a local extremum. These are the substrate analogs of bound states. Mass, charge, and spin are not independent intrinsic properties --- they are three projection signatures of a single underlying combinatorial structure. Mass corresponds to \(N\), the count of \iota events. Charge corresponds to the net encounter character of \(\Kappa\). Spin describes the relational closure of a configuration's encounter pattern within the web. It is not rotation.
 
 The Medium distinguishes three categories of emergent property. Properties emergent from the substrate arise directly from \iota-combinations: mass, charge, spin, the quantum vacuum, the Hamiltonian, spacetime, and dimensionality. Properties emergent at the projection layer arise from interactions between stable configurations in spacetime: the fundamental forces, fields, and the full complexity of observable reality. This is the domain of existing physics --- The Medium makes no claims there. A third category remains unassigned: color charge, gravity, neutrino oscillation, and the phenomena attributed to dark matter and dark energy have not yet been placed in either layer with confidence. Gravity is the most consequential of these --- if spacetime is itself a projection from \iota-relations, gravity may bridge both layers in a way the other forces do not.
 
@@ -103,7 +109,7 @@ Since \iota-arrangements are below the current observational floor, direct testi
 
 The central open problems are offered as challenges to the theoretical physics community: deriving the specific configurations corresponding to observed particles; establishing which ordered combinations produce which spin values under projection; determining the minimum threshold from first principles; resolving whether color charge and gravity are substrate or projection phenomena; and characterizing dark matter and dark energy candidates within the substrate.
 
-/Changes from v0.4:/ Reorganized around the simultaneity primitive as the central organizing claim. Added Part IV: What The Medium Needs to Prove. Added new vocabulary layer (occurrence, registration, boundary) to replace inherited QM terminology. Added Observer and Observed section dissolving the observer/observed asymmetry at the substrate level. Expanded time section with the real-for-the-observer vs. necessary-for-the-universe distinction. Added topos theory connection and vocabulary boundary to open problems. Added The Core Problem and The Language Problem as Introduction subsections.
+/Changes from v0.4:/ Reorganized around the simultaneity primitive as the central organizing claim. Revised \iota: occurrence without attribute; attribute produced at encounter, not carried by \iota. Encounter established as the primitive event from which relational character and particle properties derive. Topos theory connection placed at the encounter level. Added Part IV: What The Medium Needs to Prove. Added new vocabulary layer (occurrence, registration, boundary) to replace inherited QM terminology. Added Observer and Observed section dissolving the observer/observed asymmetry at the substrate level. Expanded time section with the real-for-the-observer vs. necessary-for-the-universe distinction. Added The Core Problem and The Language Problem as Introduction subsections.
 
 
 * PART I: THE SUBSTRATE
@@ -122,9 +128,21 @@ Sequence is what that web looks like from inside an embedded process with memory
 
 Processes do not have relationships. The relationships are what the processes are. Identity is relational. Each process defined by its interactions with all others, continuously and simultaneously. Remove the web and there is no process. Remove the process and there is no web. They are the same thing.
 
-This goes beyond relational quantum mechanics, which still requires quantum states as primitives. It goes beyond Leibniz, who saw existence as relational but had no process ontology. Neither string theory nor loop quantum gravity reaches this ground — both need their mathematics to remain recognizable to the institution.
+;; DRAFT — language needs refinement
 
-ι-level interactions may superficially resemble strings or Planck-scale quanta. The difference: those frameworks describe entities that then have relationships. The Medium provides the relational simultaneity as the primitive. Not the entities. The web of mutual constitution.
+Three prior frameworks reach toward this ground and stop short.
+
+String theory places a string at the foundation --- a one-dimensional entity carrying vibration modes intrinsically. Each frequency corresponds to a different particle. Spacetime is already there before the string. It is the container. Properties are in the entity, not the encounter.
+
+Loop quantum gravity makes spacetime emergent from a spin network --- nodes and edges that are atoms of geometry. That is a genuine step. But the network structure itself is assumed, not derived. LQG does not explain why that relational structure exists. It starts one level too late.
+
+Planck bits --- Wheeler's /It from Bit/, Fredkin, Wolfram --- place a discrete bit at the foundation carrying 0 or 1 intrinsically. The binary distinction is assumed before any encounter. The question of which value is answered before the question is formed.
+
+\iota is none of these. It carries nothing. The distinction between encounter characters does not exist before encounter creates it. All three prior frameworks place entities first and derive relationships. The Medium places the web of simultaneous encounter first. The relationships are the primitive. The entities are downstream.
+
+Planck bits come closest --- both are discrete, dimensionless, pre-spatial. The gap is not small. A bit carries its state intrinsically. \iota carries nothing. That is the difference between assuming distinction and deriving it.
+
+Loop quantum gravity comes closest structurally --- both make spacetime emergent from relational structure. But LQG presupposes the relational structure. The Medium derives it from encounter.
 
 ** The Foundational Claim
 
@@ -164,41 +182,51 @@ The Medium always is and always was. It has no beginning, no end, and no externa
 
 *** Axiom II --- Intrinsic Distinction
 
-The Medium possesses one property: intrinsic distinction, denoted \iota. It is not an operator, not a function, not a process. It is what the Medium is --- the capacity of the undifferentiated to give rise to the differentiated.
+;; DRAFT — language needs refinement
 
-/Status: Axiomatic. Nature of \iota under investigation./
+The Medium possesses one property: intrinsic distinction, denoted \iota. It is not an operator, not a function, not a process. It is what the Medium is --- the capacity for occurrence. \iota carries no attribute in isolation. Attribute is produced at encounter.
+
+/Status: Axiomatic. Character of encounter under investigation./
 
 ** Primitives
 
 *** Primitive I --- The Field
 
-The state of the Medium is described by a substrate field \(\phi\): at every location, manifestation either has occurred or it has not. An \iota event is a unit occurrence with sign disposition +1 or \(-1\). It has no spatial extent, no duration, no location, no mass, no charge, no spin. It carries no properties in isolation. It is dimensionless.
+;; DRAFT — language needs refinement
 
-At the projection layer, one \iota occurrence corresponds to a single Planck-scale event --- the threshold at which quantum and gravitational effects are simultaneously relevant.
+\iota is occurrence. It has no spatial extent, no duration, no location, no mass, no charge, no spin, no sign. It carries no attribute in isolation. It is dimensionless.
 
-\iota occurrences are stochastic. There is no mechanism driving them. No prior state determines the next. They simply occur.
+The substrate field \(\phi\) describes the registered character of encounters --- not properties of \iota itself. At every location where registration has occurred, encounter character has been established. \(\phi\) maps that record.
 
 \begin{equation}
 \phi : M \to \{+1, -1\}
 \end{equation}
 
 #+BEGIN_CENTER
-The complete formal description of the Medium's state.
+A record of encounter characters. Not a description of \iota in isolation.
 #+END_CENTER
 
-/Status: Current./
+At the projection layer, one \iota occurrence corresponds to a single Planck-scale event --- the threshold at which quantum and gravitational effects are simultaneously relevant.
 
-*** Primitive II --- Manifestation Occurrence
+\iota occurrences are not driven. No prior state determines the next. They simply occur.
 
-Manifestation at any location is a stochastic event. A location either manifests or it does not. The substrate imposes no preference.
+/Status: Revised in v0.5./
+
+*** Primitive II --- Encounter and Attribution
+
+;; DRAFT — language needs refinement
+
+When two occurrences meet, a relational character is established between them. That character is not in either occurrence. It is between them. It is the first distinguishable fact in the Medium.
+
+Before encounter, there is no attribute. Not hidden. Not waiting. The question does not exist until encounter makes it exist.
 
 \begin{equation}
-\phi(x) \in \{+1, -1\} \text{ (no preference, no guarantee)}
+\phi(x) \in \{+1, -1\} \text{ (character of encounter, no preference, no guarantee)}
 \end{equation}
 
-\iota events are not all identical in their relational character. Each carries a disposition --- a tendency toward coupling with other events that is either attractive or repulsive. This disposition is not a property the event holds in isolation. It only manifests in relation to other events. But it is real and primitive: without it, accumulation of \iota events produces only undifferentiated noise. No structure, no stability, no distinction, no material.
+The substrate imposes no preference on which character is established. Without differential encounter character, accumulation of \iota occurrences produces only undifferentiated noise. No structure, no stability, no distinction, no material. Differential encounter character is the logical necessity for material existence.
 
-Differential coupling disposition is the logical necessity for material existence. If it did not exist, nothing would exist.
+This is where topos theory bears on the framework. Topos theory allows logic in which a question has no answer until the context that makes the question meaningful exists. Encounter character is not determined before encounter. The question --- which character? --- is not formed until two occurrences meet. This is not epistemic. The answer does not exist yet. That is the logical territory topos theory describes, and it is the logical territory \iota occupies before registration.
 
 #+BEGIN_CENTER
 Shared state. No distance. No space. No ordering.
@@ -206,19 +234,19 @@ Shared state. No distance. No space. No ordering.
 
 This is prior to locality. Any spatial relationship between \(x\) and \(y\) is constructed downstream, after structure formation establishes the conditions in which distance becomes meaningful.
 
-/Status: Current./
+/Status: Revised in v0.5./
 
 #+BEGIN_QUOTE
 Not a beginning and an end. A breathing.
 #+END_QUOTE
 
-Because \iota is an eternal property of the Medium, this arc does not occur once. It occurs wherever and whenever \iota manifests. The binary field blinks into structure and blinks out again, across an infinite substrate that does not notice.
+Because \iota is an eternal property of the Medium, this arc does not occur once. It occurs wherever and whenever \iota manifests. Encounter patterns form, achieve stability, dissolve --- across an infinite relational web that does not notice.
 
 ** The Algebraic Hierarchy
 
 The structure of the Medium generates a natural algebraic hierarchy through successive combination. Each level is derived from the level below it; none is assumed.
 
-*Level 0 --- The Primitive.* \iota is the sole primitive. A unit occurrence with sign disposition \(+1\) or \(-1\). Dimensionless. No properties in isolation.
+*Level 0 --- The Primitive.* \iota is the sole primitive. A unit occurrence. Dimensionless. No attribute in isolation. Attribute is produced at encounter, not carried by \iota itself.
 
 *Level 1 --- Coupling Character.* For a local collection of \iota events, the coupling character \(\kappa\) is defined as their sum:
 
@@ -226,7 +254,7 @@ The structure of the Medium generates a natural algebraic hierarchy through succ
 \kappa = \sum_{i} \iota_i
 \end{equation}
 
-\(\kappa\) is the net sign disposition of a local cluster. It is the first derived quantity in the hierarchy.
+\(\kappa\) is the net encounter character of a local cluster. It is the first derived quantity in the hierarchy.
 
 *Level 2 --- Configuration Energy.* For a candidate stable structure composed of multiple \(\kappa\) clusters, the total configuration energy \(\Kappa\) is:
 
@@ -244,15 +272,17 @@ The structure of the Medium generates a natural algebraic hierarchy through succ
 
 The Hamiltonian is not an assumption of the theory. It is a derived consequence of the substrate structure, projected through the observational boundary.
 
-*The Adjacency Constraint.* Valid combinations must satisfy: two \iota events of identical sign disposition cannot occupy adjacent positions. This is not a physical rule but a logical necessity --- adjacent identical signs produce no new relational information and therefore no new structure. The constraint sharply restricts the combinatorial space and is the source of the minimum complexity threshold below which stable configurations cannot form.
+*The Adjacency Constraint.* Valid combinations must satisfy: two encounters of identical character cannot occupy adjacent positions. This is not a physical rule but a logical necessity --- adjacent identical encounter characters produce no new relational information and therefore no new structure. The constraint sharply restricts the combinatorial space and is the source of the minimum complexity threshold below which stable configurations cannot form.
 
 ** The Substrate --- Complete
 
 The substrate description is now complete. It contains:
 
 - One substrate: the Medium
-- One property: \iota
-- One field: \(\phi \in \{+1, -1\}\)
+- One organizing claim: the simultaneity primitive --- the relational web of continuous mutual encounter
+- One property: \iota --- occurrence without attribute
+- One primitive event: encounter --- the source of relational character
+- One field: \(\phi \in \{+1, -1\}\) --- a record of encounter characters
 - One relationship: co-manifestation \(x \sim y\)
 - One algebraic hierarchy: \(\iota \to \kappa \to \Kappa \to \hat{H}\)
 - One arc: maximum undifferentiation \(\to\) structure \(\to\) maximum undifferentiation
@@ -306,7 +336,7 @@ An open question is carried explicitly: why does the projection carry units of a
 
 The Medium distinguishes three categories of emergent property, organized by the level at which they arise.
 
-*Substrate emergent.* These properties arise directly from \iota-combinations, prior to any observer: mass (corresponding to \(N\), the count of \iota events in a configuration), charge (corresponding to the net sign of \(\Kappa\)), spin (arising from structural symmetry of the configuration), the quantum vacuum (substrate fluctuations below the stability threshold), the Hamiltonian (as \(\mathrm{proj}(\Kappa)\)), spacetime (as the projection framework constructed by embedded observers), and dimensionality (as the coordinate structure observers impose on substrate relationships).
+*Substrate emergent.* These properties arise directly from \iota-combinations, prior to any observer: mass (corresponding to \(N\), the count of \iota events in a configuration), charge (corresponding to the net encounter character of \(\Kappa\)), spin (arising from relational closure of the configuration's encounter pattern within the web), the quantum vacuum (substrate fluctuations below the stability threshold), the Hamiltonian (as \(\mathrm{proj}(\Kappa)\)), spacetime (as the projection framework constructed by embedded observers), and dimensionality (as the coordinate structure observers impose on substrate relationships).
 
 *Projection layer emergent.* These properties arise from interactions between stable configurations within the spacetime projection: the fundamental forces, quantum fields, and the full complexity of observable physical reality. This is the domain of existing physics. The Medium makes no claims in this domain beyond identifying it as downstream.
 
@@ -318,9 +348,13 @@ Standard physics treats mass, charge, and spin as independent intrinsic properti
 
 Mass corresponds to \(N\): the total count of \iota events in a stable configuration. A heavier particle is not made of different stuff. It is a configuration with a larger \(N\).
 
-Charge corresponds to the net sign of \(\Kappa\). A configuration in which positive \iota events dominate projects to positive charge; negative dominance projects to negative charge; exact cancellation projects to charge neutrality. Charge is not a property added to a particle. It is the sign structure of its substrate configuration.
+Charge corresponds to the net encounter character of \(\Kappa\). A configuration in which one encounter character dominates projects to positive charge; the opposing character projects to negative charge; exact balance projects to charge neutrality. Charge is not a property added to a particle. It is the encounter character of its substrate configuration.
 
-Spin arises from the structural symmetry of the configuration under projection. The relationship between specific combinatorial symmetry classes and the observed spin values (0, 1/2, 1, 3/2, 2) is an open derivation, explicitly deferred. The claim that spin is a projection signature of structural symmetry is current; the formal derivation of which symmetry class produces which spin value is an open problem.
+Spin describes how a stable configuration's encounter pattern closes within the relational web. It is not rotation. The particle does not spin. The word is retained from the observation --- discrete deflection in Stern-Gerlach --- but the property is relational, not mechanical.
+
+A configuration whose encounter pattern returns to its original relational state after one traversal of the web projects as integer spin. A configuration requiring two traversals projects as half-integer spin. The distinction is not internal to the configuration alone. It is in how the configuration's encounter pattern sits within the surrounding web.
+
+The specific derivation of which encounter patterns produce which spin values (0, 1/2, 1, 3/2, 2) remains an open problem. The claim that spin is a property of relational closure is current.
 
 ** Observer and Observed
 
@@ -342,7 +376,7 @@ When an observer embedded in differentiated structure encounters two events that
 
 ** The Stochastic Character --- Observer's Description
 
-At the substrate level, manifestation at any location either occurs or it does not, with no preference and no guarantee. An observer describing this stochastic character mathematically recognizes it as a Bernoulli process --- a binary outcome with associated probability \(p(x)\) at each location. This is the observer's mathematical framework imposed on the substrate's stochastic character. The substrate does not know about Bernoulli. It simply manifests or does not.
+At the substrate level, \iota occurrences are not driven. No prior state determines whether the next occurs. When two occurrences meet, encounter either produces relational character or it does not --- with no preference and no guarantee. An observer describing this stochastic character mathematically recognizes it as a Bernoulli process --- a binary outcome with associated probability \(p(x)\) at each location. This is the observer's mathematical framework imposed on the substrate's stochastic character. The substrate does not know about Bernoulli. Occurrences simply happen. Encounters simply produce or do not.
 
 The full statistical mechanics of the ground state --- entropy, temperature, distributions --- emerges on the observer side as the projection of the substrate's undifferentiated stochastic character into the observer's thermodynamic framework.
 
@@ -458,7 +492,7 @@ These are the frontier of the framework, stated precisely and carried explicitly
 
 *Particle Configurations.* What precisely are the stable configurations corresponding to observed particles? The formal derivation of particle properties from the \(\Kappa\) extremum condition --- beginning with the lightest candidates as threshold cases --- is the primary structural task of the next stage of development.
 
-*Spin Under Projection.* Which combinatorial symmetry classes produce which spin values (0, 1/2, 1, 3/2, 2) under projection? The claim that spin is a structural symmetry signature is current; the derivation is open.
+*Spin as Relational Closure.* Which encounter patterns produce which spin values (0, 1/2, 1, 3/2, 2)? The claim that spin is a property of relational closure --- integer spin closing in one traversal of the web, half-integer in two --- is current. The derivation of which specific encounter patterns correspond to which values is open.
 
 *Color Charge, Gravity, and the Unassigned Category.* Whether color charge is substrate or projection-layer emergent; whether gravity bridges both layers through its connection to spacetime; how dark matter and dark energy candidates arise from substrate structure. These are the frontier unresolved questions.
 
@@ -471,16 +505,16 @@ These are the frontier of the framework, stated precisely and carried explicitly
 #+ATTR_LATEX: :environment tabular :align llp{4.5cm}l :booktabs t
 | *Symbol*                            | *Definition*                                                              | *Notes*                                          | *Status*    |
 |-------------------------------------+---------------------------------------------------------------------------+--------------------------------------------------+-------------|
-| \iota                               | Intrinsic distinction --- the sole primitive, sign \(\pm 1\)              | No properties in isolation                       | Axiomatic   |
+| \iota                               | Intrinsic distinction --- the sole primitive, occurrence without attribute | No attribute in isolation; attribute produced at encounter | Axiomatic   |
 | \(\phi : M \to \{+1,-1\}\)          | Binary substrate field --- complete state description                     | Pre-dimensional                                  | Current     |
 | \(x \sim y\)                        | Co-manifestation --- shared state, no spatial relationship                | Prior to locality                                | Current     |
-| \(\kappa = \sum \iota\)             | Coupling character --- net sign disposition of a local cluster            | First derived quantity                           | Current     |
+| \(\kappa = \sum \iota\)             | Coupling character --- net encounter character of a local cluster         | First derived quantity                           | Current     |
 | \(\Kappa = \sum \kappa\)            | Configuration energy --- governs stability via extremum condition         | Stable configs at local extrema of \(\Kappa\)    | Current     |
 | \(\hat{H} = \mathrm{proj}(\Kappa)\) | Hamiltonian --- projection of \(\Kappa\) into spacetime                   | Derived, not assumed                             | Current     |
 | \(N\)                               | Count of \iota events in a configuration --- projects to mass             | Mass is not intrinsic; it is relational          | Current     |
-| \(\mathrm{sgn}(\Kappa)\)            | Net sign of configuration energy --- projects to charge                   | Charge neutrality = exact sign cancellation      | Current     |
-| Spin                                | Structural symmetry of configuration under projection                    | Which symmetry maps to which value: open         | Provisional |
-| Adjacency constraint                | Identical adjacent signs forbidden --- source of minimum threshold        | Logical, not physical                            | Current     |
+| \(\mathrm{sgn}(\Kappa)\)            | Net encounter character of configuration energy --- projects to charge    | Charge neutrality = exact character balance      | Current     |
+| Spin                                | Relational closure of encounter pattern within the web                   | Integer: one traversal; half-integer: two; derivation open | Provisional |
+| Adjacency constraint                | Identical adjacent encounter characters forbidden --- source of minimum threshold | Logical, not physical                     | Current     |
 | Projection boundary                 | Planck scale --- where dimensionless substrate meets dimensional observer | \(\hbar = \mathrm{proj}(\iota)\)                 | Current     |
 | \(h = \mathrm{proj}(\iota)\)        | Planck's constant --- dimensional projection of one \iota event           | Constancy follows from uniformity of \iota       | Provisional |
 | \(c\)                               | Propagation limit --- dimensionless transition bound at substrate level   | Dimensional form requires derivation             | Provisional |
