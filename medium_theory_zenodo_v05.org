@@ -1,0 +1,514 @@
+#+TITLE: The Medium: A Foundational Theory of Reality
+#+AUTHOR: Bradley K. DePuy, Independent Researcher
+#+DATE: 2026
+#+OPTIONS: toc:nil num:t H:4 ^:nil title:nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [11pt,letterpaper]
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{amssymb}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.2in, right=1.2in, top=1.0in, bottom=1.0in}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \usepackage{microtype}
+#+LATEX_HEADER: \usepackage[hidelinks]{hyperref}
+#+LATEX_HEADER: \setlength{\parindent}{0pt}
+#+LATEX_HEADER: \setlength{\parskip}{6pt}
+#+LATEX_HEADER: % --- Page style: no header on title/TOC, header from page 3 onward ---
+#+LATEX_HEADER: \fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+#+LATEX_HEADER: \fancypagestyle{body}{%
+#+LATEX_HEADER:   \fancyhf{}%
+#+LATEX_HEADER:   \fancyhead[C]{\small Version 0.5 $\cdot$ DOI: [pending] $\cdot$ CC BY 4.0}%
+#+LATEX_HEADER:   \fancyfoot[C]{\thepage}%
+#+LATEX_HEADER:   \renewcommand{\headrulewidth}{0.4pt}}
+
+#+BEGIN_EXPORT latex
+
+%% ---- TITLE PAGE (page 1, no header) ----
+\pagestyle{plain}
+\begin{titlepage}
+\vspace*{4cm}
+\begin{center}
+  {\LARGE\bfseries The Medium}\\[0.6em]
+  {\large A Foundational Theory of Reality}\\[2.5em]
+  {\normalsize Bradley K. DePuy, Independent Researcher}\\[0.5em]
+  {\normalsize ORCID: \mbox{\texttt{0009-0001-0328-2299}}}\\[0.5em]
+  {\normalsize 2026}
+\end{center}
+\end{titlepage}
+
+%% ---- Body begins, header active ----
+\pagestyle{body}
+#+END_EXPORT
+
+* Introduction
+** The Core Problem
+
+;; DRAFT — language needs refinement
+
+Physics inherited a set of primitives. Object, location, motion, sequential time, the detached external observer. These were abstracted from human-scale perceptual experience — the cave dweller's sky, formalized. Every subsequent framework inherited them without examination. Thermodynamics, electromagnetism, relativity, quantum mechanics, string theory, loop quantum gravity. Each built on the same foundation.
+
+The incompatibilities between frameworks — GR against QM, the measurement problem, the problem of time — are symptoms of foundational mismatch. Not technical failures awaiting mathematical fixes.
+
+** The Language Problem
+
+;; DRAFT — language needs refinement
+
+Quantum mechanics borrowed ordinary language and bent each term. Observer no longer means a conscious mind. Measurement no longer means careful observation. Collapse may not be a physical event at all. The borrowed terms carry associations the new meanings cannot support. False familiarity misleads and gatekeeps critique.
+
+The Medium requires its own vocabulary. Three terms replace the inherited ones:
+
+- /Occurrence/: a ι event — the unit of substrate process
+- /Registration/: retention of a structural consequence of interaction
+- /Boundary/: the interface at which two processes alter each other's state
+
+Chosen to mean exactly what they say. Nothing more.
+
+** A Recognition and a Challenge
+
+Modern science is one of the great achievements of the human mind. Quantum mechanics predicts the behavior of matter at the smallest accessible scales with a precision unmatched in the history of empirical inquiry. General relativity describes the geometry of spacetime and the behavior of gravity across cosmological distances with equal exactness. The Standard Model catalogs the fundamental particles and their interactions with extraordinary completeness. These are not approximations or guesses. They are hard-won structures --- the accumulated result of centuries of observation, mathematical invention, and experimental testing.
+
+This document does not dispute any of it.
+
+What it asks instead is the question: /What alternative foundation explains the findings of modern science?/ The equations of physics are precise maps. The challenge is to identify the territory they map --- not the territory of observable phenomena, which physics has surveyed magnificently, but the foundation that gives rise to a universe in which observation is possible at all.
+
+There is a limitation that physics has not confronted fully. Anyone who has ever done physics is an earth-bound observer, even with the advent of space-borne sensors. That observer arrived late --- billions of years after the assumed beginning of the universe --- in the midst of an apparently infinite universe. That observer, equipped with sensory tools required for survival, began to ask the questions. Using a dimensional coordinate system (meters, seconds, joules), physics constructed systems defined to understand what is seen from that observation point. Constants, dimensions, and equations carry the fingerprints of that position.
+
+#+BEGIN_QUOTE
+/Out of an infinite nothing all of creation becomes./
+
+That sentence is the theory. Everything that follows is the attempt to say it precisely.
+#+END_QUOTE
+
+* Abstract
+
+The Medium is a foundational framework prior to the limits of human observation. It cannot be tested or demonstrated directly. It is offered as a starting point upon which others may build.
+
+The sole primitive is \iota: a unit occurrence carrying sign disposition +1 or \(-1\). The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint exists at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota --- they emerge from \iota-relations. The Planck quantum of action marks the projection boundary between the substrate and observable physics, where one \iota event corresponds to \(\hbar\).
+
+From this primitive, a three-level algebraic hierarchy is derived by successive combination. At the first level, \(\kappa = \sum \iota\) is the coupling character of a local collection --- the net sign disposition of a group of \iota events. At the second level, \(\Kappa = \sum \kappa\) is the total configuration energy of a candidate stable structure. At the third level, \(\Kappa\) projects into spacetime as \(\hat{H}\), the Hamiltonian of standard physics --- not assumed but derived from substrate structure.
+
+Valid combinations are governed by a logical adjacency constraint: two \iota events of identical sign disposition produce no new relational information and therefore cannot occupy adjacent positions in a combination. This is not a physical rule imposed on \iota but a consequence of sign being \iota's only property. The combinatorial space of valid configurations is sharply restricted by this constraint. A minimum threshold of combinatorial complexity must be reached before any stable configuration can form --- below this threshold, combinations approach but do not achieve coherence, naturally populating the quantum vacuum as substrate fluctuations.
+
+Stable configurations emerge where \(\Kappa\) reaches a local extremum. These are the substrate analogs of bound states. Mass, charge, and spin are not independent intrinsic properties --- they are three projection signatures of a single underlying combinatorial structure. Mass corresponds to \(N\), the count of \iota events. Charge corresponds to the net sign of \(\Kappa\). Spin arises from structural symmetry of the configuration under projection.
+
+The Medium distinguishes three categories of emergent property. Properties emergent from the substrate arise directly from \iota-combinations: mass, charge, spin, the quantum vacuum, the Hamiltonian, spacetime, and dimensionality. Properties emergent at the projection layer arise from interactions between stable configurations in spacetime: the fundamental forces, fields, and the full complexity of observable reality. This is the domain of existing physics --- The Medium makes no claims there. A third category remains unassigned: color charge, gravity, neutrino oscillation, and the phenomena attributed to dark matter and dark energy have not yet been placed in either layer with confidence. Gravity is the most consequential of these --- if spacetime is itself a projection from \iota-relations, gravity may bridge both layers in a way the other forces do not.
+
+The four major puzzles of standard cosmology --- the entropy problem, the arrow of time, cosmological redshift, and the singular origin of the Big Bang --- are addressed in Part III. In each case the puzzle dissolves rather than being solved, because it was generated by a category error that The Medium does not commit: treating projection-layer artifacts as substrate-level facts.
+
+Since \iota-arrangements are below the current observational floor, direct testing is not possible with existing instruments. The framework predicts that particle properties treated as intrinsic by standard physics are relational outcomes of substrate combinatorics. New experimental approaches designed to probe transition signatures rather than particle states directly are identified as the path toward indirect verification.
+
+The central open problems are offered as challenges to the theoretical physics community: deriving the specific configurations corresponding to observed particles; establishing which ordered combinations produce which spin values under projection; determining the minimum threshold from first principles; resolving whether color charge and gravity are substrate or projection phenomena; and characterizing dark matter and dark energy candidates within the substrate.
+
+/Changes from v0.4:/ Reorganized around the simultaneity primitive as the central organizing claim. Added Part IV: What The Medium Needs to Prove. Added new vocabulary layer (occurrence, registration, boundary) to replace inherited QM terminology. Added Observer and Observed section dissolving the observer/observed asymmetry at the substrate level. Expanded time section with the real-for-the-observer vs. necessary-for-the-universe distinction. Added topos theory connection and vocabulary boundary to open problems. Added The Core Problem and The Language Problem as Introduction subsections.
+
+
+* PART I: THE SUBSTRATE
+
+The substrate description is complete in itself. It contains no dimensions, no observers, no physics. It is what it is.
+
+** The Simultaneity Primitive
+
+;; DRAFT — central organizing claim of v0.5 — language needs refinement
+
+This is the organizing claim of version 0.5.
+
+The universe is not a sequence of events. It is a web of processes in continuous, simultaneous, mutual interaction. No process prior to any other. Incomprehensibly vast. Without boundary.
+
+Sequence is what that web looks like from inside an embedded process with memory and continuity. A cross-section through the simultaneity. Experienced as before and after, cause and effect. The experience is real. The sequence is not the substrate.
+
+Processes do not have relationships. The relationships are what the processes are. Identity is relational. Each process defined by its interactions with all others, continuously and simultaneously. Remove the web and there is no process. Remove the process and there is no web. They are the same thing.
+
+This goes beyond relational quantum mechanics, which still requires quantum states as primitives. It goes beyond Leibniz, who saw existence as relational but had no process ontology. Neither string theory nor loop quantum gravity reaches this ground — both need their mathematics to remain recognizable to the institution.
+
+ι-level interactions may superficially resemble strings or Planck-scale quanta. The difference: those frameworks describe entities that then have relationships. The Medium provides the relational simultaneity as the primitive. Not the entities. The web of mutual constitution.
+
+** The Foundational Claim
+
+The framework rests on a single foundational claim:
+
+#+BEGIN_QUOTE
+The Medium always is and always was and always will be. It has no beginning and no end. Intrinsic distinction is an eternal property of the Medium --- not an event that occurred but a fundamental condition. The structure we observe is not the result of something that happened. It is the expression of the Medium always happening.
+#+END_QUOTE
+
+This claim does three things at once.
+
+*It eliminates the need for an initial starting point.* The question of what initiated the universe only arises with the assumption of time. If the Medium always is and always was, there is no before and no starting point. The trigger needed for a beginning dissolves by identifying it as a consequence of a false assumption.
+
+*It eliminates time as a primitive.* The Medium exists outside of time. What we call time is not a property of the Medium. It is downstream --- a consequence of repeated manifestation, not a fundamental feature of reality.
+
+*It re-frames differentiation.* The emergence of structure is not a process that started. It is a condition that always is. The ground state and the differentiated state coexist within the Medium eternally, because intrinsic distinction --- \iota --- is eternal.
+
+** The Ground State
+
+The Medium at its ground state is a fully autonomous stochastic system. It requires no inputs, no external cause, no temporal framework, and no governing distribution. Its randomness is not randomness within a framework --- it is randomness without framework. No privileged outcome. No preferred state.
+
+This is not chaos. Chaos retains structure. The ground state of the Medium precedes structure entirely. It is meta-randomness --- randomness that is random about its own nature.
+
+In a medium of infinite extent with no preferred states, every possible configuration has nonzero probability. This is not intuitive but is mathematically unavoidable. The universe is not something that happened against the odds. It is a necessary expression of a medium that has no mechanism for suppressing any possibility.
+
+** Axioms
+
+*** Axiom I --- The Eternal Medium
+
+The Medium always is and always was. It has no beginning, no end, and no external cause.
+
+\begin{equation}
+\nexists\, t_0 : M \text{ begins at } t_0 \qquad \nexists\, t_1 : M \text{ ends at } t_1
+\end{equation}
+
+/Status: Axiomatic./
+
+*** Axiom II --- Intrinsic Distinction
+
+The Medium possesses one property: intrinsic distinction, denoted \iota. It is not an operator, not a function, not a process. It is what the Medium is --- the capacity of the undifferentiated to give rise to the differentiated.
+
+/Status: Axiomatic. Nature of \iota under investigation./
+
+** Primitives
+
+*** Primitive I --- The Field
+
+The state of the Medium is described by a substrate field \(\phi\): at every location, manifestation either has occurred or it has not. An \iota event is a unit occurrence with sign disposition +1 or \(-1\). It has no spatial extent, no duration, no location, no mass, no charge, no spin. It carries no properties in isolation. It is dimensionless.
+
+At the projection layer, one \iota occurrence corresponds to a single Planck-scale event --- the threshold at which quantum and gravitational effects are simultaneously relevant.
+
+\iota occurrences are stochastic. There is no mechanism driving them. No prior state determines the next. They simply occur.
+
+\begin{equation}
+\phi : M \to \{+1, -1\}
+\end{equation}
+
+#+BEGIN_CENTER
+The complete formal description of the Medium's state.
+#+END_CENTER
+
+/Status: Current./
+
+*** Primitive II --- Manifestation Occurrence
+
+Manifestation at any location is a stochastic event. A location either manifests or it does not. The substrate imposes no preference.
+
+\begin{equation}
+\phi(x) \in \{+1, -1\} \text{ (no preference, no guarantee)}
+\end{equation}
+
+\iota events are not all identical in their relational character. Each carries a disposition --- a tendency toward coupling with other events that is either attractive or repulsive. This disposition is not a property the event holds in isolation. It only manifests in relation to other events. But it is real and primitive: without it, accumulation of \iota events produces only undifferentiated noise. No structure, no stability, no distinction, no material.
+
+Differential coupling disposition is the logical necessity for material existence. If it did not exist, nothing would exist.
+
+#+BEGIN_CENTER
+Shared state. No distance. No space. No ordering.
+#+END_CENTER
+
+This is prior to locality. Any spatial relationship between \(x\) and \(y\) is constructed downstream, after structure formation establishes the conditions in which distance becomes meaningful.
+
+/Status: Current./
+
+#+BEGIN_QUOTE
+Not a beginning and an end. A breathing.
+#+END_QUOTE
+
+Because \iota is an eternal property of the Medium, this arc does not occur once. It occurs wherever and whenever \iota manifests. The binary field blinks into structure and blinks out again, across an infinite substrate that does not notice.
+
+** The Algebraic Hierarchy
+
+The structure of the Medium generates a natural algebraic hierarchy through successive combination. Each level is derived from the level below it; none is assumed.
+
+*Level 0 --- The Primitive.* \iota is the sole primitive. A unit occurrence with sign disposition \(+1\) or \(-1\). Dimensionless. No properties in isolation.
+
+*Level 1 --- Coupling Character.* For a local collection of \iota events, the coupling character \(\kappa\) is defined as their sum:
+
+\begin{equation}
+\kappa = \sum_{i} \iota_i
+\end{equation}
+
+\(\kappa\) is the net sign disposition of a local cluster. It is the first derived quantity in the hierarchy.
+
+*Level 2 --- Configuration Energy.* For a candidate stable structure composed of multiple \(\kappa\) clusters, the total configuration energy \(\Kappa\) is:
+
+\begin{equation}
+\Kappa = \sum_{j} \kappa_j
+\end{equation}
+
+\(\Kappa\) governs whether a configuration achieves stability. Stable configurations are those for which \(\Kappa\) reaches a local extremum --- a minimum or maximum in the combinatorial landscape of valid arrangements. These are the substrate analogs of bound states. All observed stable particles are candidates for such extrema.
+
+*Level 3 --- The Hamiltonian.* Under projection into the observer's spacetime coordinate system, \(\Kappa\) becomes \(\hat{H}\), the Hamiltonian of standard quantum mechanics:
+
+\begin{equation}
+\hat{H} = \mathrm{proj}(\Kappa)
+\end{equation}
+
+The Hamiltonian is not an assumption of the theory. It is a derived consequence of the substrate structure, projected through the observational boundary.
+
+*The Adjacency Constraint.* Valid combinations must satisfy: two \iota events of identical sign disposition cannot occupy adjacent positions. This is not a physical rule but a logical necessity --- adjacent identical signs produce no new relational information and therefore no new structure. The constraint sharply restricts the combinatorial space and is the source of the minimum complexity threshold below which stable configurations cannot form.
+
+** The Substrate --- Complete
+
+The substrate description is now complete. It contains:
+
+- One substrate: the Medium
+- One property: \iota
+- One field: \(\phi \in \{+1, -1\}\)
+- One relationship: co-manifestation \(x \sim y\)
+- One algebraic hierarchy: \(\iota \to \kappa \to \Kappa \to \hat{H}\)
+- One arc: maximum undifferentiation \(\to\) structure \(\to\) maximum undifferentiation
+
+#+BEGIN_QUOTE
+Nothing else belongs here. Everything else is downstream.
+#+END_QUOTE
+
+
+* PART II: THE PROJECTION LAYER
+
+Everything in Part II is downstream of the substrate. Dimensions, constants, observers, and all of physics live here --- valid, precise, and complete as descriptions of projected structure. Not descriptions of the substrate itself.
+
+** The Observer's Position
+
+Before describing the projections, it is necessary to name what the observer is and what it is not.
+
+An observer is a self-sustaining structure in the binary field --- a stable pattern that persists across transitions, embedded in the differentiated region it constitutes. Every observer who has ever done physics is such a structure. Every human observer is an earth-bound variant: carbon-based, temperature-sensitive, confined to a narrow spatial and temporal window, equipped with sensory apparatus tuned to a small fraction of the available signal, and dependent on cognitive architecture shaped by survival pressures that predate science by orders of magnitude.
+
+These are not complaints. They are structural facts that bear on what physics can and cannot see from its current position.
+
+The observer arrives late. The substrate has been operating --- in whatever sense ``operating'' applies to an eternal, timeless ground --- without observers for the overwhelming majority of the arc. The observer arrives embedded in a mature, highly differentiated region of the binary field. It has no access to the substrate prior to structure formation. It has no access to regions beyond the propagation horizon of its own local structure. Its coordinate system --- meters, seconds, joules, kelvins --- was built to make /its own scale/ tractable. That coordinate system is extraordinarily powerful within its domain. It is not a description of the substrate. It is a description of the projection.
+
+The constants of physics --- \(h\), \(c\), \(G\), \(k\) --- are the seams where the observer's dimensional framework meets the substrate's dimensionless operations. They are not brute inputs. They are artifacts of the position from which the measurement is taken.
+
+A different observer, embedded in a different region of the binary field at a different stage of the arc, with a different sensory range and a different coordinate system, would derive different constants and call them fundamental. They would be equally right and equally downstream.
+
+** Physics as Projection
+
+The Medium is pre-dimensional. The binary field \(\phi\) carries no units. The propagation limit \(c\) is a dimensionless transition bound. The transition index \(t\) is a dimensionless label.
+
+#+BEGIN_QUOTE
+Dimensions do not exist in the substrate. They are constructed by observers.
+#+END_QUOTE
+
+To describe the relationships between structures like itself, the observer constructs a coordinate system --- a framework of units and dimensions that makes the relationships tractable. That coordinate system is not a discovery about the substrate. It is a construction of the observer.
+
+#+BEGIN_QUOTE
+Every dimensional quantity in physics --- every constant, every observable, every equation --- is a projection of a substrate relationship onto the observer's dimensional coordinate system. Physics is the complete and consistent description of those projections. It is a perfect map of the shadow. It is not a description of the substrate that casts it.
+#+END_QUOTE
+
+** The Projection Boundary
+
+The Planck scale marks the projection boundary: the threshold at which one \iota event becomes visible to the observer's dimensional framework. At this boundary, the substrate's dimensionless occurrence acquires the dimensional form the observer calls action --- energy multiplied by time.
+
+The constancy of \(h\) follows directly. Every \iota event is identical --- the same occurrence of the same property of the same substrate, without variation. The observer always measures the same thing and always gets the same number. The constancy of \(h\) is not a fact about physics. It is a consequence of the irreducible uniformity of \iota.
+
+An open question is carried explicitly: why does the projection carry units of action specifically --- energy multiplied by time --- and not some other dimensional combination? The answer requires a derivation of the observer's dimensional categories from the structure of sustained binary field configurations. That derivation is a primary target for future development.
+
+** Emergent Properties
+
+The Medium distinguishes three categories of emergent property, organized by the level at which they arise.
+
+*Substrate emergent.* These properties arise directly from \iota-combinations, prior to any observer: mass (corresponding to \(N\), the count of \iota events in a configuration), charge (corresponding to the net sign of \(\Kappa\)), spin (arising from structural symmetry of the configuration), the quantum vacuum (substrate fluctuations below the stability threshold), the Hamiltonian (as \(\mathrm{proj}(\Kappa)\)), spacetime (as the projection framework constructed by embedded observers), and dimensionality (as the coordinate structure observers impose on substrate relationships).
+
+*Projection layer emergent.* These properties arise from interactions between stable configurations within the spacetime projection: the fundamental forces, quantum fields, and the full complexity of observable physical reality. This is the domain of existing physics. The Medium makes no claims in this domain beyond identifying it as downstream.
+
+*Unassigned.* The following have not yet been placed with confidence in either layer: color charge, gravity, neutrino oscillation, dark matter, and dark energy. Gravity is the most consequential --- if spacetime is itself a projection from \iota-relations, gravity may bridge both layers in a way the other forces do not. The current limit of assignment reflects the limit of present understanding, not the limit of The Medium.
+
+** Mass, Charge, and Spin as Projection Signatures
+
+Standard physics treats mass, charge, and spin as independent intrinsic properties of particles. The Medium identifies them as three projection signatures of a single underlying combinatorial structure.
+
+Mass corresponds to \(N\): the total count of \iota events in a stable configuration. A heavier particle is not made of different stuff. It is a configuration with a larger \(N\).
+
+Charge corresponds to the net sign of \(\Kappa\). A configuration in which positive \iota events dominate projects to positive charge; negative dominance projects to negative charge; exact cancellation projects to charge neutrality. Charge is not a property added to a particle. It is the sign structure of its substrate configuration.
+
+Spin arises from the structural symmetry of the configuration under projection. The relationship between specific combinatorial symmetry classes and the observed spin values (0, 1/2, 1, 3/2, 2) is an open derivation, explicitly deferred. The claim that spin is a projection signature of structural symmetry is current; the formal derivation of which symmetry class produces which spin value is an open problem.
+
+** Observer and Observed
+
+;; DRAFT — language needs refinement
+
+Standard quantum mechanics imports a Newtonian posture. A detached external entity measuring a passive system. That posture breaks down at the quantum scale. It was never properly grounded anywhere.
+
+In The Medium there is no outside. Every interaction is between ι-level processes within the Medium.
+
+The observed is any process whose boundary state is altered by interaction. The observer is any process that retains a structural consequence of that interaction — registration. The asymmetry dissolves. Observation is mutual and structural. Not performed from a privileged external position.
+
+Superposition is not a rapid toggling between states — interference patterns from the double slit rule that out definitively. It is the formalism's acknowledgment that before interaction, definite states do not exist. The measurement problem has gone unsolved for a century because the observer/observed distinction was never grounded. The Medium dissolves the distinction at the substrate level. What physics calls measurement is registration. What physics calls observer is any process capable of retaining a structural consequence of boundary contact.
+
+** Co-Manifestation and Entanglement
+
+At the substrate level, two locations carrying the same \(\phi\) value share a state with no spatial relationship between them. There is no distance at the substrate level. There is no /between/.
+
+When an observer embedded in differentiated structure encounters two events that are correlated regardless of their spatial separation, it calls this entanglement. Entanglement is the observer's projection of co-manifestation \(x \sim y\) into a framework that expects spatial locality to govern correlation. The apparent mystery of entanglement --- correlation without causal connection across space --- dissolves at the substrate level, where space does not yet exist and co-manifestation requires no connection at all.
+
+** The Stochastic Character --- Observer's Description
+
+At the substrate level, manifestation at any location either occurs or it does not, with no preference and no guarantee. An observer describing this stochastic character mathematically recognizes it as a Bernoulli process --- a binary outcome with associated probability \(p(x)\) at each location. This is the observer's mathematical framework imposed on the substrate's stochastic character. The substrate does not know about Bernoulli. It simply manifests or does not.
+
+The full statistical mechanics of the ground state --- entropy, temperature, distributions --- emerges on the observer side as the projection of the substrate's undifferentiated stochastic character into the observer's thermodynamic framework.
+
+** The General Principle
+
+The presence of dimensional constants in the equations of physics --- \(h\), \(c\), \(G\), \(k\) --- is the signature of projection. Each constant marks a place where the observer's dimensional framework has been imposed on a substrate relationship that has none. In the substrate's own terms, those constants do not appear.
+
+The program implied by the symbol table: for each row relating a substrate quantity to an observer quantity, derive the dimensional form of the observer quantity from the substrate quantity and a formal account of the projection boundary. If that program succeeds, every fundamental constant of physics will have been given a substrate derivation --- and the mystery of their values resolved, not by finding deeper constants, but by understanding that they were never fundamental to begin with.
+
+** On Existing Physics
+
+The existing mathematical frameworks of physics are valid descriptions of differentiated structure behavior within their respective domains. They are not wrong. They are downstream. They are precise and consistent descriptions of the observer's projection of the substrate.
+
+The Medium framework does not replace them. It identifies the substrate from which they project --- and defines the program by which their dimensional constants can, in principle, be derived rather than assumed.
+
+
+* PART III: COSMOLOGICAL IMPLICATIONS
+
+The following develops four interconnected consequences that follow directly from the foundational structure of The Medium. Each addresses a major puzzle in standard cosmology. In each case the puzzle dissolves rather than being solved --- it was generated by a category error that The Medium does not commit: treating projection-layer artifacts as substrate-level facts.
+
+** Entropy as Emergent Accounting
+
+Standard cosmology inherits a puzzle from Boltzmann: if the second law of thermodynamics is statistical rather than fundamental, why was entropy low at the beginning? The standard response bundles this into initial conditions and calls it the past hypothesis. The Big Bang is asserted to have been an extraordinarily low-entropy state. This assertion is not derived. It is required by the model and inserted by hand.
+
+The Medium does not accept this framing, and not merely because it rejects the Big Bang as an explanation. The more fundamental problem is that the framing assigns entropy as a global intrinsic property of the universe --- a quantity that belongs to the cosmos as a whole and increases over cosmic time. This is a category error.
+
+Entropy, as Boltzmann formalized it and Shannon made fully explicit, is a measure of an observer's ignorance about the microstate of a system given knowledge of its macrostate. It is not a property of the system alone. It is a property of the relationship between an observer with limited resolution and a system with more degrees of freedom than the observer can track. Entropy is always relative to a coarse-graining --- a choice, made by an observer, of which distinctions count and which do not.
+
+The universe as a whole has no external observer. Assigning it a global entropy value requires an observer standing outside it with a complete accounting of all microstates, which is incoherent. What cosmologists call the entropy of the universe is always the entropy of the observable universe as seen from a particular embedded vantage point with particular resolution limits. It is local. It is relational. It is projection-layer all the way down.
+
+In The Medium, the substrate --- the \iota-combinatorial structure --- has no thermodynamic direction. There is no privileged low-entropy initial condition because there is no initial condition at the substrate level in any cosmologically meaningful sense. The apparent entropy gradient that standard cosmology treats as a cosmic fact is a projection-layer phenomenon: an artifact of embedded observers constructing temporal sequences and tracking accessible macrostates from within a particular slice of configuration space.
+
+Entropy is therefore classified in The Medium as projection-layer emergent. It has no substrate analog.
+
+** Time as Projection and Its Consequences for Frequency
+
+The Medium establishes that time is not a substrate-level property. Temporal directionality --- the sense that events occur in sequence, that causes precede effects, that entropy increases in one direction --- emerges at the projection layer as observers at a particular scale construct ordered accounts of substrate transitions.
+
+Time is real for the embedded observer. Thermodynamically, experientially, irreversibly real. Dismissing it as illusion is philosophical evasion. But real-for-the-observer and necessary-for-the-universe are different claims entirely. The universe's processes do not require time to coordinate. Gravity does not consult a clock. The mutual interaction between earth and moon is continuous and simultaneous --- neither process prior. Physics wrote the observer's experience of sequence into the equations as a global feature of reality. The equations keep resisting it. General relativity is time-symmetric. The Wheeler-DeWitt equation has no time variable. Time is emergent downstream of process. Not upstream of it.
+
+This has a direct consequence for the concept of frequency. Frequency is defined as cycles per unit time. If time is projection-layer emergent, then frequency is also projection-layer emergent. It is not a substrate-level property of a propagating pattern. It is a measurement that an observer constructs by counting transition events against a locally projected time reference.
+
+Two observers projecting different temporal frames --- because they sit at different configuration depths within the substrate, or because their local \iota-configuration densities differ --- will assign different frequency values to the same arriving pattern. This is not a Doppler effect. It is not recession. It is a structural consequence of time being a local projection rather than a universal background.
+
+** Redshift as Multi-Layer Projection Artifact
+
+Standard cosmology interprets cosmological redshift as evidence of recession velocity: distant galaxies are moving away, space between them and us is expanding, and their light is stretched to longer wavelengths in proportion to the expansion. This interpretation underlies the Big Bang model, Hubble's law, and the entire framework of an expanding universe with a singular low-entropy origin.
+
+The Medium offers a more parsimonious account that requires no expansion, no recession, and no singular origin --- while accepting the observational data entirely.
+
+Within The Medium, what we call a photon is a stable propagating \iota-configuration pattern --- a structure that persists and moves through successive co-manifestation relationships across configuration space. What we call speed corresponds to a transition rate: how many substrate transitions occur per unit of projected time. This is not a geometric velocity through space. It is a rate through configuration space.
+
+Redshift arises from three stacked projection effects.
+
+/First: the emitting configuration./ A source at some region of the substrate produces a transition pattern at a rate determined by local \iota-configuration density. That rate is what the source's local projection layer calls frequency.
+
+/Second: traversal through configuration depth./ The pattern propagates across substrate regions that are not uniform. Configuration density varies across the substrate --- not directionally, not as expansion, but structurally, as a feature of the combinatorial landscape. As the pattern traverses this varying density, the relationship between transition events and projected distance is not constant.
+
+/Third: the receiving configuration./ The observer receives the arriving pattern and measures its frequency against a locally projected time reference. That time reference is constructed from the observer's local \iota-configuration density, which differs from the emitter's. The frequency the observer assigns is a ratio constructed entirely within the projection layer, against a local clock that has no substrate-level universality.
+
+The redshift that results from this three-layer process is not evidence that the source is receding. It is evidence that the emitting and receiving configurations sit at different depths within a non-uniform substrate, and that the projection relationship between them is asymmetric. What standard cosmology interprets as Hubble's law --- a proportional relationship between distance and recession velocity --- is, in The Medium, a projection artifact of sampling along a particular observational cone from a single embedded vantage point through a substrate with a particular large-scale configuration structure.
+
+The mature and fully structured galaxies observed at high redshift --- including findings from JWST that strain the standard timeline --- are consistent with this account. They do not violate a law of nature. They strain a model built on a locally-derived entropy narrative and a misread projection artifact. In The Medium, structural complexity at any configuration depth is not constrained by elapsed cosmic time, because cosmic time is itself a projection.
+
+** The Big Bang as Projection Error
+
+The Big Bang model rests on three foundational assumptions, each of which The Medium addresses directly.
+
+First: that cosmological redshift indicates recession velocity, implying an expanding universe with a singular dense origin. Second: that entropy has a global cosmic direction, requiring a special low-entropy initial state. Third: that time provides a universal background against which an origin event --- a moment of creation --- is a coherent concept.
+
+The Medium has shown that all three assumptions are projection-layer artifacts. Redshift is configuration-depth asymmetry misread as velocity. Entropy is a local observer relationship with no substrate reality. Time is a local projection with no substrate universality.
+
+Remove those three assumptions and the Big Bang has no remaining evidential foundation. The observational data --- redshift, the cosmic microwave background, large-scale structure --- remain. The interpretation built on top of them does not survive.
+
+This is a stronger position than disproof. Disproof engages a model on its own terms, accepting its conceptual foundations and showing internal inconsistency. What The Medium establishes is more fundamental: the conceptual foundations were never valid. The Big Bang is not a theory that turned out to be wrong. It is a theory that was never well-formed --- a projection error that becomes visible the moment one insists on asking what is actually happening at the substrate level.
+
+The universe, in The Medium, has no beginning in any substrate-meaningful sense. It has no privileged center, no singular origin, no global clock, and no cosmic entropy gradient. What it has is a substrate of extraordinary combinatorial richness from which structure, observers, and the local projections we call time, space, and thermodynamics all emerge --- consistently, without residue, and without requiring any special initial conditions.
+
+
+* PART IV: WHAT THE MEDIUM NEEDS TO PROVE
+
+;; DRAFT — language needs refinement
+
+Not a physical theory with testable predictions. Not a mathematical framework with derivational power.
+
+Three things.
+
+First: that the primitives are genuinely primitive. That occurrence, registration, boundary do not smuggle in hidden assumptions. That they do not secretly depend on Newtonian concepts.
+
+Second: that existing frameworks require something like these primitives to be coherent. That the measurement problem, the time problem, the observer confusion all point to a gap sitting exactly where The Medium works.
+
+Third: that the framework is internally consistent and generative. That thinking from these primitives produces coherent consequences. That it opens questions existing frameworks could not formulate.
+
+The model is the 1905 paper on special relativity. Not complex. Precise. Spare. The argument careful. The boundaries clearly stated.
+
+That is achievable. And it is enough.
+
+* Unresolved Questions
+
+These are the frontier of the framework, stated precisely and carried explicitly.
+
+*The Vocabulary Boundary.* The terms occurrence, registration, and boundary are proposed as genuinely primitive replacements for the inherited vocabulary of observer, measurement, and collapse. Whether they succeed --- whether they are themselves free of hidden Newtonian assumptions --- is an open question requiring formal examination.
+
+*The Topos Theory Connection.* ι operates below Boolean logic. Occurrence as boundary negotiation is not a yes/no event --- it is a process whose definiteness is contextual and relational. Topos theory, developed by Grothendieck, allows contextual relational logic where truth values are not simply binary. The Medium arrives at this logical territory from the conceptual direction; topos theory approaches from the mathematical direction. Whether they converge formally is an open derivation.
+
+*The Nature of \iota.* What is intrinsic distinction? The provisional characterization --- the property permitting local, spontaneous reduction from maximum undifferentiation in a fully random substrate --- is the central open question of the theory.
+
+*The Formal Account of the Projection Boundary.* How does an observer embedded in the binary field construct a dimensional coordinate system? What determines which dimensional categories emerge? This is the primary task for the next stage of formal development.
+
+*Why Does One Manifestation Project to Action?* The observer's measurement of one irreducible substrate occurrence produces a quantity with units of action --- energy multiplied by time. Why this dimensional combination? Until that derivation exists, the correspondence between one unit of substrate process and \(h\) is a named target, not a result.
+
+*The Derivation of Each Constant.* \(c\) from the dimensionless transition bound. \(G\) from structure formation geometry. Thermodynamic entropy from the substrate's undifferentiation measure. Each is an open derivation, explicitly deferred.
+
+*Particle Configurations.* What precisely are the stable configurations corresponding to observed particles? The formal derivation of particle properties from the \(\Kappa\) extremum condition --- beginning with the lightest candidates as threshold cases --- is the primary structural task of the next stage of development.
+
+*Spin Under Projection.* Which combinatorial symmetry classes produce which spin values (0, 1/2, 1, 3/2, 2) under projection? The claim that spin is a structural symmetry signature is current; the derivation is open.
+
+*Color Charge, Gravity, and the Unassigned Category.* Whether color charge is substrate or projection-layer emergent; whether gravity bridges both layers through its connection to spacetime; how dark matter and dark energy candidates arise from substrate structure. These are the frontier unresolved questions.
+
+*The Observer Boundary.* The observer is a sustained binary configuration within \(\phi\), attempting to describe the substrate that produced it from within. Every formal system contains truths it cannot prove from within itself. The Medium faces an analogous boundary and acknowledges it.
+
+
+* Summary
+
+#+CAPTION: Complete symbol table for version 0.4
+#+ATTR_LATEX: :environment tabular :align llp{4.5cm}l :booktabs t
+| *Symbol*                            | *Definition*                                                              | *Notes*                                          | *Status*    |
+|-------------------------------------+---------------------------------------------------------------------------+--------------------------------------------------+-------------|
+| \iota                               | Intrinsic distinction --- the sole primitive, sign \(\pm 1\)              | No properties in isolation                       | Axiomatic   |
+| \(\phi : M \to \{+1,-1\}\)          | Binary substrate field --- complete state description                     | Pre-dimensional                                  | Current     |
+| \(x \sim y\)                        | Co-manifestation --- shared state, no spatial relationship                | Prior to locality                                | Current     |
+| \(\kappa = \sum \iota\)             | Coupling character --- net sign disposition of a local cluster            | First derived quantity                           | Current     |
+| \(\Kappa = \sum \kappa\)            | Configuration energy --- governs stability via extremum condition         | Stable configs at local extrema of \(\Kappa\)    | Current     |
+| \(\hat{H} = \mathrm{proj}(\Kappa)\) | Hamiltonian --- projection of \(\Kappa\) into spacetime                   | Derived, not assumed                             | Current     |
+| \(N\)                               | Count of \iota events in a configuration --- projects to mass             | Mass is not intrinsic; it is relational          | Current     |
+| \(\mathrm{sgn}(\Kappa)\)            | Net sign of configuration energy --- projects to charge                   | Charge neutrality = exact sign cancellation      | Current     |
+| Spin                                | Structural symmetry of configuration under projection                    | Which symmetry maps to which value: open         | Provisional |
+| Adjacency constraint                | Identical adjacent signs forbidden --- source of minimum threshold        | Logical, not physical                            | Current     |
+| Projection boundary                 | Planck scale --- where dimensionless substrate meets dimensional observer | \(\hbar = \mathrm{proj}(\iota)\)                 | Current     |
+| \(h = \mathrm{proj}(\iota)\)        | Planck's constant --- dimensional projection of one \iota event           | Constancy follows from uniformity of \iota       | Provisional |
+| \(c\)                               | Propagation limit --- dimensionless transition bound at substrate level   | Dimensional form requires derivation             | Provisional |
+| \(G\)                               | Gravitational constant --- substrate derivation not yet complete          | Linked to spacetime projection; unassigned       | Open        |
+| \(x \sim y \to\) entanglement       | Co-manifestation projects to quantum entanglement                         | Mystery dissolves at substrate level             | Provisional |
+| Entropy                             | Projection-layer emergent --- observer's coarse-graining of microstates   | No substrate analog                              | Current     |
+| Time                                | Projection-layer emergent --- ordered account of substrate transitions    | No substrate universal clock                    | Current     |
+| Redshift                            | Three-layer projection artifact --- not recession velocity                | Configuration-depth asymmetry                   | Current     |
+| Color charge                        | Not yet placed in either layer                                            | Unassigned                                      | Open        |
+| Dark matter / dark energy           | Substrate candidate structures not yet identified                         | Unassigned                                      | Open        |
+
+
+* A Personal Note
+
+I am seventy-nine years old. I am not an academic. I have no credentials in physics or mathematics. I began this work with a question that would not leave me alone and a conviction that the question deserved a serious attempt at an answer.
+
+I began this knowing I may not live to see it reach its conclusions. That does not trouble me. What matters is that the ideas are documented, attributed, and made available to anyone who finds them worthy of development. If this framework contains something true it belongs to whoever can take it further. My name attached to it is enough --- for the record, and for my family.
+
+Gregor Mendel published his work on inheritance and it sat unread for decades before being recognized as foundational. The ideas belong to whoever finds them. The record belongs to their origin.
+
+
+* License and Attribution
+
+This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to share and adapt this material for any purpose, including commercially, provided you give appropriate credit to the original author, provide a link to the license, and indicate if changes were made.
+
+https://creativecommons.org/licenses/by/4.0/
+
+All versions of this document are archived on Zenodo and remain linked to the authorship record of Bradley K. DePuy, independent researcher.
+
+DOI: 10.5281/zenodo.18927154\\
+ORCID: https://orcid.org/0009-0001-0328-2299
