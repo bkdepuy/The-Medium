@@ -47,7 +47,6 @@
 * Introduction
 ** The Core Problem
 
-;; DRAFT — language needs refinement
 
 Physics inherited a set of primitives. Object, location, motion, sequential time, the detached external observer. These were abstracted from human-scale perceptual experience — the cave dweller's sky, formalized. Every subsequent framework inherited them without examination. Thermodynamics, electromagnetism, relativity, quantum mechanics, string theory, loop quantum gravity. Each built on the same foundation.
 
@@ -55,7 +54,6 @@ The incompatibilities between frameworks — GR against QM, the measurement prob
 
 ** The Language Problem
 
-;; DRAFT — language needs refinement
 
 Quantum mechanics borrowed ordinary language and bent each term. Observer no longer means a conscious mind. Measurement no longer means careful observation. Collapse may not be a physical event at all. The borrowed terms carry associations the new meanings cannot support. False familiarity misleads and gatekeeps critique.
 
@@ -87,7 +85,6 @@ That sentence is the theory. Everything that follows is the attempt to say it pr
 
 The Medium is a foundational framework prior to the limits of human observation. It cannot be tested or demonstrated directly. It is offered as a starting point upon which others may build.
 
-;; DRAFT — language needs refinement
 
 The sole primitive is \iota: the Medium's act of self-distinction. The Medium distinguishes within itself. \iota is that act. Each \iota event produces character --- the difference the distinction makes. +1 and -1 are the two aspects of one distinction. Character is not a property \iota holds. It is what distinguishing is. Without difference there is no distinction. The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint exists at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota --- they emerge from \iota-relations. The Planck quantum of action marks the projection boundary between the substrate and observable physics, where one \iota event corresponds to \(\hbar\).
 
@@ -116,7 +113,6 @@ The substrate description is complete in itself. It contains no dimensions, no o
 
 ** The Independence Primitive
 
-;; DRAFT — central organizing claim of v0.5 — language needs refinement
 
 Processes occur independently. No ordering. No coordination required. Yet existence may impact existence.
 
@@ -124,7 +120,6 @@ Sequence is what independence looks like from inside an embedded process. Experi
 
 Identity is produced at encounter. Each process occurs on its own terms. The relationships are what the processes are. Remove the web and there is no process. Remove the process and there is no web.
 
-;; DRAFT — language needs refinement
 
 Three prior frameworks reach toward this ground and stop short.
 
@@ -178,7 +173,6 @@ The Medium always is and always was. It has no beginning, no end, and no externa
 
 *** Axiom II --- Intrinsic Distinction
 
-;; DRAFT — language needs refinement
 
 The Medium possesses one property: intrinsic distinction, denoted \iota. It is not an operator, not a function, not a process. It is what the Medium is. The Medium distinguishes within itself. \iota is that act of self-distinction. Each \iota event produces character as the difference the distinction makes. Without difference there is no distinction. Character is not a property \iota holds --- it is what distinguishing is.
 
@@ -188,7 +182,6 @@ The Medium possesses one property: intrinsic distinction, denoted \iota. It is n
 
 *** Primitive I --- The Field
 
-;; DRAFT — language needs refinement
 
 \iota is the Medium's act of self-distinction. Each \iota event produces character --- the difference the distinction makes. That character is not a property \iota holds before the act. It is what the act is. +1 and -1 are the two aspects of one distinction. It has no spatial extent, no duration, no location, no mass, no charge, no spin. It is dimensionless.
 
@@ -212,7 +205,6 @@ At the projection layer, one \iota event corresponds to a single Planck-scale ev
 
 *** Primitive II --- Distinction and Character
 
-;; DRAFT — language needs refinement
 
 Each \iota event is an act of self-distinction within the Medium. The character it produces --- +1 or -1 --- is the difference the distinction makes. Not determined in advance. Not driven by prior state. Whether the Medium next distinguishes at a given relational node is not governed. It simply does.
 
@@ -353,7 +345,6 @@ The specific derivation of which encounter patterns produce which spin values (0
 
 ** Observer and Observed
 
-;; DRAFT — language needs refinement
 
 Standard quantum mechanics imports a Newtonian posture. A detached external entity measuring a passive system. That posture breaks down at the quantum scale. It was never properly grounded anywhere.
 
@@ -495,7 +486,6 @@ The temperature uniformity dissolves. The anisotropy spectrum --- the precise on
 
 * PART IV: WHAT THE MEDIUM NEEDS TO PROVE
 
-;; DRAFT — language needs refinement
 
 Not a physical theory with testable predictions. Not a mathematical framework with derivational power.
 
@@ -521,7 +511,6 @@ That is achievable. And it is enough.
 
 * PART V: DERIVATIONS
 
-;; DRAFT — language needs refinement
 
 ** Derivation I: Planck Bits from the Substrate
 
@@ -557,7 +546,6 @@ Why one \iota event projects to exactly \(\hbar\) of action --- energy multiplie
 
 ** Derivation II: Standard Particles as Planck Bit Configurations
 
-;; DRAFT — language needs refinement
 
 The Planck bit derivation has an immediate consequence. If a Planck bit is a registered \iota distinction character, then a standard particle is a stable configuration of Planck bits --- a pattern of distinction characters that has achieved stability at a \(\Kappa\) extremum.
 
