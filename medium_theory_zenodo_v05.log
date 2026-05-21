@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.9.25)  21 MAY 2026 15:00
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.9.25)  21 MAY 2026 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -578,8 +578,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1]
+Missing character: There is no — ("2014) in font ec-lmr10!
 ! Undefined control sequence.
-l.116 ...a\) events. At the second level, \(\Kappa
+l.120 ...a\) events. At the second level, \(\Kappa
                                                    = \sum \kappa\) is the to...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -588,7 +589,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.116 ...e structure. At the third level, \(\Kappa
+l.120 ...e structure. At the third level, \(\Kappa
                                                   \) projects into spacetime...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -597,7 +598,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.120 Stable configurations emerge where \(\Kappa
+l.124 Stable configurations emerge where \(\Kappa
                                                  \) reaches a local extremum...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -606,8 +607,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.120 ...e corresponds to the net sign of \(\Kappa
-                                                  \). Spin arises from struc...
+l.124 ...o the net encounter character of \(\Kappa
+                                                  \). Spin describes the rel...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -619,10 +620,14 @@ Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
 [3]
 Missing character: There is no — ("2014) in font ec-lmr10!
-Missing character: There is no ι ("3B9) in font ec-lmr10!
-[4] [5]
+[4]
+Missing character: There is no — ("2014) in font ec-lmr10!
+Missing character: There is no — ("2014) in font ec-lmr10!
+[5]
+Missing character: There is no — ("2014) in font ec-lmr10!
+[6]
 ! Undefined control sequence.
-l.266 ..., the total configuration energy \(\Kappa
+l.290 ..., the total configuration energy \(\Kappa
                                                   \) is:
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -631,7 +636,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.269 \Kappa
+l.293 \Kappa
              = \sum_{j} \kappa_j
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -640,7 +645,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.272 \(\Kappa
+l.296 \(\Kappa
               \) governs whether a configuration achieves stability. Stable ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -649,7 +654,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.272 ...nfigurations are those for which \(\Kappa
+l.296 ...nfigurations are those for which \(\Kappa
                                                   \) reaches a local extremu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -658,7 +663,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.274 ...r's spacetime coordinate system, \(\Kappa
+l.298 ...r's spacetime coordinate system, \(\Kappa
                                                   \) becomes \(\hat{H}\), th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -667,18 +672,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.277 \hat{H} = \mathrm{proj}(\Kappa
+l.301 \hat{H} = \mathrm{proj}(\Kappa
                                     )
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[6]
-! Undefined control sequence.
-l.294 ... hierarchy: \(\iota \to \kappa \to \Kappa
-                                                   \to \hat{H}\)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -687,17 +682,8 @@ and I'll forget about whatever was undefined.
 
 [7]
 ! Undefined control sequence.
-l.352 ...corresponding to the net sign of \(\Kappa
-                                                  \)), spin (arising from st...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.352 ...he Hamiltonian (as \(\mathrm{proj}(\Kappa
-                                                  )\)), spacetime (as the pr...
+l.319 ... hierarchy: \(\iota \to \kappa \to \Kappa
+                                                   \to \hat{H}\)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -706,7 +692,26 @@ and I'll forget about whatever was undefined.
 
 [8]
 ! Undefined control sequence.
-l.365 ...e corresponds to the net sign of \(\Kappa
+l.377 ...the net distinction character of \(\Kappa
+                                                  \)), spin (arising from re...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.377 ...he Hamiltonian (as \(\mathrm{proj}(\Kappa
+                                                  )\)), spacetime (as the pr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[9]
+! Undefined control sequence.
+l.390 ...the net distinction character of \(\Kappa
                                                   \). A configuration in whi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -715,17 +720,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no — ("2014) in font ec-lmr10!
+[10]
 Missing character: There is no ι ("3B9) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
-[9] [10] [11] [12]
+[11] [12] [13] [14]
 Missing character: There is no — ("2014) in font ec-lmr10!
-[13]
-Missing character: There is no ι ("3B9) in font ec-lmr10!
-[14]
 ! Undefined control sequence.
-l.515 ... of particle properties from the \(\Kappa
-                                                  \) extremum condition --- ...
+l.523 ...able encounter configurations at \(\Kappa
+                                                  \) extrema are the nodes. ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -733,7 +736,71 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.538 \(\Kappa
+l.525 ...rent encounter configurations at \(\Kappa
+                                                  \) extrema correspond to d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[15]
+Missing character: There is no — ("2014) in font ec-lmr10!
+[16]
+Missing character: There is no — ("2014) in font ec-lmr10!
+! Undefined control sequence.
+l.578 ...that has achieved stability at a \(\Kappa
+                                                  \) extremum.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.596 The photon does not sit at a \(\Kappa
+                                           \) extremum. It is a propagating ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[17]
+! Undefined control sequence.
+l.604 ...djacency constraint, achieving a \(\Kappa
+                                                  \) extremum --- correspond...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ι ("3B9) in font ec-lmr10!
+[18]
+! Undefined control sequence.
+l.623 ...ble Planck bit configurations at \(\Kappa
+                                                  \) extrema. The adjacency ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.627 ...rent encounter configurations at \(\Kappa
+                                                  \) extrema correspond to d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ι ("3B9) in font ec-lmr10!
+Missing character: There is no ι ("3B9) in font ec-lmr10!
+[19]
+! Undefined control sequence.
+l.654 \(\Kappa
                = \sum \kappa\) & Configuration energy --- governs stability ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -742,7 +809,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.538 ...able configs at local extrema of \(\Kappa
+l.654 ...able configs at local extrema of \(\Kappa
                                                   \) & Current\\[0pt]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -751,7 +818,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.539 \(\hat{H} = \mathrm{proj}(\Kappa
+l.655 \(\hat{H} = \mathrm{proj}(\Kappa
                                       )\) & Hamiltonian --- projection of \(...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -760,7 +827,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.539 ... & Hamiltonian --- projection of \(\Kappa
+l.655 ... & Hamiltonian --- projection of \(\Kappa
                                                   \) into spacetime & Derive...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -768,9 +835,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+Underfull \hbox (badness 1389) in paragraph at lines 656--656
+[]|\T1/lmr/m/n/10.95 Specific mass val-ues not
+ []
+
 ! Undefined control sequence.
-l.541 \(\mathrm{sgn}(\Kappa
-                           )\) & Net sign of configuration energy --- projec...
+l.657 \(\mathrm{sgn}(\Kappa
+                           )\) & Net distinction character of configuration ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -778,36 +850,46 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--545
+Underfull \hbox (badness 1577) in paragraph at lines 658--658
+\T1/lmr/m/n/10.95 integer: two; deriva-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
 []|\T1/lmr/m/n/10.95 Constancy fol-lows from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--550
+Underfull \hbox (badness 1721) in paragraph at lines 662--662
+[]|\T1/lmr/m/n/10.95 Not substrate-level; why
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 []|\T1/lmr/m/n/10.95 No sub-strate uni-ver-sal
  []
 
 
-Overfull \hbox (273.07826pt too wide) in paragraph at lines 530--556
+Overfull \hbox (386.56313pt too wide) in paragraph at lines 646--672
  [][] 
  []
 
-[15] [16] [17] (./medium_theory_zenodo_v05.aux)
+[20] [21] [22] (./medium_theory_zenodo_v05.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `medium_theory_zenodo_v05.out' has not change
 d.
-(rerunfilecheck)             Checksum: 47992D9BAAA0CA10EB284FFBB87EB64C;7209.
+(rerunfilecheck)             Checksum: F1527BC14581DED978B4C3C8916FDE34;8048.
  ) 
 Here is how much of TeX's memory you used:
- 12675 strings out of 474878
- 197715 string characters out of 5762516
- 1929627 words of memory out of 5000000
- 34544 multiletter control sequences out of 15000+600000
+ 12679 strings out of 474878
+ 197774 string characters out of 5762516
+ 1930627 words of memory out of 5000000
+ 34548 multiletter control sequences out of 15000+600000
  602799 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,14n,79p,1021b,390s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,14n,79p,1609b,387s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on medium_theory_zenodo_v05.pdf (18 pages).
+Output written on medium_theory_zenodo_v05.pdf (23 pages).
