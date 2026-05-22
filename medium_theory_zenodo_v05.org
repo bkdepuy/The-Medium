@@ -286,6 +286,24 @@ Nothing else belongs here. Everything else is downstream.
 
 Everything in Part II is downstream of the substrate. Dimensions, constants, observers, and all of physics live here --- valid, precise, and complete as descriptions of projected structure. Not descriptions of the substrate itself.
 
+** The Three-Level Structure
+
+The framework has three levels, not two.
+
+*Level 1 --- The Substrate.* \iota events. The Medium distinguishing within itself. Raw distinction --- +1 or −1 --- occurring without pattern, without structure, without dimensionality. The \(\phi\) field records the distinction characters produced. The adjacency constraint is the one logical rule that applies here. Nothing else belongs at this level.
+
+*Level 2 --- The Relational Web.* Planck bits. Registered \iota distinction characters organized by the adjacency constraint into co-manifestation relations. Stable configurations where \(\Kappa\) reaches a local extremum --- patterns the adjacency constraint permits and that achieve combinatorial stability. This level is structured but pre-dimensional. It has relational geometry --- position defined by co-manifestation, adjacency defined by directness of co-manifestation --- but no spatial coordinates, no temporal ordering, no dimensional quantities.
+
+The relational web is not passive. It applies the adjacency constraint. Combinations that cannot achieve a \(\Kappa\) extremum dissolve back toward stability. Combinations that do achieve stability persist. The relational web presents to the projection layer only what it can stably support. This filtering is structural, not selective.
+
+*Level 3 --- The Projection Layer.* The relational web as experienced by an embedded observer. The observer is itself a stable Planck bit configuration complex enough to sustain a systematic account of what the relational web presents. That account takes the form of a dimensional coordinate system: length, time, mass, charge. The stable configurations the relational web presents are read as particles. The relational geometry is read as spacetime. The constants of physics --- \(c\), \(\iota_{\mathrm{proj}}\), \(G\) --- are the seams where the observer's dimensional framework meets the pre-dimensional relational web.
+
+The projection layer is where physics operates. It is valid, precise, and complete as a description of what the relational web presents to an observer. It is not a description of the relational web itself, and not a description of the substrate.
+
+This three-level structure resolves several questions the two-level account left open. Why do particles have the properties they do? Because stable Planck bit configurations at \(\Kappa\) extrema have those properties at the relational web level --- the observer reads them as mass, charge, and spin at the projection layer. Why does high-energy collision not reliably reveal substrate structure? Because collisions operate at the projection layer --- smashing projection-layer particles together and reading the debris. The debris consists of projection-layer forced states resolving back to what the relational web stably supports. The relational web level is not directly accessible to projection-layer observation.
+
+/Status: Established in v0.5./
+
 ** The Observer's Position
 
 Before describing the projections, it is necessary to name what the observer is and what it is not.
