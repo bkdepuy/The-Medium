@@ -14,7 +14,8 @@
 #+LATEX_HEADER: \usepackage{setspace}
 #+LATEX_HEADER: \usepackage{parskip}
 #+LATEX_HEADER: \usepackage{microtype}
-#+LATEX_HEADER: \usepackage[hidelinks]{hyperref}
+#+LATEX_HEADER: \PassOptionsToPackage{hidelinks}{hyperref}
+#+LATEX_HEADER: \newcommand{\Kappa}{\mathcal{K}}
 #+LATEX_HEADER: \setlength{\parindent}{0pt}
 #+LATEX_HEADER: \setlength{\parskip}{6pt}
 #+LATEX_HEADER: % --- Page style: no header on title/TOC, header from page 3 onward ---
@@ -86,7 +87,7 @@ That sentence is the theory. Everything that follows is the attempt to say it pr
 The Medium is a foundational framework prior to the limits of human observation. It cannot be tested or demonstrated directly. It is offered as a starting point upon which others may build.
 
 
-The sole primitive is \iota: the Medium's act of self-distinction. The Medium distinguishes within itself. \iota is that act. Each \iota event produces character --- the difference the distinction makes. +1 and -1 are the two aspects of one distinction. Character is not a property \iota holds. It is what distinguishing is. Without difference there is no distinction. The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint exists at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota --- they emerge from \iota-relations. The Planck quantum of action marks the projection boundary between the substrate and observable physics, where one \iota event corresponds to \(\hbar\).
+The sole primitive is \iota: the Medium's act of self-distinction. The Medium distinguishes within itself. \iota is that act. Each \iota event produces character --- the difference the distinction makes. +1 and -1 are the two aspects of one distinction. Character is not a property \iota holds. It is what distinguishing is. Without difference there is no distinction. The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint exists at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota --- they emerge from \iota-relations. The projection boundary marks the threshold at which the substrate meets the observer's dimensional framework. In the Medium's unit system, one \iota event = 1. What SI physics calls \(\hbar\) is the SI measurement of that unit --- not a fundamental constant, but a unit conversion artifact locating the projection boundary on the human-scale SI grid.
 
 The central organizing claim of v0.5: processes occur independently. No ordering. No coordination required. Yet existence may impact existence. Sequence is what this looks like from inside an embedded process. The substrate field \(\phi\) records distinction characters across the Medium.
 
@@ -197,7 +198,7 @@ The substrate field \(\phi\) records the distinction character produced by each 
 A record of distinction characters. The complete description of the Medium's state.
 #+END_CENTER
 
-At the projection layer, one \iota event corresponds to a single Planck-scale event --- the threshold at which quantum and gravitational effects are simultaneously relevant.
+At the projection layer, one \iota event = 1 in the Medium's unit system. The SI physics community locates this threshold at the Planck scale --- the scale at which quantum and gravitational effects are simultaneously relevant. That location is an empirical correspondence, not a definition.
 
 \iota events are not driven. No prior state determines which relational node the Medium next distinguishes within itself. They simply occur.
 
@@ -213,6 +214,8 @@ Each \iota event is an act of self-distinction within the Medium. The character 
 \end{equation}
 
 The substrate imposes no preference on which character is produced. Without differential distinction character, \iota events produce only undifferentiated noise. No structure, no stability, no material. Differential character is the logical necessity for material existence.
+
+A note on the binary axiom. The choice of \(\{+1, -1\}\) is defended on logical grounds only: one act of distinction creates one boundary; one boundary has exactly two sides. That argument does not appeal to quantum mechanics or observed discreteness at the Planck scale. Those observations are downstream --- consistency checks, not justification. To justify binary \iota by reference to quantum discreteness would embed the observable into the foundation the framework is attempting to derive. The axiom stands or falls on the logical claim alone. Whether that claim is sufficient --- whether one act of distinction necessarily produces exactly two values rather than three or a continuum --- is an open question carried in Unresolved Questions.
 
 This is where topos theory bears on the framework. Topos theory allows logic in which a question has no answer until the context that makes the question meaningful exists. Which character a \iota event produces is not determined before the event. The question does not exist until the distinction occurs. This is not epistemic. The answer does not exist yet. That is the logical territory topos theory describes, and it is the logical territory \iota occupies.
 
@@ -313,11 +316,43 @@ Every dimensional quantity in physics --- every constant, every observable, ever
 
 ** The Projection Boundary
 
-The Planck scale marks the projection boundary: the threshold at which one \iota event becomes visible to the observer's dimensional framework. At this boundary, the substrate's dimensionless occurrence acquires the dimensional form the observer calls action --- energy multiplied by time.
+The Planck scale marks the projection boundary: the threshold at which one \iota event becomes visible to the observer's dimensional framework.
 
-The constancy of \(h\) follows directly. Every \iota event is identical --- the same occurrence of the same property of the same substrate, without variation. The observer always measures the same thing and always gets the same number. The constancy of \(h\) is not a fact about physics. It is a consequence of the irreducible uniformity of \iota.
+In the Medium's unit system, one \iota event is 1. Not 1 of something. Just 1 --- the irreducible unit of occurrence. No further specification is needed or possible.
 
-An open question is carried explicitly: why does the projection carry units of action specifically --- energy multiplied by time --- and not some other dimensional combination? The answer requires a derivation of the observer's dimensional categories from the structure of sustained binary field configurations. That derivation is a primary target for future development.
+What physics calls Planck's constant does not exist as a fundamental constant in the Medium. \(\hbar = 1.054 \times 10^{-34}\) J\(\cdot\)s is the SI measurement of 1 \iota event projected --- the size of the projection boundary expressed in a unit system built from human-scale standards. That specific number is a statement about the relationship between human-scale SI units and the projection boundary. It is not a fact about the substrate. In Medium units it is simply 1.
+
+The constancy of \(\hbar\) in SI follows from this directly. Every \iota event is identical --- the same occurrence of the same property of the same substrate. The observer always measures the same thing and always gets the same number. The constancy is not a law of physics. It is a consequence of 1 always equaling 1.
+
+An open question is carried explicitly: why does the projection carry what the observer calls units of action --- energy multiplied by time --- and not some other dimensional combination? The answer requires a derivation of the observer's dimensional categories from the structure of sustained binary field configurations. That derivation is a primary target for future development.
+
+** Natural Units of the Framework
+
+SI units are not available to the Medium as a foundation. They were constructed by observers embedded in human-scale experience --- built from the meter, the kilogram, the second, and the ampere, each defined by reference to phenomena accessible at that scale. They carry the fingerprints of the observer's position. To express substrate quantities in SI is to import the dimensional categories of the projection layer into the pre-dimensional level. That is the inherited error the framework is attempting to correct.
+
+Planck units are not an alternative. They are SI constants rearranged --- \(\ell_P = \sqrt{\hbar G / c^3}\), \(t_P = \sqrt{\hbar G / c^5}\), \(m_P = \sqrt{\hbar c / G}\) --- still derived from \(\hbar\), \(c\), and \(G\), which are themselves observer-measured quantities. Planck units rescale the observer's framework. They do not replace it.
+
+The Medium requires units built from the substrate upward.
+
+*Substrate level.* The primitive unit is the \iota event --- one act of self-distinction. It is the irreducible quantum of occurrence. No smaller unit exists because no smaller event exists. The substrate has no dimensions. \iota events are counts. Characters are elements of \(\{+1,-1\}\). \(\kappa\) and \(\Kappa\) are dimensionless integers. All substrate quantities are pure numbers.
+
+*Projection boundary.* When a \iota event crosses the projection boundary, the observer's dimensional framework assigns it a measurable quantity. In the Medium's unit system, one \iota event = 1. This is the irreducible unit of the framework. It requires no further definition.
+
+What SI physics calls Planck's constant \(\hbar\) does not exist as a fundamental constant. It is the SI numerical value of 1 \iota event projected --- the size of the projection boundary expressed in human-scale units. The specific value \(1.054 \times 10^{-34}\) J\(\cdot\)s is a unit conversion artifact, not a fact about nature. In Medium units it is 1. The Medium's unit of action is:
+
+\begin{equation}
+[\mathcal{A}] \equiv \iota_{\mathrm{proj}} = 1
+\end{equation}
+
+The SI measurement \(\hbar\) locates the projection boundary on the SI scale. It does not define the unit. The framework defines the unit. The SI value is verification.
+
+*Derived projection units.* From \([\mathcal{A}]\) and the structure of projection, minimum units of length, time, mass, and charge are derived at the projection boundary. These coincide empirically with what SI physics calls the Planck scale --- but they are defined from the substrate, not from SI constants. Their numerical values in SI are verification, not foundation.
+
+*Going forward.* Substrate quantities are expressed as pure dimensionless numbers. Projection-layer quantities are expressed in terms of \(\iota_{\mathrm{proj}}\) and its derived units. SI values appear only when comparing derived results to experiment, and are clearly marked as empirical correspondences.
+
+The derivation of the projection units from substrate structure --- why one projected occurrence carries the specific action value it does, and why the minimum projected length, time, and mass take the values they do --- is an open derivation carried in Unresolved Questions. The unit system is established here as a requirement of the framework. Its full justification awaits that derivation.
+
+/Status: Established in v0.5./
 
 ** Emergent Properties
 
@@ -579,6 +614,8 @@ Which specific Planck bit patterns --- satisfying the adjacency constraint, achi
 
 These are the frontier of the framework, stated precisely and carried explicitly.
 
+*Why Binary.* The framework takes \(\{+1, -1\}\) as the only two distinction characters. The argument: one act of distinction creates one boundary; one boundary has two sides. That is a logical claim, not a derived result. It cannot be supported by appealing to quantum discreteness or Planck-scale physics without circularity --- those observations are downstream of the substrate, not prior to it. The open question is whether the logical argument is sufficient: does one act of distinction necessarily produce exactly two values, or is three-valued or continuous distinction coherent? A three-valued substrate would alter the algebraic hierarchy throughout and may produce the SU(3) color structure more directly. A continuous substrate would recover something closer to quantum field theory from the start. Both alternatives are unexplored. The binary axiom is currently the most defensible choice on grounds of minimalism. It is not the only possible choice.
+
 *The Vocabulary Boundary.* The terms occurrence, registration, and boundary are proposed as genuinely primitive replacements for the inherited vocabulary of observer, measurement, and collapse. Whether they succeed --- whether they are themselves free of hidden Newtonian assumptions --- is an open question requiring formal examination.
 
 *The Topos Theory Connection.* ι operates below Boolean logic. Occurrence as boundary negotiation is not a yes/no event --- it is a process whose definiteness is contextual and relational. Topos theory, developed by Grothendieck, allows contextual relational logic where truth values are not simply binary. The Medium arrives at this logical territory from the conceptual direction; topos theory approaches from the mathematical direction. Whether they converge formally is an open derivation.
@@ -589,9 +626,23 @@ These are the frontier of the framework, stated precisely and carried explicitly
 
 *Why Does One Manifestation Project to Action?* The observer's measurement of one irreducible substrate occurrence produces a quantity with units of action --- energy multiplied by time. Why this dimensional combination? Until that derivation exists, the correspondence between one unit of substrate process and \(h\) is a named target, not a result.
 
-*The Derivation of Each Constant and the Projection Boundary.* The framework claims the Planck scale is the projection boundary --- the threshold at which one \iota event corresponds to one Planck unit. But the Planck scale is defined by three constants: \(\hbar\), \(c\), and \(G\). The Planck length is \(\sqrt{\hbar G / c^3}\). The Planck time is \(\sqrt{\hbar G / c^5}\). Until \(\hbar\), \(c\), and \(G\) are derived from projection structure, the projection boundary is not derived --- it is a conjecture about scale, named and deferred. \(c\) is not a substrate property. The Independence Primitive establishes no substrate-level time and therefore no substrate-level rate. \(c\) is the ratio of projected distance to projected time, fixed by the structure of projection itself. Why projection fixes that ratio at the value it does is the open derivation. \(\hbar\) from the correspondence between one \iota event and one unit of action. \(G\) from structure formation geometry --- itself unresolved because gravity has not yet been placed confidently in either layer. These three are the load-bearing unresolved derivations of the framework. The substrate has no preferred frame --- frames arise only at projection. Lorentz invariance is therefore a property of how projection works, not a constraint violated by the substrate. The substrate is pre-frame. That is the resolution of the Lorentz invariance question. The derivation that confirms it --- showing projection recovers exact Lorentz invariance --- does not yet exist.
+*The Derivation of Projection Units from Substrate Structure.* The framework defines its own unit system built from the substrate upward. The primitive unit is the \iota event. At the projection boundary, one projected \iota event defines one unit of action \([\mathcal{A}] \equiv \iota_{\mathrm{proj}}\). From this, minimum units of length, time, mass, and charge are derived. These coincide empirically with the Planck scale in SI --- but the Planck scale is not the definition. It is the verification.
 
-*Particle Configurations.* Standard particles are stable Planck bit configurations at \(\Kappa\) extrema. The adjacency constraint limits which configurations are possible. The particle table may be exactly the set of patterns the constraint permits --- finite, complete, and derivable. The open derivation: identify the minimum stable Planck bit patterns satisfying the adjacency constraint and match them to the observed particle table, beginning with the lightest threshold cases. This is the primary structural task of the next stage.
+The open derivation has three parts. First: why does one projected \iota event carry units of action specifically --- energy multiplied by time --- and not some other dimensional combination? The observer's dimensional categories must be derived from the structure of sustained binary field configurations. That derivation does not exist. Second: why does projection fix the ratio of projected distance to projected time at the specific value observers measure as \(c\)? \(c\) is not a substrate property --- the Independence Primitive establishes no substrate-level time and therefore no substrate-level rate. \(c\) is a projection-layer ratio. Why projection fixes it at the value it does is open. Third: the minimum projected mass unit involves the gravitational structure of projection. That derivation cannot be completed until gravity has been placed confidently in the framework.
+
+These three are the load-bearing open derivations of the unit system. Until they exist, the correspondence between \(\iota_{\mathrm{proj}}\) and the SI value of \(\hbar\) is an empirical match, not a derived result.
+
+The substrate has no preferred frame. Frames arise only at projection. Lorentz invariance is a property of how projection works. The derivation confirming that projection recovers exact Lorentz invariance does not yet exist.
+
+*The Observation Method Problem.* The Standard Model's particle table was built primarily from high-energy collision experiments. These experiments force the projection layer into configurations above the stability threshold --- energy conditions that do not occur in stable physical reality. The particles produced are almost entirely transient, decaying within fractions of a second into stable configurations. The Standard Model catalogs the full debris of those collisions as fundamental particles. The Medium does not accept that catalog without examination.
+
+The framework distinguishes two classes of observation. The first: naturally stable configurations --- the electron, proton, photon, neutrino, and the lightest stable hadrons. These are candidates for genuine \(\Kappa\) extrema in the substrate. They persist. They are not products of forced above-threshold conditions. The second: transient collision products --- particles that exist only under extreme forced conditions and decay immediately. These are candidates for above-threshold projection-layer forced states, not stable substrate configurations. They reveal the path to stability; they are not the stable configurations themselves.
+
+This distinction matters for the derivation program. The Medium is not required to derive every particle the Standard Model catalogues from collider debris. It is required to derive the naturally stable configurations --- and then to show why forced above-threshold conditions produce the transient states observed. The Standard Model treats both classes equally as fundamental. The Medium should not.
+
+Neutrino oscillation sits partially in the first class. Solar, atmospheric, and reactor neutrinos are natural. Their oscillation is observed over long baselines, not in collision debris. That makes neutrino oscillation a more reliable guide to substrate structure than most collider-produced phenomena. The PMNS mixing parameters, however, are partly measured in accelerator experiments, and whether those values are substrate properties or observation-method artifacts remains open.
+
+*Particle Configurations.* Stable substrate configurations are those where \(\Kappa\) reaches a local extremum under the adjacency constraint. The open derivation: identify the minimum stable Planck bit patterns satisfying the adjacency constraint, match them to the naturally stable observed particles, and show why forced above-threshold combinations produce the transient states the Standard Model catalogs as additional particles. The particle table derivation begins with the lightest stable threshold cases. This is the primary structural task of the next stage.
 
 *Gauge Symmetry.* The Standard Model is built on SU(3)×SU(2)×U(1) --- the symmetry groups that determine the form of the strong, weak, and electromagnetic forces. Gauge symmetry is why the forces have the structure they do, why particles carry specific charges, and why force-carrying particles exist. The Medium places the fundamental forces at the projection layer but does not explain where SU(3)×SU(2)×U(1) comes from. Why these groups? Why not others? A possible substrate path: gauge symmetry is the freedom to redefine fields locally without changing physics. The complex phase freedom of quantum wave functions --- ψ and \(e^{i\theta}\psi\) represent the same physical state --- is U(1) gauge symmetry. SU(2) and SU(3) are larger instances of the same idea. The substrate relational web has its own symmetry structure: the web of co-manifestation relations has no preferred global labeling. That is a form of gauge freedom at the substrate level. Whether projection of that substrate gauge freedom recovers SU(3)×SU(2)×U(1) specifically is the open question. If it does, The Medium would derive not just the forces but the exact symmetry group structure that governs them --- the deepest result the framework could produce. This derivation does not exist. It is named here as the primary structural target beyond the particle table derivation.
 
@@ -609,7 +660,15 @@ These are the frontier of the framework, stated precisely and carried explicitly
 
 *Derivation of Prior Frameworks.* Three existing frameworks are candidates for derivation from the substrate. Planck bits: the registered encounter character is a bit --- the derivation shows where the bit comes from. Loop quantum gravity: the encounter web maps to spin networks; stable configurations map to nodes; encounter relationships map to edges; the derivation shows LQG as the observer's projection of the substrate's relational structure. String theory: different encounter configurations at \(\Kappa\) extrema correspond to different particles as string vibration modes correspond to different particles --- the derivation requires showing how the encounter structure generates the dimensional space string theory presupposes. Each is an open derivation. Each is a named target.
 
-*Fractional Charge.* The framework produces integer net distinction characters from ±1 combinations. Quarks carry charge ±1/3 and ±2/3 --- never observed in isolation, always confined within hadrons. The hadronic totals are integers; the quark-level values are not. The ±1 substrate system cannot produce 1/3 as a global value. A possible path: topos theory, already in the framework at the ι level, may apply here as well. In a non-Boolean topos, local sections can exist that do not extend to global sections. A quark's charge may be a local section over the context "confined in a hadron" --- meaningful only within that context, not a global element of the substrate's ±1 system. The same contextual logic that governs which character ι produces before distinction occurs may govern which charge value a quark carries before isolation is possible. This is a direction, not a derivation. It is carried here as an open connection.
+*Fractional Charge.* The framework produces integer net distinction characters from ±1 combinations. Quarks carry charge ±1/3 and ±2/3 --- never observed in isolation, always confined within hadrons. The hadronic totals are integers; the quark-level values are not.
+
+The appearance of fractional charge in a binary substrate is not a puzzle to be solved by making the fractions work. It is a signal --- the same kind of signal dark energy provided. Dark energy appeared to require explanation until the framework asked why it appears at all, found it was a projection artifact of misread redshift, and dissolved it. The same instinct applies here.
+
+A binary substrate produces integers. The appearance of 1/3 means the quark model is describing substrate structure at the wrong level --- carving the substrate at the wrong joints, the same way recession velocity was the wrong description of redshift. Quarks as described in the standard model may not be the right substrate entities. The framework should ask what configuration of \iota events produces the behavior attributed to quarks. That configuration will have integer distinction characters. The fractional values appear because the standard model imposes its own framework on substrate structure that has no fractional properties.
+
+The open derivation: identify the \iota configurations whose behavior the standard model describes as quarks. Show that those configurations carry integer characters. Show why projecting through the standard model's quark framework produces the appearance of 1/3 and 2/3. Confinement --- the impossibility of isolating a quark --- is then not a separate physical fact but a structural consequence of the same misidentification: outside the hadronic configuration, the entity the standard model calls a quark does not exist as a substrate unit.
+
+The topos move --- treating fractional charge as a local section over the hadronic context --- is a candidate direction for understanding why the fractions appear and sum correctly. It is not the primary resolution. The primary resolution is the correct substrate-level identification of the configurations the standard model is describing.
 
 *The Mass Hierarchy.* Mass corresponds to \(N\) as a first approximation. That correspondence does not explain why the electron is 0.511 MeV, the muon 105 MeV, and the tau 1,777 MeV --- identical structure, identical charge, identical spin, three wildly different masses. It does not explain why there are exactly three generations. The Standard Model inserts these values by hand. The Medium claims mass is derivable from substrate structure --- that claim requires showing which combinatorial configurations produce which specific \(N\) counts, and why those counts correspond to the observed values. This derivation does not yet exist.
 
@@ -657,7 +716,7 @@ Whether color charge is substrate or projection-layer emergent; how dark matter 
 | Spin                                | Relational closure of encounter pattern within the web                   | Integer: one traversal; half-integer: two; derivation open | Provisional |
 | Adjacency constraint                | Identical adjacent distinction characters forbidden --- source of minimum threshold | Logical, not physical                   | Current     |
 | Projection boundary                 | Planck scale --- where dimensionless substrate meets dimensional observer | \(\hbar = \mathrm{proj}(\iota)\)                 | Current     |
-| \(h = \mathrm{proj}(\iota)\)        | Planck's constant --- dimensional projection of one \iota event           | Constancy follows from uniformity of \iota       | Provisional |
+| \(\iota_{\mathrm{proj}} = 1\)       | One projected \iota event --- the Medium's unit of action                 | \(\hbar\) is the SI measurement of this unit; not a fundamental constant | Current     |
 | \(c\)                               | Projection-layer ratio of projected distance to projected time            | Not substrate-level; why projection fixes this value is open | Provisional |
 | \(G\)                               | Gravitational constant --- substrate derivation not yet complete          | Linked to spacetime projection; unassigned       | Open        |
 | \(x \sim y \to\) entanglement       | Co-manifestation projects to quantum entanglement                         | Mystery dissolves at substrate level             | Provisional |

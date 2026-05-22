@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.9.25)  21 MAY 2026 17:43
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.9.25)  22 MAY 2026 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,24 +428,6 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 ))
-
-! LaTeX Error: Option clash for package hyperref.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 \setlength
-               {\parindent}{0pt}
-The package hyperref has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [hidelinks]
-Adding the global options:
-  ,hidelinks
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-01-04 L3 backend support: XeTeX
 \g__graphics_track_int=\count300
@@ -457,33 +439,33 @@ File: l3backend-xetex.def 2024-01-04 L3 backend support: XeTeX
 (./medium_theory_zenodo_v05.aux)
 \openout1 = `medium_theory_zenodo_v05.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-5.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-Package hyperref Info: Link coloring OFF on input line 45.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+Package hyperref Info: Link coloring OFF on input line 46.
 
 (./medium_theory_zenodo_v05.out) (./medium_theory_zenodo_v05.out)
 \@outlinefile=\write3
@@ -524,14 +506,14 @@ Package hyperref Info: Link coloring OFF on input line 45.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 45.
-Package microtype Info: Applying patch `item' on input line 45.
-Package microtype Info: Applying patch `toc' on input line 45.
-Package microtype Info: Applying patch `eqnum' on input line 45.
+LaTeX Info: Redefining \microtypecontext on input line 46.
+Package microtype Info: Applying patch `item' on input line 46.
+Package microtype Info: Applying patch `toc' on input line 46.
+Package microtype Info: Applying patch `eqnum' on input line 46.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 45.
+Package microtype Warning: Unable to apply patch `footnote' on input line 46.
 
-Package microtype Info: Applying patch `verbatim' on input line 45.
+Package microtype Info: Applying patch `verbatim' on input line 46.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -542,7 +524,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
-6.
+7.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -557,11 +539,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
-Missing character: There is no — ("2014) in font ec-lmr10!
-Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no ι ("3B9) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
-LaTeX Font Info:    Trying to load font information for U+msa on input line 102
+LaTeX Font Info:    Trying to load font information for U+msa on input line 101
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -569,7 +549,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 102
+LaTeX Font Info:    Trying to load font information for U+msb on input line 101
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -577,365 +557,76 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1]
-Missing character: There is no — ("2014) in font ec-lmr10!
-! Undefined control sequence.
-l.120 ...a\) events. At the second level, \(\Kappa
-                                                   = \sum \kappa\) is the to...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+) [1] [2] [3]
+[4] [5] [6] [7] [8] [9] [10]
+Overfull \hbox (10.13972pt too wide) in paragraph at lines 394--395
+[]\T1/lmr/bx/n/10.95 Going for-ward. \T1/lmr/m/n/10.95 Sub-strate quan-ti-ties 
+are ex-pressed as pure di-men-sion-less num-bers. Projection-
+ []
 
-! Undefined control sequence.
-l.120 ...e structure. At the third level, \(\Kappa
-                                                  \) projects into spacetime...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.124 Stable configurations emerge where \(\Kappa
-                                                 \) reaches a local extremum...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.124 ...o the net encounter character of \(\Kappa
-                                                  \). Spin describes the rel...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[2] [3]
-Missing character: There is no — ("2014) in font ec-lmr10!
-Missing character: There is no — ("2014) in font ec-lmr10!
-Missing character: There is no — ("2014) in font ec-lmr10!
-[4]
-Missing character: There is no — ("2014) in font ec-lmr10!
-[5]
-Missing character: There is no — ("2014) in font ec-lmr10!
-Missing character: There is no — ("2014) in font ec-lmr10!
-[6]
-! Undefined control sequence.
-l.290 ..., the total configuration energy \(\Kappa
-                                                  \) is:
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.293 \Kappa
-             = \sum_{j} \kappa_j
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.296 \(\Kappa
-              \) governs whether a configuration achieves stability. Stable ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.296 ...nfigurations are those for which \(\Kappa
-                                                  \) reaches a local extremu...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.298 ...r's spacetime coordinate system, \(\Kappa
-                                                  \) becomes \(\hat{H}\), th...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.301 \hat{H} = \mathrm{proj}(\Kappa
-                                    )
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[7]
-! Undefined control sequence.
-l.319 ... hierarchy: \(\iota \to \kappa \to \Kappa
-                                                   \to \hat{H}\)
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[8] [9]
-! Undefined control sequence.
-l.377 ...the net distinction character of \(\Kappa
-                                                  \)), spin (arising from re...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.377 ...he Hamiltonian (as \(\mathrm{proj}(\Kappa
-                                                  )\)), spacetime (as the pr...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.390 ...the net distinction character of \(\Kappa
-                                                  \). A configuration in whi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no — ("2014) in font ec-lmr10!
-[10]
-Missing character: There is no ι ("3B9) in font ec-lmr10!
-Missing character: There is no — ("2014) in font ec-lmr10!
-Missing character: There is no — ("2014) in font ec-lmr10!
 [11]
-! Undefined control sequence.
-l.445 ...nian is derived as \(\mathrm{proj}(\Kappa
-                                                  )\), and time is projectio...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[12] [13] [14] [15] [16] [17]
-Missing character: There is no — ("2014) in font ec-lmr10!
-[18]
-! Undefined control sequence.
-l.567 ...able encounter configurations at \(\Kappa
-                                                  \) extrema are the nodes. ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.569 ...rent encounter configurations at \(\Kappa
-                                                  \) extrema correspond to d...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no — ("2014) in font ec-lmr10!
-[19]
-Missing character: There is no — ("2014) in font ec-lmr10!
-! Undefined control sequence.
-l.622 ...that has achieved stability at a \(\Kappa
-                                                  \) extremum.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[20]
-! Undefined control sequence.
-l.640 The photon does not sit at a \(\Kappa
-                                           \) extremum. It is a propagating ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.648 ...djacency constraint, achieving a \(\Kappa
-                                                  \) extremum --- correspond...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 Missing character: There is no ι ("3B9) in font ec-lmr10!
-[21]
-! Undefined control sequence.
-l.667 ...ble Planck bit configurations at \(\Kappa
-                                                  \) extrema. The adjacency ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Missing character: There is no — ("2014) in font ec-lmr10!
+Missing character: There is no — ("2014) in font ec-lmr10!
+[12] [13]
+Overfull \hbox (1.15385pt too wide) in paragraph at lines 472--473
+[]\T1/lmr/bx/n/10.95 The Schrödinger equa-tion. \T1/lmr/m/n/10.95 If the Hamil-
+to-nian is de-rived as $[]\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 K\OT1/cmr/m/n
+/10.95 )$\T1/lmr/m/n/10.95 , and time is projection-
+ []
 
-Missing character: There is no ψ ("3C8) in font ec-lmr10!
-[22]
-! Undefined control sequence.
-l.675 ...specific Planck bit pattern at a \(\Kappa
-                                                  \) extremum. Neutrino osci...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+[14] [15] [16] [17] [18] [19] [20] [21] [22]
+Missing character: There is no ι ("3B9) in font ec-lmr10!
 [23]
-! Undefined control sequence.
-l.683 ...rent encounter configurations at \(\Kappa
-                                                  \) extrema correspond to d...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[24]
-Missing character: There is no ι ("3B9) in font ec-lmr10!
-Missing character: There is no ι ("3B9) in font ec-lmr10!
+Missing character: There is no ψ ("3C8) in font ec-lmr10!
+[24] [25] [26] [27]
 Missing character: There is no − ("2212) in font ec-lmr10!
-[25]
-! Undefined control sequence.
-l.699 ...le Planck bit configuration at a \(\Kappa
-                                                  \) extremum with nonzero \...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.699 ... adjacency constraint, achieve a \(\Kappa
-                                                  \) extremum, carry zero ne...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[26]
-! Undefined control sequence.
-l.730 \(\Kappa
-               = \sum \kappa\) & Configuration energy --- governs stability ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.730 ...able configs at local extrema of \(\Kappa
-                                                  \) & Current\\[0pt]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.731 \(\hat{H} = \mathrm{proj}(\Kappa
-                                      )\) & Hamiltonian --- projection of \(...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.731 ... & Hamiltonian --- projection of \(\Kappa
-                                                  \) into spacetime & Derive...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 732--732
+[28] [29]
+Underfull \hbox (badness 1389) in paragraph at lines 780--780
 []|\T1/lmr/m/n/10.95 Specific mass val-ues not
  []
 
-! Undefined control sequence.
-l.733 \(\mathrm{sgn}(\Kappa
-                           )\) & Net distinction character of configuration ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-Underfull \hbox (badness 1577) in paragraph at lines 734--734
+Underfull \hbox (badness 1577) in paragraph at lines 782--782
 \T1/lmr/m/n/10.95 integer: two; deriva-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--737
-[]|\T1/lmr/m/n/10.95 Constancy fol-lows from
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 738--738
+Underfull \hbox (badness 1721) in paragraph at lines 786--786
 []|\T1/lmr/m/n/10.95 Not substrate-level; why
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 742--742
+Underfull \hbox (badness 10000) in paragraph at lines 790--790
 []|\T1/lmr/m/n/10.95 No sub-strate uni-ver-sal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--746
+Underfull \hbox (badness 10000) in paragraph at lines 794--794
 []|\T1/lmr/m/n/10.95 Not a sub-strate phe-
  []
 
 
-Overfull \hbox (365.45804pt too wide) in paragraph at lines 722--749
+Overfull \hbox (365.45804pt too wide) in paragraph at lines 770--797
  [][] 
  []
 
-[27] [28] [29] (./medium_theory_zenodo_v05.aux)
+[30] [31] [32] (./medium_theory_zenodo_v05.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `medium_theory_zenodo_v05.out' has not change
 d.
-(rerunfilecheck)             Checksum: 265C60553842BC3029D5BE8579A5F23E;8619.
+(rerunfilecheck)             Checksum: C7A06637EE8643630C76036EF2684417;8840.
  ) 
 Here is how much of TeX's memory you used:
- 12681 strings out of 474878
- 197806 string characters out of 5762516
+ 12683 strings out of 474878
+ 197827 string characters out of 5762516
  1930627 words of memory out of 5000000
- 34550 multiletter control sequences out of 15000+600000
+ 34552 multiletter control sequences out of 15000+600000
  602799 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,14n,79p,1663b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,14n,79p,1663b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on medium_theory_zenodo_v05.pdf (30 pages).
+Output written on medium_theory_zenodo_v05.pdf (33 pages).
