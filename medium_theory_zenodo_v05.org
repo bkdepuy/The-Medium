@@ -87,7 +87,7 @@ That sentence is the theory. Everything that follows is the attempt to say it pr
 The Medium is a foundational framework prior to the limits of human observation. It cannot be tested or demonstrated directly. It is offered as a starting point upon which others may build.
 
 
-The sole primitive is \iota: the Medium's act of self-distinction. The Medium distinguishes within itself. \iota is that act. Each \iota event produces character --- the difference the distinction makes. +1 and -1 are the two aspects of one distinction. Character is not a property \iota holds. It is what distinguishing is. Without difference there is no distinction. The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint exists at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota --- they emerge from \iota-relations. The projection boundary marks the threshold at which the substrate meets the observer's dimensional framework. In the Medium's unit system, one \iota event = 1. What SI physics calls \(\hbar\) is the SI measurement of that unit --- not a fundamental constant, but a unit conversion artifact locating the projection boundary on the human-scale SI grid.
+The sole primitive is \iota: the Medium's act of self-distinction. The Medium distinguishes within itself. \iota is that act. Each \iota event produces character --- the difference the distinction makes. Character is not a property \iota holds. It is what distinguishing is. \iota is not point-like. It has multiple relational modes --- qualitatively distinct aspects of the \iota event itself, not binary opposition. \iota has intrinsic cohesive attraction: not because it is complementary to another \iota event, but because attraction is what \iota is. From intrinsic attraction, self-organization follows without instruction. Without difference there is no distinction. The Medium is the endless occurrence of \iota, unconstrained. No boundary, structure, or assumed constraint exists at the substrate level. Space, time, dimensionality, and causality are not conditions imposed upon \iota --- they emerge from \iota-relations. The projection boundary marks the threshold at which the substrate meets the observer's dimensional framework. In the Medium's unit system, one \iota event = 1. What SI physics calls \(\hbar\) is the SI measurement of that unit --- not a fundamental constant, but a unit conversion artifact locating the projection boundary on the human-scale SI grid.
 
 The central organizing claim of v0.5: processes occur independently. No ordering. No coordination required. Yet existence may impact existence. Sequence is what this looks like from inside an embedded process. The substrate field \(\phi\) records distinction characters across the Medium.
 
@@ -105,7 +105,7 @@ Since \iota-arrangements are below the current observational floor, direct testi
 
 The central open problems are offered as challenges to the theoretical physics community: deriving the specific configurations corresponding to observed particles; establishing which ordered combinations produce which spin values under projection; determining the minimum threshold from first principles; resolving whether color charge and gravity are substrate or projection phenomena; and characterizing dark matter candidates within the substrate. Dark energy is treated as a dissolved projection artifact rather than an open substrate problem.
 
-/Changes from v0.4:/ Reorganized around the independence primitive as the central organizing claim. Revised \iota: occurrence without attribute; attribute produced at encounter, not carried by \iota. Encounter established as the primitive event from which relational character and particle properties derive. Topos theory connection placed at the encounter level. Added Part IV: What The Medium Needs to Prove. Added new vocabulary layer (occurrence, registration, boundary) to replace inherited QM terminology. Added Observer and Observed section dissolving the observer/observed asymmetry at the substrate level. Expanded time section with the real-for-the-observer vs. necessary-for-the-universe distinction. Added The Core Problem and The Language Problem as Introduction subsections.
+/Changes from v0.4:/ Reorganized around the independence primitive as the central organizing claim. Revised \iota: occurrence without attribute; attribute produced at encounter, not carried by \iota. Encounter established as the primitive event from which relational character and particle properties derive. Topos theory connection placed at the encounter level. Added Part IV: What The Medium Needs to Prove. Added new vocabulary layer (occurrence, registration, boundary) to replace inherited QM terminology. Added Observer and Observed section dissolving the observer/observed asymmetry at the substrate level. Expanded time section with the real-for-the-observer vs. necessary-for-the-universe distinction. Added The Core Problem and The Language Problem as Introduction subsections. Revised \iota: not point-like; multiple relational modes, not binary opposition; intrinsic cohesive attraction as a property of \iota itself. Mass identified as a stable stochastic imperfection in the \iota configuration; gravity as the strain field propagating through the medium toward ground-state restoration. Relational web reframed as a probability landscape --- stochastic all the way down, statistical consequence not active process. GR/QM conflict dissolved across the three layers: substrate granularity, relational-web averaging, view-layer smoothness. Wave function and collapse dissolved via the probability landscape account.
 
 
 * PART I: THE SUBSTRATE
@@ -265,6 +265,34 @@ The Hamiltonian is not an assumption of the theory. It is a derived consequence 
 
 *The Adjacency Constraint.* Two relational nodes are adjacent if their co-manifestation is direct --- no third \iota event mediates the relation. Valid combinations must satisfy: two \iota events of identical distinction character cannot be directly co-manifested. This is not a physical rule but a logical necessity --- identical distinction characters in direct co-manifestation produce no new distinction and therefore no new structure. The constraint sharply restricts the combinatorial space and is the source of the minimum complexity threshold below which stable configurations cannot form.
 
+** The Physical Character of \iota
+
+The \iota event is not point-like. A point has no internal structure. A point-like \iota could vary in magnitude or type but not in kind.
+
+\iota has multiple relational modes. Not the binary \(\{+1,-1\}\) of the field --- those are the distinction characters produced at encounter. The relational modes are qualitatively distinct aspects of the \iota event itself. Not binary opposition. Not a single axis. Multiple distinct modes --- as quark color charge is not magnitude but three qualitatively distinct states that combine under specific rules. The number of modes is not assumed. It is constrained by what the framework must produce. This connects directly to the open question in Unresolved Questions: whether \(\{+1,-1\}\) is the full description of \iota's internal structure, or whether the relational modes require richer characterization.
+
+\iota has intrinsic cohesive attraction. Not because it is complementary to another \iota event. Not because it is missing something an opposite supplies. Attraction is what \iota is. A single \iota event in isolation has this property. No second event is required to activate it. The attraction is mode-dependent --- different relational modes produce different kinds of attraction, not merely different magnitudes.
+
+From intrinsic attraction, self-organization follows without instruction. \iota events draw toward each other. The arrangement falls into the lowest-energy configuration the relational modes permit. The geometry emerges from the constraint --- not assumed, not designed. In three-dimensional projection this corresponds to the class of energy-minimizing space-filling structures: the arrangements nature defaults to wherever energy seeks equilibrium under packing constraints.
+
+No packing process is perfect. At the \iota scale, stochastic fluctuations are inevitable. Some regions configure slightly differently than others. A relational mode misaligned. An arrangement slightly off. These imperfections are guaranteed by probability alone.
+
+The imperfections persist and propagate. A local misalignment strains neighboring \iota events. They adjust. The adjustment strains their neighbors. The disturbance propagates outward through the medium.
+
+#+BEGIN_QUOTE
+Mass is a stable stochastic imperfection in the \iota configuration.
+#+END_QUOTE
+
+A persistent local deviation from the ground-state arrangement that the surrounding medium continuously attempts to correct.
+
+#+BEGIN_QUOTE
+Gravity is the strain field propagating through the medium as it attempts to correct toward ground state.
+#+END_QUOTE
+
+Not a force transmitted across a void. Not a signal. The medium's continuous attempt at restoration, propagating through the \iota network itself. Infinite reach follows without residue. Every \iota event participates in the ground state. Every stable imperfection propagates strain outward through all \iota events. No carrier particle required. The participation is constitutive.
+
+/Status: Candidate direction developed 2026-05-23. Requires formal development./
+
 ** The Substrate --- Complete
 
 The substrate description is now complete. It contains:
@@ -292,9 +320,15 @@ The framework has three levels, not two.
 
 *Level 1 --- The Substrate.* \iota events. The Medium distinguishing within itself. Raw distinction --- +1 or −1 --- occurring without pattern, without structure, without dimensionality. The \(\phi\) field records the distinction characters produced. The adjacency constraint is the one logical rule that applies here. Nothing else belongs at this level.
 
-*Level 2 --- The Relational Web.* Planck bits. Registered \iota distinction characters organized by the adjacency constraint into co-manifestation relations. Stable configurations where \(\Kappa\) reaches a local extremum --- patterns the adjacency constraint permits and that achieve combinatorial stability. This level is structured but pre-dimensional. It has relational geometry --- position defined by co-manifestation, adjacency defined by directness of co-manifestation --- but no spatial coordinates, no temporal ordering, no dimensional quantities.
+*Level 2 --- The Relational Web.* Registered \iota distinction characters organized by the adjacency constraint into co-manifestation relations. Stable configurations where \(\Kappa\) reaches a local extremum. This level is structured but pre-dimensional.
 
-The relational web is not passive. It applies the adjacency constraint. Combinations that cannot achieve a \(\Kappa\) extremum dissolve back toward stability. Combinations that do achieve stability persist. The relational web presents to the view layer only what it can stably support. This filtering is structural, not selective.
+The relational web is stochastic. Not deterministic. Not programmed. Stochastic all the way down --- from the substrate through the relational web. Probability is the actual character of both levels, not a limitation of knowledge.
+
+The relational web is the probability landscape itself. The accumulated weight of stochastic \iota interactions creates regions of higher and lower likelihood. No mechanism required. Statistics operating at scale. Like temperature emerging from molecular motion: no single molecule has temperature, but the aggregate of molecular motion is temperature. The relational web does to \iota interactions what temperature does to molecular motion --- it collapses granular activity into a readable signal.
+
+The relational web has structural consequence without active intervention. Accumulated pattern shapes what comes next --- not because anything decides, but because the worn path makes that route more likely. The aggregate feeds back into the substrate purely by existing.
+
+What the view layer reads as a particle, a mass, a field is a region of high probability density in that landscape --- stable enough, persistent enough, dense enough to resolve into something nameable. Stochastic imperfections that are stable become mass. Transient fluctuations cancel in the aggregate and wash out.
 
 *Level 3 --- The View Layer.* The relational web as experienced by an embedded observer. The observer is itself a stable Planck bit configuration complex enough to sustain a systematic account of what the relational web presents. That account takes the form of a dimensional coordinate system: length, time, mass, charge. The stable configurations the relational web presents are read as particles. The relational geometry is read as spacetime. The constants of physics --- \(c\), \(\iota_{\mathrm{proj}}\), \(G\) --- are the seams where the observer's dimensional framework meets the pre-dimensional relational web.
 
@@ -303,6 +337,32 @@ The view layer is where physics operates. It is valid, precise, and complete as 
 This three-level structure resolves several questions the two-level account left open. Why do particles have the properties they do? Because stable Planck bit configurations at \(\Kappa\) extrema have those properties at the relational web level --- the observer reads them as mass, charge, and spin at the view layer. Why does high-energy collision not reliably reveal substrate structure? Because collisions operate at the view layer --- smashing view-layer particles together and reading the debris. The debris consists of view-layer forced states resolving back to what the relational web stably supports. The relational web level is not directly accessible to view-layer observation.
 
 /Status: Established in v0.5./
+
+** The GR/QM Dissolution
+
+General relativity and quantum mechanics have resisted unification for a century. Every attempt to quantize gravity fails. Every attempt to embed quantum mechanics in curved spacetime breaks down at the Planck scale. The conflict is treated as a technical problem awaiting the right mathematical framework.
+
+It is not a technical problem. It is a category error.
+
+GR and QM are not competing descriptions of the same thing. They are accurate descriptions of different layers.
+
+The substrate is genuinely granular. Discrete \iota events. Discrete interactions. No determinism. Probability is the actual character of the substrate, not a limitation of knowledge about it.
+
+The relational web is the probability landscape of those stochastic interactions. Still granular in origin. Still stochastic. But accumulated over massive numbers of simultaneous \iota events, producing regions of density.
+
+The view layer is smooth. The averaging process produces continuity. GR's spacetime manifold is real --- at the view layer. It is what the relational web's probability landscape looks like to an embedded observer constructing a dimensional coordinate account.
+
+Quantum mechanics is substrate granularity leaking through to the view layer. The wave function is the view layer's representation of the probability landscape the relational web produces. The Born rule --- probability proportional to amplitude squared --- is how the view layer reads probability density. Wave function collapse is not a physical event. It is the view layer resolving one reading from a probability landscape that was never definite.
+
+General relativity is the smooth aggregate. Spacetime curvature is the view-layer account of large-scale probability density gradients in the relational web.
+
+#+BEGIN_QUOTE
+Quantizing gravity fails because gravity is already the averaged-out result. You cannot granularize something that only exists because granularity was averaged away.
+#+END_QUOTE
+
+The mathematical failure is the signal. Both frameworks are correct. They are correct at different levels. The conflict between them is the conflict of levels mistaken for a conflict of theories.
+
+/Status: Candidate dissolution developed 2026-05-23. Requires formal development./
 
 ** The Observer's Position
 
@@ -636,6 +696,8 @@ These are the frontier of the framework, stated precisely and carried explicitly
 
 *Why Binary.* The framework takes \(\{+1, -1\}\) as the only two distinction characters. The argument: one act of distinction creates one boundary; one boundary has two sides. That is a logical claim, not a derived result. It cannot be supported by appealing to quantum discreteness or Planck-scale physics without circularity --- those observations are downstream of the substrate, not prior to it. The open question is whether the logical argument is sufficient: does one act of distinction necessarily produce exactly two values, or is three-valued or continuous distinction coherent? A three-valued substrate would alter the algebraic hierarchy throughout and may produce the SU(3) color structure more directly. A continuous substrate would recover something closer to quantum field theory from the start. Both alternatives are unexplored. The binary axiom is currently the most defensible choice on grounds of minimalism. It is not the only possible choice.
 
+A candidate direction: the \iota event is multifaceted, with multiple qualitatively distinct relational modes --- not binary opposition but multiple distinct kinds of interaction, as quark color charge is not magnitude but three qualitatively distinct states. The \(\{+1,-1\}\) field may record one aspect of \iota's distinction character while the relational modes carry richer structure not yet fully characterized. If the mode count is constrained by what the framework must produce --- gravity, electromagnetism, the particle table --- then the binary axiom is an underdetermination rather than a falsity. The field records distinction. The modes govern interaction. These may be separable claims. This direction is developed in the Physical Character of \iota section above and carried forward as an open structural question.
+
 *The Vocabulary Boundary.* The terms occurrence, registration, and boundary are proposed as genuinely primitive replacements for the inherited vocabulary of observer, measurement, and collapse. Whether they succeed --- whether they are themselves free of hidden Newtonian assumptions --- is an open question requiring formal examination.
 
 *The Topos Theory Connection.* ι operates below Boolean logic. Occurrence as boundary negotiation is not a yes/no event --- it is a process whose definiteness is contextual and relational. Topos theory, developed by Grothendieck, allows contextual relational logic where truth values are not simply binary. The Medium arrives at this logical territory from the conceptual direction; topos theory approaches from the mathematical direction. Whether they converge formally is an open derivation.
@@ -702,7 +764,13 @@ The topos move --- treating fractional charge as a local section over the hadron
 
 *Color Charge.* The strong force operates via color charge --- red, green, blue, and their anticolors. Three values. The SU(3) group structure of the strong force is built on this three-fold symmetry. The Medium's substrate is binary: ±1. Two values. Nothing in the current framework obviously produces a three-valued structure. Two candidate paths. First: color charge is not a third substrate value but a relational property of configuration geometry. A single quark has no independent color --- color is defined by how three quarks relate to each other within a baryon. Color neutrality is the only physical reality; individual quark colors are gauge labels with no substrate reality. The three-fold structure is a labeling convention for a three-quark relational closure, not a third substrate character. This connects directly to the gauge symmetry entry: SU(3) color is the symmetry group of the freedom to relabel color assignments without changing physics. If the substrate's co-manifestation web has no preferred global labeling, SU(3) color may emerge as one expression of that freedom at the view layer. Second: color charge requires a substrate extension --- a third distinction value or a two-level character structure --- that the current framework does not have. Option one is more consistent with the existing framework and is the candidate direction. The formal account does not exist.
 
-A stronger possibility: color is not needed at the view layer either. Color is never directly observed --- confinement guarantees that no colored object reaches a detector. Every observed state is color-neutral. Color was introduced to explain why only certain combinations are stable, without access to substrate structure. If the relational web already accounts for why three-quark and quark-antiquark closures are the stable forms, color does no additional work at the view layer. The SU(3) gauge freedom confirms this: the freedom to relabel red/green/blue without changing any observable is the mathematical statement that color is not a physical property. It is a labeling convention. Conventions can be dissolved. The current treatment of color as unassigned assumes it must be placed somewhere in the framework. The stronger question is whether it needs to be placed at all, or whether it dissolves as a Standard Model artifact of describing hadronic stability from collider observations rather than from substrate structure. This should be evaluated before attempting derivation.
+Color dissolves. Color is never directly observed --- confinement guarantees that no colored object reaches a detector. Every observed state is color-neutral. The label was borrowed from optics for one reason: red + green + blue = white. Three things combine to produce neutrality. That is the entire justification for "color." The physics is the neutrality --- the three-fold combination rule that produces stability. The optical analogy adds nothing. It names the pattern without explaining it.
+
+The SU(3) gauge freedom confirms dissolution from the Standard Model's own structure: the freedom to relabel red/green/blue without changing any observable is the mathematical statement that color is not a physical property. It is a labeling convention.
+
+Gauge symmetry itself survives and gains a substrate ground. The iota's relational modes have no preferred global labeling --- the medium has no preferred orientation of modes. That is the same freedom SU(3) describes, now located at the substrate rather than imposed as an external requirement on a field. Color charge dissolves. The gauge freedom that generated SU(3) does not. It emerges from the iota mode structure rather than floating as an external requirement. Whether the iota mode structure generates exactly SU(3) or something more general from which SU(3) is a projection is the open derivation.
+
+The iota relational mode model makes color charge redundant at both levels. If the iota has multiple relational modes combining under rules that produce stable two-body and three-body configurations, the stability pattern falls out of the mode structure directly. Color charge is not a substrate property requiring placement. It is a view-layer label for a substrate pattern the iota model accounts for without it. Color charge dissolves as a Standard Model artifact of describing hadronic stability from collider observations rather than from substrate structure.
 
 *Dark Matter.* Dark matter interacts gravitationally but not electromagnetically, not via the strong force, and at most weakly. It is invisible, stable, and accounts for roughly five times more mass than visible matter. In The Medium's terms, a dark matter candidate is a stable Planck bit configuration at a \(\Kappa\) extremum with nonzero \(N\) (mass --- gravitational coupling at the view layer), zero net distinction character (electrically neutral), and no relational closure that engages the projection channels producing electromagnetic or strong force coupling. It is a pattern that achieves stability under the adjacency constraint but does not light up the observer's EM or strong projection channels. From the substrate perspective, dark matter is not mysterious --- it is a class of stable configurations that happen not to couple to the forces visible matter couples to. The open derivation: identify which specific Planck bit patterns satisfy the adjacency constraint, achieve a \(\Kappa\) extremum, carry zero net distinction character, and have no EM or strong relational closure. Those patterns are the dark matter candidates. Whether the framework produces candidates matching the observed mass distribution and halo structure is the empirical test.
 
@@ -717,6 +785,14 @@ Second, an open problem: quantum gravity. Every other force has been quantized. 
 Third, gravitational waves propagate through spacetime. If spacetime is view-layer, gravitational waves are view-layer phenomena. LIGO detects them. That is consistent with the placement.
 
 Whether color charge is substrate or view-layer emergent; how dark matter candidates arise from substrate structure --- these remain at the frontier. Dark energy is not a frontier question. It dissolves when redshift is correctly understood.
+
+A candidate direction for gravity emerged from the iota packing model (developed 2026-05-23). Space is relational --- exists as relationships between \iota events, not as a void or independent fabric. Spacetime curvature is a large-scale pattern of \iota alignment. A gravity well is a persistent local deviation in packing that the surrounding medium tries to correct.
+
+Mass is the stable stochastic imperfection. Gravity is the strain field. The \iota packing model gives infinite reach without a carrier particle: every \iota event participates in the ground state, so every stable imperfection propagates strain through the medium without limit and without signal. The equivalence principle is automatic --- the same \(N\) that resists inertial change is the \(N\) whose packing imperfection generates the strain field.
+
+Quantum gravity's resistance to derivation is consistent with this account. Gravity is not like the other forces at the view layer because it is not a view-layer force in the same sense. It bridges substrate packing geometry and view-layer spacetime. Attempting to quantize it applies view-layer tools to something that only exists because view-layer granularity was averaged away. The failure is structural, not mathematical.
+
+This direction requires: showing how the strain field through the \iota medium maps onto the inverse square law; determining what constrains the iota's relational mode count; and connecting the packing geometry to the projection mechanism that produces the spacetime manifold. None of these derivations exist. The direction is named.
 
 *The Observer Boundary.* The observer is a sustained binary configuration within \(\phi\), attempting to describe the substrate that produced it from within. Every formal system contains truths it cannot prove from within itself. The Medium faces an analogous boundary and acknowledges it.
 
