@@ -1,0 +1,86 @@
+#+TITLE: Spacetime as a Projected View
+#+AUTHOR: Brad DePuy
+#+DATE: 2026-05-27
+
+* Spacetime as a Projected View
+
+** The Observer Inside the Medium
+
+The medium is the reality. We are inside it. We cannot step outside and observe
+it directly. What we access — through measurement, observation, experiment — is
+what the medium's activity looks like from within it, at the scales we can reach.
+
+That is a view. A projection of the medium's state onto what is observable.
+
+Spacetime geometry is the shape of that projection. It captures real
+relationships in the medium — accurately, precisely. But it does not capture the
+medium itself. The projection is not the thing projected.
+
+** What Projection Means
+
+A projection maps a structure onto a lower-dimensional or lower-resolution
+representation. Information is preserved in the relationships. Information is
+lost in the details below the resolution of the projection.
+
+Spacetime geometry preserves the relationships accessible at our scale —
+distance, duration, curvature. It loses the medium's structure below the Planck
+scale. The breakdown of the geometric description at that scale is exactly where
+the projection fails. The medium's iota activity is too fine-grained to be
+captured by the smooth geometric view.
+
+The description does not fail because physics is incomplete. It fails because
+every projection has a resolution limit.
+
+** The View-Screen
+
+The view-screen is the interface between the medium's activity and what is
+observable. What appears on the view-screen — particles, forces, geometry — is
+the medium's state as projected through it.
+
+Spacetime geometry is the geometric structure of that view. Three things in
+order:
+
+#+BEGIN_QUOTE
+The medium — reality, substrate, prior.
+The view-screen — the interface between medium and observation.
+Spacetime geometry — the description of what appears on the screen.
+#+END_QUOTE
+
+The observer inside the medium sees spacetime. The medium itself has no
+spacetime. It has activity, propagation, iota concentration. Spacetime is what
+that activity looks like from inside the projection.
+
+** The Holographic Echo
+
+Physics arrived at something similar from a different direction. The holographic
+principle states that a volume of space can be fully described by information on
+its boundary surface — a lower-dimensional projection. The AdS/CFT correspondence
+makes this mathematically precise.
+
+Physics found the projection without naming what is being projected. The medium
+is what is being projected. The view-screen is the surface. Spacetime geometry is
+the hologram.
+
+** What the View Preserves and What It Loses
+
+The projected view preserves what is real and accessible at observable scales:
+the relationships between events, their distances, their sequence, the curvature
+of the geometry. These are accurate. The four proofs of curvature — Eddington,
+Pound-Rebka, GPS, LIGO — confirm the projection is faithful at those scales.
+
+The projected view loses the medium's discrete iota structure, the activity below
+the Planck scale, the nature of what is propagating. These are not observable
+through the view. They are not absent — they are below the resolution of the
+projection.
+
+** The Statement
+
+Spacetime is a projected view of the medium's state. It is accurate within its
+scale. It is incomplete below it.
+
+The geometry we observe is real as a projection of real medium relationships. It
+is not the medium itself. What physics calls spacetime is what the medium looks
+like from inside.
+
+The medium does not have spacetime. It has activity. Spacetime is the geometry
+of that activity as seen through the view-screen.

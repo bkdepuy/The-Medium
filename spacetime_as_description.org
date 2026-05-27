@@ -1,0 +1,71 @@
+#+TITLE: Spacetime — Description or Reality
+#+AUTHOR: Brad DePuy
+#+DATE: 2026-05-27
+
+* Spacetime — Description or Reality
+
+** Geometry Describes Relationships
+
+Geometry is not a substance. It describes how things relate — distances, angles,
+curvature. A map has geometry. The terrain has hills. The geometry of the map
+captures true relationships in the terrain. But the geometry is not the terrain.
+
+When physics says spacetime is curved it is saying the geometric description of
+something has curvature. It does not say what that something is.
+
+** The Trap Physics Fell Into
+
+General relativity produced a geometric description of extraordinary precision.
+Physics began treating the description as the thing. Spacetime became the
+substance — the reality — rather than the description of reality. The question
+"what is curving?" stopped being asked because the geometry itself was treated as
+the answer.
+
+This is the same error as treating a map as the territory.
+
+** Three Things to Separate
+
+/The events/ — things that actually happen. A particle here. An interaction
+there. These are real.
+
+/The relationships between events/ — how far apart, in what sequence, by what
+interval. These relationships are real.
+
+/The geometric description of those relationships/ — spacetime, the metric,
+curvature. This is the map. Precise, predictive, extraordinarily useful. But a
+description, not a substance.
+
+** What Is Real
+
+The medium is real. It is the substance. Events — iota concentrations,
+interactions, propagations — happen in the medium. The relationships between
+those events are real relationships in the medium.
+
+Spacetime geometry is what results when those relationships are described
+mathematically. The description is accurate. It is not the thing itself.
+
+Gravitational waves are real because something in the medium is propagating. The
+geometric description of that propagation as ripples in spacetime curvature is
+accurate — but the ripple is in the medium, not in an abstraction.
+
+** Spacetime Breaks Down. The Medium Does Not.
+
+General relativity fails at the Planck scale — 10⁻³⁵ meters. The geometric
+description produces nonsense. The smooth manifold of spacetime cannot be
+extended to that scale.
+
+Physics treats this as a problem with the theory. It is also a signal about the
+description. A description breaks down at the boundary of what it was built to
+describe. Below the Planck scale the medium's discrete structure — its iota
+activity — is no longer well described by continuous geometry.
+
+The description has a limit. The medium does not.
+
+** The Statement
+
+Spacetime is a geometric configuration — a precise mathematical description of
+real relationships in the medium. It is real as a description. It is not the
+reality it describes.
+
+The medium is the reality. Spacetime is what we call the geometry of the
+medium's state.

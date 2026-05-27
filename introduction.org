@@ -1,0 +1,116 @@
+#+TITLE: Foundations of the Medium — Introduction
+#+AUTHOR: Brad DePuy
+#+DATE: 2026-05-27
+
+* Introduction
+
+** The Question Physics Stopped Asking
+
+Two and a half thousand years ago Democritus reasoned that reality consists of
+two things: indivisible particles and the void through which they move. He had no
+mathematics. No instruments. Reason alone.
+
+He was right in shape. He was wrong about the void.
+
+Modern physics built a mathematical language of extraordinary precision. It
+described how matter behaves, how forces act, how spacetime curves. It produced
+technology that works. It predicted phenomena before they were observed. It is
+one of the greatest intellectual achievements in human history.
+
+It did not explain what matter is. It did not explain what forces are. It did not
+explain what spacetime is. It described behavior without naming what behaves.
+
+The Greeks asked: what is real? Physics answered: here is how it acts. These are
+different questions. Physics answered the second magnificently and quietly
+abandoned the first.
+
+** The Pattern of Invention
+
+When observation did not fit, physics invented.
+
+Virtual particles — invented to hold the nucleus together. Dark matter — invented
+because galaxies rotate wrong. Dark energy — invented because expansion
+accelerates. Inflation — invented because the universe is too flat. Renormalization
+— invented to cancel infinities that should not exist. Extra dimensions —
+invented because the mathematics of strings requires them.
+
+Each invention made the math close. None explained what it described.
+
+This is not a failure of intelligence. It is a choice of question. Physics chose
+precision of description over explanation of substance. The choice produced
+astonishing results. It left the ground unexamined.
+
+Democritus reasoned correctly from first principles. Modern physics has been
+unable to explain these things any better than the Greeks. It has only described
+them more precisely. A language was created to do useful work. The language is
+not the answer.
+
+** What Was Lost and What Survived
+
+The works of Democritus were lost. We have fragments — quoted by those who
+disagreed with him. Aristotle engaged seriously and rejected him. Aristotle's
+works survived. The Church adopted Aristotle and made his physics doctrine. The
+wrong physics received institutional protection for fourteen centuries.
+
+What survived of atomism survived in a poem. Lucretius wrote /De Rerum Natura/ to
+transmit Epicurus, who had preserved Democritus. The poem was found in a German
+monastery in 1417. The scientific revolution that followed owed more to that
+recovery than is usually acknowledged.
+
+We are still working with the fragments.
+
+** The Void That Was Not Empty
+
+Democritus's only error was the void. He knew something real had to exist
+alongside the atoms — something motion requires. He called it nothing because he
+had no framework for an active substrate.
+
+Two and a half thousand years of physics has been filling that nothing without
+admitting it. The quantum vacuum is not empty. It has energy — irreducible,
+measurable, present everywhere. Spacetime curves and ripples and carries
+gravitational waves. The Higgs field permeates all space. Physics discovered the
+void was not void and continued calling it void.
+
+The medium is the corrected void. Not a new invention — a completion of what
+Democritus correctly identified as necessary. He was right that something real
+must exist alongside the fundamental units. He was wrong about its nature. The
+correction is not a rejection. It is a completion.
+
+** The Medium
+
+The medium is the substrate of physical reality. Prior in kind. One substance.
+
+Iotas are of the medium — not objects within it but what it does. Movement is not
+a particle crossing empty space. It is the medium's activity propagating through
+itself. Space and time are not the container. They are the product — what the
+medium's activity produces and what we observe through the view-screen.
+
+The medium cannot be at rest. Activity is not what it does. Activity is what it
+is. The interaction of iotas with each other and between all processes is the
+medium's nature expressing itself. Rest would be non-existence.
+
+Forces are not separate things. They are the medium's modes — gravity its
+geometric mode, electromagnetism its bipolar field mode, the strong force its
+self-interacting mode, the weak force its transformation mode. The forces do not
+explain the medium. The medium explains the forces.
+
+Spacetime geometry is the projected view of the medium's state. It is accurate
+within its scale and incomplete below it. The map is not the terrain. The
+geometry is not the ground.
+
+** What Follows
+
+The sections that follow build a foundation — not a description of behavior but
+an account of what must be true for any of the behavior to be possible.
+
+Each claim is earned before it is used. The curvature of the medium is proven
+before it is built upon. The nature of spacetime is examined before it is
+accepted. The forces are derived from the medium rather than assumed alongside
+it. The limits of current physics are named where they exist.
+
+This is not a theory built to make the math close. It is an attempt to return to
+the question the Greeks asked and physics set aside.
+
+What is real?
+
+The medium is real. Everything else is what the medium does.

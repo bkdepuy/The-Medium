@@ -1,0 +1,104 @@
+#+TITLE: Forces That Emerge from the Medium
+#+AUTHOR: Brad DePuy
+#+DATE: 2026-05-27
+
+* Forces That Emerge from the Medium
+
+All four fundamental forces emerge from the medium. Each is a different mode of
+the medium's activity. None are separate substances imposed on the medium from
+outside.
+
+** Gravity — The Geometric Mode
+
+Gravity is not a force in the Newtonian sense. It is the medium's geometric
+response to concentrated iota activity. Where iotas concentrate, the medium
+curves. Other iotas follow that curvature. Gravity is the medium's shape, not
+its reach.
+
+It is always attractive because iota mass-energy has one sign. There is no
+negative mass. The curvature produced by iota concentration always deepens toward
+the center. Nothing cancels it.
+
+** Electromagnetism — The Bipolar Field Mode
+
+Electric charge is a property of certain iota configurations — two orientations,
+two signs. The electromagnetic field is the medium's state in the presence of
+charged iotas. The photon is direct medium propagation in the EM mode. Massless,
+so infinite range.
+
+Two signs of charge produce both attraction and repulsion. The medium responds
+differently to same-orientation and opposite-orientation iota configurations.
+Like orientations repel. Opposite orientations attract. Unlike gravity, the
+medium's EM mode can cancel — neutral matter has no net EM field at distance.
+This is why gravity dominates at cosmic scales despite being far weaker: it
+cannot be cancelled.
+
+** Strong Force — The Self-Interacting Mode
+
+Color charge comes in three — not two signs but three colors. The gluon carries
+color itself. Unlike the photon which carries no electric charge, the gluon
+participates in the force it mediates. The medium's strong-mode propagation
+is self-interacting.
+
+This produces confinement. The medium cannot spread color field freely. It
+concentrates into flux tubes between colored iotas. Pull the iotas apart and the
+tube stretches until it holds enough energy to produce new iota pairs. Color
+never escapes. The medium refuses to allow isolated color configurations to exist.
+
+The residual strong force — what holds protons and neutrons together in the
+nucleus — is this mode leaking between color-neutral hadrons, as van der Waals
+forces leak between electrically neutral atoms. Its short range is set by the
+mass of the mediating pion, not by the gluon's range directly.
+
+** Weak Force — The Transformation Mode
+
+The W and Z bosons are massive. The medium's weak-mode propagation decays
+rapidly with distance. Range is approximately 0.001 femtometers — effectively
+contact only.
+
+The weak force does not bind. It transforms. A neutron iota configuration becomes
+a proton iota configuration through the medium's weak-mode activity. Beta decay
+is the medium changing what it is doing locally, not transmitting a configuration
+across distance.
+
+It is the medium's capacity for iota transformation — one kind of concentrated
+activity becoming another kind.
+
+** What the Four Modes Share
+
+All four are the medium expressing itself in different modes. The differences
+reflect the properties of iotas and the medium's response to them:
+
+| Force       | Medium mode              | Mediator | Range       | Character              |
+|-------------|--------------------------|----------|-------------|------------------------|
+| Gravity     | geometric — curvature    | graviton | infinite    | always attractive      |
+| EM          | bipolar field            | photon   | infinite    | attractive/repulsive   |
+| Strong      | tripolar self-interacting| gluon    | confined    | toward neutrality      |
+| Weak        | transformation           | W, Z     | ~0.001 fm   | not a binding force    |
+
+** Unification as a Medium Signal
+
+At high energy, EM and weak forces merge into one — the electroweak force. At
+higher energies, the strong force is expected to join. At the highest energies
+gravity may join.
+
+In medium terms: at extreme iota concentration, the medium's distinct response
+modes converge. What appear as four forces at ordinary scales are aspects of one
+medium activity at high enough concentration. The distinctions are features of
+the scale of observation, not of the medium itself.
+
+Gravity resists unification because it is the medium's geometric mode —
+curvature — while the other three are field modes — perturbations propagating
+through the medium. These may be fundamentally different expressions of the same
+substrate rather than merely different strengths of the same expression. This
+distinction belongs in the foundations.
+
+** The Open Question
+
+Why these four modes? The medium has four because iotas have four properties:
+mass-energy, charge, color, flavor. But why do iotas have these four and not
+others?
+
+The medium's own structure may determine what iota properties are possible. If
+so, the four forces are not fundamental — they are consequences of the medium's
+nature. The forces do not explain the medium. The medium explains the forces.
