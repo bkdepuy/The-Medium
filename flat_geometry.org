@@ -1,0 +1,94 @@
+#+TITLE: Flat Geometry — What It Means and What It Rests On
+#+AUTHOR: Brad DePuy
+#+DATE: 2026-05-27
+
+* Flat Geometry — What It Means and What It Rests On
+
+Physics says the universe is flat. This requires two questions: what does flat
+mean, and how do we know.
+
+** Flat Is Not a Shape
+
+The rubber sheet analogy misleads. Flat does not mean the universe looks like a
+tabletop. It means the rules of geometry — measured from the inside — are
+Euclidean.
+
+We live inside the universe. We cannot step outside and observe its shape. What
+we can measure is how geometry behaves from within:
+
+- Do parallel lines stay parallel?
+- Do the angles of a triangle sum to 180°?
+- Does the Pythagorean theorem hold?
+
+If yes — flat. Not flat like a plane. Flat like Euclidean rules hold everywhere.
+
+The cylinder clarifies this. A cylinder is curved when viewed from outside —
+clearly bent. An ant living on the surface measures flat geometry. Parallel lines
+stay parallel. Triangles sum to 180°. The cylinder is extrinsically curved,
+intrinsically flat. The universe being flat is an intrinsic statement. There is
+no outside view.
+
+** The Three Possible Geometries
+
+At the largest scale the universe has one of three intrinsic geometries:
+
+- Flat: Euclidean rules hold. Parallel lines stay parallel. Infinite.
+- Positively curved: triangles sum to more than 180°. Finite. Like the surface
+  of a sphere — a triangle drawn from equator to pole and back has three right
+  angles, 270° total.
+- Negatively curved: triangles sum to less than 180°. Saddle geometry. Infinite.
+
+Which geometry holds depends on the total density of mass-energy. There is a
+critical density. Above it — positive curvature. Below it — negative. At it —
+flat.
+
+** How the Flatness Is Measured
+
+The primary evidence is the Cosmic Microwave Background — faint radiation
+filling the sky, mapped in detail by WMAP and Planck. It shows temperature
+fluctuations. The angular size of those fluctuations encodes the geometry.
+
+In a flat universe the largest fluctuations appear at about one degree of arc.
+Positively curved — larger. Negatively curved — smaller. Measurement says
+approximately one degree. Flat.
+
+** What This Rests On
+
+To convert that angular measurement into a geometric conclusion requires knowing:
+
+- The actual physical size of those fluctuations at the moment they formed
+- The distance to where they formed — the last scattering surface
+
+Both require Big Bang cosmology to calculate. The flatness conclusion is not
+independent of the model. The Big Bang is assumed. Predictions are derived.
+Observations are compared. Flatness is concluded — within the framework that
+was assumed at the start.
+
+It is a test inside the model, not outside it.
+
+The flatness problem compounds this. Any deviation from flatness grows over time.
+For the universe to be this flat now — after 13.8 billion years — it had to be
+extraordinarily flat at the beginning. The Big Bang does not explain why.
+Inflation was invented to solve this. The solution lives inside the same
+framework that generated the problem.
+
+** What Is Directly Observed
+
+The Cosmic Microwave Background exists — observed. Its temperature is 2.725
+Kelvin — measured. Its spectrum is a near-perfect blackbody — measured. The
+angular scale of its fluctuations — measured.
+
+The interpretation of those measurements as proof of flatness requires the model.
+
+** What This Means for the Medium
+
+The medium does not require flatness as a foundation. The medium is prior to
+whatever geometry the universe happens to have. Whether the medium's
+configuration is globally flat or curved is a property to be explained, not an
+assumption to build on.
+
+The local curvature stands on its own. Eddington's light bending, Pound and
+Rebka's time dilation, GPS corrections, LIGO's gravitational waves — none of
+these require the Big Bang. The evidence for local curvature is clean.
+
+The global flatness is model-dependent. The foundations do not rest on it.

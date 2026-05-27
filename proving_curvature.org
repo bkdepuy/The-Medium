@@ -1,0 +1,79 @@
+#+TITLE: Proving the Curvature
+#+AUTHOR: Brad DePuy
+#+DATE: 2026-05-27
+
+* Proving the Curvature
+
+Before curvature can serve as foundation it must be earned. Four proofs,
+in order of directness.
+
+** Light Bends — and by the Wrong Amount for Newton
+
+Newton's gravity acts on mass. Light has no mass. Newton still predicts slight
+bending — treating the photon as a particle with mass-equivalent energy. His
+prediction: 0.87 arcseconds deflection around the Sun.
+
+Eddington measured starlight passing the Sun during the 1919 solar eclipse:
+1.75 arcseconds. Exactly double Newton's prediction. Exactly what general
+relativity predicts.
+
+The extra bending is the proof. Newton bends light through force on energy.
+General relativity bends light because space itself curves — and the path through
+curved space is longer than Newton calculates. The discrepancy is the curvature
+of space, measured directly.
+
+** Time Runs Slower Near Mass
+
+Pound and Rebka, 1959. They measured gamma rays falling 22 meters in a Harvard
+tower. Falling photons gained energy. Rising photons lost energy. The difference
+matched general relativity's prediction for gravitational time dilation exactly.
+
+Time is not uniform. It runs slower where mass is greater. This is not a force
+effect. A force changes motion. This changes the rate of time itself. That is
+curvature of the temporal dimension — geometry, not mechanics.
+
+** GPS — Engineering Proof
+
+Clocks in GPS satellites run faster than clocks on Earth's surface — less
+gravitational potential, less curvature. The difference: 45 microseconds per
+day. Uncorrected, GPS drifts 10 kilometers per day. The correction is applied
+continuously. It works.
+
+Spacetime curvature is not a theoretical curiosity. It is load-bearing
+infrastructure.
+
+** Gravitational Waves — Curvature Propagating
+
+LIGO, 2015. Two black holes spiraling together sent ripples through spacetime at
+the speed of light. Detectors at Hanford, Washington and Livingston, Louisiana —
+3,027 kilometers apart — both registered the same distortion.
+
+The wave arrived from 1.3 billion light-years away. By the time it reached
+Earth the wave front was far larger than Earth itself. Both detectors sat within
+it simultaneously. Livingston registered the signal 7 milliseconds before
+Hanford — consistent with the wave traveling at the speed of light from a
+specific direction in the sky.
+
+The separation was the design. A truck or earthquake cannot shake Louisiana and
+Washington simultaneously. The 7 millisecond delay proves the disturbance travels
+at c. The delay triangulates the origin. Each detector recorded independently,
+timestamped by GPS atomic clocks. The match — same waveform, right time delay,
+right amplitude — is the proof.
+
+These are not waves through the medium. They are waves of the geometry itself.
+Curvature propagating.
+
+** What the Four Proofs Establish
+
+The substrate between masses is not passive.
+
+It curves spatially — light bending proves it. It curves temporally —
+Pound-Rebka proves it. The curvature operates in engineering reality — GPS proves
+it. The curvature propagates — LIGO proves it.
+
+The void is active. The geometry is real.
+
+Newton's force required no medium. Einstein's geometry requires something that
+curves. The proofs confirm the curvature. They do not name what curves.
+
+The medium names it.
