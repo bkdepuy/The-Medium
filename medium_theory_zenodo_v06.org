@@ -432,43 +432,25 @@ To describe the relationships between structures like itself, the observer const
 Every dimensional quantity in physics --- every constant, every observable, every equation --- is a projection of a substrate relationship onto the observer's dimensional coordinate system. Physics is the complete and consistent description of those projections. It is a perfect map of the shadow. It is not a description of the substrate that casts it.
 #+END_QUOTE
 
-** The Projection Boundary
+** The Projection Boundary and Natural Units
 
 The Planck scale marks the projection boundary: the threshold at which one \iota event becomes visible to the observer's dimensional framework.
 
-In the Medium's unit system, one \iota event is 1. Not 1 of something. Just 1 --- the irreducible unit of occurrence. No further specification is needed or possible.
+In the Medium's unit system, one \iota event is 1. Not 1 of something. Just 1 --- the irreducible unit of occurrence. No smaller unit exists, because no smaller event exists.
 
-What physics calls Planck's constant does not exist as a fundamental constant in the Medium. \(\hbar\) is the SI measurement of 1 \iota event projected --- the size of the projection boundary expressed in a unit system built from human-scale standards. It is a statement about the relationship between human-scale SI units and the projection boundary, not a fact about the substrate. In Medium units it is simply 1.
+SI units cannot be the foundation. They were built from human-scale standards --- the meter, the kilogram, the second --- and carry the fingerprints of the observer's position. To write substrate quantities in SI is to import view-layer categories into a level that has none. Planck units do not escape this. They are just SI constants rearranged, still built from quantities the observer measured. They rescale the observer's framework. They do not replace it.
 
-The constancy of \(\hbar\) in SI follows from this directly. Every \iota event is identical --- the same occurrence of the same property of the same substrate. The observer always measures the same thing and always gets the same number. The constancy is not a law of physics. It is a consequence of 1 always equaling 1.
+At the substrate there are no dimensions at all --- substrate quantities are pure counts. The dimension the observer calls /action/ is not in the substrate. It is assigned at projection, when the observer wraps one projected event in a dimensional framework.
 
-An open question is carried explicitly: why does the projection carry what the observer calls units of action --- energy multiplied by time --- and not some other dimensional combination? The answer requires a derivation of the observer's dimensional categories from the structure of sustained binary field configurations. That derivation is a primary target for future development.
-
-** Natural Units of the Framework
-
-SI units are not available to the Medium as a foundation. They were constructed by observers embedded in human-scale experience --- built from the meter, the kilogram, the second, and the ampere, each defined by reference to phenomena accessible at that scale. They carry the fingerprints of the observer's position. To express substrate quantities in SI is to import the dimensional categories of the view layer into the pre-dimensional level. That is the inherited error the framework is attempting to correct.
-
-Planck units are not an alternative. They are SI constants rearranged --- \(\ell_P = \sqrt{\hbar G / c^3}\), \(t_P = \sqrt{\hbar G / c^5}\), \(m_P = \sqrt{\hbar c / G}\) --- still derived from \(\hbar\), \(c\), and \(G\), which are themselves observer-measured quantities. Planck units rescale the observer's framework. They do not replace it.
-
-The Medium requires units built from the substrate upward.
-
-*Substrate level.* The primitive unit is the \iota event --- one act of self-distinction. It is the irreducible quantum of occurrence. No smaller unit exists because no smaller event exists. The substrate has no dimensions. \iota events are counts. Characters are elements of \(\{+1,-1\}\). All substrate quantities are pure numbers. The scalar account produces dimensionless integers \(\kappa\) and \(\Kappa\); the revised combination rules will produce analogous dimensionless quantities of richer structure.
-
-*Projection boundary.* When a \iota event crosses the projection boundary, the observer's dimensional framework assigns it a measurable quantity. In the Medium's unit system, one \iota event = 1. This is the irreducible unit of the framework. It requires no further definition.
-
-What SI physics calls Planck's constant \(\hbar\) does not exist as a fundamental constant. It is the SI numerical value of 1 \iota event projected --- the size of the projection boundary expressed in human-scale units. The specific value \(1.054 \times 10^{-34}\) J\(\cdot\)s is a unit conversion artifact, not a fact about nature. In Medium units it is 1. The Medium's unit of action is:
+What physics calls Planck's constant \(\hbar\) is the observer's measurement of that one projected event. It is not a fundamental constant. In the Medium's own units the projected unit is simply 1. Its constancy is not a law of physics: every \iota event is the same event, so the observer always measures the same thing and gets the same number. It is just 1 equaling 1. The Medium's unit of action is:
 
 \begin{equation}
 [\mathcal{A}] \equiv \iota_{\mathrm{proj}} = 1
 \end{equation}
 
-The SI measurement \(\hbar\) locates the projection boundary on the SI scale. It does not define the unit. The framework defines the unit. The SI value is verification.
+From this unit and the structure of projection, the minimum units of length, time, mass, and charge follow at the projection boundary. They coincide with what physics calls the Planck scale, but they are defined from the substrate, not from SI constants. The SI values are verification, not foundation.
 
-*Derived projection units.* From \([\mathcal{A}]\) and the structure of projection, minimum units of length, time, mass, and charge are derived at the projection boundary. These coincide empirically with what SI physics calls the Planck scale --- but they are defined from the substrate, not from SI constants. Their numerical values in SI are verification, not foundation.
-
-*Going forward.* Substrate quantities are expressed as pure dimensionless numbers. Projection-layer quantities are expressed in terms of \(\iota_{\mathrm{proj}}\) and its derived units. SI values appear only when comparing derived results to experiment, and are clearly marked as empirical correspondences.
-
-The derivation of the projection units from substrate structure --- why one projected occurrence carries the specific action value it does, and why the minimum projected length, time, and mass take the values they do --- is an open derivation carried in Unresolved Questions. The unit system is established here as a requirement of the framework. Its full justification awaits that derivation.
+One open question stays explicit: why does the projection carry what the observer calls units of action --- energy times time --- and not some other combination? Answering it means deriving the observer's dimensional categories from the substrate. That derivation does not yet exist. It is a primary target, carried in Unresolved Questions.
 
 /Status: Established in v0.5./
 
@@ -759,19 +741,15 @@ What the scalar hierarchy got right: the endpoint and the three-level structure.
 
 What it got wrong: the combination operation. Addition is not the right rule for qualitatively distinct modes.
 
-The expected mathematical form of the combination rules is a constrained group-theoretic algebra operating on the tensor product space of \iota relational modes. Three mathematical tools are implicated at different levels.
+What the right rule is, I cannot say. The modes are different in kind, so combining them is more than adding numbers up. The rule has to be worked out, and it has to produce the particles we actually see.
 
-Group theory: the mode combination rules preserve structure under defined operations. Stable configurations are invariant subsets under those operations. The gauge symmetries — SU(3)×SU(2)×U(1) — are expressions of mode relabeling freedom and are expected to emerge as projections of the substrate's combination structure rather than being imposed from outside.
+The open question underneath this is whether the substrate --- binary characters plus the relational modes --- carries enough variety to reproduce the full Standard Model. I cannot settle that. It needs someone with deeper mathematical training than I have. I am marking it as the frontier, not claiming it is crossed.
 
-Tensor products: each relational mode is an independent degree of freedom. The configuration of co-manifested \iota events is the tensor product of their mode states. The adjacency constraint restricts which tensor products are valid — identical adjacent mode states produce no new structure.
-
-Combinatorial algebra: counting valid configurations under the constraints; identifying stability extrema; deriving the particle table as the complete set of valid stable patterns satisfying the combination rules.
-
-The specific rules require derivation from the \iota mode structure. The mathematical class is identified. The derivation is the open work. This is not a gap without shape — it is a named derivation target with a known mathematical domain. The endpoint, the Hamiltonian, is not in question.
+What is not in question is the endpoint: whatever the rule turns out to be, it has to give back the Hamiltonian at the view layer.
 
 *The Adjacency Constraint Under Revision.* The binary formulation — two \iota events of identical distinction character cannot be directly co-manifested --- is logically sound as stated. The open question is what it means when \iota events have internal mode structure. Two possibilities. First: identity means mode-identical across all relational modes, not just distinction character. Richer internal structure means fewer configurations are actually blocked. The constraint becomes less restrictive. Second: the constraint applies per mode — each mode has its own adjacency rule, and two \iota events adjacent in one mode but not another can still combine. The constraint becomes a family of rules. Either reformulation preserves the underlying logic — identical adjacent distinction produces nothing new --- while extending it to the multifaceted \iota. The binary formulation is retained as the current working version. The mode-structure reformulation is the open derivation. Note: the adjacency constraint was carrying significant load in prior versions --- generating the particle table, explaining confinement, setting the minimum complexity threshold. All of that work is provisional pending the mode-structure reformulation.
 
-*Why Binary.* The framework records distinction characters as \(\{+1,-1\}\). The original argument for binary: one act of distinction creates one boundary; one boundary has two sides. That argument assumed \iota is point-like --- making one clean cut, two sides, done.
+*What the Field Measures.* The framework records distinction characters as \(\{+1,-1\}\). The original argument for binary: one act of distinction creates one boundary; one boundary has two sides. That argument assumed \iota is point-like --- making one clean cut, two sides, done.
 
 The multifaceted \iota model undermines the assumption without necessarily undermining the result. A multifaceted \iota does not make a single cut. It makes a distinction with internal structure --- a boundary that has geometry, not just two sides. The question is no longer whether \iota is binary. It is what the field \(\phi\) actually measures.
 
