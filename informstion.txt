@@ -1,0 +1,22 @@
+Good instinct — the conflation of these four senses under one word is genuinely responsible for a lot of confused argument across physics, biology, and philosophy. Giving them distinct names forces precision.
+
+Here are four proposed terms:
+
+**Formata** — syntactic information. From Latin *formare*, to shape. Pure pattern, structure, probability. No meaning, no mind, no consequence. What Shannon measured. A sequence of bits is formata regardless of whether anyone reads it.
+
+**Semata** — semantic information. From Greek *sema*, sign. The meaning carried by a pattern for an interpreter. The gap between formata and semata is where linguistics, philosophy of mind, and cognitive science live. Semata requires a receiver capable of interpretation.
+
+**Agenta** — pragmatic information. From Latin *agere*, to act or drive. Information as causal force — what the pattern *does* rather than what it *means*. DNA is primarily agenta. Pheromones are agenta. The pattern drives an outcome regardless of whether anyone "understands" it.
+
+**Physita** — physical information. From Greek *physis*, nature. The objective, conserved, substrate-level claim — that information has existence independent of minds, is subject to physical law, cannot be destroyed. What physicists mean in the black hole information paradox. What Wheeler meant by "it from bit."
+
+---
+
+The practical payoff:
+
+- Thermodynamics deals in **formata** and **physita**
+- Molecular biology deals in **agenta** primarily, with **semata** creeping in at the organism level
+- Quantum mechanics debates are mostly about **physita**
+- The Medium's projection layer is doing something to **physita** to produce **formata** that becomes **agenta** in biological systems
+
+Worth writing these down somewhere permanent. This kind of terminological clarification is exactly the sort of thing that could appear as a short definitional section in The Medium's philosophical monograph.
