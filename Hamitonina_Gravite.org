@@ -1,0 +1,110 @@
+##+TITLE: Hamiltonian Threshold and Co-Emergence
+#+AUTHOR: Bradley K. DePuy
+#+DATE: 2026-06-24
+#+STARTUP: overview
+#+TAGS: medium framework hamiltonian vacuum threshold G constants
+
+* Summary
+
+The Hamiltonian threshold and the quantum vacuum minimum assumed in the G
+derivation are the same substrate condition. G and the Hamiltonian are
+co-emergent. They do not appear separately. They crystallize together at the
+vacuum floor. This session developed that claim into separable nodes.
+
+* Nodes
+
+** Hamiltonian — domain of validity
+:PROPERTIES:
+:STATUS: proposed
+:END:
+
+The Hamiltonian is not defined at the substrate level. It emerges at the
+minimum iota-interaction threshold sufficient to produce a stable,
+metrically-embedded, temporally-ordered manifestation in the projection layer.
+Below this threshold the concepts of kinetic energy, potential energy, and
+energy conservation are undefined. The Hamiltonian has a floor. Below the
+floor it does not exist — not approximately, not formally. It simply does not
+apply.
+
+** Iota interaction — pre-energetic character
+:PROPERTIES:
+:STATUS: proposed
+:END:
+
+Iota interaction at the substrate level is neither kinetic nor potential
+energy. It is a pre-metric coupling — boundary negotiation geometry, graded
+coupling intensity ξ — that is the common ancestor of both categories. Kinetic
+and potential are the names the projection layer gives to two aspects of what
+was always one thing at the substrate. The distinction between them is
+emergent, not primitive.
+
+** Hamiltonian threshold and vacuum minimum — same event
+:PROPERTIES:
+:STATUS: proposed
+:CONNECTS: G-derivation, hamiltonian-threshold
+:END:
+
+The threshold at which the Hamiltonian becomes well-defined and the quantum
+vacuum minimum assumed in the G derivation are the same substrate condition
+approached from two directions. The G derivation requires a minimum
+iota-interaction density — the vacuum floor at 5.96 × 10⁻²⁷ kg/m³ — before G
+is a meaningful ratio. The Hamiltonian requires the same minimum before energy,
+time, and conservation laws are meaningful. G and H are co-emergent. They do
+not appear separately. They crystallize together at the vacuum minimum.
+
+** Planck scale as phase boundary
+:PROPERTIES:
+:STATUS: proposed
+:END:
+
+The Planck scale is not merely a convenient unit system. It is the dimensional
+signature of the phase boundary between substrate and projection. Below Planck
+scale: raw negotiation, no conserved quantities, no metric, no time, no G, no
+Hamiltonian. Above Planck scale: emergent physics, all quantities mutually
+consistent, all co-emergent from the same threshold event. Planck units mark
+where the plenum becomes legible as physics.
+
+** Vacuum energy catastrophe — Hamiltonian applied below its floor
+:PROPERTIES:
+:STATUS: proposed
+:CONNECTS: cosmological-constant-wrong-problem, depth-of-the-medium
+:END:
+
+The 10¹²³ gap between the Planck-scale vacuum energy prediction and the
+observed vacuum energy density is not a failed calculation. It is the result of
+applying a Hamiltonian formalism below its domain of validity. The Hamiltonian
+does not exist at the Planck ceiling. It becomes well-defined only at the
+vacuum floor. The gap is the depth of the medium between those two boundaries.
+Reframing the cosmological constant problem as the wrong problem and reframing
+the Hamiltonian as having a threshold are the same move.
+
+** Constants as co-emergent package
+:PROPERTIES:
+:STATUS: open
+:NOTE: requires formal development
+:END:
+
+G, H, and the conservation laws they imply are not independent quantities that
+happen to coexist. They are a package. They acquire their values together at
+the vacuum minimum threshold, as a single geometric event in the plenum. The
+constants are not free parameters tuned separately. They are the signature of
+one threshold condition expressed in multiple dimensions. This is why changing
+one changes the others — they are facets of the same crystallization.
+
+* Edges
+
+** Hamiltonian threshold → G derivation (Friedmann) → vacuum floor → nucleon scale unbidden
+** Hamiltonian threshold → cosmological constant reframing → depth of the medium
+** Planck scale as phase boundary → Barbero-Immirzi parameter (~0.2375) → LQG junction
+** Constants as co-emergent → preferred H₀ 68.6 km/s/Mpc → checkable prediction
+
+* Open questions
+
+- What is the minimum iota count at threshold — a fixed number or a geometric
+  condition that different configurations can satisfy differently?
+- Does the threshold have a topological character — a closure condition — rather
+  than a simple count?
+- If constants are co-emergent, does the package have internal degrees of
+  freedom, or is it fully determined by one geometric parameter?
+- Does the vacuum floor evolve over cosmological time? If so, do the constants
+  drift
