@@ -1,0 +1,222 @@
+#+TITLE: Medium Theory v0.7 — Action Plan
+#+DATE: 2026-06-24
+#+STATUS: Active
+
+* Overview
+
+This document records the v0.7 action plan developed from a full critique of
+v0.6 (all 48 pages). The critique identified a core pattern: the body text is
+honest about open derivations; the abstract and section headers are not. The
+mismatch is the primary thing to fix. No new physics is required for Phase 1.
+
+* Title Change
+
+Current: /The Medium: A Foundational Theory of Reality/
+
+Proposed: *The Medium: A Foundational Framework for Physics*
+
+Rationale: "Theory" implies derivational completeness the document does not yet
+have. "Framework" is accurate. "of Reality" signals to physicists that you are
+outside their conversation. "for Physics" positions the work as an alternative
+foundation for the physics that already works — which is exactly the claim.
+
+* Phase 1 — Rhetorical Alignment (no new physics required)
+:PROPERTIES:
+:STATUS: TODO
+:END:
+
+The body text already hedges correctly: /candidate direction/, /open
+derivation/, /I don't have that answer/. The abstract and Part IV headers do
+not. Align them.
+
+** Abstract — specific changes
+
+*** GR/QM conflict
+
+Current:
+: The GR/QM conflict is a category error: three layers, substrate granularity,
+: relational-web averaging, view-layer smoothness.
+
+Change to:
+: The GR/QM conflict is a candidate category error: if the three-layer account
+: holds, GR and QM describe different levels of the same structure and the
+: conflict dissolves.
+
+*** Dark energy
+
+Current:
+: Dark energy is a projection artifact of misread redshift.
+
+Change to:
+: Dark energy is a candidate projection artifact. If redshift is
+: configuration-depth asymmetry rather than recession, dark energy's explanatory
+: role disappears. The alternative account carries open obligations including the
+: CMB blackbody spectrum and BBN abundances.
+
+*** Color charge
+
+Current:
+: Color charge is a labeling convention, not a substrate property.
+
+Change to:
+: Color charge may be a labeling convention rather than a substrate property.
+: SU(3) gauge freedom is consistent with this, but the derivation of SU(3)
+: from ι mode structure remains open.
+
+** Part IV — specific changes
+
+*** p.24 — "has shown"
+
+Current: /The Medium has shown that all three assumptions are view-layer artifacts./
+
+Replace every instance of /has shown/ in Part IV with /argues/. The document
+makes the argument. It has not shown anything in the formal sense. This applies
+throughout pages 24–28.
+
+*** p.27 — dark energy dissolves
+
+Current:
+: Dark energy dissolves in this account.
+
+Change to:
+: Dark energy's explanatory role dissolves in this account. The sub-threshold
+: fluctuation question — why they don't add up to a pull gravity would notice —
+: remains open.
+
+*** p.28 — flatness problem
+
+Current:
+: The Medium dissolves the problem without inflation.
+
+Change to:
+: The Medium reframes the problem. If space is view-layer with no preferred
+: substrate curvature, the flatness fine-tuning is not required. The derivation
+: that projection produces flat geometry is not yet complete.
+
+*** p.28 — horizon problem
+
+Current:
+: The Medium dissolves the uniformity without inflation.
+
+Change to:
+: The Medium provides a candidate dissolution: substrate statistical homogeneity
+: projects as uniform CMB temperature without causal contact. Why the substrate
+: produces one-in-100,000 fluctuations rather than some other level is not
+: derived.
+
+* Phase 2 — Structural: Feature the G Derivation
+:PROPERTIES:
+:STATUS: TODO
+:END:
+
+The G derivation (Section 8.3) is the most concrete result in the document:
+97% agreement with measured G, testable prediction Ω_Λ = 2/3, honest limits
+stated. It is buried on page 33.
+
+Add a *Principal Result* box to the introduction, before Section 1, summarizing:
+- The result: G = H₀²/(4πρ_Λ)
+- The testable prediction: Ω_Λ = 2/3 (observed 0.685, discrepancy 2.7%)
+- What it establishes and what it does not (same format as 8.3.8)
+
+The reader should know the framework produces a quantitative result before being
+asked to read 32 pages of framework to find it.
+
+* Phase 3 — Name the BBN Problem as a Potential Falsifier
+:PROPERTIES:
+:STATUS: TODO
+:END:
+
+CMB and BBN obligations are currently listed in Unresolved Questions alongside
+others. They are not equal to the others.
+
+BBN nucleosynthesis abundances are the hardest constraint on any alternative
+cosmology. The document already admits: /The Medium offers no alternative account
+of these abundances. This is the single strongest observational constraint on any
+alternative cosmology./
+
+That honesty should be elevated. Add a subsection in Part IV:
+
+*What Would Falsify the Cosmological Account*
+
+Contents:
+- BBN: if the Medium cannot produce an account of hydrogen/helium/deuterium
+  abundances consistent with observation, the cosmological framework fails.
+  This is the primary open obligation.
+- CMB anisotropy spectrum: acoustic oscillation pattern is precisely predicted
+  by early-universe plasma physics. No substrate account yet.
+- Hubble linearity: if redshift is configuration-depth asymmetry, the linearity
+  of Hubble's law is a constraint the iota account must satisfy, not a result
+  it explains.
+
+A framework that names its potential falsifiers looks serious. One that only
+lists open questions does not.
+
+* Phase 4 — The Dependency Chain as Research Program
+:PROPERTIES:
+:STATUS: TODO
+:END:
+
+The dependency chain is already correctly named on p.40:
+
+: ι mode structure → combination rules → stable configurations →
+: projection boundary account → action dimension derivation → ℏ as derived result
+
+The v0.7 task is to distinguish what is doable solo from what requires
+collaboration, and to say so explicitly in one place.
+
+** What you can do
+
+Develop the mode structure *requirements* from what the framework must produce.
+This is conceptual, not technical: what properties must the relational modes have
+to generate three fermion generations, half-integer closure, and the gauge
+structure the Standard Model observes? Working backward from the endpoint
+constrains the mode structure without deriving it. That work is yours to do.
+
+** What requires collaboration
+
+- Formalizing the combination rules from a derived mode structure
+- Deriving the particle table from combination rules
+- Showing the projection boundary account produces the observer's dimensional
+  categories
+- Completing the LQG, string theory, and Planck bit derivations
+
+** The single blocking dependency
+
+ι mode structure. Everything else is downstream of it. Until the relational mode
+structure is characterized, the adjacency constraint is working-version only, the
+particle table derivation is provisional, and the algebraic hierarchy cannot be
+revised from scalar summation to the correct combination operation.
+
+This should be stated at the top of Unresolved Questions, not distributed across
+entries.
+
+** Format suggestion
+
+Convert Unresolved Questions from a list of gaps into a research roadmap with
+three tiers:
+1. *Blocking* — must be resolved for downstream work (mode structure, adjacency
+   reformulation)
+2. *Dependent* — open until blocker resolves (combination rules, particle table,
+   ℏ derivation, Lorentz invariance)
+3. *Independent* — can proceed in parallel (BBN alternative account, CMB
+   blackbody mechanism, Higgs placement, Pauli exclusion from adjacency)
+
+* What Not to Change
+
+- Personal Note (Section 11): leave it as is. Honest about who you are and what
+  this is for.
+- Unresolved Questions section: do not shorten or soften it. It is the best
+  part of the document.
+- Body text voice throughout: the problem is the abstract and headers, not the
+  substance.
+- The "What This Does and Does Not Establish" boxes (8.3.8, 8.4.6): exact right
+  format. Use this pattern more widely — it is the model for how the whole
+  document should read.
+
+* Critique Source
+
+Full critique conducted 2026-06-24 by Claude (claude-sonnet-4-6) from a complete
+read of medium_theory_zenodo_v06.pdf (48 pages). The critique covered:
+structural honesty, the G derivation, the dependency chain, the BBN and CMB
+obligations, and rhetorical alignment of abstract to body. The critique did not
+propose new physics — only changes to presentation of existing content.
