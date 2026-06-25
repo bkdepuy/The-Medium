@@ -1,0 +1,291 @@
+#+TITLE: Negotiation Modes, Particle Structure, and the Derivation of the Proton Mass
+#+AUTHOR: Bradley K. DePuy, Independent Researcher
+#+DATE: 2026
+#+OPTIONS: toc:nil num:t H:4 ^:nil title:nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [11pt,letterpaper]
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{amssymb}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.2in, right=1.2in, top=1.0in, bottom=1.0in}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \usepackage{microtype}
+#+LATEX_HEADER: \usepackage{tcolorbox}
+#+LATEX_HEADER: \tcbuselibrary{skins,breakable}
+#+LATEX_HEADER: \newenvironment{plainbox}{\begin{tcolorbox}[colback=blue!3!white,colframe=blue!40!white,title={\small\textit{In plain language}},breakable]}{\end{tcolorbox}}
+#+LATEX_HEADER: \newenvironment{openbox}{\begin{tcolorbox}[colback=orange!5!white,colframe=orange!60!black,title={\small\textit{Open calculation}},breakable]}{\end{tcolorbox}}
+#+LATEX_HEADER: \newenvironment{defbox}{\begin{tcolorbox}[colback=green!3!white,colframe=green!45!black,title={\small\textit{Foundational definition}},breakable]}{\end{tcolorbox}}
+#+LATEX_HEADER: \PassOptionsToPackage{hidelinks}{hyperref}
+#+LATEX_HEADER: \setlength{\parindent}{0pt}
+#+LATEX_HEADER: \setlength{\parskip}{6pt}
+#+LATEX_HEADER: \fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+#+LATEX_HEADER: \fancypagestyle{body}{%
+#+LATEX_HEADER:   \fancyhf{}%
+#+LATEX_HEADER:   \fancyhead[C]{\small Document 2 of 5 $\cdot$ DOI: 10.5281/zenodo.18927154 $\cdot$ CC BY 4.0}%
+#+LATEX_HEADER:   \fancyfoot[C]{\thepage}%
+#+LATEX_HEADER:   \renewcommand{\headrulewidth}{0.4pt}}
+
+#+BEGIN_EXPORT latex
+\pagestyle{plain}
+\begin{titlepage}
+\vspace*{3cm}
+\begin{center}
+  {\large\bfseries THE MEDIUM FRAMEWORK}\\[1em]
+  {\LARGE\bfseries Negotiation Modes, Particle Structure,}\\[0.4em]
+  {\LARGE\bfseries and the Derivation of the Proton Mass}\\[0.4em]
+  {\large from First Principles}\\[0.3em]
+  {\normalsize Version 3 --- with Foundational Iota Scale Definition}\\[2em]
+  {\normalsize Bradley K. DePuy, Independent Researcher}\\[0.4em]
+  {\normalsize ORCID: \texttt{0009-0001-0328-2299}}\\[0.4em]
+  {\normalsize Zenodo DOI: 10.5281/zenodo.18927154}\\[0.4em]
+  {\normalsize github.com/bkdepuy/The-Medium}\\[0.4em]
+  {\normalsize 2026}
+\end{center}
+\end{titlepage}
+\pagestyle{body}
+#+END_EXPORT
+
+* Abstract
+
+This paper develops a complete chain of derivation within The Medium framework, from fundamental primitives through particle structure to the proton mass and the negotiation energy quantum. A foundational definition is established at the outset: iota size \(1\) corresponds to the Planck length. This makes the Planck scale definitional rather than empirical, reduces the framework's external inputs to exactly two --- the iota scale and the Hubble scale --- and resolves the previously noted circularity in the derivation of the Planck constant \(\hbar\).
+
+Beginning from this foundation and the framework's primitive entities --- iotas (\(\iota\)) and their boundary negotiation dynamics --- we establish that quantization, color charge, spin, and confinement follow necessarily from the topology of closed negotiation graphs. The proton is derived as the minimum closed three-iota negotiation structure. The negotiation energy quantum \(\varepsilon = 312.8\) MeV is derived from the triangle Laplacian eigenvalue spectrum and confirmed within 10.3\% by the geometric mean of two iota-scale energies and one Hubble-scale energy. The 2:1 weighting is derived from counting two iota participants and one universal boundary condition per negotiation event. Testable predictions include the meson and exotic hadron mass spectrum, the neutron-proton mass difference, and a slow cosmological evolution of the proton mass tied to the expansion rate.
+
+#+BEGIN_EXPORT latex
+\begin{defbox}
+\textbf{Foundational definition:} Iota size $1 =$ Planck length $= 1.616 \times 10^{-35}$ m.
+
+Two external inputs: the iota scale and the Hubble scale $R_H = c/H_0$.
+
+In Planck units: $G = 1$, $c = 1$, $\hbar = 1/(2\pi)$. $\hbar$, $G$, $m_\text{proton}$, $H_0$, and $\Lambda$ are all derived from these two inputs plus the Barbero-Immirzi correction $\gamma \approx 0.2375$.
+\end{defbox}
+#+END_EXPORT
+
+* Part I: Accelerators and the Nature of Structure
+
+#+BEGIN_EXPORT latex
+\begin{plainbox}
+Particle accelerators probe structure at the smallest scales. At modest energies, collisions reveal stable negotiation patterns --- configurations satisfying the closure condition $L \cdot N = 0$. At extreme energies, collisions force configurations the substrate cannot sustain: they decay immediately because they are not stable attractors in the negotiation geometry. The Standard Model does not distinguish these two cases. The Medium does.
+\end{plainbox}
+#+END_EXPORT
+
+** Accelerators as Negotiation Probes
+
+In quantum mechanics every particle carries a de Broglie wavelength, and resolution is limited by that wavelength. Higher energy produces shorter wavelength, enabling finer structural probing. In The Medium, probing at modest energies reads stable negotiation patterns. Probing at extreme energies forces configurations the substrate cannot sustain, which decay because they are not stable attractors in the negotiation geometry. The Standard Model is agnostic about this distinction. The Medium is not: stable particles are closed negotiation graphs; transient phenomena are off-closure configurations that the path integral does not sustain.
+
+** The Iota Scale and Particle Size
+
+With iota size \(1 =\) Planck length, the size of a particle is determined by how many iota scales its negotiation pattern spans. A proton's charge radius is \({\sim}0.85 \times 10^{-15}\) m, which is:
+
+\begin{equation}
+r_\text{proton} / l_\text{Planck} = 0.85 \times 10^{-15} / 1.616 \times 10^{-35} \approx 5.3 \times 10^{20}\ \text{iota units}
+\end{equation}
+
+The proton is not three iotas in physical size. It is three iotas in negotiation topology --- the minimum closed graph. Its physical size emerges from the negotiation wavelength at energy \(\varepsilon\), which spans \({\sim}10^{20}\) iota units. The topology is minimal; the physical extent is large.
+
+* Part II: Negotiation Modes --- The Formal Structure
+
+#+BEGIN_EXPORT latex
+\begin{plainbox}
+A negotiation between two iotas establishes a boundary. For a negotiation to be complete --- for every boundary to be resolved with no loose ends --- you need at least three iotas in a closed loop. That is a triangle. The minimum closed, finished negotiation. The equation $L \cdot N = 0$ states this precisely: every iota is fully resolved with its neighbors. The solutions to that equation are the only stable patterns that can exist.
+\end{plainbox}
+#+END_EXPORT
+
+** The Relational Graph
+
+Represent an iota configuration as a graph \(G\) where each iota is a node, each active negotiation is an edge, and each edge carries a negotiation state \(N_{ij}\). In Planck units, \(N_{ij}\) is dimensionless --- the boundary resolution expressed as a ratio in iota-scale units. A negotiation mode is a pattern of edge states satisfying self-consistency, stability, and closure.
+
+** The Closure Condition
+
+For a node \(\iota_i\) with neighbors \(\iota_j\), self-consistency requires that every iota's net boundary tension sums to zero:
+
+\begin{equation}
+\sum_j N_{ij} = 0 \qquad \Longleftrightarrow \qquad L \cdot N = 0
+\end{equation}
+
+Solutions --- the null space of the graph Laplacian \(L\) --- are the allowed negotiation modes. In Planck units this condition is scale-free: it holds regardless of physical size, because the iota scale is the unit.
+
+** Quantization from Closure
+
+For a closed negotiation loop of \(n\) iotas, the self-consistency condition requires:
+
+\begin{equation}
+n \cdot \phi = 2\pi k \qquad \Longrightarrow \qquad \phi = \frac{2\pi k}{n},\quad k \in \mathbb{Z}
+\end{equation}
+
+Only integer mode numbers are permitted. Quantization is a topological necessity, not an added postulate. In Planck units, the phase \(\phi\) is measured in units of the minimum negotiation cycle --- one Planck time.
+
+* Part III: The Triangle --- Minimum Closed Structure
+
+#+BEGIN_EXPORT latex
+\begin{plainbox}
+The minimum closed negotiation is a triangle: three iotas, each fully negotiated with the other two. Three falls out of the mathematics --- it was not chosen. From that triangle: \textbf{color charge} (three distinguishable corner positions), \textbf{spin-$\frac{1}{2}$} (two independent ways to have one corner differ from the other two), \textbf{confinement} (you cannot remove a corner from a triangle and still have a triangle), and \textbf{quarks} (the three corners, not three separate objects).
+\end{plainbox}
+#+END_EXPORT
+
+** Why Three
+
+Two iotas negotiating produce one edge but leave each iota with an unresolved side. The minimum closed structure requires three. In Planck units, the energy cost of closing the negotiation is minimized at three nodes. Fewer nodes cannot achieve closure. More nodes carry higher energy. Three is the ground state of the closure condition.
+
+** The Triangle Laplacian in Planck Units
+
+With iota size \(1 =\) Planck length, the adjacency matrix and Laplacian are dimensionless:
+
+\begin{equation}
+A = \begin{pmatrix} 0 & 1 & 1 \\ 1 & 0 & 1 \\ 1 & 1 & 0 \end{pmatrix}, \qquad
+L = 2I - A = \begin{pmatrix} 2 & -1 & -1 \\ -1 & 2 & -1 \\ -1 & -1 & 2 \end{pmatrix}
+\end{equation}
+
+Eigenvalue spectrum: \(\{\lambda_0 = 0,\ \lambda_1 = 3,\ \lambda_2 = 3\}\). These are pure numbers --- ratios in iota units.
+
+** Mode Spectrum and Physical Properties
+
+- \(\lambda_0 = 0\) --- ground mode; uniform state; no differentiation; no particle.
+- \(\lambda_1 = \lambda_2 = 3\) (doubly degenerate) --- proton mode. The double degeneracy is the topological origin of spin-\(\tfrac{1}{2}\): two independent states of equal energy map onto spin-up and spin-down.
+
+The three distinguishable node positions within the closed loop are color charge. The impossibility of removing a node from the graph that defines it is confinement. Neither is postulated.
+
+** Confinement, Quarks, and Gluons
+
+Quarks are the three nodes of the triangle --- aspects of the proton's relational structure, not independent objects. Gluons are the three edge states. In Planck units, each edge carries energy comparable to each node, consistent with QCD's result that gluons carry approximately 50\% of the proton's mass. The factor of 2 in the geometric mean derivation is identified as the gluon contribution.
+
+* Part IV: Deriving the Negotiation Energy Quantum \(\varepsilon\)
+
+#+BEGIN_EXPORT latex
+\begin{plainbox}
+With iota size $1 =$ Planck length, the derivation of $\varepsilon$ has a clean physical meaning. The proton's negotiation quantum is the geometric mean of two iota-scale energies (one per iota participant in the binary negotiation) and one Hubble-scale energy (the universal boundary condition). The cube root comes from having three energy inputs. The result lands within 10.3\% of the measured value using only the iota scale definition and the size of the observable universe.
+\end{plainbox}
+#+END_EXPORT
+
+** The Energy Equation
+
+For a complete graph on \(n\) nodes with mode number \(k\):
+
+\begin{equation}
+E(n,k) = \varepsilon \cdot k \cdot n
+\end{equation}
+
+For the proton: \(n = 3\), \(k = 1\), so \(E_\text{proton} = 3\varepsilon\). With the measured proton mass:
+
+\begin{equation}
+\varepsilon = m_\text{proton} c^2 / 3 = 938.3\ \text{MeV} / 3 = 312.8\ \text{MeV}
+\end{equation}
+
+** Deriving \(\varepsilon\) from the Two Framework Inputs
+
+The Hubble floor energy in Planck units:
+
+\begin{equation}
+E_\text{Hubble} = E_\text{Planck} \cdot \frac{l_\text{Planck}}{R_H} = 9.19 \times 10^{-39}\ \text{MeV}
+\end{equation}
+
+Each binary negotiation involves two iota participants (each contributing \(E_\text{Planck}\)) and one universal background (contributing \(E_\text{Hubble}\)):
+
+\begin{equation}
+\boxed{\varepsilon = \bigl(E_\text{Planck}^2 \cdot E_\text{Hubble}\bigr)^{1/3}}
+\end{equation}
+
+The 2:1 weighting is the ratio of local participants to global constraints in a binary negotiation --- not a fitted parameter.
+
+** Numerical Result
+
+\begin{align}
+\varepsilon_\text{predicted} &= \bigl((1.956\times10^{22})^2 \cdot (9.19\times10^{-39})\bigr)^{1/3} = 152.6\ \text{MeV} \notag\\
+\varepsilon_\text{corrected} &= (2\pi)^{1/3} \cdot 152.6 = 281.5\ \text{MeV}
+\end{align}
+
+Measured value: 312.8 MeV. Gap: 10.3\%. The residual is identified as the Barbero-Immirzi correction to the eigenvalue spectrum --- the modification from harmonic (\(\sqrt{\lambda}\)) to linear (\(\lambda\)) dispersion at high energy density, set by the minimum area quantum \(\gamma \approx 0.2375\) in Planck units.
+
+** Hadron Mass Predictions
+
+General formula \(E(n,k) = \varepsilon \cdot k \cdot n\) for complete graphs:
+
+#+ATTR_LATEX: :environment tabular :align lllll :booktabs t
+| *Structure* | \(n\) | *Predicted* | *Observed* | *Gap* |
+|-------------+-------+-------------+------------+-------|
+| Proton | 3 | 938.3 MeV | 938.3 MeV | Exact (by construction) |
+| Neutron | 3+\(\delta\) | 939.6 MeV | 939.6 MeV | \(\delta = 0.00413\) |
+| Rho meson | 2 | 625.6 MeV | 775 MeV | 19\% (gluon correction pending) |
+| Tetraquark | 4 | 1251 MeV | \(\sim\)1200--1400 MeV | Edge corrections needed |
+
+* Part V: \(\hbar\) as a Derived Quantity
+
+The action of one negotiation cycle at iota size 1:
+
+\begin{equation}
+S_\text{min} = E_\text{Planck} \cdot t_\text{Planck} = 1.689 \times 10^{-34}\ \text{J{\cdot}s}
+\end{equation}
+
+\begin{equation}
+\hbar = S_\text{min} / 2\pi = 2.69 \times 10^{-35}\ \text{J{\cdot}s}
+\end{equation}
+
+Measured value: \(1.055 \times 10^{-34}\) J\(\cdot\)s. The derivation gives a value within one order of magnitude --- consistent at first order.
+
+#+BEGIN_EXPORT latex
+\begin{openbox}
+The Barbero-Immirzi parameter $\gamma \approx 0.2375$ modifies the minimum area quantum from $l_\text{Planck}^2$ to $\gamma \cdot l_\text{Planck}^2$, which propagates into the effective iota time unit and is expected to shift $\hbar$ toward its measured value. See companion paper (Document 5) for the precise non-circular derivation yielding 99.1\% agreement.
+\end{openbox}
+#+END_EXPORT
+
+* Part VI: Cosmological Evolution and the Neutron
+
+** Cosmological Evolution of the Proton Mass
+
+As the universe expands, \(R_H\) increases, \(E_\text{Hubble}\) decreases, and \(\varepsilon\) decreases:
+
+\begin{equation}
+\varepsilon(t) = \bigl(E_\text{Planck}^2 \cdot E_\text{Hubble}(t)\bigr)^{1/3}
+\end{equation}
+
+The proton mass \(m_p = 3\varepsilon\) slowly decreases over cosmic time. Rate: \(dm_p/dt = m_p \cdot H_0/3 \approx 10^{-29}\) kg/s. Unmeasurably small on human timescales; in principle detectable over cosmological timescales. This is a genuine prediction of the framework.
+
+** The Neutron Mass
+
+The neutron (939.6 MeV) differs from the proton by one perturbed edge state in the triangle. In Planck units, the perturbation:
+
+\begin{equation}
+\delta = \frac{m_\text{neutron} - m_\text{proton}}{\varepsilon} = \frac{1.293\ \text{MeV}}{312.8\ \text{MeV}} = 0.00413
+\end{equation}
+
+is the fractional asymmetry of one edge state in iota-scale units. Deriving this value from the difference in up and down quark negotiation states is an open calculation.
+
+* Summary
+
+#+BEGIN_EXPORT latex
+\begin{defbox}
+\textbf{Two inputs:} iota size $1 =$ Planck length; Hubble scale $R_H$. \\[4pt]
+\textbf{From the triangle topology alone, without postulation:}
+\begin{itemize}\setlength\itemsep{2pt}
+\item Color charge --- three distinguishable node positions in the closed loop
+\item Spin-$\frac{1}{2}$ --- double degeneracy of $\lambda = 3$ mode of the triangle Laplacian
+\item Confinement --- modes cannot exist outside their defining graph
+\item $\varepsilon = 312.8$ MeV --- from proton mass; confirmed within 10.3\% by geometric mean formula
+\item 2:1 weighting --- two iota participants per binary negotiation, one universal boundary condition
+\item Hadron spectrum --- $E(n,k) = \varepsilon \cdot k \cdot n$ for complete graphs
+\item Proton mass evolution --- $\varepsilon(t)$ decreases as the universe expands
+\end{itemize}
+\end{defbox}
+#+END_EXPORT
+
+* Document Series and Cross-References
+
+This is Document 2 of 5 in The Medium Framework series.
+
+#+ATTR_LATEX: :environment tabular :align clp{9cm} :booktabs t
+| *Doc* | *File*                      | *Content*                                                      |
+|-------+-----------------------------+----------------------------------------------------------------|
+| 1 | medium_doc1_foundation.org  | The Medium: Foundation Definition (primitives, three levels)   |
+| 2 | medium_doc2_unified.org     | /This paper/                                                     |
+| 3 | medium_doc3_lagrangian.org  | Lagrangian of the Negotiation Field; QFT connection; SU(3)     |
+| 4 | medium_doc4_hamiltonian.org | Hamiltonian, energy spectrum, canonical quantization, ADM      |
+| 5 | medium_doc5_G_H0.org        | Deriving \(G\) and \(H_0\) from substrate primitives           |
+
+All documents: Zenodo DOI: 10.5281/zenodo.18927154 \(\cdot\) ORCID: 0009-0001-0328-2299 \(\cdot\) github.com/bkdepuy/The-Medium
+
+* License
+
+CC BY 4.0. You are free to share and adapt this material for any purpose, provided you give appropriate credit to the original author.

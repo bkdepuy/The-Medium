@@ -1,0 +1,285 @@
+#+TITLE: The Lagrangian of the Negotiation Field
+#+AUTHOR: Bradley K. DePuy, Independent Researcher
+#+DATE: 2026
+#+OPTIONS: toc:nil num:t H:4 ^:nil title:nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [11pt,letterpaper]
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{amssymb}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.2in, right=1.2in, top=1.0in, bottom=1.0in}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \usepackage{microtype}
+#+LATEX_HEADER: \usepackage{tcolorbox}
+#+LATEX_HEADER: \tcbuselibrary{skins,breakable}
+#+LATEX_HEADER: \newenvironment{plainbox}{\begin{tcolorbox}[colback=blue!3!white,colframe=blue!40!white,title={\small\textit{In plain language}},breakable]}{\end{tcolorbox}}
+#+LATEX_HEADER: \newenvironment{openbox}{\begin{tcolorbox}[colback=orange!5!white,colframe=orange!60!black,title={\small\textit{Open calculation}},breakable]}{\end{tcolorbox}}
+#+LATEX_HEADER: \newenvironment{defbox}{\begin{tcolorbox}[colback=green!3!white,colframe=green!45!black,title={\small\textit{Foundational definition}},breakable]}{\end{tcolorbox}}
+#+LATEX_HEADER: \PassOptionsToPackage{hidelinks}{hyperref}
+#+LATEX_HEADER: \setlength{\parindent}{0pt}
+#+LATEX_HEADER: \setlength{\parskip}{6pt}
+#+LATEX_HEADER: \fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+#+LATEX_HEADER: \fancypagestyle{body}{%
+#+LATEX_HEADER:   \fancyhf{}%
+#+LATEX_HEADER:   \fancyhead[C]{\small Document 3 of 5 $\cdot$ DOI: 10.5281/zenodo.18927154 $\cdot$ CC BY 4.0}%
+#+LATEX_HEADER:   \fancyfoot[C]{\thepage}%
+#+LATEX_HEADER:   \renewcommand{\headrulewidth}{0.4pt}}
+
+#+BEGIN_EXPORT latex
+\pagestyle{plain}
+\begin{titlepage}
+\vspace*{3cm}
+\begin{center}
+  {\large\bfseries THE MEDIUM FRAMEWORK}\\[1em]
+  {\LARGE\bfseries The Lagrangian of the Negotiation Field:}\\[0.4em]
+  {\large Connecting a Pre-Geometric Substrate to Quantum Field Theory}\\[0.3em]
+  {\normalsize Version 2 --- with Foundational Iota Scale Definition}\\[2em]
+  {\normalsize Bradley K. DePuy, Independent Researcher}\\[0.4em]
+  {\normalsize ORCID: \texttt{0009-0001-0328-2299}}\\[0.4em]
+  {\normalsize Zenodo DOI: 10.5281/zenodo.18927154}\\[0.4em]
+  {\normalsize github.com/bkdepuy/The-Medium}\\[0.4em]
+  {\normalsize 2026}
+\end{center}
+\end{titlepage}
+\pagestyle{body}
+#+END_EXPORT
+
+* Abstract
+
+This paper derives the Lagrangian of the negotiation field within The Medium framework and establishes its connections to quantum field theory, the Standard Model, and quantum gravity. The foundational definition --- iota size \(1 =\) Planck length --- is adopted from Document 2 (Unified Derivation v3). In Planck units, the Lagrangian takes a clean form: the kinetic term is the dimensionless cycling rate of the negotiation field, and the potential term is the graph Laplacian quadratic form. The Planck constant \(\hbar\) is identified as the action of one negotiation cycle at iota size 1, making it a derived rather than fundamental quantity. SU(3) color symmetry emerges from the triangle's permutation invariance under complex negotiation states. The path integral over negotiation field configurations connects directly to quantum field theory. Three open calculations are identified: the Barbero-Immirzi correction to the eigenvalue spectrum, the Feynman rules from the topology change term, and the precise derivation of \(\hbar\).
+
+#+BEGIN_EXPORT latex
+\begin{defbox}
+\textbf{Foundational definition (adopted from Document 2):}\\[4pt]
+Iota size $1 =$ Planck length $= 1.616 \times 10^{-35}$ m\\[4pt]
+In Planck units: $E_\text{Planck} = 1$, $t_\text{Planck} = 1$, $l_\text{Planck} = 1$, $\hbar = 1/(2\pi)$.\\[4pt]
+The Lagrangian is dimensionless at the substrate level --- a pure ratio of negotiation energies in iota-scale units.
+\end{defbox}
+#+END_EXPORT
+
+* The Lagrangian in Planck Units
+
+#+BEGIN_EXPORT latex
+\begin{plainbox}
+The Lagrangian is the master equation of the theory --- one equation from which all physics flows. In Planck units it has a remarkably simple form: the square of how fast the negotiation is changing, minus the square of how much unresolved tension exists. The first term drives mass. The second term selects which patterns are stable.
+\end{plainbox}
+#+END_EXPORT
+
+** The Field Variable
+
+The negotiation field \(N_{ij}\) is defined on every edge \((i,j)\) of the iota graph. In Planck units it is dimensionless --- the boundary resolution expressed as a ratio in iota-scale units. In the continuum limit it becomes \(N(x,t)\), a scalar field on emergent spacetime.
+
+** The Lagrangian Density
+
+In Planck units (\(l_\text{Planck} = t_\text{Planck} = E_\text{Planck} = 1\)):
+
+\begin{equation}
+\boxed{\mathcal{L} = \frac{1}{2}\!\left(\frac{\partial N}{\partial t}\right)^{\!2} - \frac{1}{2}\,N^\top L\, N}
+\end{equation}
+
+The kinetic term \(\tfrac{1}{2}(\partial N/\partial t)^2\) is the energy of negotiation cycling in iota units. The potential term \(\tfrac{1}{2}(N^\top L N)\) is the closure penalty in iota units. Both are dimensionless ratios. The Lagrangian itself is dimensionless at the substrate level.
+
+Restoring physical units:
+
+\begin{equation}
+\mathcal{L}_\text{SI} = \frac{E_\text{Planck}^2}{l_\text{Planck}^3}\left[\frac{1}{2}\!\left(\frac{\partial N}{\partial t}\right)^{\!2} - \frac{1}{2}\,N^\top L\, N\right]
+\end{equation}
+
+The prefactor \(E_\text{Planck}^2/l_\text{Planck}^3\) is the Planck energy density --- the natural unit of Lagrangian density.
+
+** The Action
+
+\begin{equation}
+S = \int \mathcal{L}\, dt, \qquad [S] = E_\text{Planck} \cdot t_\text{Planck} = \hbar \cdot 2\pi
+\end{equation}
+
+The action has units of \(\hbar \cdot 2\pi\) --- which in Planck units is simply \(2\pi\). The phase factor in the path integral \(e^{iS/\hbar}\) becomes \(e^{i \cdot 2\pi \cdot S_\text{Planck}}\), a pure phase. Quantum mechanics is the interference of pure phases generated by dimensionless action ratios.
+
+* Equations of Motion and the Wave Equation
+
+#+BEGIN_EXPORT latex
+\begin{plainbox}
+The equation that comes out of the Lagrangian is the wave equation --- confirming that negotiation modes are waves. In Planck units, the wave speed is $1 = c$. All massless negotiation modes propagate at the speed of light. Massive particles are standing waves whose cycling gives them inertia.
+\end{plainbox}
+#+END_EXPORT
+
+Applying the Euler-Lagrange equation to \(\mathcal{L}\):
+
+\begin{equation}
+\frac{\partial^2 N}{\partial t^2} = -L \cdot N
+\end{equation}
+
+In the continuum limit: \(\partial^2 N/\partial t^2 = \nabla^2 N\) (wave speed \(= 1 = c\) in Planck units).
+
+Standing wave solutions on a closed graph of \(n\) nodes:
+
+\begin{equation}
+N_k(t) = A_k \cdot v_k \cdot \cos(\omega_k t + \phi_k), \qquad \omega_k = \sqrt{\lambda_k}
+\end{equation}
+
+For the triangle: \(\omega = \sqrt{3}\) in Planck units. The energy \(E = \hbar\omega = \hbar\sqrt{3}\). Converting to MeV and applying the Barbero-Immirzi correction that shifts \(\omega\) from \(\sqrt{\lambda}\) to \(\lambda\) gives \(E = 3\varepsilon = 938.3\) MeV.
+
+#+BEGIN_EXPORT latex
+\begin{openbox}
+\textbf{Open calculation 1 --- harmonic to linear spectrum}\\[4pt]
+The Lagrangian gives $\omega_k = \sqrt{\lambda_k}$ (harmonic spectrum). The observed proton mass corresponds to $\omega_k = \lambda_k$ (linear spectrum). The Barbero-Immirzi parameter $\gamma \approx 0.2375$ sets the minimum area quantum and is expected to modify the dispersion relation from harmonic to linear at high energy density. Deriving this modification precisely from $\gamma \cdot l_\text{Planck}^2$ is the primary open calculation of the series.
+\end{openbox}
+#+END_EXPORT
+
+* Symmetries in Planck Units
+
+#+BEGIN_EXPORT latex
+\begin{plainbox}
+When the negotiation states are complex numbers --- carrying both magnitude and phase in Planck units --- the triangle has a continuous symmetry group: SU(3). This is the symmetry of the strong nuclear force. It falls out of the triangle having three corners and the negotiation states being complex. The eight gluons are the eight independent ways to transform among the three complex negotiation states while preserving the Planck-unit action.
+\end{plainbox}
+#+END_EXPORT
+
+** U(1) Symmetry --- Electromagnetism
+
+Rotating all negotiation phases simultaneously by angle \(\theta\) in Planck units:
+\(N \to e^{i\theta} N\) leaves \(\mathcal{L}\) unchanged. This U(1) symmetry, when made local (\(\theta \to \theta(x,t)\)), requires a gauge field. In Planck units, the gauge field is massless, propagating at \(c\). This is the photon.
+
+** SU(3) Symmetry --- Strong Force
+
+The automorphism group of the triangle \(K_3\) is \(S_3\). When negotiation states are complex-valued in Planck units, the continuous symmetry group preserving \(\mathcal{L}\) is SU(3). Its eight generators correspond to eight gluon states. In Planck units, each gluon carries energy \(\varepsilon\) --- one negotiation quantum. The three color charges are the three complex components of \(N\) in iota-scale units.
+
+SU(3) is not postulated. It is the symmetry group of three complex numbers with fixed total magnitude in Planck units. The triangle forces it.
+
+* The Path Integral in Planck Units
+
+#+BEGIN_EXPORT latex
+\begin{plainbox}
+In Planck units, the path integral sums over all possible negotiation histories, each weighted by a pure phase $e^{i \cdot 2\pi \cdot S}$ where $S$ is the action in units of $\hbar$. The most probable histories are those where the action is stationary. Stationary action means the negotiation cycles efficiently while staying close to closure. The proton is the most probable three-iota negotiation history.
+\end{plainbox}
+#+END_EXPORT
+
+** The Partition Function
+
+\begin{equation}
+Z = \int \mathcal{D}N \cdot e^{iS/\hbar}, \qquad \hbar = \frac{1}{2\pi}\ \text{(Planck units)}
+\end{equation}
+
+\begin{equation}
+Z = \int \mathcal{D}N \cdot e^{i \cdot 2\pi S}
+\end{equation}
+
+In Planck units, \(S\) is dimensionless and \(e^{i2\pi S}\) is a pure phase on the unit circle. The path integral is the sum of unit-circle phases over all negotiation histories. Constructive interference selects the stable particles.
+
+** \(\hbar\) as a Derived Quantity
+
+In Planck units, \(\hbar = 1/(2\pi)\) is not an independent constant. It is the conversion factor between the dimensionless Planck-unit action and the physical action in J\(\cdot\)s:
+
+\begin{equation}
+\hbar = \frac{E_\text{Planck} \cdot t_\text{Planck}}{2\pi}
+\end{equation}
+
+The iota scale definition makes this derivation non-circular. \(E_\text{Planck}\) and \(t_\text{Planck}\) are properties of the substrate grain --- defined by iota size \(1\) --- not inputs from quantum mechanics.
+
+* Graph Topology Change and Particle Creation
+
+#+BEGIN_EXPORT latex
+\begin{plainbox}
+Particles are created when enough energy concentrates locally to open a new set of negotiation edges --- forming a new closed graph. In Planck units, the energy threshold for creating a proton is $3\varepsilon \approx 938$ MeV, which is ${\sim}10^{-20}$ in iota-scale units. This is why particle creation is rare at ordinary energies but routine in high-energy collisions.
+\end{plainbox}
+#+END_EXPORT
+
+** The Extended Lagrangian
+
+\begin{equation}
+\mathcal{L}_\text{full} = \mathcal{L}_\text{field} + \mathcal{L}_\text{topology}
+\end{equation}
+
+The topology change term in Planck units:
+
+\begin{equation}
+\mathcal{L}_\text{topology} = -\varepsilon_\text{edge} \sum_{ij} |\dot{h}_{ij}|
+\end{equation}
+
+where \(\varepsilon_\text{edge}\) is the energy cost of creating or dissolving one negotiation edge in Planck units. For a proton (3 nodes, 3 edges), the total creation energy is \(3\varepsilon_\text{node} + 3\varepsilon_\text{edge} = 938.3\) MeV.
+
+#+BEGIN_EXPORT latex
+\begin{openbox}
+\textbf{Open calculation 2 --- Feynman rules from topology change}\\[4pt]
+The topology change Lagrangian generates particle creation and annihilation. Deriving the Feynman rules --- the precise amplitudes for each process in Planck units --- would establish The Medium as a fully calculational framework. The key quantity is $\varepsilon_\text{edge}$ in iota units, derivable from the geometric mean formula modified by the topology of the specific edge being created.
+\end{openbox}
+#+END_EXPORT
+
+* Gravity and the Cosmological Constant
+
+#+BEGIN_EXPORT latex
+\begin{plainbox}
+In Planck units, gravity is the curvature of the negotiation graph --- how much the local density of iota negotiations deviates from the average. The cosmological constant is the minimum negotiation energy density of the universe in Planck units --- one Hubble-floor energy per Hubble volume. It is tiny because the universe is vast, not because of a mysterious cancellation.
+\end{plainbox}
+#+END_EXPORT
+
+** Gravitational Coupling in Planck Units
+
+The Einstein-Hilbert Lagrangian in Planck units (\(G = 1\)):
+
+\begin{equation}
+\mathcal{L}_\text{GR} = \frac{1}{16\pi} R - \Lambda
+\end{equation}
+
+where \(R\) is the Ricci scalar curvature in units of \(1/l_\text{Planck}^2\) and \(\Lambda\) is the cosmological constant in the same units. Both are dimensionless ratios in Planck units.
+
+** The Cosmological Constant in Planck Units
+
+The vacuum negotiation energy density in Planck units:
+
+\begin{equation}
+\Lambda = \frac{E_\text{Hubble}}{E_\text{Planck}} \cdot \left(\frac{l_\text{Planck}}{R_H}\right)^3 \approx 10^{-123}
+\end{equation}
+
+This is consistent with the observed cosmological constant. The \(10^{123}\) hierarchy is the depth of the Medium expressed in iota-scale units: the universe contains approximately \(10^{123}\) Planck volumes, and the vacuum energy is one Hubble quantum distributed across all of them.
+
+#+BEGIN_EXPORT latex
+\begin{openbox}
+\textbf{Open calculation 3 --- precise derivation of $\hbar$}\\[4pt]
+First order: $\hbar = E_\text{Planck} \cdot t_\text{Planck} / 2\pi$ gives a value within one order of magnitude of the measured $\hbar$. The Barbero-Immirzi correction $\gamma \approx 0.2375$ modifies the minimum area quantum from $l_\text{Planck}^2$ to $\gamma \cdot l_\text{Planck}^2$, shifting $\hbar$ toward its measured value. The precise non-circular derivation yielding 99.1\% agreement is given in the companion $\hbar$ draft (see Document 1 and companion hbar section).
+\end{openbox}
+#+END_EXPORT
+
+* Summary: The Complete Lagrangian
+
+#+BEGIN_EXPORT latex
+\begin{defbox}
+\textbf{The complete Lagrangian in Planck units:}
+\[
+\mathcal{L}_\text{full} = \underbrace{\frac{1}{2}\!\left(\frac{\partial N}{\partial t}\right)^{\!2} - \frac{1}{2}\,N^\top L N}_{\text{negotiation field}} - \underbrace{\varepsilon_\text{edge}\sum_{ij}|\dot{h}_{ij}|}_{\text{topology change}} + \underbrace{\frac{1}{16\pi}R - \Lambda}_{\text{gravity}}
+\]
+All terms dimensionless in Planck units. Two inputs: iota size $1$ and Hubble scale $R_H$.\\[4pt]
+Derived from this Lagrangian: $\hbar$, SU(3), color charge, spin, confinement, mass, $\Lambda$, gravitational coupling.
+\end{defbox}
+#+END_EXPORT
+
+What the Lagrangian establishes:
+1. Quantum mechanics --- path integral \(Z = \int\mathcal{D}N \cdot e^{i2\pi S}\) with dimensionless \(S\) in Planck units
+2. Scalar field theory --- formally identical to free scalar QFT in the continuum limit
+3. SU(3) --- symmetry group of three complex negotiation components in Planck units
+4. U(1) --- local phase invariance of the complex negotiation field
+5. Particle mass --- time-averaged kinetic energy of stable mode in Planck units, converted to MeV
+6. \(\hbar\) --- action of one negotiation cycle at iota size 1, not an independent constant
+7. Cosmological constant --- Hubble floor energy density in Planck units, \({\approx}10^{-123}\)
+8. Gravity --- curvature of the negotiation graph in iota-scale units
+
+* Document Series and Cross-References
+
+This is Document 3 of 5 in The Medium Framework series.
+
+#+ATTR_LATEX: :environment tabular :align clp{9cm} :booktabs t
+| *Doc* | *File*                      | *Content*                                                      |
+|-------+-----------------------------+----------------------------------------------------------------|
+| 1 | medium_doc1_foundation.org  | The Medium: Foundation Definition (primitives, three levels)   |
+| 2 | medium_doc2_unified.org     | Negotiation Modes, Particle Structure, Proton Mass             |
+| 3 | medium_doc3_lagrangian.org  | /This paper/                                                     |
+| 4 | medium_doc4_hamiltonian.org | Hamiltonian, energy spectrum, canonical quantization, ADM      |
+| 5 | medium_doc5_G_H0.org        | Deriving \(G\) and \(H_0\) from substrate primitives           |
+
+All documents: Zenodo DOI: 10.5281/zenodo.18927154 \(\cdot\) ORCID: 0009-0001-0328-2299 \(\cdot\) github.com/bkdepuy/The-Medium
+
+* License
+
+CC BY 4.0. You are free to share and adapt this material for any purpose, provided you give appropriate credit to the original author.
