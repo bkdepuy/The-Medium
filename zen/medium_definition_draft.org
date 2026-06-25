@@ -8,6 +8,9 @@
 #+LATEX_HEADER: \usepackage{amssymb}
 #+LATEX_HEADER: \usepackage{geometry}
 #+LATEX_HEADER: \geometry{left=1.2in, right=1.2in, top=1.0in, bottom=1.0in}
+#+LATEX_HEADER: \usepackage{tcolorbox}
+#+LATEX_HEADER: \tcbuselibrary{skins,breakable}
+#+LATEX_HEADER: \newenvironment{defbox}{\begin{tcolorbox}[colback=green!3!white,colframe=green!45!black,title={\small\textit{Foundational definition}},breakable]}{\end{tcolorbox}}
 #+LATEX_HEADER: \usepackage{fancyhdr}
 #+LATEX_HEADER: \usepackage{booktabs}
 #+LATEX_HEADER: \usepackage{array}
@@ -102,8 +105,8 @@ From two inputs and the single correction factor \(\gamma \approx 0.2375\):
 | *Quantity*        | *Derived*                              | *Measured*                      | *Agreement* |
 |-------------------+----------------------------------------+---------------------------------+-------------|
 | \(m_\text{proton}\) | \(3\varepsilon = 938.3\) MeV         | 938.3 MeV                       | Exact       |
-| \(G\)             | \(H_0^2 / 4\pi\rho_\Lambda\)          | \(6.674\times10^{-11}\) SI      | 94--97\%    |
-| \(\hbar\)         | \(m_p c\,k(\gamma)\,r_p / 6\pi\)     | \(1.055\times10^{-34}\) J\(\cdot\)s | 99.1\%  |
+| \(G\)             | \(H_0^2 / 4\pi\rho_\Lambda\)          | \(6.674\times10^{-11}\) SI      | 94--97@@latex:\%@@    |
+| \(\hbar\)         | \(m_p c\,k(\gamma)\,r_p / 6\pi\)     | \(1.055\times10^{-34}\) J\(\cdot\)s | 99.1@@latex:\%@@  |
 | \(H_0\)           | 68.6 km/s/Mpc                          | 67.4--73.0 (tension range)      | Within tension |
 | \(\Lambda\)       | \(\approx 10^{-122}\) Planck           | \(\approx 10^{-122}\) Planck    | Same order  |
 
@@ -117,12 +120,15 @@ All three residual gaps (in \(G\), \(m_\text{proton}\), and \(\hbar\)) are close
 
 CC BY 4.0. DOI: 10.5281/zenodo.18927154 \quad ORCID: 0009-0001-0328-2299 \quad github.com/bkdepuy/The-Medium
 
-* Companion Papers (Documents 2--5)
+* Document Series and Cross-References
 
-#+ATTR_LATEX: :environment tabular :align clp{8.5cm} :booktabs t
-| *Doc* | *File*                        | *Content*                                                    |
-|-------+-------------------------------+--------------------------------------------------------------|
-| 2     | medium-unified-v3.docx        | Negotiation modes, particle structure, proton mass           |
-| 3     | medium-lagrangian-v2.docx     | Lagrangian of the negotiation field; connection to QFT       |
-| 4     | medium-hamiltonian.docx       | Hamiltonian, energy spectrum, canonical quantization, ADM    |
-| 5     | medium-G-H0-derivations.docx  | Deriving \(G\) and \(H_0\) from substrate primitives         |
+This is Document 1 of 5 in The Medium Framework series.
+
+#+ATTR_LATEX: :environment tabular :align clp{9cm} :booktabs t
+| *Doc* | *File*                      | *Content*                                                      |
+|-------+-----------------------------+----------------------------------------------------------------|
+| 1 | medium_doc1_foundation.org  | /This paper/                                                     |
+| 2 | medium_doc2_unified.org     | Negotiation Modes, Particle Structure, Proton Mass             |
+| 3 | medium_doc3_lagrangian.org  | Lagrangian of the Negotiation Field; QFT connection; SU(3)     |
+| 4 | medium_doc4_hamiltonian.org | Hamiltonian, energy spectrum, canonical quantization, ADM      |
+| 5 | medium_doc5_G_H0.org        | Deriving \(G\) and \(H_0\) from substrate primitives           |

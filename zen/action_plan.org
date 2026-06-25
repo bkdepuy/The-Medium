@@ -1,0 +1,492 @@
+#+TITLE: The Medium Framework — Action Plan for Critical Issues
+#+AUTHOR: Bradley K. DePuy
+#+DATE: 2026-06-25
+#+OPTIONS: toc:t num:t H:3 ^:nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [11pt,letterpaper]
+#+TODO: FATAL SEVERE SERIOUS MODERATE | DONE
+
+* Overview
+
+This document tracks all issues identified in the Smolin/Rovelli/Hossenfelder critical review of
+docs 1–5 (zen series). Items are classified as *TEXT FIX* (correcting a claim that
+overstates what has been shown) or *OPEN MATH* (the claim cannot be fixed without
+doing new work). A text fix without the math behind it is not a resolution — it is
+honest acknowledgment.
+
+Severity levels: FATAL (must resolve before any submission) / SEVERE / SERIOUS / MODERATE.
+
+* FATAL Issues
+
+** FATAL [F1] G variation prediction may already be observationally ruled out
+:PROPERTIES:
+:DOC: 5
+:TYPE: OPEN MATH, then TEXT FIX
+:END:
+
+The framework predicts dG/dt = −2G·H₀, giving Ġ/G ≈ −1.5 × 10⁻¹⁰/yr.
+Current observational bounds (MESSENGER, LLR, pulsar timing) constrain |Ġ/G| < 4–9 × 10⁻¹³/yr —
+roughly 200× tighter than the prediction.
+
+*** Action steps
+
+1. [ ] Run the numbers precisely: compute |Ġ/G| = 2H₀ and compare against the most
+   current published bounds (Genova et al. 2018 from MESSENGER gives
+   Ġ/G = (0.1 ± 1.4) × 10⁻¹³/yr).
+2. [ ] If ruled out: remove the prediction from the predbox in Doc 5 and replace with
+   an explicit acknowledgment that the framework's G-variation prediction is
+   inconsistent with current solar system ephemeris data, and discuss what
+   modification would suppress it (e.g., G variation only over Hubble timescales,
+   not at the current epoch).
+3. [ ] If salvageable: identify the physical mechanism that would suppress local
+   variation while allowing secular variation — this likely requires the floor
+   condition derivation (see MODERATE-5). Document what additional assumptions
+   are needed.
+4. [ ] Apply the same check to dm_p/dt = m_p · H₀/3: atomic clock comparisons and
+   quasar spectroscopy constrain |ṁ_p/m_p| at the < 10⁻¹⁴/yr level. The
+   predicted rate is ~7 × 10⁻¹¹/yr. This may also be ruled out.
+
+*** Text fix (contingent on step 1 outcome)
+
+- If ruled out: remove predictions 2, 3, 4 from the predbox in Doc 5 §IV, or add
+  an explicit "tension with current observational bounds" callout.
+- In Doc 1 derived results table: flag G, Ġ, and ṁ_p rows with observational
+  constraint status.
+
+** FATAL [F2] SU(3) symmetry claim is mathematically incorrect as stated
+:PROPERTIES:
+:DOC: 3
+:TYPE: OPEN MATH + TEXT FIX
+:END:
+
+Doc 3 states: "The continuous symmetry group preserving L is SU(3)."
+
+This is wrong as written. The Laplacian of K₃ has eigenvalues {0, 3, 3}. Any unitary
+U that preserves N†LN must preserve the eigenspaces of L: the one-dimensional
+λ=0 eigenspace (span of (1,1,1)/√3) and the two-dimensional λ=3 eigenspace.
+The group of such unitaries is U(1) × U(2), not SU(3). SU(3) would require L ∝ I,
+which holds only for the trivial graph.
+
+*** Action steps
+
+1. [ ] Compute explicitly the symmetry group of N†LN for K₃ with L = 2I − A.
+   Show that it is U(1) × U(2) (or its SU-subgroup SU(1) × SU(2) ≅ SU(2)).
+2. [ ] Identify what additional structure beyond the Laplacian quadratic form could
+   give SU(3). Candidates:
+   a. A different invariant constructed from N and the graph structure (e.g., a
+      cubic invariant using the antisymmetric tensor ε_{ijk}).
+   b. Restricting to the λ=3 eigenspace and looking at internal symmetries there.
+   c. Treating N ∈ ℂ³ as a fundamental representation and asking what the
+      automorphisms of the triangle structure are when edges carry complex phases.
+3. [ ] If SU(3) cannot be recovered: replace the SU(3) claim with what is actually
+   true (U(1) × U(2) or similar), and demote the strong force section to a
+   structural hypothesis.
+
+*** Text fix (do immediately regardless)
+
+In Doc 3 §Symmetries, replace the plainbox claim "the continuous symmetry group
+preserving L is SU(3)" with the correct group. The paragraph below it already has
+the right hedging ("Whether it is precisely SU(3)…is an open derivation") — the
+plainbox incorrectly states it as established. Sync the plainbox to match the
+body.
+
+* SEVERE Issues
+
+** SEVERE [S1] Proton mass table entry is misleading
+:PROPERTIES:
+:DOC: 1, 2
+:TYPE: TEXT FIX
+:END:
+
+Doc 1 derived results table lists proton mass agreement as "Exact." Doc 2 states
+clearly that ε ≡ m_proton/3 is a definition. "Exact" implies predictive success;
+"by construction" is the truth.
+
+*** Text fix
+
+- Doc 1, derived results table: change "Exact" to "Exact (definition of ε)".
+- Doc 5, summary table: same change, already done correctly in Doc 2 but not
+  consistently applied.
+- Audit all summary boxes across docs 1–5 for any phrasing that implies the proton
+  mass was derived rather than used to define ε.
+
+** SEVERE [S2] Fermionic statistics — proton cannot be described by this Lagrangian
+:PROPERTIES:
+:DOC: 3, 4
+:TYPE: OPEN MATH
+:END:
+
+The negotiation Lagrangian is bosonic. Canonical quantization gives
+[â, â†] = 1 (Bose-Einstein statistics). The proton is a spin-½ fermion obeying
+Fermi-Dirac statistics and the Pauli exclusion principle. The framework does not
+describe the particle it claims to derive.
+
+Two candidate resolutions are named in the docs but neither is developed:
+(a) Grassmann-valued N, or (b) composite antisymmetrization.
+
+*** Action steps
+
+1. [ ] Investigate option (b) first, as it stays within the existing framework:
+   Show whether three bosonic quanta occupying the three distinguishable nodes of
+   K₃ with the antisymmetric combination |r⟩|g⟩|b⟩ − |r⟩|b⟩|g⟩ + ... behave as
+   a fermion under exchange of two protons. This is analogous to how the
+   color-singlet combination of three quarks gives a fermionic hadron despite the
+   individual color degrees of freedom being bosonic in some formulations.
+2. [ ] If (b) works: document the explicit antisymmetric state, show the exchange
+   statistics, and update Doc 3 and Doc 4 to present this as the resolution.
+3. [ ] If (b) fails: adopt option (a) — replace N with a Grassmann-valued field,
+   rederive the Lagrangian, and show the anticommutation relations follow.
+
+*** Text fix (do immediately)
+
+Both Doc 3 and Doc 4 correctly flag this as an open problem. The Doc 4 summary
+list (item 2: "Proton spin-up and spin-down are degenerate eigenstates") should
+carry a footnote: "Spin identification is structural; fermionic exchange statistics
+not yet established — see open problem in §Creation/Annihilation."
+
+** SEVERE [S3] H₀ = 68.6 km/s/Mpc is selected, not derived
+:PROPERTIES:
+:DOC: 5
+:TYPE: TEXT FIX
+:END:
+
+Doc 5 correctly states this internally but the abstract and predbox say "prediction."
+The Hubble tension predbox in Doc 5 claims the true H₀ is 68.6 and local measurements
+are biased — but this is a hypothesis without a calculation behind the bias claim.
+
+*** Text fix
+
+- Rename the predbox "Hubble tension resolution" to "Hubble tension interpretation."
+- Remove "prediction: H₀ = 68.6 ± 0.5 km/s/Mpc" from the four-item predbox in §IV.
+  Replace with: "Input value: H₀ = 68.6 km/s/Mpc (selected for internal consistency;
+  not derived from substrate dynamics)."
+- The claim that local measurements are "biased upward by 4.4 km/s/Mpc due to local
+  overdensity" must either be backed by a calculation or removed. As written it is
+  asserted without derivation.
+
+** SEVERE [S4] Geometric mean exponent (2:1) is post-hoc
+:PROPERTIES:
+:DOC: 2
+:TYPE: OPEN MATH
+:END:
+
+The formula ε_est = (E_Planck² · E_Hubble)^{1/3} uses a 2:1 weighting that Doc 2
+explicitly admits was not derived. The physical interpretation ("two local iota
+participants, one global boundary condition") was constructed after the fact.
+
+*** Action steps
+
+1. [ ] Attempt to derive the 2:1 exponent from the negotiation topology. The
+   natural route: in a binary negotiation event, two iotas participate locally
+   and the boundary condition is set by the cosmological horizon. Write this as
+   a dimensional matching argument with explicit assumptions stated, and check
+   whether those assumptions are independently motivated or circular.
+2. [ ] Alternative: treat the exponent as a genuinely free parameter in the
+   geometric mean formula, acknowledge it, and update the "two inputs" claim to
+   "two scale inputs plus one structural exponent."
+
+*** Text fix (do immediately)
+
+Doc 2 §IV already has the correct hedging. The plainbox summary in Doc 2 still
+lists "2:1 weighting — two iota participants per binary negotiation, one universal
+boundary condition" as derived. Change this to read: "2:1 weighting — proposed
+physical interpretation; exponent not yet derived from substrate dynamics."
+
+* SERIOUS Issues
+
+** SERIOUS [SR1] LQG minimum area formulas differ by 4π
+:PROPERTIES:
+:DOC: 4
+:TYPE: TEXT FIX + OPEN MATH
+:END:
+
+Doc 4 claims the negotiation edge corresponds to a j=½ LQG spin network edge and
+cites:
+- LQG: A_min = 4πγ√3 · l_Planck²
+- The Medium: A_min = γ · l_Planck² · √3
+
+These differ by a factor of 4π ≈ 12.6. The correspondence is stated as a match
+when it is not.
+
+*** Action steps
+
+1. [ ] Recheck the LQG formula. The standard result for j=½ is
+   A_min = 8πγl_Planck² √(j(j+1)) = 8πγl_Planck² · √(3)/2 = 4πγ√3 · l_Planck².
+   Verify what the Medium's formula is actually computing and where the 4π
+   is absorbed or lost.
+2. [ ] Either find the factor of 4π in the Medium's area quantum (likely a missing
+   solid angle or sphere-area factor in the iota surface area calculation), or
+   acknowledge that the correspondence is off by 4π and the identification with
+   LQG is structural at best.
+
+*** Text fix
+
+Remove or heavily qualify the statement "This matches the LQG minimum area for
+j=½ spin networks." Replace with the actual numerical comparison including the
+discrepancy.
+
+** SERIOUS [SR2] Diffeomorphism invariance claim is unearned
+:PROPERTIES:
+:DOC: 4
+:TYPE: TEXT FIX + OPEN MATH
+:END:
+
+Doc 4: "The Medium therefore inherits LQG's diffeomorphism invariance from the
+negotiation closure condition."
+
+The full diffeomorphism invariance of GR requires the Dirac algebra of constraints
+(spatial diffeomorphism plus Hamiltonian) to close without anomaly. The closure
+condition L·N = 0 on negotiation modes is not a demonstration of this.
+
+*** Action steps
+
+1. [ ] Write out the constraint algebra explicitly: what are the spatial
+   diffeomorphism generators in the negotiation graph language? What is the
+   Poisson bracket (or commutator) of two Hamiltonian constraints?
+2. [ ] If the algebra closes: document it. This would be a major result.
+3. [ ] If it does not close (likely at this stage): remove the inheritance claim.
+
+*** Text fix (do immediately)
+
+Replace "inherits LQG's diffeomorphism invariance" with "shares the structural
+motivation for diffeomorphism invariance; whether the constraint algebra closes
+is an open calculation."
+
+** SERIOUS [SR3] Spin-½ identification is structural, not derived; summary overclaims
+:PROPERTIES:
+:DOC: 2, 4
+:TYPE: TEXT FIX
+:END:
+
+Doc 2 body correctly says: "Whether they transform as a spin-½ doublet under SU(2)
+requires deriving how the rotation group acts on the triangle's eigenvectors. That
+derivation has not been done."
+
+Doc 4 summary item 2 says: "Proton spin-up and spin-down are degenerate eigenstates."
+This presents as established what the body identifies as open.
+
+*** Text fix
+
+- Doc 4 summary item 2: append "(structural identification; SU(2) representation
+  theory not yet derived)".
+- Doc 2 summary defbox: "Spin-½ — double degeneracy of λ=3 mode" should read
+  "Spin-½ candidate — double degeneracy of λ=3 mode (SU(2) derivation open)".
+
+*** Action steps
+
+1. [ ] Determine how SO(3) (or SU(2)) acts on the triangle K₃. The triangle has
+   D₃h symmetry as a planar object. Under rotations of the embedding space,
+   how do the two eigenvectors at λ=3 transform? Write this out explicitly.
+2. [ ] Show whether the two-dimensional λ=3 eigenspace carries the j=½
+   representation of SU(2) (i.e., transforms under the fundamental
+   representation), or some other representation.
+
+** SERIOUS [SR4] Color charge identification is nominal, not gauge-structural
+:PROPERTIES:
+:DOC: 2, 3
+:TYPE: TEXT FIX + OPEN MATH
+:END:
+
+"The three distinguishable node positions within the closed loop are color charge."
+Color charge in QCD is a label for how a field transforms under local SU(3)
+rotations. Three discrete distinguishable positions give a counting analogy,
+not a gauge structure.
+
+*** Text fix (do immediately)
+
+Replace "are color charge" with "are structurally analogous to color charge labels."
+Add: "Identifying these with the SU(3) color gauge degrees of freedom of QCD requires
+establishing the SU(3) representation theory for the negotiation modes (see Doc 3
+open derivation)."
+
+*** Action steps
+
+1. [ ] This is downstream of FATAL-2. If the correct symmetry group of the triangle
+   Lagrangian is established, the color charge identification either follows or
+   does not. Do not assert the identification before that group theory is done.
+
+** SERIOUS [SR5] Hadron mass formula fails for light mesons; ρ meson 19% off
+:PROPERTIES:
+:DOC: 2, 4
+:TYPE: OPEN MATH + TEXT FIX
+:END:
+
+The formula E(n,k) = ε·k·n for complete graphs gives:
+- 2-node: 625.6 MeV (ρ meson is 775 MeV, 19% off; pion is 135 MeV, factor of 4.6 off)
+- The pion is the lightest and most important meson and does not appear in the table
+
+The pion mass problem is severe: the pion is a pseudo-Goldstone boson of chiral
+symmetry breaking with a very different physical origin than the rho. The complete-graph
+formula cannot accommodate it.
+
+*** Action steps
+
+1. [ ] Add the pion to the hadron mass table and acknowledge the framework cannot
+   account for its mass with the current formula. The pion is not an optional test
+   case — it is the lightest hadron.
+2. [ ] Investigate whether the pion can be accommodated as a two-node graph with a
+   different (non-complete) topology, or whether it requires chiral symmetry
+   breaking to be built into the framework.
+3. [ ] The ρ meson at 19% off with "gluon correction pending" should be labeled as
+   an open discrepancy, not a confirmation. Update the table note.
+
+*** Text fix
+
+- In the hadron tables (Doc 2 §IV, Doc 4 §III): add pion row, marked as unexplained.
+- Change ρ meson table note from "gluon correction pending" to "19% discrepancy;
+  gluon edge energy contribution not yet calculated."
+
+* MODERATE Issues
+
+** MODERATE [M1] ADM summary overclaims body
+:PROPERTIES:
+:DOC: 4
+:TYPE: TEXT FIX
+:END:
+
+Doc 4 summary item 8: "Gravitational Hamiltonian — ADM formalism recovered from
+negotiation graph curvature."
+
+The body correctly notes that lapse and shift functions, extrinsic curvature tensor,
+and diffeomorphism constraint are absent. "Recovered" overclaims a schematic
+structural similarity.
+
+*** Text fix
+
+Change item 8 to: "Gravitational Hamiltonian — schematic ADM structure present
+(½π² − ½R); lapse/shift functions and full extrinsic curvature not yet derived."
+
+** MODERATE [M2] Metric identification h_{ij} ∝ (L⁻¹)_{ij} is not justified
+:PROPERTIES:
+:DOC: 4
+:TYPE: TEXT FIX + OPEN MATH
+:END:
+
+The inverse Laplacian is the graph Green's function — it encodes how a signal
+propagates across the graph, not a metric in the Riemannian sense. To identify it
+with the spatial metric requires showing it transforms correctly under graph
+automorphisms, satisfies the correct signature, and reduces to the flat metric in
+the vacuum.
+
+*** Action steps
+
+1. [ ] Either derive the metric properties of (L⁻¹)_{ij} explicitly, or replace
+   the proportionality with a weaker statement: "The inverse Laplacian provides
+   a candidate for the emergent metric; establishing its Riemannian properties
+   is open work."
+
+*** Text fix
+
+Add a caveat to §ADM Decomposition: "The identification h_{ij} ∝ (L⁻¹)_{ij}
+is a structural proposal; the metric properties (signature, transformation under
+diffeomorphisms, recovery of flat space in vacuum) have not been verified."
+
+** MODERATE [M3] Ω_Λ = 2/3 is an algebraic identity, not an independent prediction
+:PROPERTIES:
+:DOC: 5
+:TYPE: TEXT FIX
+:END:
+
+The derivation in Doc 5 §I shows that substituting G = H₀²/4πρ_Λ into the Friedmann
+equation algebraically gives Ω_Λ = 2/3. This is a logical consequence of the G
+formula, not an independent prediction. If the G formula is wrong, so is Ω_Λ = 2/3.
+They are not independently testable.
+
+*** Text fix
+
+The predbox "Prediction: Ω_Λ = 2/3" should be labeled "Consequence of G formula."
+Revise to: "If G = H₀²/4πρ_Λ holds, then Ω_Λ = 2/3 follows algebraically. These
+are not independently testable — they stand or fall together."
+
+** MODERATE [M4] Vacuum energy problem is relocated, not dissolved
+:PROPERTIES:
+:DOC: 3, 4, 5
+:TYPE: TEXT FIX
+:END:
+
+The claim that the 10¹²³ hierarchy "is not a cancellation problem" depends on the
+Hamiltonian floor condition at ρ_Λ. Doc 4 correctly flags this as conditional.
+But Docs 1 and 3 plainboxes state the resolution without the conditionality.
+
+*** Text fix
+
+- Doc 3 plainbox on gravity: "It is tiny because the universe is vast, not because
+  of a mysterious cancellation" should read "It would follow from the iota grain-to-
+  horizon ratio if the Hamiltonian floor condition can be derived — currently an
+  open calculation."
+- Doc 5 plainbox on Λ: same adjustment.
+- The word "dissolving" in Doc 5 abstract should become "reframing (conditional on
+  the floor derivation)."
+
+** MODERATE [M5] The problem of time is unaddressed
+:PROPERTIES:
+:DOC: 1-5
+:TYPE: OPEN MATH
+:END:
+
+The Lagrangian throughout uses ∂N/∂t. In a pre-geometric framework, t must emerge
+from the substrate. The framework uses a fixed background time without acknowledging
+this as a problem. This is particularly acute given the LQG connection claimed in
+Doc 4 — LQG's problem of time is one of its central unresolved issues.
+
+*** Action steps
+
+1. [ ] Add a section to Doc 1 or Doc 4 titled "The problem of time" that
+   explicitly identifies what t is in the framework. Candidates:
+   a. t is the Barbero-Immirzi clock — the discrete count of iota negotiation steps
+   b. t is relational — defined by the iota cycle count relative to a reference mode
+   c. t is the classical background time, retained as an approximation for the
+      current framework level
+2. [ ] Whichever candidate is adopted, document the assumption explicitly.
+   Rovelli's relational time formulation (from his 2004 QG book, already cited)
+   provides the natural template.
+
+*** Text fix (do immediately)
+
+Add to Doc 1 §Dynamics a brief note: "t in ∂N/∂t is treated as a background
+parameter in this series. The emergence of time from substrate dynamics — the
+problem of time — is deferred to future work."
+
+* Priority Order for Next Working Session
+
+The sequence that unblocks the most downstream fixes:
+
+1. *FATAL-1*: Check G and m_p variation predictions against current observational
+   bounds. This is a calculation, not a derivation — it can be done in an afternoon.
+   If the predictions are ruled out, substantial revision of Docs 5 and 2 is needed
+   before any further submission.
+
+2. *FATAL-2*: Redo the symmetry group calculation for K₃ with complex N. Get the
+   correct group. This unblocks SERIOUS-3, SERIOUS-4, and the SU(3) open derivation.
+
+3. *SEVERE-1, SEVERE-3, SERIOUS-1, SERIOUS-2, SERIOUS-3, SERIOUS-4, MODERATE-1,
+   MODERATE-3, MODERATE-4, MODERATE-5*: These are all text fixes that can be
+   applied now, without new math. They bring the claims into alignment with what has
+   actually been established. Do all of them in one editing pass across docs 1–5.
+
+4. *SEVERE-2* (fermionic statistics): Investigate the composite antisymmetrization
+   route. This is the most mathematically tractable path and could be a legitimate
+   result if it works.
+
+5. *SERIOUS-5* (pion and hadron spectrum): Add the pion to the table, acknowledge
+   the miss, and investigate whether chirality or Goldstone structure can be
+   incorporated.
+
+6. *SEVERE-4, MODERATE-2, MODERATE-5*: These require new framework development
+   (deriving the geometric mean exponent, justifying the metric identification,
+   establishing time). These are the long-term open problems.
+
+* What Does Not Need Fixing
+
+- The internal consistency triangle (G, H₀, m_proton connected through the Friedmann
+  equation and geometric mean formula) is a genuine structural observation worth
+  keeping and highlighting.
+- The "open calculation" boxes are good. Extend this practice to the symmetry and
+  statistics issues.
+- The two-scale-input architecture is correct as a description — it just needs the
+  hidden parameters (γ, the exponent, ε-from-proton) made explicit rather than
+  absorbed into "two inputs."
+- The proton mass cosmological evolution dm_p/dt is a genuine prediction (pending
+  the observational check in FATAL-1).
+- The Ω_Λ = 2/3 number is worth keeping, relabeled as a consequence of the G
+  formula.
