@@ -33,7 +33,7 @@
 \begin{titlepage}
 \vspace*{3cm}
 \begin{center}
-  {\large\bfseries THE MEDIUM FRAMEWORK}\\[1em]
+  {\large\bfseries THE MEDIUM --- AN ATTEMPTED DESCRIPTION}\\[1em]
   {\LARGE\bfseries Negotiation Modes, Particle Structure,}\\[0.4em]
   {\LARGE\bfseries and the Derivation of the Proton Mass}\\[0.4em]
   {\large from First Principles}\\[0.3em]
@@ -50,9 +50,9 @@
 
 * Abstract
 
-This paper develops a complete chain of derivation within The Medium framework, from fundamental primitives through particle structure to the proton mass and the negotiation energy quantum. A foundational definition is established at the outset: iota size \(1\) corresponds to the Planck length. This makes the Planck scale definitional rather than empirical, reduces the framework's external inputs to exactly two --- the iota scale and the Hubble scale --- and resolves the previously noted circularity in the derivation of the Planck constant \(\hbar\).
+This paper develops a complete chain of derivation within The Medium, from fundamental primitives through particle structure to the proton mass and the negotiation energy quantum. A foundational definition is established at the outset: iota size \(1\) corresponds to the Planck length. This makes the Planck scale definitional rather than empirical, reduces the external inputs to exactly two --- the iota scale and the Hubble scale --- and resolves the previously noted circularity in the derivation of the Planck constant \(\hbar\).
 
-Beginning from this foundation and the framework's primitive entities --- iotas (\(\iota\)) and their boundary negotiation dynamics --- we establish that quantization, confinement, and a three-fold mass ratio follow necessarily from the topology of closed negotiation graphs. The minimum closed negotiation graph is a triangle; its Laplacian eigenvalue \(\lambda = 3\) predicts that any stable configuration of this topology has energy \(E = 3\varepsilon\), where \(\varepsilon\) is the fundamental negotiation energy quantum. Matching to the measured proton mass gives \(\varepsilon = 312.8\) MeV --- this is a definition of \(\varepsilon\) from observation, not a derivation of the proton mass from the substrate. Independently, the geometric mean of the two framework scale energies gives \(\varepsilon_\text{est} \approx 152\) MeV, a factor of \({\sim}2\) below the observed value. Whether this factor is the gluon (edge) contribution or a different correction is an open question. Color charge as an emergent label and spin as relational closure are structural consequences of the triangle topology; their precise connection to the QCD quantum numbers is an open derivation. Testable predictions include the hadron mass ratios and a slow cosmological evolution of the proton mass.
+Beginning from this foundation and the primitive entities --- iotas (\(\iota\)) and their boundary negotiation dynamics --- we establish that quantization, confinement, and a three-fold mass ratio follow necessarily from the topology of closed negotiation graphs. The minimum closed negotiation graph is a triangle; its Laplacian eigenvalue \(\lambda = 3\) predicts that any stable configuration of this topology has energy \(E = 3\varepsilon\), where \(\varepsilon\) is the fundamental negotiation energy quantum. Matching to the measured proton mass gives \(\varepsilon = 312.8\) MeV --- this is a definition of \(\varepsilon\) from observation, not a derivation of the proton mass from the substrate. Independently, the geometric mean of the two scale energies gives \(\varepsilon_\text{est} \approx 152\) MeV, a factor of \({\sim}2\) below the observed value. Whether this factor is the gluon (edge) contribution or a different correction is an open question. Color charge as an emergent label and spin as relational closure are structural consequences of the triangle topology; their precise connection to the QCD quantum numbers is an open derivation. Testable predictions include the hadron mass ratios and a slow cosmological evolution of the proton mass.
 
 #+BEGIN_EXPORT latex
 \begin{defbox}
@@ -174,9 +174,9 @@ The topology determines the ratio \(n\): the triangle Laplacian has non-trivial 
 \varepsilon \equiv m_\text{proton} c^2 / 3 = 938.3\ \text{MeV} / 3 = 312.8\ \text{MeV}
 \end{equation}
 
-This is a definition, not a derivation. What the framework has established: if the proton is the minimum closed negotiation graph, its mass must be exactly three times the fundamental quantum. The task remaining is to derive \(\varepsilon\) from the substrate scale inputs alone.
+This is a definition, not a derivation. What this description has established: if the proton is the minimum closed negotiation graph, its mass must be exactly three times the fundamental quantum. The task remaining is to derive \(\varepsilon\) from the substrate scale inputs alone.
 
-** Estimating \(\varepsilon\) from the Two Framework Inputs
+** Estimating \(\varepsilon\) from the Two Scale Inputs
 
 The Hubble floor energy in Planck units:
 
@@ -235,7 +235,7 @@ As the universe expands, \(R_H\) increases, \(E_\text{Hubble}\) decreases, and \
 \varepsilon(t) = \bigl(E_\text{Planck}^2 \cdot E_\text{Hubble}(t)\bigr)^{1/3}
 \end{equation}
 
-The proton mass \(m_p = 3\varepsilon\) slowly decreases over cosmic time. Rate: \(dm_p/dt = m_p \cdot H_0/3 \approx 10^{-29}\) kg/s. Unmeasurably small on human timescales; in principle detectable over cosmological timescales. This is a genuine prediction of the framework.
+The proton mass \(m_p = 3\varepsilon\) slowly decreases over cosmic time. Rate: \(dm_p/dt = m_p \cdot H_0/3 \approx 10^{-29}\) kg/s. Unmeasurably small on human timescales; in principle detectable over cosmological timescales. This is a genuine prediction of this description.
 
 ** The Neutron Mass
 
@@ -267,12 +267,13 @@ is the fractional asymmetry of one edge state in iota-scale units. Deriving this
 
 * Document Series and Cross-References
 
-This is Document 2 of 5 in The Medium Framework series.
+This is Document 2 of 5 in The Medium series.
 
 #+ATTR_LATEX: :environment tabular :align clp{9cm} :booktabs t
-| *Doc* | *File*                      | *Content*                                                      |
-|-------+-----------------------------+----------------------------------------------------------------|
-| 1 | medium_doc1_foundation.org  | The Medium: Foundation Definition (primitives, three levels)   |
+| *Doc* | *File*                          | *Content*                                                      |
+|-------+---------------------------------+----------------------------------------------------------------|
+| 0 | medium_doc0_introduction.org    | Personal introduction; the question behind the description     |
+| 1 | medium_doc1_foundation.org      | The Medium: Foundation Definition (primitives, three levels)   |
 | 2 | medium_doc2_unified.org     | /This paper/                                                     |
 | 3 | medium_doc3_lagrangian.org  | Lagrangian of the Negotiation Field; QFT connection; SU(3)     |
 | 4 | medium_doc4_hamiltonian.org | Hamiltonian, energy spectrum, canonical quantization, ADM      |

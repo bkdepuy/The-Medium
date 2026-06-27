@@ -1,4 +1,4 @@
-% Created 2026-06-25 Thu 10:48
+% Created 2026-06-27 Sat 13:00
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt,letterpaper]{article}
 \usepackage[utf8]{inputenc}
@@ -64,9 +64,9 @@
 \pagestyle{body}
 
 \section{Abstract}
-\label{sec:org5b0afda}
+\label{sec:org4585cb3}
 
-This paper derives the Hamiltonian of the negotiation field within The Medium framework and establishes its connections to quantum mechanics, the energy spectrum of particles, and canonical quantization. The Hamiltonian is obtained from the Lagrangian derived in Document 3 via the Legendre transform, yielding:
+This paper derives the Hamiltonian of the negotiation field within The Medium and establishes its connections to quantum mechanics, the energy spectrum of particles, and canonical quantization. The Hamiltonian is obtained from the Lagrangian derived in Document 3 via the Legendre transform, yielding:
 
 \begin{equation}
 \hat{H} = \tfrac{1}{2}\Pi^2 + \tfrac{1}{2}(N^\top L\, N) \quad \text{(Planck units)}
@@ -84,14 +84,14 @@ where \(\Pi = \partial N/\partial t\) is the canonical momentum of the negotiati
 \end{defbox}
 
 \section{From Lagrangian to Hamiltonian: The Legendre Transform}
-\label{sec:org98af728}
+\label{sec:org7e0bf14}
 
 \begin{plainbox}
 The Lagrangian asks: what path does the system take? The Hamiltonian asks: what is the total energy right now? The Legendre transform converts one into the other exactly --- no information is lost. The two descriptions are completely equivalent.
 \end{plainbox}
 
 \subsection{The Canonical Momentum}
-\label{sec:orge9f1178}
+\label{sec:org7187a63}
 
 The canonical momentum \(\Pi\) conjugate to the negotiation field \(N\):
 
@@ -102,7 +102,7 @@ The canonical momentum \(\Pi\) conjugate to the negotiation field \(N\):
 \(\Pi\) is the negotiation momentum --- how urgently the boundary state is changing at this moment. In Planck units it is dimensionless: the rate of change of the boundary resolution per Planck time.
 
 \subsection{The Legendre Transform}
-\label{sec:org7e23277}
+\label{sec:orgdfbe39e}
 
 \begin{align}
 H &= \Pi \cdot \frac{\partial N}{\partial t} - \mathcal{L} \notag\\
@@ -114,7 +114,7 @@ H &= \Pi \cdot \frac{\partial N}{\partial t} - \mathcal{L} \notag\\
 \end{equation}
 
 \subsection{Physical Interpretation of Each Term}
-\label{sec:org44d4748}
+\label{sec:orgfe28678}
 
 \begin{itemize}
 \item \(\tfrac{1}{2}\Pi^2\) --- kinetic energy of negotiation cycling: energy locked into the rate of change of the boundary state. For a stable particle, this is the time-averaged mass contribution.
@@ -124,7 +124,7 @@ H &= \Pi \cdot \frac{\partial N}{\partial t} - \mathcal{L} \notag\\
 Total energy for the proton mode: \(E_\text{proton} = \varepsilon \lambda = 3\varepsilon = 938.3\) MeV.
 
 \section{The Hamiltonian Operator and Energy Spectrum}
-\label{sec:orgc17468f}
+\label{sec:org26c8a02}
 
 \begin{plainbox}
 In quantum mechanics the Hamiltonian becomes an operator --- a mathematical machine that acts on quantum states and returns their energy. When the Hamiltonian operator acts on a stable negotiation mode, it returns that mode multiplied by its energy. The allowed energies are the eigenvalues --- exactly the particle masses.
@@ -133,7 +133,7 @@ This is why the proton has a definite mass: it is an eigenstate of the Hamiltoni
 \end{plainbox}
 
 \subsection{Canonical Quantization}
-\label{sec:org0e375b1}
+\label{sec:orgef6e82b}
 
 Promote \(N\) and \(\Pi\) to quantum operators \(\hat{N}\), \(\hat{\Pi}\) satisfying:
 
@@ -150,7 +150,7 @@ In Planck units (\(\hbar = 1/(2\pi)\)):
 This encodes the Heisenberg uncertainty principle at the substrate level.
 
 \subsection{The Schrödinger Equation}
-\label{sec:org3e85965}
+\label{sec:orge536dd2}
 
 \begin{equation}
 i\hbar \frac{\partial |\Psi\rangle}{\partial t} = \hat{H}|\Psi\rangle
@@ -171,7 +171,7 @@ Mode 2 (\(\lambda=3\)) & second non-trivial eigenvector & \(E_2 = 3\varepsilon =
 \end{center}
 
 \subsection{The Energy Eigenvalue Equation}
-\label{sec:org4fb0658}
+\label{sec:orgb7d3c8e}
 
 For a negotiation mode on a graph with Laplacian eigenvalue \(\lambda_k\):
 
@@ -199,14 +199,14 @@ E_n = \varepsilon \cdot n \quad \text{(complete graphs, ground non-trivial mode)
 \end{center}
 
 \section{The Heisenberg Picture and Time Evolution}
-\label{sec:org9e32088}
+\label{sec:orgf5892ba}
 
 \begin{plainbox}
 In the Heisenberg picture, operators evolve and the quantum state stays fixed. This connects directly to what particle detectors measure. The key result is the Heisenberg equation of motion, which reproduces the classical wave equation from Document 3 as an operator equation --- valid in the quantum domain.
 \end{plainbox}
 
 \subsection{The Time Evolution Operator}
-\label{sec:org6cc806d}
+\label{sec:org09a7d18}
 
 \begin{equation}
 U(t) = e^{-i\hat{H}t/\hbar}, \qquad |\Psi(t)\rangle = U(t)|\Psi(0)\rangle
@@ -221,7 +221,7 @@ U(t) = e^{-i2\pi\hat{H}t}
 For an energy eigenstate: \(U(t)|\Psi_k\rangle = e^{-i2\pi E_k t}|\Psi_k\rangle\). The proton oscillates at the de Broglie frequency \(f_\text{proton} = E_k/h = 2.27 \times 10^{23}\) Hz.
 
 \subsection{The Heisenberg Equation of Motion}
-\label{sec:orgf570551}
+\label{sec:org1cd50db}
 
 \begin{equation}
 \frac{d\hat{N}}{dt} = \frac{i}{\hbar}[\hat{H}, \hat{N}] = \hat{\Pi}
@@ -240,14 +240,14 @@ Combining:
 This is the quantum operator version of the graph wave equation from Document 3. It holds as an operator identity --- valid for all quantum states simultaneously. The classical wave equation is recovered by taking expectation values.
 
 \section{The Uncertainty Principle from the Iota Scale}
-\label{sec:orga72e67a}
+\label{sec:org6fb635b}
 
 \begin{plainbox}
 In The Medium, the uncertainty principle is not a mysterious feature of quantum mechanics. It is a direct consequence of the iota scale definition. The negotiation field value and its cycling rate are conjugate variables. Because iota size $1 =$ Planck length, the minimum uncertainty in the field value is one iota unit and the minimum uncertainty in the cycling rate is one Planck frequency. Their product is $\hbar$. The uncertainty principle is the substrate telling you: you cannot resolve structure finer than the iota scale.
 \end{plainbox}
 
 \subsection{Position-Momentum Uncertainty}
-\label{sec:orgf05e0aa}
+\label{sec:orgd743137}
 
 From \([\hat{N}, \hat{\Pi}] = i\hbar\), the Robertson uncertainty relation gives:
 
@@ -258,7 +258,7 @@ From \([\hat{N}, \hat{\Pi}] = i\hbar\), the Robertson uncertainty relation gives
 The lower bound \(1/(4\pi)\) in Planck units is the minimum resolvable negotiation state. Below this scale, the iota negotiation cannot maintain the distinction.
 
 \subsection{Energy-Time Uncertainty}
-\label{sec:orgbbcac14}
+\label{sec:orga4a2bf0}
 
 \begin{equation}
 \Delta E \cdot \Delta t \geq \frac{\hbar}{2} = \frac{1}{4\pi} \quad \text{(Planck units)}
@@ -273,14 +273,14 @@ For a virtual particle (off-closure configuration) with energy uncertainty \(\De
 This is the standard QFT result for virtual particle lifetime, derived here from the iota scale definition rather than postulated.
 
 \section{Creation and Annihilation Operators}
-\label{sec:org200d222}
+\label{sec:orgcabe9ab}
 
 \begin{plainbox}
 In The Medium, creation and annihilation operators have a direct physical meaning. The creation operator for a particle corresponds to forming a new closed negotiation graph --- opening new edges between iotas until a stable topology is achieved. The annihilation operator corresponds to dissolving that graph, returning the energy to the background. This gives particle creation and annihilation a substrate-level mechanism that quantum field theory lacks.
 \end{plainbox}
 
 \subsection{Mode Expansion}
-\label{sec:orgfc13b15}
+\label{sec:org8164438}
 
 \begin{equation}
 \hat{N} = \sum_k \frac{1}{\sqrt{2\omega_k}} \left(\hat{a}_k + \hat{a}^\dagger_k\right) v_k, \qquad \omega_k = \sqrt{\lambda_k}
@@ -291,7 +291,7 @@ In The Medium, creation and annihilation operators have a direct physical meanin
 \end{equation}
 
 \subsection{Creation/Annihilation Algebra}
-\label{sec:org1e4d766}
+\label{sec:org5d431a0}
 
 \begin{equation}
 [\hat{a}_k, \hat{a}^\dagger_{k'}] = \delta_{kk'}, \qquad [\hat{a}_k, \hat{a}_{k'}] = [\hat{a}^\dagger_k, \hat{a}^\dagger_{k'}] = 0
@@ -312,7 +312,7 @@ In Planck units (\(\hbar = 1/(2\pi)\)):
 \end{equation}
 
 \subsection{The Vacuum Energy}
-\label{sec:orgcd49622}
+\label{sec:orgf05f597}
 
 The zero-point term gives a vacuum energy even when no particles are present:
 
@@ -320,7 +320,7 @@ The zero-point term gives a vacuum energy even when no particles are present:
 E_\text{vacuum} = \sum_k \frac{\hbar\omega_k}{2}
 \end{equation}
 
-The zero-point sum in The Medium is cut off at the Planck scale --- iota size \(1\) is the minimum mode. But cutting off at the Planck scale still gives the enormous QFT value. The resolution, if it exists, lies elsewhere: the Hamiltonian framework in Document 1 argues that \(\hat{H}\) is not well-defined below the vacuum floor \(\rho_\Lambda\), so modes below that floor do not contribute. If that floor condition holds, the lowest contributing mode is the Hubble-scale mode, giving:
+The zero-point sum in The Medium is cut off at the Planck scale --- iota size \(1\) is the minimum mode. But cutting off at the Planck scale still gives the enormous QFT value. The resolution, if it exists, lies elsewhere: the Hamiltonian description in Document 1 argues that \(\hat{H}\) is not well-defined below the vacuum floor \(\rho_\Lambda\), so modes below that floor do not contribute. If that floor condition holds, the lowest contributing mode is the Hubble-scale mode, giving:
 
 \begin{equation}
 E_\text{vacuum} = \frac{E_\text{Hubble}}{2} \approx 4.6 \times 10^{-39}\ \text{MeV}
@@ -329,14 +329,14 @@ E_\text{vacuum} = \frac{E_\text{Hubble}}{2} \approx 4.6 \times 10^{-39}\ \text{M
 This is consistent with the observed \(\Lambda\). The claim is conditional: it follows if and only if the Hamiltonian floor at \(\rho_\Lambda\) is a genuine physical threshold and not just an assertion. The floor condition must be derived from the substrate dynamics. Until it is, this calculation identifies a consistent result, not a resolution of the vacuum energy problem.
 
 \section{The Gravitational Hamiltonian}
-\label{sec:org3f93f3a}
+\label{sec:org89a94ed}
 
 \begin{plainbox}
 Gravity in The Medium is the energy of curvature in the negotiation graph --- how much the local connection density deviates from the average. In the 1960s, Arnowitt, Deser, and Misner (ADM) showed that general relativity can be written as a Hamiltonian system. The Medium's gravitational Hamiltonian recovers the ADM formalism, but derives it from the negotiation substrate rather than assuming it.
 \end{plainbox}
 
 \subsection{The ADM Decomposition}
-\label{sec:orgb2bbce0}
+\label{sec:org9803c1d}
 
 In The Medium, the three-metric emerges from the large-scale structure of the negotiation graph. The metric at a point is determined by how many iotas are in the neighborhood and how they are connected. The negotiation graph metric in terms of the Laplacian:
 
@@ -347,7 +347,7 @@ h_{ij} \propto (L^{-1})_{ij}
 The inverse Laplacian is the Green's function of the graph --- it encodes how negotiation states propagate through the graph, which determines the effective distance between nodes.
 
 \subsection{The Gravitational Hamiltonian}
-\label{sec:orgf122bbe}
+\label{sec:orge857f90}
 
 \begin{equation}
 \hat{H}_\text{gravity} = \sum_i \left[\frac{\pi_i^2}{2m_\text{Planck}} - \frac{m_\text{Planck} c^2}{2} R_i\right]
@@ -362,7 +362,7 @@ In Planck units (\(m_\text{Planck} = c = 1\)):
 This is exactly the ADM Hamiltonian constraint of general relativity expressed on the negotiation graph. The constraint \(H = 0\) --- required for diffeomorphism invariance --- becomes: kinetic curvature equals potential curvature. This is the substrate-level statement of the Einstein field equations.
 
 \subsection{The Full Hamiltonian}
-\label{sec:org45d85c8}
+\label{sec:org39aefe8}
 
 \begin{equation}
 \hat{H}_\text{total} = \hat{H}_\text{matter} + \hat{H}_\text{gravity} = \left[\tfrac{1}{2}\Pi^2 + \tfrac{1}{2}N^\top L N\right] + \left[\tfrac{1}{2}\pi^2 - \tfrac{1}{2}R\right]
@@ -371,14 +371,14 @@ This is exactly the ADM Hamiltonian constraint of general relativity expressed o
 In Planck units this is dimensionless. The coupling between matter and gravity appears through the Laplacian \(L\), which depends on the graph topology, which is modified by the presence of matter (closed negotiation graphs). Matter curves the graph, which curves spacetime: this is gravity.
 
 \section{Connection to Loop Quantum Gravity}
-\label{sec:org7e8cdeb}
+\label{sec:orgf09b56e}
 
 \begin{plainbox}
-Loop quantum gravity (LQG) describes spacetime as built from discrete quantum geometry --- spin networks --- where area and volume are quantized in units of the Planck scale. The Medium's negotiation graph has the same relational structure: nodes, edges, and a Laplacian. The Barbero-Immirzi parameter \(\gamma\) appears in both frameworks as the ratio of the minimum area quantum to \(l_\text{Planck}^2\). Whether The Medium's negotiation graph is an LQG spin network or merely structurally analogous is an open question: LQG spin networks carry half-integer spin labels with specific transformation rules; the negotiation graph carries real or complex edge values. The minimum area correspondence is suggestive, not established.
+Loop quantum gravity (LQG) describes spacetime as built from discrete quantum geometry --- spin networks --- where area and volume are quantized in units of the Planck scale. The Medium's negotiation graph has the same relational structure: nodes, edges, and a Laplacian. The Barbero-Immirzi parameter \(\gamma\) appears in both descriptions as the ratio of the minimum area quantum to \(l_\text{Planck}^2\). Whether The Medium's negotiation graph is an LQG spin network or merely structurally analogous is an open question: LQG spin networks carry half-integer spin labels with specific transformation rules; the negotiation graph carries real or complex edge values. The minimum area correspondence is suggestive, not established.
 \end{plainbox}
 
 \subsection{The Negotiation Graph as a Spin Network}
-\label{sec:org2acfc8b}
+\label{sec:org1f9ca6d}
 
 In LQG, the minimum area for a \(j = \tfrac{1}{2}\) spin network edge is:
 
@@ -395,7 +395,7 @@ A_\text{min} = \gamma \cdot l_\text{Planck}^2 \cdot \sqrt{3} \approx 0.2375 \cdo
 This matches the LQG minimum area for \(j = \tfrac{1}{2}\) spin networks. The negotiation edge in The Medium corresponds to a \(j = \tfrac{1}{2}\) spin network edge in LQG.
 
 \subsection{The Hamiltonian Constraint}
-\label{sec:orgc3e7575}
+\label{sec:org742b663}
 
 The Hamiltonian constraint \(H = 0\) in LQG generates time diffeomorphisms. In The Medium, the corresponding constraint is that the total negotiation energy is stationary --- the closure condition expressed as an energy equation. The Medium therefore inherits LQG's diffeomorphism invariance from the negotiation closure condition, not as an imposed symmetry but as a consequence of the substrate dynamics.
 
@@ -405,7 +405,7 @@ In LQG, $\gamma \approx 0.2375$ is fixed by requiring that the microstate count 
 \end{openbox}
 
 \section{Summary}
-\label{sec:orgcee006c}
+\label{sec:orgdc7818a}
 
 \begin{defbox}
 \textbf{The Hamiltonian of The Medium in Planck units:}
@@ -432,15 +432,16 @@ Established by this paper:
 \end{enumerate}
 
 \section{Document Series and Cross-References}
-\label{sec:org254e927}
+\label{sec:orgc8062b4}
 
-This is Document 4 of 5 in The Medium Framework series.
+This is Document 4 of 5 in The Medium series.
 
 \begin{center}
 \begin{tabular}{clp{9cm}}
 \toprule
 \textbf{Doc} & \textbf{File} & \textbf{Content}\\[0pt]
 \midrule
+0 & medium\_doc0\_introduction.org & Personal introduction; the question behind the description\\[0pt]
 1 & medium\_doc1\_foundation.org & The Medium: Foundation Definition (primitives, three levels)\\[0pt]
 2 & medium\_doc2\_unified.org & Negotiation Modes, Particle Structure, Proton Mass\\[0pt]
 3 & medium\_doc3\_lagrangian.org & Lagrangian of the Negotiation Field; QFT connection; SU(3)\\[0pt]
@@ -453,7 +454,7 @@ This is Document 4 of 5 in The Medium Framework series.
 All documents: Zenodo DOI: 10.5281/zenodo.18927154 \(\cdot\) ORCID: 0009-0001-0328-2299 \(\cdot\) github.com/bkdepuy/The-Medium
 
 \section{References}
-\label{sec:orgfd369a0}
+\label{sec:org0e008ba}
 
 \begin{itemize}
 \item Arnowitt, R., Deser, S., and Misner, C.W. (1962). The dynamics of general relativity. In \emph{Gravitation: An Introduction to Current Research} (ed. Witten), pp. 227-265. Wiley.
@@ -464,7 +465,7 @@ All documents: Zenodo DOI: 10.5281/zenodo.18927154 \(\cdot\) ORCID: 0009-0001-03
 \end{itemize}
 
 \section{License}
-\label{sec:orge7c628b}
+\label{sec:orga250de3}
 
 CC BY 4.0. You are free to share and adapt this material for any purpose, provided you give appropriate credit to the original author.
 \end{document}

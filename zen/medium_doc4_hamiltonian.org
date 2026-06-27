@@ -48,7 +48,7 @@
 
 * Abstract
 
-This paper derives the Hamiltonian of the negotiation field within The Medium framework and establishes its connections to quantum mechanics, the energy spectrum of particles, and canonical quantization. The Hamiltonian is obtained from the Lagrangian derived in Document 3 via the Legendre transform, yielding:
+This paper derives the Hamiltonian of the negotiation field within The Medium and establishes its connections to quantum mechanics, the energy spectrum of particles, and canonical quantization. The Hamiltonian is obtained from the Lagrangian derived in Document 3 via the Legendre transform, yielding:
 
 \begin{equation}
 \hat{H} = \tfrac{1}{2}\Pi^2 + \tfrac{1}{2}(N^\top L\, N) \quad \text{(Planck units)}
@@ -284,7 +284,7 @@ The zero-point term gives a vacuum energy even when no particles are present:
 E_\text{vacuum} = \sum_k \frac{\hbar\omega_k}{2}
 \end{equation}
 
-The zero-point sum in The Medium is cut off at the Planck scale --- iota size \(1\) is the minimum mode. But cutting off at the Planck scale still gives the enormous QFT value. The resolution, if it exists, lies elsewhere: the Hamiltonian framework in Document 1 argues that \(\hat{H}\) is not well-defined below the vacuum floor \(\rho_\Lambda\), so modes below that floor do not contribute. If that floor condition holds, the lowest contributing mode is the Hubble-scale mode, giving:
+The zero-point sum in The Medium is cut off at the Planck scale --- iota size \(1\) is the minimum mode. But cutting off at the Planck scale still gives the enormous QFT value. The resolution, if it exists, lies elsewhere: the Hamiltonian description in Document 1 argues that \(\hat{H}\) is not well-defined below the vacuum floor \(\rho_\Lambda\), so modes below that floor do not contribute. If that floor condition holds, the lowest contributing mode is the Hubble-scale mode, giving:
 
 \begin{equation}
 E_\text{vacuum} = \frac{E_\text{Hubble}}{2} \approx 4.6 \times 10^{-39}\ \text{MeV}
@@ -336,7 +336,7 @@ In Planck units this is dimensionless. The coupling between matter and gravity a
 
 #+BEGIN_EXPORT latex
 \begin{plainbox}
-Loop quantum gravity (LQG) describes spacetime as built from discrete quantum geometry --- spin networks --- where area and volume are quantized in units of the Planck scale. The Medium's negotiation graph has the same relational structure: nodes, edges, and a Laplacian. The Barbero-Immirzi parameter \(\gamma\) appears in both frameworks as the ratio of the minimum area quantum to \(l_\text{Planck}^2\). Whether The Medium's negotiation graph is an LQG spin network or merely structurally analogous is an open question: LQG spin networks carry half-integer spin labels with specific transformation rules; the negotiation graph carries real or complex edge values. The minimum area correspondence is suggestive, not established.
+Loop quantum gravity (LQG) describes spacetime as built from discrete quantum geometry --- spin networks --- where area and volume are quantized in units of the Planck scale. The Medium's negotiation graph has the same relational structure: nodes, edges, and a Laplacian. The Barbero-Immirzi parameter \(\gamma\) appears in both descriptions as the ratio of the minimum area quantum to \(l_\text{Planck}^2\). Whether The Medium's negotiation graph is an LQG spin network or merely structurally analogous is an open question: LQG spin networks carry half-integer spin labels with specific transformation rules; the negotiation graph carries real or complex edge values. The minimum area correspondence is suggestive, not established.
 \end{plainbox}
 #+END_EXPORT
 
@@ -395,12 +395,13 @@ Established by this paper:
 
 * Document Series and Cross-References
 
-This is Document 4 of 5 in The Medium Framework series.
+This is Document 4 of 5 in The Medium series.
 
 #+ATTR_LATEX: :environment tabular :align clp{9cm} :booktabs t
-| *Doc* | *File*                      | *Content*                                                      |
-|-------+-----------------------------+----------------------------------------------------------------|
-| 1 | medium_doc1_foundation.org  | The Medium: Foundation Definition (primitives, three levels)   |
+| *Doc* | *File*                          | *Content*                                                      |
+|-------+---------------------------------+----------------------------------------------------------------|
+| 0 | medium_doc0_introduction.org    | Personal introduction; the question behind the description     |
+| 1 | medium_doc1_foundation.org      | The Medium: Foundation Definition (primitives, three levels)   |
 | 2 | medium_doc2_unified.org     | Negotiation Modes, Particle Structure, Proton Mass             |
 | 3 | medium_doc3_lagrangian.org  | Lagrangian of the Negotiation Field; QFT connection; SU(3)     |
 | 4 | medium_doc4_hamiltonian.org | /This paper/                                                     |

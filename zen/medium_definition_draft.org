@@ -32,7 +32,7 @@
 \vspace*{4cm}
 \begin{center}
   {\LARGE\bfseries The Medium}\\[0.6em]
-  {\large A Pre-Geometric Substrate Theory --- Foundation Definition}\\[2.5em]
+  {\large An Attempted Description of a Pre-Geometric Substrate --- Foundation Definition}\\[2.5em]
   {\normalsize Bradley K. DePuy, Independent Researcher}\\[0.5em]
   {\normalsize ORCID: \mbox{\texttt{0009-0001-0328-2299}}}\\[0.5em]
   {\normalsize 2026}
@@ -57,7 +57,7 @@ Two \(\iota\) events of identical character cannot be directly co-manifested (ad
 
 * Scale Inputs
 
-The framework has exactly two inputs:
+This description has exactly two inputs:
 
 #+ATTR_LATEX: :environment tabular :align lll :booktabs t
 | *Input*      | *Value*                                      | *Role*                   |
@@ -67,13 +67,13 @@ The framework has exactly two inputs:
 
 In Planck units: \(G = 1\), \(c = 1\), \(\hbar = 1/(2\pi)\). What SI physics calls \(\hbar\) is the measurement of one projected \(\iota\) event in the observer's unit system --- a conversion artifact, not a primitive constant.
 
-The negotiation energy quantum from the geometric mean of the two scale energies:
+The negotiation energy quantum is estimated from the geometric mean of the two scale energies:
 
 \begin{equation}
-\varepsilon = \bigl(E_\text{Planck}^2 \cdot E_\text{Hubble}\bigr)^{1/3} = 312.8\ \text{MeV} = m_\text{proton}/3
+\varepsilon_\text{est} = \bigl(E_\text{Planck}^2 \cdot E_\text{Hubble}\bigr)^{1/3} \approx 152.6\ \text{MeV}
 \end{equation}
 
-(with Barbero-Immirzi correction \(\gamma \approx 0.2375\))
+With a \((2\pi)^{1/3}\) dispersion factor this reaches 281.5 MeV. The observed value \(\varepsilon = m_\text{proton}/3 = 312.8\) MeV is a definition from observation; the \(\sim\)10\% residual gap is closed by the Barbero-Immirzi correction (\(\gamma \approx 0.2375\)), though that correction has not yet been derived from the negotiation graph spectrum.
 
 * Dynamics
 
@@ -91,11 +91,19 @@ Hamiltonian (via Legendre transform, \(\Pi = \partial N/\partial t\)):
 
 Energy eigenvalues: \(E_k = \varepsilon\,\lambda_k\), where \(\lambda_k\) are eigenvalues of the graph Laplacian \(L\).
 
-Stable particles satisfy the closure condition \(L \cdot N = 0\). The minimum closed graph is the three-\(\iota\) triangle (\(\lambda = 3\)):
+Stable particles satisfy the closure condition \(L \cdot N = 0\). For a complete graph on \(n\) nodes with mode number \(k\), energy eigenvalues follow:
+
+\begin{equation}
+E(n,k) = \varepsilon \cdot k \cdot n
+\end{equation}
+
+The minimum closed graph is the three-\(\iota\) triangle (\(\lambda = 3\), \(n = 3\)):
 
 \begin{equation}
 m_\text{proton} = 3\varepsilon = 938.3\ \text{MeV}
 \end{equation}
+
+Higher topologies follow the same formula: a two-node graph corresponds to the rho meson (\(n=2\), predicted 625.6 MeV); a four-node graph corresponds to the tetraquark (\(n=4\), predicted 1251 MeV). The triangle is the ground state --- the minimum topology that achieves closure.
 
 * Derived Results
 
@@ -104,7 +112,7 @@ From two inputs and the single correction factor \(\gamma \approx 0.2375\):
 #+ATTR_LATEX: :environment tabular :align llll :booktabs t
 | *Quantity*        | *Derived*                              | *Measured*                      | *Agreement* |
 |-------------------+----------------------------------------+---------------------------------+-------------|
-| \(m_\text{proton}\) | \(3\varepsilon = 938.3\) MeV         | 938.3 MeV                       | Exact       |
+| \(m_\text{proton}\) | \(3\varepsilon = 938.3\) MeV         | 938.3 MeV                       | Exact (definition of \(\varepsilon\)) |
 | \(G\)             | \(H_0^2 / 4\pi\rho_\Lambda\)          | \(6.674\times10^{-11}\) SI      | 94--97@@latex:\%@@    |
 | \(\hbar\)         | \(m_p c\,k(\gamma)\,r_p / 6\pi\)     | \(1.055\times10^{-34}\) J\(\cdot\)s | 99.1@@latex:\%@@  |
 | \(H_0\)           | 68.6 km/s/Mpc                          | 67.4--73.0 (tension range)      | Within tension |
@@ -114,7 +122,7 @@ The ratio \(\rho_\text{Planck}/\rho_\Lambda \approx 10^{123}\) is the depth of t
 
 Analytic prediction: \(\Omega_\Lambda = 2/3 \approx 0.667\) (observed: 0.685; discrepancy 2.7\%, attributable to matter contribution). Testable from expansion history without measuring \(G\).
 
-All three residual gaps (in \(G\), \(m_\text{proton}\), and \(\hbar\)) are closed by a single Barbero-Immirzi calculation on the negotiation graph. This is the primary open calculation in the framework.
+All three residual gaps (in \(G\), \(m_\text{proton}\), and \(\hbar\)) are closed by a single Barbero-Immirzi calculation on the negotiation graph. This is the primary open calculation in this description.
 
 * License and Attribution
 
@@ -122,12 +130,13 @@ CC BY 4.0. DOI: 10.5281/zenodo.18927154 \quad ORCID: 0009-0001-0328-2299 \quad g
 
 * Document Series and Cross-References
 
-This is Document 1 of 5 in The Medium Framework series.
+This is Document 1 of 5 in The Medium series.
 
 #+ATTR_LATEX: :environment tabular :align clp{9cm} :booktabs t
-| *Doc* | *File*                      | *Content*                                                      |
-|-------+-----------------------------+----------------------------------------------------------------|
-| 1 | medium_doc1_foundation.org  | /This paper/                                                     |
+| *Doc* | *File*                          | *Content*                                                      |
+|-------+---------------------------------+----------------------------------------------------------------|
+| 0 | medium_doc0_introduction.org    | Personal introduction; the question behind the description     |
+| 1 | medium_doc1_foundation.org      | /This paper/                                                     |
 | 2 | medium_doc2_unified.org     | Negotiation Modes, Particle Structure, Proton Mass             |
 | 3 | medium_doc3_lagrangian.org  | Lagrangian of the Negotiation Field; QFT connection; SU(3)     |
 | 4 | medium_doc4_hamiltonian.org | Hamiltonian, energy spectrum, canonical quantization, ADM      |

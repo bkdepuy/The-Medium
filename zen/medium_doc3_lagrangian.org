@@ -49,7 +49,7 @@
 
 * Abstract
 
-This paper derives the Lagrangian of the negotiation field within The Medium framework and establishes its connections to quantum field theory, the Standard Model, and quantum gravity. The foundational definition --- iota size \(1 =\) Planck length --- is adopted from Document 2 (Unified Derivation v3). In Planck units, the Lagrangian takes a clean form: the kinetic term is the dimensionless cycling rate of the negotiation field, and the potential term is the graph Laplacian quadratic form. The Planck constant \(\hbar\) is identified as the projection seam between the dimensionless substrate action and the observer's dimensional units. Note: the Planck-unit route \(\hbar = E_\text{Planck} \cdot t_\text{Planck}/2\pi\) is algebraically circular --- \(E_\text{Planck} \cdot t_\text{Planck} = \hbar\) by definition of Planck units. The non-circular approach (deriving \(\hbar\) from proton mass, proton radius, and \(c\)) is discussed in Document 2. SU(3) color symmetry emerges from the triangle's permutation invariance under complex negotiation states. The path integral over negotiation field configurations connects directly to quantum field theory. Three open calculations are identified: the Barbero-Immirzi correction to the eigenvalue spectrum, the Feynman rules from the topology change term, and the precise derivation of \(\hbar\).
+This paper derives the Lagrangian of the negotiation field within The Medium and establishes its connections to quantum field theory, the Standard Model, and quantum gravity. The foundational definition --- iota size \(1 =\) Planck length --- is adopted from Document 2 (Unified Derivation v3). In Planck units, the Lagrangian takes a clean form: the kinetic term is the dimensionless cycling rate of the negotiation field, and the potential term is the graph Laplacian quadratic form. The Planck constant \(\hbar\) is identified as the projection seam between the dimensionless substrate action and the observer's dimensional units. Note: the Planck-unit route \(\hbar = E_\text{Planck} \cdot t_\text{Planck}/2\pi\) is algebraically circular --- \(E_\text{Planck} \cdot t_\text{Planck} = \hbar\) by definition of Planck units. The non-circular approach (deriving \(\hbar\) from proton mass, proton radius, and \(c\)) is discussed in Document 2. SU(3) color symmetry emerges from the triangle's permutation invariance under complex negotiation states. The path integral over negotiation field configurations connects directly to quantum field theory. Three open calculations are identified: the Barbero-Immirzi correction to the eigenvalue spectrum, the Feynman rules from the topology change term, and the precise derivation of \(\hbar\).
 
 #+BEGIN_EXPORT latex
 \begin{defbox}
@@ -64,7 +64,7 @@ The Lagrangian is dimensionless at the substrate level --- a pure ratio of negot
 
 #+BEGIN_EXPORT latex
 \begin{plainbox}
-The Lagrangian is the master equation of the theory --- one equation from which all physics flows. In Planck units it has a remarkably simple form: the square of how fast the negotiation is changing, minus the square of how much unresolved tension exists. The first term drives mass. The second term selects which patterns are stable.
+The Lagrangian is the master equation of this description --- one equation from which all physics flows. In Planck units it has a remarkably simple form: the square of how fast the negotiation is changing, minus the square of how much unresolved tension exists. The first term drives mass. The second term selects which patterns are stable.
 \end{plainbox}
 #+END_EXPORT
 
@@ -203,7 +203,7 @@ where \(\varepsilon_\text{edge}\) is the energy cost of creating or dissolving o
 #+BEGIN_EXPORT latex
 \begin{openbox}
 \textbf{Open calculation 2 --- Feynman rules from topology change}\\[4pt]
-The topology change Lagrangian generates particle creation and annihilation. Deriving the Feynman rules --- the precise amplitudes for each process in Planck units --- would establish The Medium as a fully calculational framework. The key quantity is $\varepsilon_\text{edge}$ in iota units, derivable from the geometric mean formula modified by the topology of the specific edge being created.
+The topology change Lagrangian generates particle creation and annihilation. Deriving the Feynman rules --- the precise amplitudes for each process in Planck units --- would establish The Medium as a fully calculational description. The key quantity is $\varepsilon_\text{edge}$ in iota units, derivable from the geometric mean formula modified by the topology of the specific edge being created.
 \end{openbox}
 #+END_EXPORT
 
@@ -262,16 +262,17 @@ What the Lagrangian establishes:
 4. A symmetry candidate --- complex-valued fields on the triangle admit a continuous U(3) or subgroup; whether it is precisely SU(3) and whether it corresponds to QCD color is an open derivation.
 5. A vacuum energy estimate --- conditional on the Hamiltonian floor condition (Document 1).
 
-Open problem flagged for theorists: the proton is a fermion obeying Fermi-Dirac statistics and the Pauli exclusion principle. The bosonic Lagrangian above cannot produce this. Either: (a) the negotiation field must be Grassmann-valued (anticommuting) to give fermionic statistics, or (b) a composite antisymmetrization argument must show that three bosonic quanta in the triangle mode acquire fermionic exchange statistics collectively. Neither has been established. This is a primary open problem for the framework.
+Open problem flagged for theorists: the proton is a fermion obeying Fermi-Dirac statistics and the Pauli exclusion principle. The bosonic Lagrangian above cannot produce this. Either: (a) the negotiation field must be Grassmann-valued (anticommuting) to give fermionic statistics, or (b) a composite antisymmetrization argument must show that three bosonic quanta in the triangle mode acquire fermionic exchange statistics collectively. Neither has been established. This is a primary open problem for this description.
 
 * Document Series and Cross-References
 
-This is Document 3 of 5 in The Medium Framework series.
+This is Document 3 of 5 in The Medium series.
 
 #+ATTR_LATEX: :environment tabular :align clp{9cm} :booktabs t
-| *Doc* | *File*                      | *Content*                                                      |
-|-------+-----------------------------+----------------------------------------------------------------|
-| 1 | medium_doc1_foundation.org  | The Medium: Foundation Definition (primitives, three levels)   |
+| *Doc* | *File*                          | *Content*                                                      |
+|-------+---------------------------------+----------------------------------------------------------------|
+| 0 | medium_doc0_introduction.org    | Personal introduction; the question behind the description     |
+| 1 | medium_doc1_foundation.org      | The Medium: Foundation Definition (primitives, three levels)   |
 | 2 | medium_doc2_unified.org     | Negotiation Modes, Particle Structure, Proton Mass             |
 | 3 | medium_doc3_lagrangian.org  | /This paper/                                                     |
 | 4 | medium_doc4_hamiltonian.org | Hamiltonian, energy spectrum, canonical quantization, ADM      |

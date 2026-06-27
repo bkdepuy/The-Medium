@@ -50,13 +50,13 @@
 
 * Abstract
 
-This paper derives the gravitational constant \(G\) and the Hubble constant \(H_0\) within The Medium framework, using only the foundational definition adopted in the companion papers: iota size \(1 =\) Planck length. \(G\) is derived from the Friedmann equation using the vacuum floor density \(\rho_\Lambda\) and the Hubble rate, achieving 94--97\% agreement with the measured value. \(H_0\) is derived as the negotiation frequency at the Hubble floor --- the longest wavelength mode the universe can sustain --- yielding a preferred prediction of 68.6 km/s/Mpc, which sits within the current observational tension range between the CMB value (67.4 km/s/Mpc) and the local distance ladder value (73.0 km/s/Mpc). Both derivations emerge from the same two-input foundation without free parameters. The cosmological constant \(\Lambda\) is identified as the Hubble floor energy density in Planck units, dissolving the \(10^{123}\) hierarchy problem by reframing it as the depth of the Medium rather than a fine-tuning requirement. The analytic prediction \(\Omega_\Lambda = 2/3\) follows directly and is testable from expansion history measurements alone.
+This paper derives the gravitational constant \(G\) and the Hubble constant \(H_0\) within The Medium, using only the foundational definition adopted in the companion papers: iota size \(1 =\) Planck length. \(G\) is derived from the Friedmann equation using the vacuum floor density \(\rho_\Lambda\) and the Hubble rate, achieving 94--97\% agreement with the measured value. \(H_0\) is derived as the negotiation frequency at the Hubble floor --- the longest wavelength mode the universe can sustain --- yielding a preferred prediction of 68.6 km/s/Mpc, which sits within the current observational tension range between the CMB value (67.4 km/s/Mpc) and the local distance ladder value (73.0 km/s/Mpc). Both derivations emerge from the same two-input foundation without free parameters. The cosmological constant \(\Lambda\) is identified as the Hubble floor energy density in Planck units, dissolving the \(10^{123}\) hierarchy problem by reframing it as the depth of the Medium rather than a fine-tuning requirement. The analytic prediction \(\Omega_\Lambda = 2/3\) follows directly and is testable from expansion history measurements alone.
 
 #+BEGIN_EXPORT latex
 \begin{defbox}
-\textbf{Framework inputs (from Document 1):}\\[4pt]
+\textbf{Scale inputs (from Document 1):}\\[4pt]
 Input 1: Iota size $1 =$ Planck length $= 1.616 \times 10^{-35}$ m \quad (the substrate grain)\\
-Input 2: $H_0 = 68.6$ km/s/Mpc \quad (the current Hubble constant, identified as the second framework input)\\[4pt]
+Input 2: $H_0 = 68.6$ km/s/Mpc \quad (the current Hubble constant, identified as the second scale input)\\[4pt]
 In Planck units: $G = 1$, $c = 1$, $\hbar = 1/(2\pi)$.
 \end{defbox}
 #+END_EXPORT
@@ -152,18 +152,18 @@ The same fractional gap (\(\sim\)6\%) appears in the \(G\) derivation as appears
 \begin{plainbox}
 $H_0$ is the current expansion rate of the universe. It is one of the most contested numbers in modern cosmology: telescopes measuring nearby galaxies get ${\sim}73$ km/s/Mpc while the CMB gives ${\sim}67$ km/s/Mpc. Nobody agrees which is right.
 
-\(H_0\) is the second framework input --- it is not derived from the substrate; it is the observed Hubble constant used as a scale anchor alongside the Planck length. The preferred value 68.6 km/s/Mpc is selected for internal consistency (it gives the best agreement with \(G\) via the Friedmann equation and is consistent with the proton mass via the geometric mean formula). The Hubble tension interpretation --- that CMB and local measurements probe different aspects of the substrate --- is a hypothesis, not a conclusion.
+\(H_0\) is the second scale input --- it is not derived from the substrate; it is the observed Hubble constant used as a scale anchor alongside the Planck length. The preferred value 68.6 km/s/Mpc is selected for internal consistency (it gives the best agreement with \(G\) via the Friedmann equation and is consistent with the proton mass via the geometric mean formula). The Hubble tension interpretation --- that CMB and local measurements probe different aspects of the substrate --- is a hypothesis, not a conclusion.
 \end{plainbox}
 #+END_EXPORT
 
-** \(H_0\) as the Second Framework Input
+** \(H_0\) as the Second Scale Input
 
-The framework has exactly two inputs:
+This description has exactly two inputs:
 
 1. Iota scale: \(l_\iota =\) Planck length (the substrate grain)
 2. Hubble scale: \(H_0\) (the current cosmic horizon frequency)
 
-The framework has two inputs: the iota scale (Planck length) and \(H_0\). Given these two inputs and the geometric mean formula, \(\varepsilon\) follows. Given \(\varepsilon\), the proton mass follows. Given \(H_0\) and \(\rho_\Lambda\), \(G\) follows from the Friedmann equation. The preferred value \(H_0 = 68.6\) km/s/Mpc is the value that makes the three quantities \(G\), \(\varepsilon\), and \(m_\text{proton}\) mutually consistent at the observed values. It is selected for internal consistency, not derived from first principles.
+This description has two inputs: the iota scale (Planck length) and \(H_0\). Given these two inputs and the geometric mean formula, \(\varepsilon\) follows. Given \(\varepsilon\), the proton mass follows. Given \(H_0\) and \(\rho_\Lambda\), \(G\) follows from the Friedmann equation. The preferred value \(H_0 = 68.6\) km/s/Mpc is the value that makes the three quantities \(G\), \(\varepsilon\), and \(m_\text{proton}\) mutually consistent at the observed values. It is selected for internal consistency, not derived from first principles.
 
 ** The Hubble Floor Energy
 
@@ -223,7 +223,7 @@ The true background value of $H_0$ is 68.6 km/s/Mpc. The local distance ladder m
 \begin{plainbox}
 The cosmological constant $\Lambda$ is the energy density of empty space. Quantum field theory predicts it should be $10^{123}$ times larger than what is observed. This is the worst unsolved problem in physics.
 
-The Medium reframes it. The \(10^{123}\) hierarchy between the Planck-scale QFT prediction and the observed \(\Lambda\) is identified as the ratio of the two framework inputs: the depth of the Medium between its grain and its horizon. This reframing is only a resolution if the Hamiltonian floor at \(\rho_\Lambda\) is a genuine physical threshold --- meaning the Hamiltonian is undefined below that density. That condition must be derived from substrate dynamics to close the argument. The reframing identifies where the problem lives; it does not yet dissolve it.
+The Medium reframes it. The \(10^{123}\) hierarchy between the Planck-scale QFT prediction and the observed \(\Lambda\) is identified as the ratio of the two scale inputs: the depth of the Medium between its grain and its horizon. This reframing is only a resolution if the Hamiltonian floor at \(\rho_\Lambda\) is a genuine physical threshold --- meaning the Hamiltonian is undefined below that density. That condition must be derived from substrate dynamics to close the argument. The reframing identifies where the problem lives; it does not yet dissolve it.
 \end{plainbox}
 #+END_EXPORT
 
@@ -253,7 +253,7 @@ This is the depth of the Medium --- the dynamic range of the negotiation substra
 
 #+BEGIN_EXPORT latex
 \begin{plainbox}
-The three derivations --- $G$ at 94\%, $H_0$ at 68.6 km/s/Mpc, and the proton mass within 10\% --- are not independent. They all flow from the same two inputs and the same correction factor. When three apparently unrelated quantities share a common derivation and a common residual correction, the framework is pointing at genuine structure.
+The three derivations --- $G$ at 94\%, $H_0$ at 68.6 km/s/Mpc, and the proton mass within 10\% --- are not independent. They all flow from the same two inputs and the same correction factor. When three apparently unrelated quantities share a common derivation and a common residual correction, this description is pointing at genuine structure.
 \end{plainbox}
 #+END_EXPORT
 
@@ -284,7 +284,7 @@ Given any two, the third is constrained by the Friedmann equation and the geomet
 - Given \(G\) and \(m_\text{proton}\): \(\varepsilon \to E_\text{Hubble} \to H_0\)
 - Given \(H_0\) and \(m_\text{proton}\): \(\varepsilon \to E_\text{Hubble} \to G\) via Friedmann
 
-All three paths give mutually consistent results within the identified correction factors. This triangular consistency is strong evidence that the framework is not fitting three separate numbers but is describing a single underlying structure with three observable manifestations.
+All three paths give mutually consistent results within the identified correction factors. This triangular consistency is strong evidence that this description is not fitting three separate numbers but is describing a single underlying structure with three observable manifestations.
 
 ** Predictions
 
@@ -297,7 +297,7 @@ All three paths give mutually consistent results within the identified correctio
 \item $G$ variation --- $G$ increases as $H_0$ decreases: $dG/dt = -2G \cdot H_0 \approx -10^{-11}$ m$^3$ kg$^{-1}$ s$^{-3}$ yr$^{-1}$
 \item $\Lambda$ variation --- $\Lambda$ decreases as $R_H$ increases: $d\Lambda/dt = -2\Lambda \cdot H_0$
 \end{enumerate}
-All four predictions are correlated consequences of $H_0$ changing over cosmic time. Measuring these correlations over cosmological time would provide a powerful test of the framework.
+All four predictions are correlated consequences of $H_0$ changing over cosmic time. Measuring these correlations over cosmological time would provide a powerful test of this description.
 \end{predbox}
 #+END_EXPORT
 
@@ -324,12 +324,13 @@ Single residual correction: Barbero-Immirzi parameter $\gamma \approx 0.2375$, e
 
 * Document Series and Cross-References
 
-This is Document 5 of 5 in The Medium Framework series.
+This is Document 5 of 5 in The Medium series.
 
 #+ATTR_LATEX: :environment tabular :align clp{9cm} :booktabs t
-| *Doc* | *File*                      | *Content*                                                      |
-|-------+-----------------------------+----------------------------------------------------------------|
-| 1 | medium_doc1_foundation.org  | The Medium: Foundation Definition (primitives, three levels)   |
+| *Doc* | *File*                          | *Content*                                                      |
+|-------+---------------------------------+----------------------------------------------------------------|
+| 0 | medium_doc0_introduction.org    | Personal introduction; the question behind the description     |
+| 1 | medium_doc1_foundation.org      | The Medium: Foundation Definition (primitives, three levels)   |
 | 2 | medium_doc2_unified.org     | Negotiation Modes, Particle Structure, Proton Mass             |
 | 3 | medium_doc3_lagrangian.org  | Lagrangian of the Negotiation Field; QFT connection; SU(3)     |
 | 4 | medium_doc4_hamiltonian.org | Hamiltonian, energy spectrum, canonical quantization, ADM      |
