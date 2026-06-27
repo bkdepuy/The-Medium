@@ -40,65 +40,27 @@
 
 * Who I Am
 
-I retired from coding nearly 20 years ago and now have the time to explore questions plaguing me for some time.
+I have spent my life in software. Retired nearly 20 years ago and now have the time to explore questions plaguing me for some time.
 
 I have wondered, what if I had pursued an academic path in Physics and Mathematics.  Probably both a blessing and a curse.
 It would be a curse due to the constraint to prove my self within the tightly closed box of institutional acceptance.
 This would have limited my ability to see other possibilities.
 It would have been a blessing as I may now see the mathematical patterns necessary to expand the documents that follow.
 
-That is worth saying at the start, because it matters for how you read what follows. The
-five documents in this series are my attempt at a new foundational approach.
-
-This document is different. This one is about the question
---- where does it all come from.
+What follows are my attempt at a new foundational approach that may answer the question of where it all comes from.
 
 * The Question
 
-Where does it all come from is an existential question that may not have an answer.
-I have to ask that question.  I have and am reading a number of books by theoretical phisicists
+--- Where does it all come from.
 
+It is an existential question that may not have an answer.
 
-* What the Available Answers Did
+Physics raises more questions than it solves.  It seems trapped in the institutional box mentioned above.  The beauty of the mathematics outweighs the truth behind what the math is really saying. Current physics must also agree with what is currently accepted and supposedly proven by observation.  I question whether those observations result from the evolution of what came before rather than an honest clean review of the assumptions.
 
-* What I Kept Coming Back To
+Does the cosmic background frequency results from the frequency of the stochastic nature of Planck scale in a substrate? Is the Hubble red shift a misinterpretation of the concept of the terrestrial red shift.
 
-
-The question "why something rather than nothing" assumes that nothing is the natural state
-and something requires an explanation. But what if that's backwards? What if nothing is the
-harder thing to sustain? What if, given an infinite domain with no constraints and no
-preferred states, the emergence of /something/ is not a puzzle requiring explanation but an
-inevitability?
-
-I couldn't prove that. But it kept feeling more honest than the alternatives.
-
-The other thing I kept coming back to was the strangeness of how much the universe
-apparently cares about mathematics. The equations of physics work. Not approximately ---
-with extraordinary precision. The ratio of the proton mass to the Planck energy, the
-cosmological constant, the fine structure constant --- these numbers are what they are, and
-when you write them down together, they form patterns that feel like they're trying to say
-something.
-
-And then there was the incompatibility problem. Quantum mechanics and general relativity
-are both right. They are also mutually incompatible. Physicists have known this for a
-century. My suspicion, sitting with this for a long time, was that they are incompatible
-not because we haven't found the right math yet, but because they are both descriptions of
-the same thing from inside the thing, and descriptions from inside can be mutually
-inconsistent even when the underlying thing is perfectly coherent.
-
-* Where This Leads
-
-At some point I stopped waiting for someone else to produce an answer I could believe and
-started trying to construct one myself.
-
-I want to be careful about what I'm claiming. I don't think I have solved anything. The
-question of why there is something rather than nothing may not have a solution in any
-conventional sense. What I have is a framework that is honest about its starting point ---
-one that takes the question seriously instead of bracketing it --- and that makes contact
-with actual physics in ways that can be checked.
-
-What follows in Documents 1 through 5 is that attempt made mathematical. The open
-problems are real and I haven't hidden them. But the math came after the question. This
-document is the question.
+"Dark Matter", is it actually the frequency of stochastic energy in the substrate?
+Does the finding of mature galaxies at the boundaries indicate the ever present substrate stochastically vibrating everywhere?
+Is the Big Bang one interpretation of the substrate's stochastic occurrences?
 
 --- /Bradley K. DePuy, 2026/
