@@ -43,17 +43,48 @@
 
 * Definition
 
-The Medium is a pre-geometric substrate with no beginning and no end. Its sole primitive is \(\iota\): an act of self-distinction. Each \(\iota\) event produces a binary character (\(+1\) or \(-1\)) --- the difference the distinction makes. Character is not held by \(\iota\) before the event; it is produced by the event.
+** The Substrate
 
-\(\iota\) has multiple relational modes (qualitatively distinct aspects of the event, not binary opposition) and intrinsic cohesive attraction. From these two properties, self-organization follows without instruction.
+The Medium is the substrate --- denoted \(M\). It has no beginning and no end, no geometry, no time, no parts, and no structure prior to distinction. \(M\) is not a space or a set of points. It is what is.
 
-The substrate field records distinction characters across the relational web:
+** The Primitive: \(\iota\)
+
+The sole primitive is \(\iota\): a distinction within \(M\). Not an event --- event implies sequence, which implies time. \(\iota\) is prior to time. A distinction is the substrate differentiating within itself.
+
+Distinction is self-grounding. Any attempt to explain what causes it already uses it. Causation, before, after --- these are all distinctions. \(\iota\) requires no prior cause: it is the minimum condition for anything to be conceivable at all.
+
+A single \(\iota\) does not carry character or polarity. It produces a split: two complementary aspects \(\{A,\, \bar{A}\}\) that are not each other. Neither \(A\) nor \(\bar{A}\) is intrinsically positive or negative. Polarity is not a property of a single \(\iota\).
+
+Let \(D\) denote the collection of all \(\iota\) distinctions within \(M\).
+
+** Character from Comparison
+
+When two distinctions \(i, j \in D\) co-exist within \(M\), a comparison is unavoidable: do they distinguish in the same way, or in opposite ways? This comparison is binary and symmetric:
 
 \begin{equation}
-\phi : M \to \{+1, -1\}
+c : D \times D \to \{\mathrm{same},\, \mathrm{different}\}
 \end{equation}
 
-Two \(\iota\) events of identical character cannot be directly co-manifested (adjacency constraint). This is a logical necessity, not an imposed rule.
+\(c(i,i) = \mathrm{same}\). \(c(i,j) = c(j,i)\). What earlier formulations labeled \(+1\) or \(-1\) is the outcome of this comparison. Character and polarity are the first emergent properties of the substrate, not primitives.
+
+** The Relational Web
+
+Co-existing distinctions in \(D\) necessarily relate. When \(D\) contains more than one distinction, comparisons arise throughout, generating a relational graph \(G\):
+
+- Nodes: \(\iota\) distinctions in \(D\)
+- Edges: relations between co-existing distinctions
+
+The negotiation field \(N_{ij}\) measures the coherence of the comparison between distinctions \(i\) and \(j\) across the entire relational structure --- not the comparison value itself, but the degree to which that comparison is consistent across all paths through \(G\). \(N\) is real-valued and continuous: \(N_{ij} > 0\) (different-comparing, stable); \(N_{ij} < 0\) (same-comparing, unstable); \(N_{ij} = 0\) (uncorrelated).
+
+The Laplacian \(L\) of \(G\) encodes the relational geometry. In the large-scale continuum limit \(L\) converges to the Laplace-Beltrami operator on a Riemannian manifold --- geometry emerging from the relational structure of distinctions, not assumed.
+
+** The Adjacency Constraint
+
+Two distinctions comparing as \(\mathrm{same}\) carry no new relational information: their comparison is trivially resolved. Negotiations between same-comparing distinctions contribute nothing to stable structure. This is not a topological prohibition on edges --- it is a statement about information content. Productive negotiation requires \(c(i,j) = \mathrm{different}\). Stable configurations require all local comparisons to be productive.
+
+** A Note on Time
+
+The dynamics below use \(\partial N / \partial t\). Time appears here as a background parameter retained for calculability. In the substrate as described, sequence does not exist prior to distinction --- time is not a primitive but an emergent ordering of the relational structure of \(D\). The derivation of temporal sequence from substrate dynamics is an open problem.
 
 * Scale Inputs
 
@@ -77,7 +108,7 @@ With a \((2\pi)^{1/3}\) dispersion factor this reaches 281.5 MeV. The observed v
 
 * Dynamics
 
-The negotiation field \(N_{ij}\) encodes the boundary state between adjacent \(\iota\) events \(i\) and \(j\). Lagrangian in Planck units:
+The negotiation field \(N_{ij}\) encodes the relational coherence between adjacent \(\iota\) distinctions \(i\) and \(j\). Lagrangian in Planck units:
 
 \begin{equation}
 \mathcal{L} = \tfrac{1}{2}\!\left(\frac{\partial N}{\partial t}\right)^{\!2} - \tfrac{1}{2}\,N^\top L\, N
@@ -97,7 +128,7 @@ Stable particles satisfy the closure condition \(L \cdot N = 0\). For a complete
 E(n,k) = \varepsilon \cdot k \cdot n
 \end{equation}
 
-The minimum closed graph is the three-\(\iota\) triangle (\(\lambda = 3\), \(n = 3\)):
+The minimum closed graph is the triangle of three \(\iota\) distinctions (\(\lambda = 3\), \(n = 3\)):
 
 \begin{equation}
 m_\text{proton} = 3\varepsilon = 938.3\ \text{MeV}
