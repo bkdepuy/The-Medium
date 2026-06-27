@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.31)  27 JUN 2026 13:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.31)  27 JUN 2026 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -916,13 +916,13 @@ Package rerunfilecheck Info: File `medium_doc4_hamiltonian.out' has not changed
 (rerunfilecheck)             Checksum: 3C8892FB4607D6A16F77D48575A6BC54;5859.
  ) 
 Here is how much of TeX's memory you used:
- 27252 strings out of 476080
- 527699 string characters out of 5792744
+ 27219 strings out of 476080
+ 526875 string characters out of 5792744
  1938975 words of memory out of 5000000
- 48599 multiletter control sequences out of 15000+600000
- 580046 words of font info for 157 fonts, out of 8000000 for 9000
+ 48554 multiletter control sequences out of 15000+600000
+ 580454 words of font info for 163 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 83i,14n,93p,1112b,981s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,14n,93p,1112b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
@@ -941,7 +941,7 @@ s/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sftt1095.pfb>
-Output written on medium_doc4_hamiltonian.pdf (10 pages, 375806 bytes).
+Output written on medium_doc4_hamiltonian.pdf (10 pages, 375850 bytes).
 PDF statistics:
  343 PDF objects out of 1000 (max. 8388607)
  285 compressed objects within 3 object streams

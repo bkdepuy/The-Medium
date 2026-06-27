@@ -33,7 +33,7 @@
 \begin{titlepage}
 \vspace*{3cm}
 \begin{center}
-  {\large\bfseries THE MEDIUM FRAMEWORK}\\[1em]
+  {\large\bfseries THE MEDIUM --- AN ATTEMPTED DESCRIPTION}\\[1em]
   {\LARGE\bfseries The Lagrangian of the Negotiation Field:}\\[0.4em]
   {\large Connecting a Pre-Geometric Substrate to Quantum Field Theory}\\[0.3em]
   {\normalsize Version 2 --- with Foundational Iota Scale Definition}\\[2em]
@@ -49,7 +49,7 @@
 
 * Abstract
 
-This paper derives the Lagrangian of the negotiation field within The Medium and establishes its connections to quantum field theory, the Standard Model, and quantum gravity. The foundational definition --- iota size \(1 =\) Planck length --- is adopted from Document 2 (Unified Derivation v3). In Planck units, the Lagrangian takes a clean form: the kinetic term is the dimensionless cycling rate of the negotiation field, and the potential term is the graph Laplacian quadratic form. The Planck constant \(\hbar\) is identified as the projection seam between the dimensionless substrate action and the observer's dimensional units. Note: the Planck-unit route \(\hbar = E_\text{Planck} \cdot t_\text{Planck}/2\pi\) is algebraically circular --- \(E_\text{Planck} \cdot t_\text{Planck} = \hbar\) by definition of Planck units. The non-circular approach (deriving \(\hbar\) from proton mass, proton radius, and \(c\)) is discussed in Document 2. SU(3) color symmetry emerges from the triangle's permutation invariance under complex negotiation states. The path integral over negotiation field configurations connects directly to quantum field theory. Three open calculations are identified: the Barbero-Immirzi correction to the eigenvalue spectrum, the Feynman rules from the topology change term, and the precise derivation of \(\hbar\).
+This paper derives the Lagrangian of the negotiation field within The Medium and establishes its connections to quantum field theory, the Standard Model, and quantum gravity. The foundational definition --- iota size \(1 =\) Planck length --- is adopted from Document 2 (Unified Derivation v3). In Planck units, the Lagrangian takes a clean form: the kinetic term is the dimensionless cycling rate of the negotiation field, and the potential term is the graph Laplacian quadratic form. The Planck constant \(\hbar\) is identified as the projection seam between the dimensionless substrate action and the observer's dimensional units. Note: the Planck-unit route \(\hbar = E_\text{Planck} \cdot t_\text{Planck}/2\pi\) is algebraically circular --- \(E_\text{Planck} \cdot t_\text{Planck} = \hbar\) by definition of Planck units. The non-circular approach (deriving \(\hbar\) from proton mass, proton radius, and \(c\)) is discussed in Document 2. The symmetry group of the negotiation Lagrangian under complex negotiation states is at minimum U(1) × U(2); whether additional structure produces SU(3) specifically is the open derivation. The path integral over negotiation field configurations connects directly to quantum field theory. Four open calculations are identified: the correct symmetry group of the triangle Lagrangian, the Barbero-Immirzi correction to the eigenvalue spectrum, the Feynman rules from the topology change term, and the precise derivation of \(\hbar\).
 
 #+BEGIN_EXPORT latex
 \begin{defbox}
@@ -144,9 +144,9 @@ Rotating all negotiation phases simultaneously by angle \(\theta\) in Planck uni
 
 ** SU(3) Symmetry --- Strong Force
 
-The automorphism group of the triangle \(K_3\) is \(S_3\). When negotiation states are complex-valued in Planck units, the continuous symmetry group preserving \(\mathcal{L}\) is SU(3). Its eight generators correspond to eight gluon states. In Planck units, each gluon carries energy \(\varepsilon\) --- one negotiation quantum. The three color charges are the three complex components of \(N\) in iota-scale units.
+The automorphism group of the triangle \(K_3\) is \(S_3\). When negotiation states are complex-valued in Planck units, the Laplacian \(L\) has eigenvalues \(\{0, 3, 3\}\). The unitary transformations preserving \(N^\dagger L N\) must preserve the \(\lambda=0\) eigenspace and the \(\lambda=3\) eigenspace separately; the correct symmetry group is U(1) × U(2), not SU(3). SU(3) would require \(L \propto I\), which holds only for the trivial graph.
 
-The triangle topology, combined with complex-valued negotiation states, produces a continuous symmetry group. Whether it is precisely SU(3) and whether it corresponds to the QCD color gauge symmetry is the open derivation. The structural correspondence is present; the precise identification is not yet established.
+Whether additional structure --- a cubic invariant from the antisymmetric tensor, or a different action of the symmetry on the edge states --- could produce SU(3) specifically is the open derivation. If it can be established, its eight generators would correspond to eight gluon states and the three color charges would be the three complex components of \(N\). That identification is a structural candidate, not yet a result.
 
 * The Path Integral in Planck Units
 
@@ -211,7 +211,7 @@ The topology change Lagrangian generates particle creation and annihilation. Der
 
 #+BEGIN_EXPORT latex
 \begin{plainbox}
-In Planck units, gravity is the curvature of the negotiation graph --- how much the local density of iota negotiations deviates from the average. The cosmological constant is the minimum negotiation energy density of the universe in Planck units --- one Hubble-floor energy per Hubble volume. It is tiny because the universe is vast, not because of a mysterious cancellation.
+In Planck units, gravity is the curvature of the negotiation graph --- how much the local density of iota negotiations deviates from the average. The cosmological constant is the minimum negotiation energy density of the universe in Planck units --- one Hubble-floor energy per Hubble volume. It would follow from the iota grain-to-horizon ratio if the Hamiltonian floor condition can be derived --- that derivation does not yet exist.
 \end{plainbox}
 #+END_EXPORT
 
@@ -272,7 +272,7 @@ This is Document 3 of 5 in The Medium series.
 | *Doc* | *File*                          | *Content*                                                      |
 |-------+---------------------------------+----------------------------------------------------------------|
 | 0 | medium_doc0_introduction.org    | Personal introduction; the question behind the description     |
-| 1 | medium_doc1_foundation.org      | The Medium: Foundation Definition (primitives, three levels)   |
+| 1 | medium_doc1_definition.org      | The Medium: Foundation Definition (primitives, three levels)   |
 | 2 | medium_doc2_unified.org     | Negotiation Modes, Particle Structure, Proton Mass             |
 | 3 | medium_doc3_lagrangian.org  | /This paper/                                                     |
 | 4 | medium_doc4_hamiltonian.org | Hamiltonian, energy spectrum, canonical quantization, ADM      |

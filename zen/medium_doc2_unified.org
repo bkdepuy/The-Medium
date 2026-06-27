@@ -50,7 +50,7 @@
 
 * Abstract
 
-This paper develops a complete chain of derivation within The Medium, from fundamental primitives through particle structure to the proton mass and the negotiation energy quantum. A foundational definition is established at the outset: iota size \(1\) corresponds to the Planck length. This makes the Planck scale definitional rather than empirical, reduces the external inputs to exactly two --- the iota scale and the Hubble scale --- and resolves the previously noted circularity in the derivation of the Planck constant \(\hbar\).
+This paper develops a connected chain of derivation within The Medium, from fundamental primitives through particle structure to the proton mass and the negotiation energy quantum, with open calculations explicitly identified at each step. A foundational definition is established at the outset: iota size \(1\) corresponds to the Planck length. This makes the Planck scale definitional rather than empirical, reduces the external inputs to exactly two --- the iota scale and the Hubble scale --- and resolves the previously noted circularity in the derivation of the Planck constant \(\hbar\).
 
 Beginning from this foundation and the primitive entities --- iotas (\(\iota\)) and their boundary negotiation dynamics --- we establish that quantization, confinement, and a three-fold mass ratio follow necessarily from the topology of closed negotiation graphs. The minimum closed negotiation graph is a triangle; its Laplacian eigenvalue \(\lambda = 3\) predicts that any stable configuration of this topology has energy \(E = 3\varepsilon\), where \(\varepsilon\) is the fundamental negotiation energy quantum. Matching to the measured proton mass gives \(\varepsilon = 312.8\) MeV --- this is a definition of \(\varepsilon\) from observation, not a derivation of the proton mass from the substrate. Independently, the geometric mean of the two scale energies gives \(\varepsilon_\text{est} \approx 152\) MeV, a factor of \({\sim}2\) below the observed value. Whether this factor is the gluon (edge) contribution or a different correction is an open question. Color charge as an emergent label and spin as relational closure are structural consequences of the triangle topology; their precise connection to the QCD quantum numbers is an open derivation. Testable predictions include the hadron mass ratios and a slow cosmological evolution of the proton mass.
 
@@ -212,6 +212,9 @@ General formula \(E(n,k) = \varepsilon \cdot k \cdot n\) for complete graphs:
 | Neutron | 3+\(\delta\) | 939.6 MeV | 939.6 MeV | \(\delta = 0.00413\) |
 | Rho meson | 2 | 625.6 MeV | 775 MeV | 19@@latex:\%@@ (gluon correction pending) |
 | Tetraquark | 4 | 1251 MeV | \(\sim\)1200--1400 MeV | Edge corrections needed |
+| Pion | --- | Not produced | 135 MeV | Not explained by this formula |
+
+The pion is the lightest hadron and the most important test case. It is a pseudo-Goldstone boson of chiral symmetry breaking and cannot be accommodated by the complete-graph formula \(E(n,k) = \varepsilon \cdot k \cdot n\). Its absence from the predicted spectrum is a primary open problem.
 
 * Part V: \(\hbar\) as a Seam Constant
 
@@ -273,7 +276,7 @@ This is Document 2 of 5 in The Medium series.
 | *Doc* | *File*                          | *Content*                                                      |
 |-------+---------------------------------+----------------------------------------------------------------|
 | 0 | medium_doc0_introduction.org    | Personal introduction; the question behind the description     |
-| 1 | medium_doc1_foundation.org      | The Medium: Foundation Definition (primitives, three levels)   |
+| 1 | medium_doc1_definition.org      | The Medium: Foundation Definition (primitives, three levels)   |
 | 2 | medium_doc2_unified.org     | /This paper/                                                     |
 | 3 | medium_doc3_lagrangian.org  | Lagrangian of the Negotiation Field; QFT connection; SU(3)     |
 | 4 | medium_doc4_hamiltonian.org | Hamiltonian, energy spectrum, canonical quantization, ADM      |

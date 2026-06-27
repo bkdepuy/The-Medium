@@ -136,7 +136,7 @@ This is Document 1 of 5 in The Medium series.
 | *Doc* | *File*                          | *Content*                                                      |
 |-------+---------------------------------+----------------------------------------------------------------|
 | 0 | medium_doc0_introduction.org    | Personal introduction; the question behind the description     |
-| 1 | medium_doc1_foundation.org      | /This paper/                                                     |
+| 1 | medium_doc1_definition.org      | /This paper/                                                     |
 | 2 | medium_doc2_unified.org     | Negotiation Modes, Particle Structure, Proton Mass             |
 | 3 | medium_doc3_lagrangian.org  | Lagrangian of the Negotiation Field; QFT connection; SU(3)     |
 | 4 | medium_doc4_hamiltonian.org | Hamiltonian, energy spectrum, canonical quantization, ADM      |

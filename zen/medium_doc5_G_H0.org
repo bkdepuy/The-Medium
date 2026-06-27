@@ -34,7 +34,7 @@
 \begin{titlepage}
 \vspace*{3cm}
 \begin{center}
-  {\large\bfseries THE MEDIUM FRAMEWORK}\\[1em]
+  {\large\bfseries THE MEDIUM --- AN ATTEMPTED DESCRIPTION}\\[1em]
   {\LARGE\bfseries Deriving the Gravitational Constant $G$}\\[0.4em]
   {\LARGE\bfseries and the Hubble Constant $H_0$}\\[0.4em]
   {\large from Negotiation Substrate Primitives}\\[2em]
@@ -50,7 +50,7 @@
 
 * Abstract
 
-This paper derives the gravitational constant \(G\) and the Hubble constant \(H_0\) within The Medium, using only the foundational definition adopted in the companion papers: iota size \(1 =\) Planck length. \(G\) is derived from the Friedmann equation using the vacuum floor density \(\rho_\Lambda\) and the Hubble rate, achieving 94--97\% agreement with the measured value. \(H_0\) is derived as the negotiation frequency at the Hubble floor --- the longest wavelength mode the universe can sustain --- yielding a preferred prediction of 68.6 km/s/Mpc, which sits within the current observational tension range between the CMB value (67.4 km/s/Mpc) and the local distance ladder value (73.0 km/s/Mpc). Both derivations emerge from the same two-input foundation without free parameters. The cosmological constant \(\Lambda\) is identified as the Hubble floor energy density in Planck units, dissolving the \(10^{123}\) hierarchy problem by reframing it as the depth of the Medium rather than a fine-tuning requirement. The analytic prediction \(\Omega_\Lambda = 2/3\) follows directly and is testable from expansion history measurements alone.
+This paper derives the gravitational constant \(G\) and the Hubble constant \(H_0\) within The Medium, using only the foundational definition adopted in the companion papers: iota size \(1 =\) Planck length. \(G\) is derived from the Friedmann equation using the vacuum floor density \(\rho_\Lambda\) and the Hubble rate, achieving 94--97\% agreement with the measured value. \(H_0\) is derived as the negotiation frequency at the Hubble floor --- the longest wavelength mode the universe can sustain --- yielding a preferred prediction of 68.6 km/s/Mpc, which sits within the current observational tension range between the CMB value (67.4 km/s/Mpc) and the local distance ladder value (73.0 km/s/Mpc). Both derivations emerge from the same two-input foundation without free parameters. The cosmological constant \(\Lambda\) is identified as the Hubble floor energy density in Planck units, reframing the \(10^{123}\) hierarchy as the depth of the Medium between its grain and its horizon --- a reinterpretation that holds only if the Hamiltonian floor at \(\rho_\Lambda\) can be derived from substrate dynamics, which has not yet been done. The analytic prediction \(\Omega_\Lambda = 2/3\) follows directly and is testable from expansion history measurements alone.
 
 #+BEGIN_EXPORT latex
 \begin{defbox}
@@ -131,8 +131,8 @@ This is an exact algebraic result. Observed: \(\Omega_\Lambda \approx 0.685\) (P
 
 #+BEGIN_EXPORT latex
 \begin{predbox}
-\textbf{Prediction: $\Omega_\Lambda = 2/3$}\\[4pt]
-Testable from expansion history measurements alone (supernova luminosity distances, CMB flatness, baryon acoustic oscillations), without measuring $G$ directly. Current best value: $0.685$, discrepancy $2.7\%$.
+\textbf{Consequence of G formula: $\Omega_\Lambda = 2/3$}\\[4pt]
+This follows algebraically from $G = H_0^2/4\pi\rho_\Lambda$ substituted into the Friedmann equation. It is not an independent prediction --- if the G formula is wrong, so is $\Omega_\Lambda = 2/3$. They stand or fall together. Current best value: $0.685$, discrepancy $2.7\%$.
 \end{predbox}
 #+END_EXPORT
 
@@ -212,8 +212,8 @@ H_0 = c / R_H = 68.6\ \text{km/s/Mpc}
 
 #+BEGIN_EXPORT latex
 \begin{predbox}
-\textbf{Prediction: Hubble tension resolution}\\[4pt]
-The true background value of $H_0$ is 68.6 km/s/Mpc. The local distance ladder measurements are biased upward by approximately 4.4 km/s/Mpc due to local overdensity in our cosmic neighborhood. As local measurements improve and larger survey volumes are used, the local $H_0$ value should converge toward 68--69 km/s/Mpc.
+\textbf{Interpretation: Hubble tension}\\[4pt]
+$H_0 = 68.6$ km/s/Mpc is selected for internal consistency, not derived from the substrate. The interpretation that local measurements are biased upward by $\sim$4.4 km/s/Mpc due to local overdensity is a hypothesis without a derivation behind the bias claim. Whether large-volume surveys converge toward 68--69 km/s/Mpc is a consequence of that hypothesis, not an independent prediction.
 \end{predbox}
 #+END_EXPORT
 
@@ -290,15 +290,22 @@ All three paths give mutually consistent results within the identified correctio
 
 #+BEGIN_EXPORT latex
 \begin{predbox}
-\textbf{Four correlated predictions from two inputs:}
+\textbf{Predictions from cosmological evolution:}
 \begin{enumerate}\setlength\itemsep{2pt}
-\item $H_0 = 68.6 \pm 0.5$ km/s/Mpc --- large-volume surveys should converge toward this value
-\item Proton mass variation --- $m_\text{proton}$ decreases at rate $dm_p/dt = m_p \cdot H_0/3 \approx 10^{-29}$ kg/s
-\item $G$ variation --- $G$ increases as $H_0$ decreases: $dG/dt = -2G \cdot H_0 \approx -10^{-11}$ m$^3$ kg$^{-1}$ s$^{-3}$ yr$^{-1}$
-\item $\Lambda$ variation --- $\Lambda$ decreases as $R_H$ increases: $d\Lambda/dt = -2\Lambda \cdot H_0$
+\item $H_0 = 68.6 \pm 0.5$ km/s/Mpc --- selected for internal consistency; convergence of large-volume surveys toward this value would be supporting evidence
+\item $\Lambda$ variation --- $d\Lambda/dt = -2\Lambda \cdot H_0$; no current observational constraint at this precision
 \end{enumerate}
-All four predictions are correlated consequences of $H_0$ changing over cosmic time. Measuring these correlations over cosmological time would provide a powerful test of this description.
 \end{predbox}
+
+\begin{openbox}
+\textbf{Observational tensions --- may rule out current evolution equations}\\[4pt]
+The cosmological evolution of $G$ and $m_\text{proton}$ implied by the two-input description conflicts with current observations:
+\begin{itemize}\setlength\itemsep{2pt}
+\item $\dot{G}/G \approx -1.5\times10^{-10}$/yr (from $dG/dt = -2G \cdot H_0$). Current bounds: $|\dot{G}/G| < 4$--$9\times10^{-13}$/yr (MESSENGER, LLR, pulsar timing) --- roughly 200$\times$ tighter. This rate appears observationally ruled out.
+\item $\dot{m}_p/m_p \approx 7\times10^{-11}$/yr (from $dm_p/dt = m_p \cdot H_0/3$). Current bounds: $|\dot{m}_p/m_p| < 10^{-14}$/yr (atomic clocks, quasar spectroscopy) --- roughly 7000$\times$ tighter. This rate also appears observationally ruled out.
+\end{itemize}
+Resolving these tensions requires either a physical mechanism that suppresses local variation while allowing secular variation over Hubble timescales, or a revision of the cosmological evolution equations. Until one of these is identified, these are failed predictions of the current description.
+\end{openbox}
 #+END_EXPORT
 
 * Summary
@@ -330,7 +337,7 @@ This is Document 5 of 5 in The Medium series.
 | *Doc* | *File*                          | *Content*                                                      |
 |-------+---------------------------------+----------------------------------------------------------------|
 | 0 | medium_doc0_introduction.org    | Personal introduction; the question behind the description     |
-| 1 | medium_doc1_foundation.org      | The Medium: Foundation Definition (primitives, three levels)   |
+| 1 | medium_doc1_definition.org      | The Medium: Foundation Definition (primitives, three levels)   |
 | 2 | medium_doc2_unified.org     | Negotiation Modes, Particle Structure, Proton Mass             |
 | 3 | medium_doc3_lagrangian.org  | Lagrangian of the Negotiation Field; QFT connection; SU(3)     |
 | 4 | medium_doc4_hamiltonian.org | Hamiltonian, energy spectrum, canonical quantization, ADM      |

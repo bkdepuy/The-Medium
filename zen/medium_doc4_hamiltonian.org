@@ -33,7 +33,7 @@
 \begin{titlepage}
 \vspace*{3cm}
 \begin{center}
-  {\large\bfseries THE MEDIUM FRAMEWORK}\\[1em]
+  {\large\bfseries THE MEDIUM --- AN ATTEMPTED DESCRIPTION}\\[1em]
   {\LARGE\bfseries The Hamiltonian of the Negotiation Field:}\\[0.4em]
   {\large Energy Spectrum, Quantum States, and Canonical Quantization}\\[2em]
   {\normalsize Bradley K. DePuy, Independent Researcher}\\[0.4em]
@@ -162,7 +162,7 @@ E_n = \varepsilon \cdot n \quad \text{(complete graphs, ground non-trivial mode)
 | \(n\) | *Structure* | *Predicted* | *Observed* |
 |-------+-------------+-------------+------------|
 | 2 | Meson | \(2\varepsilon = 625.6\) MeV | \(\rho\) meson \(\approx 770\) MeV |
-| 3 | Proton | \(3\varepsilon = 938.3\) MeV | 938.3 MeV (exact) |
+| 3 | Proton | \(3\varepsilon = 938.3\) MeV | 938.3 MeV (by construction) |
 | 4 | Light scalar | \(4\varepsilon = 1251\) MeV | \(a_0(980)\) |
 | 5 | Pentaquark | \(5\varepsilon = 1564\) MeV | Observed range |
 
@@ -354,11 +354,11 @@ In The Medium, the minimum area from the triangle eigenvalue \(\lambda = 3\):
 A_\text{min} = \gamma \cdot l_\text{Planck}^2 \cdot \sqrt{3} \approx 0.2375 \cdot \sqrt{3} \cdot l_\text{Planck}^2
 \end{equation}
 
-This matches the LQG minimum area for \(j = \tfrac{1}{2}\) spin networks. The negotiation edge in The Medium corresponds to a \(j = \tfrac{1}{2}\) spin network edge in LQG.
+These two formulas differ by a factor of \(4\pi \approx 12.6\). The LQG formula contains an additional \(4\pi\) factor whose origin in The Medium's expression --- likely a sphere-area normalization or solid-angle factor in the iota surface area calculation --- has not been identified. The structural correspondence is suggestive; the numerical match has not been established.
 
 ** The Hamiltonian Constraint
 
-The Hamiltonian constraint \(H = 0\) in LQG generates time diffeomorphisms. In The Medium, the corresponding constraint is that the total negotiation energy is stationary --- the closure condition expressed as an energy equation. The Medium therefore inherits LQG's diffeomorphism invariance from the negotiation closure condition, not as an imposed symmetry but as a consequence of the substrate dynamics.
+The Hamiltonian constraint \(H = 0\) in LQG generates time diffeomorphisms. In The Medium, the corresponding constraint is that the total negotiation energy is stationary --- the closure condition expressed as an energy equation. The Medium shares the structural motivation for diffeomorphism invariance with LQG. Whether the full Dirac algebra of constraints --- spatial diffeomorphisms and Hamiltonian --- closes without anomaly is an open calculation. The closure condition motivates the constraint; it does not establish that the constraint algebra closes.
 
 #+BEGIN_EXPORT latex
 \begin{openbox}
@@ -383,15 +383,15 @@ All terms dimensionless in Planck units. Derived from the Lagrangian of Document
 
 Established by this paper:
 1. *Energy spectrum* --- eigenvalues of \(\hat{H}\) are particle masses: \(E_n = \varepsilon \cdot n\) for complete graphs
-2. *Quantum states* --- proton spin-up and spin-down are degenerate eigenstates with \(E = 3\varepsilon\)
+2. *Quantum states* --- proton spin-up and spin-down are degenerate eigenstates with \(E = 3\varepsilon\) (structural identification; SU(2) representation theory not yet derived)
 3. *Schrödinger equation* --- \(i\hbar\,\partial|\Psi\rangle/\partial t = \hat{H}|\Psi\rangle\) governs state evolution
 4. *Heisenberg equation* --- \(d^2\hat{N}/dt^2 = -L\hat{N}\) reproduces the wave equation as an operator identity
 5. *Uncertainty principle* --- \(\Delta N \cdot \Delta\Pi \geq \hbar/2\) follows from \([\hat{N},\hat{\Pi}] = i\hbar\) and the iota scale
 6. *Creation/annihilation* --- particle creation \(=\) forming closed graph; annihilation \(=\) dissolving graph
 7. *Vacuum energy* --- \(E_\text{vacuum} = E_\text{Hubble}/2\) if the Hamiltonian floor condition holds; consistent with observed \(\Lambda\) but conditional on that floor derivation
-8. *Gravitational Hamiltonian* --- ADM formalism recovered from negotiation graph curvature
-9. *LQG connection* --- negotiation graph is a spin network; \(\gamma\) appears from minimum area quantum
-10. *Diffeomorphism invariance* --- Hamiltonian constraint \(H = 0\) follows from closure condition
+8. *Gravitational Hamiltonian* --- schematic ADM structure present (\(\tfrac{1}{2}\pi^2 - \tfrac{1}{2}R\)); lapse and shift functions, extrinsic curvature tensor, and full diffeomorphism constraint not yet derived
+9. *LQG connection* --- negotiation graph is structurally analogous to a spin network; \(\gamma\) appears from minimum area quantum; formulas differ by \(4\pi\) (open)
+10. *Diffeomorphism invariance* --- Hamiltonian constraint structure shared with ADM; whether the full constraint algebra closes is an open calculation
 
 * Document Series and Cross-References
 
@@ -401,7 +401,7 @@ This is Document 4 of 5 in The Medium series.
 | *Doc* | *File*                          | *Content*                                                      |
 |-------+---------------------------------+----------------------------------------------------------------|
 | 0 | medium_doc0_introduction.org    | Personal introduction; the question behind the description     |
-| 1 | medium_doc1_foundation.org      | The Medium: Foundation Definition (primitives, three levels)   |
+| 1 | medium_doc1_definition.org      | The Medium: Foundation Definition (primitives, three levels)   |
 | 2 | medium_doc2_unified.org     | Negotiation Modes, Particle Structure, Proton Mass             |
 | 3 | medium_doc3_lagrangian.org  | Lagrangian of the Negotiation Field; QFT connection; SU(3)     |
 | 4 | medium_doc4_hamiltonian.org | /This paper/                                                     |

@@ -1,0 +1,403 @@
+% Created 2026-06-27 Sat 13:57
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{left=1.2in, right=1.2in, top=1.0in, bottom=1.0in}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textgreek}
+\PassOptionsToPackage{hidelinks}{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+\fancypagestyle{body}{%
+\fancyhf{}%
+\fancyhead[C]{\small The Medium --- Action Plan $\cdot$ 2026}%
+\fancyfoot[C]{\thepage}%
+\renewcommand{\headrulewidth}{0.4pt}}
+\pagestyle{body}
+\author{Bradley K. DePuy}
+\date{2026-06-27}
+\title{The Medium --- Action Plan: Open Problems and Priorities}
+\hypersetup{
+ pdfauthor={Bradley K. DePuy},
+ pdftitle={The Medium --- Action Plan: Open Problems and Priorities},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.3 (Org mode 9.6.15)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{Overview}
+\label{sec:org1fbf79a}
+
+This document replaces the original Smolin/Rovelli/Hossenfelder critical review
+action plan. Many issues from that review have been addressed in the current
+document revisions. This plan tracks what remains open, what has been resolved,
+and the priority order for future work.
+
+\subsection{What Has Been Resolved}
+\label{sec:org83c3506}
+
+The following issues from the original review have been addressed in the
+current document set (docs 0--5):
+
+\begin{itemize}
+\item \textbf{SU(3) claim corrected} --- body and abstract now correctly state U(1) ×U(2)
+as the established group; SU(3) moved to open derivation status (Doc 3)
+\item \textbf{LQG minimum area match removed} --- 4π discrepancy between The Medium and
+LQG formulas now explicitly noted (Doc 4)
+\item \textbf{Diffeomorphism invariance claim hedged} --- "inherits" replaced with
+structural motivation shared; constraint algebra closing identified as open (Doc 4)
+\item \textbf{Proton mass labeling fixed} --- "Exact" changed to "Exact (by construction)"
+in all tables (Docs 1, 2, 4, 5)
+\item \textbf{G and m\_p variation predictions flagged} --- moved from predbox to openbox;
+explicitly noted as appearing observationally ruled out with specific numbers (Doc 5)
+\item \textbf{H\(_0\) predbox softened} --- "Prediction" changed to "Interpretation"; selected
+value vs. derived value distinction made clear (Doc 5)
+\item \textbf{Ω\_Λ = 2/3 relabeled} --- "Prediction" changed to "Consequence of G formula";
+not independently testable (Doc 5)
+\item \textbf{Λ hierarchy claim made conditional} --- floor derivation identified as
+required; "dissolving" language removed (Docs 3, 5)
+\item \textbf{ADM summary corrected} --- "recovered" replaced with schematic structure
+present; missing components listed (Doc 4)
+\item \textbf{Pion added to hadron table} --- explicitly noted as not explained by current
+formula (Doc 2)
+\item \textbf{"Complete chain" removed} --- changed to "connected chain\ldots{} with open
+calculations explicitly identified" (Doc 2)
+\item \textbf{Spin identification qualified} --- SU(2) representation theory noted as not
+yet derived (Doc 4)
+\item \textbf{Color charge claim qualified} --- "are color charge" changed to "structurally
+analogous to color charge labels" (Doc 2)
+\end{itemize}
+
+\section{{\bfseries\sffamily FATAL} Issues}
+\label{sec:org30ab447}
+
+\subsection{{\bfseries\sffamily FATAL} [F1] The substrate field and the negotiation field are not connected}
+\label{sec:orga1de393}
+Doc 1 introduces the substrate field \(\phi: M \to \{+1,-1\}\) as the primitive
+description. Doc 1 then introduces the negotiation field \(N_{ij}\) as "encoding
+the boundary state between adjacent \(\iota\) events \(i\) and \(j\)." These are
+two different mathematical objects and no derivation connects them. The Lagrangian
+is written in terms of \(N\), not \(\phi\). A physicist will immediately ask: how
+does the binary stochastic field \(\phi\) give rise to \(N\)?
+
+\subsubsection{Action steps}
+\label{sec:org0813c42}
+
+\begin{enumerate}
+\item{$\square$} Either derive \(N_{ij}\) from \(\phi\) --- for example, define \(N_{ij}\)
+as a function of the character difference \(\phi(i) - \phi(j)\) or a local
+average over \(\phi\) --- or explicitly acknowledge that \(N\) is introduced
+as a second primitive and justify why.
+\item{$\square$} The domain \(M\) in \(\phi: M \to \{+1,-1\}\) is never defined. Specify
+what \(M\) is. If \(M\) is pre-geometric, what does "location" mean? If \(M\)
+is the set of \(\iota\) events, say so.
+\item{$\square$} If \(N_{ij}\) cannot be derived from \(\phi\), consolidate the description
+around \(N\) as the true primitive and remove or demote \(\phi\).
+\end{enumerate}
+
+\subsection{{\bfseries\sffamily FATAL} [F2] "From First Principles" on Doc 2 title page is not defensible}
+\label{sec:org48e5696}
+Doc 2's title page says "from First Principles." The body of Doc 2 correctly
+states that \(\varepsilon\) is defined from the proton mass (not derived), that
+\(H_0\) is selected for internal consistency (not derived), and that the 2:1
+geometric mean weighting is empirical (not derived). "From First Principles"
+contradicts all three of these honest admissions on the same pages.
+
+\subsubsection{Text fix}
+\label{sec:org00c49d3}
+
+Remove "from First Principles" from the Doc 2 title page subtitle line.
+Replace with something honest such as "from Substrate Primitives --- with Open
+Derivations Identified."
+
+\section{{\bfseries\sffamily SEVERE} Issues}
+\label{sec:orgded931c}
+
+\subsection{{\bfseries\sffamily SEVERE} [S1] G and m\_p variation rates appear observationally ruled out}
+\label{sec:org95973de}
+The cosmological evolution equations give:
+\begin{itemize}
+\item \(\dot{G}/G \approx -1.5 \times 10^{-10}\)/yr
+\item \(\dot{m}_p/m_p \approx 7 \times 10^{-11}\)/yr
+\end{itemize}
+
+Current observational bounds are approximately 200× tighter for \(G\) and approximately 7000× tighter
+for \(m_p\). These are now flagged in Doc 5 as "may be observationally ruled out"
+in an openbox. This is correct but incomplete --- the underlying equations need
+to be examined.
+
+\subsubsection{Action steps}
+\label{sec:orgb5dcb8b}
+
+\begin{enumerate}
+\item{$\square$} Determine whether a physical mechanism exists that suppresses local
+variation while allowing secular variation over Hubble timescales. This is
+the only route to saving these predictions. Candidates: the floor condition
+at \(\rho_\Lambda\), or a relational definition of \(G\) and \(m_p\) that
+makes them observer-dependent rather than absolute.
+\item{$\square$} If no such mechanism can be identified, remove the evolution equations
+for \(G\) and \(m_p\) from the description entirely, or relocate them to
+a section labeled "candidate equations pending constraint analysis."
+\item{$\square$} \(\Lambda\) variation (\(d\Lambda/dt = -2\Lambda H_0\)) has no current
+constraint but follows from the same equations. Its status is linked to
+items 1 and 2.
+\end{enumerate}
+
+\subsection{{\bfseries\sffamily SEVERE} [S2] Fermionic statistics not produced by the bosonic Lagrangian}
+\label{sec:orgabdcdf0}
+The negotiation Lagrangian is bosonic. Canonical quantization gives
+\([\hat{a}, \hat{a}^\dagger] = 1\) (Bose-Einstein statistics). The proton is
+a spin-1/2 fermion. This is identified as a primary open problem in Docs 3 and 4
+but no progress has been made on either candidate resolution.
+
+\subsubsection{Action steps}
+\label{sec:orgc737115}
+
+\begin{enumerate}
+\item{$\square$} Investigate composite antisymmetrization first: show whether three
+bosonic quanta in the antisymmetric combination on the triangle nodes acquire
+fermionic exchange behavior under interchange of two protons. Write out the
+explicit state and check the exchange statistics.
+\item{$\square$} If antisymmetrization fails: investigate Grassmann-valued \(N\) and
+rederive the Lagrangian with anticommuting fields.
+\item{$\square$} Document whichever path is pursued, even if it fails, so a mathematician
+reading this knows what has been tried.
+\end{enumerate}
+
+\subsection{{\bfseries\sffamily SEVERE} [S3] The energy formula E(n,k) = ε·k·n is not fully derived}
+\label{sec:org5c8e34a}
+The formula is presented as following from the Hamiltonian eigenvalue equation,
+and for complete graphs \(K_n\) with mode \(k=1\) (ground non-trivial mode),
+\(E = \varepsilon \cdot n\) follows directly from \(\lambda = n\). But the \(k\)
+factor for higher modes is introduced without derivation, and the table in Doc 4
+uses \(E_n = \varepsilon \cdot n\) without specifying \(k\). For the rho meson
+(n=2) the predicted value of 625.6 MeV already differs from observed (775 MeV)
+by 19\%. The formula's domain of validity is unclear.
+
+\subsubsection{Action steps}
+\label{sec:org4534271}
+
+\begin{enumerate}
+\item{$\square$} Derive explicitly what \(k\) represents for higher negotiation modes on
+complete graphs and write out \(E(n,k)\) with \(k\) specified for each entry
+in the hadron table.
+\item{$\square$} Address the rho meson 19\% discrepancy: is the formula valid for n=2
+or does the two-node topology require a different treatment?
+\end{enumerate}
+
+\section{{\bfseries\sffamily SERIOUS} Issues}
+\label{sec:org790203f}
+
+\subsection{{\bfseries\sffamily SERIOUS} [SR1] The symmetry group of the triangle Lagrangian not established}
+\label{sec:orgf5c9bbe}
+Doc 3 now correctly states that the group is U(1) ×U(2), not SU(3), and
+identifies SU(3) as an open derivation. But the path from U(1) ×U(2) to SU(3)
+--- if it exists --- has not been investigated. This blocks the color charge
+identification and the strong force correspondence.
+
+\subsubsection{Action steps}
+\label{sec:orgdd794dd}
+
+\begin{enumerate}
+\item{$\square$} Compute the symmetry group of \(N^\dagger L N\) for \(K_3\) with complex
+\(N\) explicitly. Confirm U(1) ×U(2).
+\item{$\square$} Identify what additional invariant --- a cubic \(\varepsilon_{ijk}\) term,
+a different action on edge states --- could promote the symmetry to SU(3).
+\item{$\square$} If SU(3) cannot be reached: accept U(1) ×U(2) as the established group
+and demote all color charge correspondence to "structural analogy at the level
+of node counting."
+\end{enumerate}
+
+\subsection{{\bfseries\sffamily SERIOUS} [SR2] The pion is absent from the hadron spectrum}
+\label{sec:org4c9a1b3}
+The pion (135 MeV) is the lightest hadron and the most important test case.
+It is now explicitly listed in the Doc 2 hadron table as "not explained by this
+formula." A physicist reviewing this will treat the pion's absence as a primary
+failure of the spectrum description, not a minor gap. It requires a qualitatively
+different physical mechanism (chiral symmetry breaking) that is not present in
+the current description.
+
+\subsubsection{Action steps}
+\label{sec:org7b6c460}
+
+\begin{enumerate}
+\item{$\square$} Investigate whether the pion can be accommodated as a two-node graph with
+a non-complete topology (i.e., a single edge rather than the complete graph),
+or as a Goldstone mode of a broken symmetry in the negotiation field.
+\item{$\square$} If neither works: explicitly state in Doc 2 that the light meson sector
+requires a mechanism outside the current description, and identify what that
+mechanism would need to be.
+\end{enumerate}
+
+\subsection{{\bfseries\sffamily SERIOUS} [SR3] The problem of time is unaddressed}
+\label{sec:orgaacb62a}
+The Lagrangian and Hamiltonian use \(\partial N/\partial t\). In a pre-geometric
+description, \(t\) must emerge from the substrate. The description currently uses
+background time without acknowledging this as a structural gap. This is
+particularly acute given the LQG analogy in Doc 4 --- the problem of time is one
+of LQG's central unresolved issues.
+
+\subsubsection{Action steps}
+\label{sec:org9198274}
+
+\begin{enumerate}
+\item{$\square$} Add a brief section to Doc 1 or Doc 4 titled "The Problem of Time"
+identifying what \(t\) is in the description. Candidates: a discrete count
+of \(\iota\) negotiation steps; a relational time defined by the \(\iota\) cycle
+count relative to a reference mode; or a classical background retained as an
+approximation. State which is assumed and why.
+\end{enumerate}
+
+\subsection{{\bfseries\sffamily SERIOUS} [SR4] The Hamiltonian floor condition is underived}
+\label{sec:org7f6e5fa}
+Several results are conditional on the Hamiltonian being undefined below the
+vacuum floor \(\rho_\Lambda\). This is now correctly flagged as conditional in
+Docs 3 and 5. But the floor condition is also the only route to addressing the
+G and m\_p variation tensions (SEVERE [S1]) and the only route to the Λ hierarchy
+resolution. Its derivation is therefore load-bearing for multiple claims.
+
+\subsubsection{Action steps}
+\label{sec:orgbbf6907}
+
+\begin{enumerate}
+\item{$\square$} Attempt to derive the floor condition from the substrate Lagrangian: show
+that modes below \(\rho_\Lambda\) have zero amplitude in the path integral, or
+that the Hamiltonian is ill-defined for configurations below the Hubble-floor
+energy density.
+\item{$\square$} If derivation is not achievable: consolidate all conditional results into
+a single "conditional on floor derivation" section in Doc 1, so the dependency
+is visible in one place.
+\end{enumerate}
+
+\section{{\bfseries\sffamily MODERATE} Issues}
+\label{sec:org8c3fc5e}
+
+\subsection{{\bfseries\sffamily MODERATE} [M1] The LQG minimum area discrepancy has no resolution}
+\label{sec:org98a82d7}
+The 4π factor difference between The Medium's area formula and the LQG formula
+is now honestly flagged. But its origin is unknown. A sphere-area normalization
+or solid-angle factor is suggested as a candidate; this has not been checked.
+
+\subsubsection{Action steps}
+\label{sec:org3c753b2}
+
+\begin{enumerate}
+\item{$\square$} Work out the iota surface area calculation explicitly and determine where
+a factor of \(4\pi\) could enter. Either find it or confirm it is absent and
+the correspondence is structural only.
+\end{enumerate}
+
+\subsection{{\bfseries\sffamily MODERATE} [M2] Metric identification h\_ij (L\^{}\{-1\}) (L(L\^{}\{-1\}))\_ij not justified}
+\label{sec:org1da8ef6}
+The inverse Laplacian is the graph Green's function, encoding signal propagation,
+not a metric in the Riemannian sense. The identification requires showing correct
+transformation under graph automorphisms, correct signature, and recovery of flat
+space in vacuum.
+
+\subsubsection{Action steps}
+\label{sec:org580c565}
+
+\begin{enumerate}
+\item{$\square$} Either derive the metric properties of \((L^{-1})_{ij}\) explicitly, or
+replace the identification with: "The inverse Laplacian is a candidate for
+the emergent metric; establishing its Riemannian properties is open work."
+\end{enumerate}
+
+\subsection{{\bfseries\sffamily MODERATE} [M3] Barbero-Immirzi derivation remains the single most valuable calculation}
+\label{sec:org74deed2}
+\(\gamma \approx 0.2375\) appears as the residual correction in three separate
+gaps: \(G\) (3--6$\backslash$%), proton mass (10$\backslash$%), and \(\hbar\) (0.9$\backslash$%). In LQG,
+\(\gamma\) is fixed by black hole entropy counting. If the same entropy counting
+performed on the negotiation graph gives \(\gamma \approx 0.2375\), it would
+simultaneously close all three gaps and confirm that \(\gamma\) is not a free
+parameter. This is the single calculation with the highest payoff across the
+entire description.
+
+\subsubsection{Action steps}
+\label{sec:orgb010985}
+
+\begin{enumerate}
+\item{$\square$} Attempt the Bekenstein-Hawking entropy count on the negotiation graph of
+a black hole horizon: count the microstate degeneracy of the negotiation modes
+on the horizon graph and require it to equal \(A/4l_\text{Planck}^2\).
+\item{$\square$} Even a partial result --- showing the entropy count has the right
+structure to fix \(\gamma\) --- would be significant.
+\end{enumerate}
+
+\section{Priority Order for Next Working Session}
+\label{sec:org64f71fb}
+
+In order of what unblocks the most downstream work:
+
+\begin{enumerate}
+\item \textbf{FATAL-F2 (text fix):} Remove "from First Principles" from Doc 2 title page.
+Takes five minutes. Removes an immediate credibility problem.
+
+\item \textbf{FATAL-F1 (foundational gap):} Connect \(\phi\) to \(N\), or consolidate
+around \(N\) as the true primitive. This is the deepest structural gap. Even
+a clear statement of what \(N\) is and where it comes from would help.
+
+\item \textbf{MODERATE-M3 (Barbero-Immirzi):} The entropy counting calculation. High
+payoff: closes three gaps simultaneously and may constrain the G and m\_p
+variation rates if the floor condition falls out of it.
+
+\item \textbf{SEVERE-S1 (G and m\_p variation):} Determine whether a suppression mechanism
+exists. If not, formally withdraw those predictions. Leaving them as
+"may be ruled out" is better than before but a physicist will want resolution.
+
+\item \textbf{SERIOUS-SR1 (symmetry group):} Complete the group theory calculation for
+\(K_3\). This either establishes the SU(3) correspondence or closes the door
+on it, which is better than the current uncertainty.
+
+\item \textbf{SERIOUS-SR2 (pion):} Investigate Goldstone / non-complete-graph
+accommodations. If neither works, state so explicitly. The pion cannot be
+ignored indefinitely.
+
+\item \textbf{SEVERE-S2 (fermionic statistics):} Try the composite antisymmetrization
+route. If it works it resolves the most fundamental physical gap in the
+description.
+
+\item \textbf{SERIOUS-SR3 and SR4 (time and floor condition):} Add the problem of time
+section; attempt the floor derivation. Both are required for the description
+to be internally consistent at a foundational level.
+\end{enumerate}
+
+\section{What Does Not Need Fixing}
+\label{sec:orgdbcf747}
+
+\begin{itemize}
+\item The internal consistency triangle (\(G\), \(H_0\), \(m_\text{proton}\)) is a
+genuine structural observation and should be highlighted, not hedged further.
+\item The openbox and plainbox structure across Docs 2--5 is good practice and
+should be extended to any new sections rather than removed.
+\item The honest labeling of open calculations, failed predictions, and structural
+candidates rather than established results is the right register for the
+current state of the work. Do not retreat from this.
+\item Doc 0 (personal introduction) is in good shape and sets the right tone.
+\item The topology hierarchy (\(n=2,3,4,5\) complete graphs) is a genuine structural
+result even if incomplete. Keep it.
+\end{itemize}
+\end{document}

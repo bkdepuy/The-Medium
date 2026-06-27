@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.31)  27 JUN 2026 13:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.31)  27 JUN 2026 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**medium_definition_draft.tex
-(./medium_definition_draft.tex
+**medium_doc1_definition.tex
+(./medium_doc1_definition.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -759,8 +759,8 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count326
 \l__pdf_internal_box=\box90
 )
-(./medium_definition_draft.aux)
-\openout1 = `medium_definition_draft.aux'.
+(./medium_doc1_definition.aux)
+\openout1 = `medium_doc1_definition.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
@@ -805,9 +805,9 @@ e
 ))
 Package hyperref Info: Link coloring OFF on input line 46.
 
-(./medium_definition_draft.out) (./medium_definition_draft.out)
+(./medium_doc1_definition.out) (./medium_doc1_definition.out)
 \@outlinefile=\write4
-\openout4 = `medium_definition_draft.out'.
+\openout4 = `medium_doc1_definition.out'.
 
 
 *geometry* driver: auto-detecting
@@ -911,23 +911,23 @@ Overfull \hbox (26.91676pt too wide) in paragraph at lines 169--181
  [] 
  []
 
-[2] [3] (./medium_definition_draft.aux)
+[2] [3] (./medium_doc1_definition.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `medium_definition_draft.out' has not changed
-.
+Package rerunfilecheck Info: File `medium_doc1_definition.out' has not changed.
+
 (rerunfilecheck)             Checksum: 7A25EED53D0416AEA195E106CCC271A2;799.
  ) 
 Here is how much of TeX's memory you used:
  26926 strings out of 476080
- 522404 string characters out of 5792744
+ 522385 string characters out of 5792744
  1936975 words of memory out of 5000000
  48415 multiletter control sequences out of 15000+600000
  575852 words of font info for 117 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 83i,14n,93p,1020b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,14n,93p,1019b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
@@ -943,7 +943,7 @@ frm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/sh
 are/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
 tt1095.pfb>
-Output written on medium_definition_draft.pdf (4 pages, 262381 bytes).
+Output written on medium_doc1_definition.pdf (4 pages, 262381 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  106 compressed objects within 2 object streams
