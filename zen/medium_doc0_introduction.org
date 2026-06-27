@@ -1,0 +1,104 @@
+#+TITLE: The Medium: A Personal Introduction
+#+AUTHOR: Bradley K. DePuy, Independent Researcher
+#+DATE: 2026
+#+OPTIONS: toc:nil num:t H:4 ^:nil title:nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [11pt,letterpaper]
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{amssymb}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{left=1.4in, right=1.4in, top=1.2in, bottom=1.2in}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \usepackage{microtype}
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \PassOptionsToPackage{hidelinks}{hyperref}
+#+LATEX_HEADER: \setlength{\parindent}{0pt}
+#+LATEX_HEADER: \setlength{\parskip}{8pt}
+#+LATEX_HEADER: \onehalfspacing
+#+LATEX_HEADER: \fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+#+LATEX_HEADER: \fancypagestyle{body}{%
+#+LATEX_HEADER:   \fancyhf{}%
+#+LATEX_HEADER:   \fancyhead[C]{\small Document 0 of 5 $\cdot$ DOI: 10.5281/zenodo.18927154 $\cdot$ CC BY 4.0}%
+#+LATEX_HEADER:   \fancyfoot[C]{\thepage}%
+#+LATEX_HEADER:   \renewcommand{\headrulewidth}{0.4pt}}
+
+#+BEGIN_EXPORT latex
+\pagestyle{plain}
+\begin{titlepage}
+\vspace*{4cm}
+\begin{center}
+  {\LARGE\bfseries The Medium}\\[0.6em]
+  {\large A Pre-Geometric Substrate Theory --- Personal Introduction}\\[2.5em]
+  {\normalsize Bradley K. DePuy, Independent Researcher}\\[0.5em]
+  {\normalsize ORCID: \mbox{\texttt{0009-0001-0328-2299}}}\\[0.5em]
+  {\normalsize 2026}
+\end{center}
+\end{titlepage}
+\pagestyle{body}
+#+END_EXPORT
+
+* Who I Am
+
+I retired from coding nearly 20 years ago and now have the time to explore questions plaguing me for some time.
+
+I have wondered, what if I had pursued an academic path in Physics and Mathematics.  Probably both a blessing and a curse.
+It would be a curse due to the constraint to prove my self within the tightly closed box of institutional acceptance.
+This would have limited my ability to see other possibilities.
+It would have been a blessing as I may now see the mathematical patterns necessary to expand the documents that follow.
+
+That is worth saying at the start, because it matters for how you read what follows. The
+five documents in this series are my attempt at a new foundational approach.
+
+This document is different. This one is about the question
+--- where does it all come from.
+
+* The Question
+
+Where does it all come from is an existential question that may not have an answer.
+I have to ask that question.  I have and am reading a number of books by theoretical phisicists
+
+
+* What the Available Answers Did
+
+* What I Kept Coming Back To
+
+
+The question "why something rather than nothing" assumes that nothing is the natural state
+and something requires an explanation. But what if that's backwards? What if nothing is the
+harder thing to sustain? What if, given an infinite domain with no constraints and no
+preferred states, the emergence of /something/ is not a puzzle requiring explanation but an
+inevitability?
+
+I couldn't prove that. But it kept feeling more honest than the alternatives.
+
+The other thing I kept coming back to was the strangeness of how much the universe
+apparently cares about mathematics. The equations of physics work. Not approximately ---
+with extraordinary precision. The ratio of the proton mass to the Planck energy, the
+cosmological constant, the fine structure constant --- these numbers are what they are, and
+when you write them down together, they form patterns that feel like they're trying to say
+something.
+
+And then there was the incompatibility problem. Quantum mechanics and general relativity
+are both right. They are also mutually incompatible. Physicists have known this for a
+century. My suspicion, sitting with this for a long time, was that they are incompatible
+not because we haven't found the right math yet, but because they are both descriptions of
+the same thing from inside the thing, and descriptions from inside can be mutually
+inconsistent even when the underlying thing is perfectly coherent.
+
+* Where This Leads
+
+At some point I stopped waiting for someone else to produce an answer I could believe and
+started trying to construct one myself.
+
+I want to be careful about what I'm claiming. I don't think I have solved anything. The
+question of why there is something rather than nothing may not have a solution in any
+conventional sense. What I have is a framework that is honest about its starting point ---
+one that takes the question seriously instead of bracketing it --- and that makes contact
+with actual physics in ways that can be checked.
+
+What follows in Documents 1 through 5 is that attempt made mathematical. The open
+problems are real and I haven't hidden them. But the math came after the question. This
+document is the question.
+
+--- /Bradley K. DePuy, 2026/
