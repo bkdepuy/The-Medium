@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.31)  27 JUN 2026 14:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.31)  27 JUN 2026 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -910,31 +910,32 @@ been already used, duplicate ignored
                    \relax 
 l.109 
        [1{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [2]
-Overfull \hbox (45.89822pt too wide) in paragraph at lines 200--201
+[3]
+Overfull \hbox (45.89822pt too wide) in paragraph at lines 215--216
 \T1/cmr/m/n/10.95 (-20) CC BY 4.0. DOI: 10.5281/zen-odo.18927154  OR-CID: 0009-
 0001-0328-2299  github.com/bkdepuy/The-
  []
 
 
-Overfull \hbox (26.91676pt too wide) in paragraph at lines 208--220
+Overfull \hbox (26.91676pt too wide) in paragraph at lines 223--235
  [] 
  []
 
-[3] [4] (./medium_doc1_definition.aux)
+[4] (./medium_doc1_definition.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `medium_doc1_definition.out' has not changed.
 
-(rerunfilecheck)             Checksum: 54407D822B474F073EBB5433635749B6;1725.
+(rerunfilecheck)             Checksum: 3FFAFC3149E62A0A35B7EC35483648FB;1909.
  ) 
 Here is how much of TeX's memory you used:
- 27004 strings out of 476080
- 523436 string characters out of 5792744
- 1935975 words of memory out of 5000000
- 48447 multiletter control sequences out of 15000+600000
- 579505 words of font info for 142 fonts, out of 8000000 for 9000
+ 27013 strings out of 476080
+ 523546 string characters out of 5792744
+ 1937975 words of memory out of 5000000
+ 48449 multiletter control sequences out of 15000+600000
+ 579694 words of font info for 145 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  83i,13n,93p,1019b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
@@ -953,10 +954,10 @@ lic/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm080
 xmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/publ
 ic/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095
 .pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on medium_doc1_definition.pdf (5 pages, 298078 bytes).
+Output written on medium_doc1_definition.pdf (5 pages, 301186 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 41581 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 41589 words of extra memory for PDF output out of 42996 (max. 10000000)
 

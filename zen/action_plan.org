@@ -67,48 +67,63 @@ current document set (docs 0--5):
 
 * FATAL Issues
 
-** FATAL [F1] The substrate field and the negotiation field are not connected
+** FATAL [F1] Foundation connection --- substantially addressed, four gaps remain
 :PROPERTIES:
 :DOC: 1
 :TYPE: OPEN MATH
 :END:
 
-Doc 1 introduces the substrate field \(\phi: M \to \{+1,-1\}\) as the primitive
-description. Doc 1 then introduces the negotiation field \(N_{ij}\) as "encoding
-the boundary state between adjacent \(\iota\) events \(i\) and \(j\)." These are
-two different mathematical objects and no derivation connects them. The Lagrangian
-is written in terms of \(N\), not \(\phi\). A physicist will immediately ask: how
-does the binary stochastic field \(\phi\) give rise to \(N\)?
+Doc 1 has been substantially revised. The following have been resolved:
 
-*** Action steps
+- [X] \(M\) defined: \(M\) is the substrate itself. Not a geometric space.
+- [X] \(\iota\) is a distinction within \(M\), not an event (no sequence implied).
+- [X] \(\phi: M \to \{+1,-1\}\) replaced by \(c: D \times D \to \{\mathrm{same}, \mathrm{different}\}\). Character is relational, not intrinsic.
+- [X] Relations between co-existing distinctions are unavoidable (self-grounding argument: follows from singularity of \(M\), same logic as distinction itself requiring no cause).
+- [X] Adjacency constraint reframed as informational, not topological.
+- [X] Closure condition identified as the localization mechanism: closed structures are self-contained; open chains are unstable and must close.
+- [X] Degree-2 argument stated and its implication documented (see below).
 
-1. [ ] Either derive \(N_{ij}\) from \(\phi\) --- for example, define \(N_{ij}\)
-   as a function of the character difference \(\phi(i) - \phi(j)\) or a local
-   average over \(\phi\) --- or explicitly acknowledge that \(N\) is introduced
-   as a second primitive and justify why.
-2. [ ] The domain \(M\) in \(\phi: M \to \{+1,-1\}\) is never defined. Specify
-   what \(M\) is. If \(M\) is pre-geometric, what does "location" mean? If \(M\)
-   is the set of \(\iota\) events, say so.
-3. [ ] If \(N_{ij}\) cannot be derived from \(\phi\), consolidate the description
-   around \(N\) as the true primitive and remove or demote \(\phi\).
+Four gaps remain open:
 
-** FATAL [F2] "From First Principles" on Doc 2 title page is not defensible
+*** Gap 1 --- Degree-2 not yet proven
+
+The argument that each \(\iota\) distinction has relational degree exactly 2 (from the two sides of its split) is plausible but not rigorous. Nothing in the current formulation rules out higher-degree nodes. If degree is not fixed at 2, the triangle is not uniquely minimal and the localization argument weakens.
+
+*Testable implication:* If degree 2 is correct, \(K_3\) is the only primitive closed structure. All higher configurations (\(K_4\), \(K_5\)) must be composite. This is consistent with QCD but must be verified against the full particle spectrum.
+
+*Action:* Derive degree-2 from the binary split rigorously, or identify the additional structure that allows higher degree.
+
+*** Gap 2 --- Mathematical construction of N from c not specified
+
+\(N_{ij}\) is described as "the coherence of comparison across all paths through \(G\)." The precise construction --- how the binary comparison \(c(i,j) \in \{\mathrm{same}, \mathrm{different}\}\) gives rise to the continuous real field \(N_{ij} \in \mathbb{R}\) --- is not written down. The candidate identification \(N_{ij} \sim (L^{-1})_{ij}\) is plausible but circular (L depends on G, G depends on N).
+
+*Action:* Write an explicit non-circular construction of \(N\) from \(c\).
+
+*** Gap 3 --- Complex N has no source
+
+The full Lagrangian and any route to SU(3) symmetry requires \(N \in \mathbb{C}\). Neither the binary comparison \(c\) nor the real-valued coherence argument gives a natural origin for complex phases. Promoting \(c\) to a U(1)-valued comparison (phases rather than binary values) is the most natural candidate but has not been developed.
+
+*Action:* Identify the mechanism that produces complex phase in \(N\).
+
+*** Gap 4 --- Frustrated triangle ground state not worked out
+
+The triangle \(K_3\) necessarily has at least one same-comparing edge (it cannot be 2-colored without adjacent same-color nodes). The adjacency constraint says same-comparing negotiations are informationally empty. What is \(N\) on the frustrated edge? If \(N = 0\), the triangle loses an edge and the Laplacian changes. If \(N \neq 0\), the constraint is violated. The degenerate ground state of the frustrated triangle --- from which spin is supposed to emerge --- has not been derived.
+
+*Action:* Work out the ground state of the frustrated triangle under the informational adjacency constraint. Determine whether frustration degeneracy corresponds to the double degeneracy of \(\lambda = 3\).
+
+** RESOLVED [F2] "From First Principles" on Doc 2 title page
 :PROPERTIES:
 :DOC: 2
 :TYPE: TEXT FIX
 :END:
 
-Doc 2's title page says "from First Principles." The body of Doc 2 correctly
-states that \(\varepsilon\) is defined from the proton mass (not derived), that
-\(H_0\) is selected for internal consistency (not derived), and that the 2:1
-geometric mean weighting is empirical (not derived). "From First Principles"
-contradicts all three of these honest admissions on the same pages.
+- [X] Subtitle changed to "Structure from Substrate Primitives; Scale from Observation."
 
-*** Text fix
-
-Remove "from First Principles" from the Doc 2 title page subtitle line.
-Replace with something honest such as "from Substrate Primitives --- with Open
-Derivations Identified."
+The distinction: structural results (triangle topology, \(\lambda = 3\), three-fold
+mass ratio, quantization from closure, confinement from self-containment) are
+genuinely derived from the substrate primitives. The numerical scale (\(\varepsilon\),
+\(H_0\), \(\gamma\)) requires empirical input. The new subtitle reflects this
+accurately.
 
 * SEVERE Issues
 

@@ -36,7 +36,7 @@
   {\large\bfseries THE MEDIUM --- AN ATTEMPTED DESCRIPTION}\\[1em]
   {\LARGE\bfseries Negotiation Modes, Particle Structure,}\\[0.4em]
   {\LARGE\bfseries and the Derivation of the Proton Mass}\\[0.4em]
-  {\large from First Principles}\\[0.3em]
+  {\large Structure from Substrate Primitives; Scale from Observation}\\[0.3em]
   {\normalsize Version 3 --- with Foundational Iota Scale Definition}\\[2em]
   {\normalsize Bradley K. DePuy, Independent Researcher}\\[0.4em]
   {\normalsize ORCID: \texttt{0009-0001-0328-2299}}\\[0.4em]

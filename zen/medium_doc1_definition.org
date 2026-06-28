@@ -82,6 +82,20 @@ The Laplacian \(L\) of \(G\) encodes the relational geometry. In the large-scale
 
 Two distinctions comparing as \(\mathrm{same}\) carry no new relational information: their comparison is trivially resolved. Negotiations between same-comparing distinctions contribute nothing to stable structure. This is not a topological prohibition on edges --- it is a statement about information content. Productive negotiation requires \(c(i,j) = \mathrm{different}\). Stable configurations require all local comparisons to be productive.
 
+** Localization and Closure
+
+Without spatial structure, nothing prevents a distinction from relating to every other distinction in \(D\). The mechanism that limits joining is the closure condition itself.
+
+A closed structure --- one satisfying \(L \cdot N = 0\) --- has all internal comparisons resolved. Nothing internal is unresolved, so the structure has no relational capacity directed outward. It does not join further because it has nothing unfilled. Stable structures are self-contained by virtue of being closed.
+
+Open chains cannot satisfy the closure condition: they carry unresolved ends, boundary tensions with no internal resolution. Under the stability requirement all distinctions must participate in closed structures. Joining terminates when closure is achieved, not because of spatial proximity but because the informational requirement is met.
+
+The degree of each node in \(G\) is plausibly constrained by the binary split. A split \(\{A,\, \bar{A}\}\) has exactly two sides, suggesting each \(\iota\) distinction contributes exactly two relational half-edges. If degree is fixed at 2, every stable closed structure is a ring. The minimum ring is the triangle of three distinctions.
+
+This carries a testable implication: if degree 2 is genuinely forced by the binary split, then \(K_3\) (the triangle) is the only primitive closed structure. All higher configurations --- \(K_4\) (tetraquark), \(K_5\) (pentaquark) --- must be composite structures assembled from triangles, not primitive rings. This is consistent with QCD, where all hadrons are composites of quarks. Whether the degree-2 constraint holds or higher-degree nodes are possible is an open derivation; it can be tested against the particle spectrum.
+
+Larger bodies are hierarchically closed structures. Atoms, molecules, and macroscopic objects each satisfy closure at progressively larger scales. The residual unresolved comparison at each scale --- the gross properties exposed to the broader \(D\) --- is what projects as mass, charge, and spin. The precise connection between these residuals and the Laplacian eigenvalue spectrum is the open derivation developed in Documents 2 through 4.
+
 ** A Note on Time
 
 The dynamics below use \(\partial N / \partial t\). Time appears here as a background parameter retained for calculability. In the substrate as described, sequence does not exist prior to distinction --- time is not a primitive but an emergent ordering of the relational structure of \(D\). The derivation of temporal sequence from substrate dynamics is an open problem.

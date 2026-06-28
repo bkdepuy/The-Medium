@@ -1,4 +1,4 @@
-% Created 2026-06-27 Sat 13:57
+% Created 2026-06-27 Sat 15:17
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt,letterpaper]{article}
 \usepackage[utf8]{inputenc}
@@ -49,7 +49,7 @@
 
 
 \section{Overview}
-\label{sec:org1fbf79a}
+\label{sec:org714e66d}
 
 This document replaces the original Smolin/Rovelli/Hossenfelder critical review
 action plan. Many issues from that review have been addressed in the current
@@ -57,7 +57,7 @@ document revisions. This plan tracks what remains open, what has been resolved,
 and the priority order for future work.
 
 \subsection{What Has Been Resolved}
-\label{sec:org83c3506}
+\label{sec:org0d64acc}
 
 The following issues from the original review have been addressed in the
 current document set (docs 0--5):
@@ -92,52 +92,71 @@ analogous to color charge labels" (Doc 2)
 \end{itemize}
 
 \section{{\bfseries\sffamily FATAL} Issues}
-\label{sec:org30ab447}
+\label{sec:org5f0cef4}
 
-\subsection{{\bfseries\sffamily FATAL} [F1] The substrate field and the negotiation field are not connected}
-\label{sec:orga1de393}
-Doc 1 introduces the substrate field \(\phi: M \to \{+1,-1\}\) as the primitive
-description. Doc 1 then introduces the negotiation field \(N_{ij}\) as "encoding
-the boundary state between adjacent \(\iota\) events \(i\) and \(j\)." These are
-two different mathematical objects and no derivation connects them. The Lagrangian
-is written in terms of \(N\), not \(\phi\). A physicist will immediately ask: how
-does the binary stochastic field \(\phi\) give rise to \(N\)?
+\subsection{{\bfseries\sffamily FATAL} [F1] Foundation connection --- substantially addressed, four gaps remain}
+\label{sec:org74fc5dd}
+Doc 1 has been substantially revised. The following have been resolved:
 
-\subsubsection{Action steps}
-\label{sec:org0813c42}
+\begin{itemize}
+\item[{$\boxtimes$}] \(M\) defined: \(M\) is the substrate itself. Not a geometric space.
+\item[{$\boxtimes$}] \(\iota\) is a distinction within \(M\), not an event (no sequence implied).
+\item[{$\boxtimes$}] \(\phi: M \to \{+1,-1\}\) replaced by \(c: D \times D \to \{\mathrm{same}, \mathrm{different}\}\). Character is relational, not intrinsic.
+\item[{$\boxtimes$}] Relations between co-existing distinctions are unavoidable (self-grounding argument: follows from singularity of \(M\), same logic as distinction itself requiring no cause).
+\item[{$\boxtimes$}] Adjacency constraint reframed as informational, not topological.
+\item[{$\boxtimes$}] Closure condition identified as the localization mechanism: closed structures are self-contained; open chains are unstable and must close.
+\item[{$\boxtimes$}] Degree-2 argument stated and its implication documented (see below).
+\end{itemize}
 
-\begin{enumerate}
-\item{$\square$} Either derive \(N_{ij}\) from \(\phi\) --- for example, define \(N_{ij}\)
-as a function of the character difference \(\phi(i) - \phi(j)\) or a local
-average over \(\phi\) --- or explicitly acknowledge that \(N\) is introduced
-as a second primitive and justify why.
-\item{$\square$} The domain \(M\) in \(\phi: M \to \{+1,-1\}\) is never defined. Specify
-what \(M\) is. If \(M\) is pre-geometric, what does "location" mean? If \(M\)
-is the set of \(\iota\) events, say so.
-\item{$\square$} If \(N_{ij}\) cannot be derived from \(\phi\), consolidate the description
-around \(N\) as the true primitive and remove or demote \(\phi\).
-\end{enumerate}
+Four gaps remain open:
 
-\subsection{{\bfseries\sffamily FATAL} [F2] "From First Principles" on Doc 2 title page is not defensible}
-\label{sec:org48e5696}
-Doc 2's title page says "from First Principles." The body of Doc 2 correctly
-states that \(\varepsilon\) is defined from the proton mass (not derived), that
-\(H_0\) is selected for internal consistency (not derived), and that the 2:1
-geometric mean weighting is empirical (not derived). "From First Principles"
-contradicts all three of these honest admissions on the same pages.
+\subsubsection{Gap 1 --- Degree-2 not yet proven}
+\label{sec:org7af9d59}
 
-\subsubsection{Text fix}
-\label{sec:org00c49d3}
+The argument that each \(\iota\) distinction has relational degree exactly 2 (from the two sides of its split) is plausible but not rigorous. Nothing in the current formulation rules out higher-degree nodes. If degree is not fixed at 2, the triangle is not uniquely minimal and the localization argument weakens.
 
-Remove "from First Principles" from the Doc 2 title page subtitle line.
-Replace with something honest such as "from Substrate Primitives --- with Open
-Derivations Identified."
+\textbf{Testable implication:} If degree 2 is correct, \(K_3\) is the only primitive closed structure. All higher configurations (\(K_4\), \(K_5\)) must be composite. This is consistent with QCD but must be verified against the full particle spectrum.
+
+\textbf{Action:} Derive degree-2 from the binary split rigorously, or identify the additional structure that allows higher degree.
+
+\subsubsection{Gap 2 --- Mathematical construction of N from c not specified}
+\label{sec:org72179f7}
+
+\(N_{ij}\) is described as "the coherence of comparison across all paths through \(G\)." The precise construction --- how the binary comparison \(c(i,j) \in \{\mathrm{same}, \mathrm{different}\}\) gives rise to the continuous real field \(N_{ij} \in \mathbb{R}\) --- is not written down. The candidate identification \(N_{ij} \sim (L^{-1})_{ij}\) is plausible but circular (L depends on G, G depends on N).
+
+\textbf{Action:} Write an explicit non-circular construction of \(N\) from \(c\).
+
+\subsubsection{Gap 3 --- Complex N has no source}
+\label{sec:orgfd83474}
+
+The full Lagrangian and any route to SU(3) symmetry requires \(N \in \mathbb{C}\). Neither the binary comparison \(c\) nor the real-valued coherence argument gives a natural origin for complex phases. Promoting \(c\) to a U(1)-valued comparison (phases rather than binary values) is the most natural candidate but has not been developed.
+
+\textbf{Action:} Identify the mechanism that produces complex phase in \(N\).
+
+\subsubsection{Gap 4 --- Frustrated triangle ground state not worked out}
+\label{sec:org69073a7}
+
+The triangle \(K_3\) necessarily has at least one same-comparing edge (it cannot be 2-colored without adjacent same-color nodes). The adjacency constraint says same-comparing negotiations are informationally empty. What is \(N\) on the frustrated edge? If \(N = 0\), the triangle loses an edge and the Laplacian changes. If \(N \neq 0\), the constraint is violated. The degenerate ground state of the frustrated triangle --- from which spin is supposed to emerge --- has not been derived.
+
+\textbf{Action:} Work out the ground state of the frustrated triangle under the informational adjacency constraint. Determine whether frustration degeneracy corresponds to the double degeneracy of \(\lambda = 3\).
+
+\subsection{{\bfseries\sffamily RESOLVED} [F2] "From First Principles" on Doc 2 title page}
+\label{sec:org8b3e677}
+\begin{itemize}
+\item[{$\boxtimes$}] Subtitle changed to "Structure from Substrate Primitives; Scale from Observation."
+\end{itemize}
+
+The distinction: structural results (triangle topology, \(\lambda = 3\), three-fold
+mass ratio, quantization from closure, confinement from self-containment) are
+genuinely derived from the substrate primitives. The numerical scale (\(\varepsilon\),
+\(H_0\), \(\gamma\)) requires empirical input. The new subtitle reflects this
+accurately.
 
 \section{{\bfseries\sffamily SEVERE} Issues}
-\label{sec:orgded931c}
+\label{sec:orge4253ed}
 
 \subsection{{\bfseries\sffamily SEVERE} [S1] G and m\_p variation rates appear observationally ruled out}
-\label{sec:org95973de}
+\label{sec:org008b80a}
 The cosmological evolution equations give:
 \begin{itemize}
 \item \(\dot{G}/G \approx -1.5 \times 10^{-10}\)/yr
@@ -150,7 +169,7 @@ in an openbox. This is correct but incomplete --- the underlying equations need
 to be examined.
 
 \subsubsection{Action steps}
-\label{sec:orgb5dcb8b}
+\label{sec:org9be7d32}
 
 \begin{enumerate}
 \item{$\square$} Determine whether a physical mechanism exists that suppresses local
@@ -167,14 +186,14 @@ items 1 and 2.
 \end{enumerate}
 
 \subsection{{\bfseries\sffamily SEVERE} [S2] Fermionic statistics not produced by the bosonic Lagrangian}
-\label{sec:orgabdcdf0}
+\label{sec:org76ca0ad}
 The negotiation Lagrangian is bosonic. Canonical quantization gives
 \([\hat{a}, \hat{a}^\dagger] = 1\) (Bose-Einstein statistics). The proton is
 a spin-1/2 fermion. This is identified as a primary open problem in Docs 3 and 4
 but no progress has been made on either candidate resolution.
 
 \subsubsection{Action steps}
-\label{sec:orgc737115}
+\label{sec:orgca05ab8}
 
 \begin{enumerate}
 \item{$\square$} Investigate composite antisymmetrization first: show whether three
@@ -188,7 +207,7 @@ reading this knows what has been tried.
 \end{enumerate}
 
 \subsection{{\bfseries\sffamily SEVERE} [S3] The energy formula E(n,k) = ε·k·n is not fully derived}
-\label{sec:org5c8e34a}
+\label{sec:org5eca076}
 The formula is presented as following from the Hamiltonian eigenvalue equation,
 and for complete graphs \(K_n\) with mode \(k=1\) (ground non-trivial mode),
 \(E = \varepsilon \cdot n\) follows directly from \(\lambda = n\). But the \(k\)
@@ -198,7 +217,7 @@ uses \(E_n = \varepsilon \cdot n\) without specifying \(k\). For the rho meson
 by 19\%. The formula's domain of validity is unclear.
 
 \subsubsection{Action steps}
-\label{sec:org4534271}
+\label{sec:org7934fd4}
 
 \begin{enumerate}
 \item{$\square$} Derive explicitly what \(k\) represents for higher negotiation modes on
@@ -209,17 +228,17 @@ or does the two-node topology require a different treatment?
 \end{enumerate}
 
 \section{{\bfseries\sffamily SERIOUS} Issues}
-\label{sec:org790203f}
+\label{sec:orgc9caffd}
 
 \subsection{{\bfseries\sffamily SERIOUS} [SR1] The symmetry group of the triangle Lagrangian not established}
-\label{sec:orgf5c9bbe}
+\label{sec:org8468c82}
 Doc 3 now correctly states that the group is U(1) ×U(2), not SU(3), and
 identifies SU(3) as an open derivation. But the path from U(1) ×U(2) to SU(3)
 --- if it exists --- has not been investigated. This blocks the color charge
 identification and the strong force correspondence.
 
 \subsubsection{Action steps}
-\label{sec:orgdd794dd}
+\label{sec:orgf6b7ff9}
 
 \begin{enumerate}
 \item{$\square$} Compute the symmetry group of \(N^\dagger L N\) for \(K_3\) with complex
@@ -232,7 +251,7 @@ of node counting."
 \end{enumerate}
 
 \subsection{{\bfseries\sffamily SERIOUS} [SR2] The pion is absent from the hadron spectrum}
-\label{sec:org4c9a1b3}
+\label{sec:orgb5c215c}
 The pion (135 MeV) is the lightest hadron and the most important test case.
 It is now explicitly listed in the Doc 2 hadron table as "not explained by this
 formula." A physicist reviewing this will treat the pion's absence as a primary
@@ -241,7 +260,7 @@ different physical mechanism (chiral symmetry breaking) that is not present in
 the current description.
 
 \subsubsection{Action steps}
-\label{sec:org7b6c460}
+\label{sec:org02f87bc}
 
 \begin{enumerate}
 \item{$\square$} Investigate whether the pion can be accommodated as a two-node graph with
@@ -253,7 +272,7 @@ mechanism would need to be.
 \end{enumerate}
 
 \subsection{{\bfseries\sffamily SERIOUS} [SR3] The problem of time is unaddressed}
-\label{sec:orgaacb62a}
+\label{sec:org6231f6e}
 The Lagrangian and Hamiltonian use \(\partial N/\partial t\). In a pre-geometric
 description, \(t\) must emerge from the substrate. The description currently uses
 background time without acknowledging this as a structural gap. This is
@@ -261,7 +280,7 @@ particularly acute given the LQG analogy in Doc 4 --- the problem of time is one
 of LQG's central unresolved issues.
 
 \subsubsection{Action steps}
-\label{sec:org9198274}
+\label{sec:org35f8dd9}
 
 \begin{enumerate}
 \item{$\square$} Add a brief section to Doc 1 or Doc 4 titled "The Problem of Time"
@@ -272,7 +291,7 @@ approximation. State which is assumed and why.
 \end{enumerate}
 
 \subsection{{\bfseries\sffamily SERIOUS} [SR4] The Hamiltonian floor condition is underived}
-\label{sec:org7f6e5fa}
+\label{sec:org23bf7d7}
 Several results are conditional on the Hamiltonian being undefined below the
 vacuum floor \(\rho_\Lambda\). This is now correctly flagged as conditional in
 Docs 3 and 5. But the floor condition is also the only route to addressing the
@@ -280,7 +299,7 @@ G and m\_p variation tensions (SEVERE [S1]) and the only route to the Λ hierarc
 resolution. Its derivation is therefore load-bearing for multiple claims.
 
 \subsubsection{Action steps}
-\label{sec:orgbbf6907}
+\label{sec:org436a0be}
 
 \begin{enumerate}
 \item{$\square$} Attempt to derive the floor condition from the substrate Lagrangian: show
@@ -293,16 +312,16 @@ is visible in one place.
 \end{enumerate}
 
 \section{{\bfseries\sffamily MODERATE} Issues}
-\label{sec:org8c3fc5e}
+\label{sec:org81d121e}
 
 \subsection{{\bfseries\sffamily MODERATE} [M1] The LQG minimum area discrepancy has no resolution}
-\label{sec:org98a82d7}
+\label{sec:org573e79c}
 The 4π factor difference between The Medium's area formula and the LQG formula
 is now honestly flagged. But its origin is unknown. A sphere-area normalization
 or solid-angle factor is suggested as a candidate; this has not been checked.
 
 \subsubsection{Action steps}
-\label{sec:org3c753b2}
+\label{sec:orgebb47fa}
 
 \begin{enumerate}
 \item{$\square$} Work out the iota surface area calculation explicitly and determine where
@@ -311,14 +330,14 @@ the correspondence is structural only.
 \end{enumerate}
 
 \subsection{{\bfseries\sffamily MODERATE} [M2] Metric identification h\_ij (L\^{}\{-1\}) (L(L\^{}\{-1\}))\_ij not justified}
-\label{sec:org1da8ef6}
+\label{sec:org2dbf99a}
 The inverse Laplacian is the graph Green's function, encoding signal propagation,
 not a metric in the Riemannian sense. The identification requires showing correct
 transformation under graph automorphisms, correct signature, and recovery of flat
 space in vacuum.
 
 \subsubsection{Action steps}
-\label{sec:org580c565}
+\label{sec:org998e2d8}
 
 \begin{enumerate}
 \item{$\square$} Either derive the metric properties of \((L^{-1})_{ij}\) explicitly, or
@@ -327,7 +346,7 @@ the emergent metric; establishing its Riemannian properties is open work."
 \end{enumerate}
 
 \subsection{{\bfseries\sffamily MODERATE} [M3] Barbero-Immirzi derivation remains the single most valuable calculation}
-\label{sec:org74deed2}
+\label{sec:org707f609}
 \(\gamma \approx 0.2375\) appears as the residual correction in three separate
 gaps: \(G\) (3--6$\backslash$%), proton mass (10$\backslash$%), and \(\hbar\) (0.9$\backslash$%). In LQG,
 \(\gamma\) is fixed by black hole entropy counting. If the same entropy counting
@@ -337,7 +356,7 @@ parameter. This is the single calculation with the highest payoff across the
 entire description.
 
 \subsubsection{Action steps}
-\label{sec:orgb010985}
+\label{sec:orge8ab0ea}
 
 \begin{enumerate}
 \item{$\square$} Attempt the Bekenstein-Hawking entropy count on the negotiation graph of
@@ -348,7 +367,7 @@ structure to fix \(\gamma\) --- would be significant.
 \end{enumerate}
 
 \section{Priority Order for Next Working Session}
-\label{sec:org64f71fb}
+\label{sec:org83a295b}
 
 In order of what unblocks the most downstream work:
 
@@ -386,7 +405,7 @@ to be internally consistent at a foundational level.
 \end{enumerate}
 
 \section{What Does Not Need Fixing}
-\label{sec:orgdbcf747}
+\label{sec:org01c00a3}
 
 \begin{itemize}
 \item The internal consistency triangle (\(G\), \(H_0\), \(m_\text{proton}\)) is a
